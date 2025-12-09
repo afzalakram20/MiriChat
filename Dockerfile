@@ -1,6 +1,7 @@
 FROM nvidia/cuda:12.1.0-base-ubuntu22.04
+ 
 ENV DEBIAN_FRONTEND=noninteractive
-
+RUN ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime
 # -----------------------------
 # Install Python 3.11
 # -----------------------------
@@ -36,6 +37,7 @@ RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 COPY app ./app
 COPY runpod_entry.py ./runpod_entry.py
 
+ 
 # -----------------------------
 # Start FastAPI via RunPod entry
 # -----------------------------
