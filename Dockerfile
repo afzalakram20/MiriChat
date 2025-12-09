@@ -34,9 +34,9 @@ RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 # ------------------------------------------
 # Copy FastAPI app
 # ------------------------------------------
-COPY app.py .
+COPY main.py .
 
 # ------------------------------------------
-# Run app using venv Python
+# Run FastAPI app with venv Python
 # ------------------------------------------
-CMD ["/app/.venv/bin/python", "app.py"]
+CMD ["/app/.venv/bin/python", "main.py"]
