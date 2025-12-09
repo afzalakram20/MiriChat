@@ -1,40 +1,43 @@
-
-from app.llms.runnable.llm_provider import get_chain_llm 
+from app.llms.runnable.llm_provider import get_chain_llm
 from typing import Dict, Any, List
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
 from langchain_core.documents import Document
 from app.core.config import settings
 from langchain_pinecone import PineconeVectorStore
-from app.models.parsers.work_request_models import WorkRequestModel,LUMSUM_TYPE_ENUMS,DISCIPLINE_ENUMS,PROJECT_TYPE_ENUMS
+from app.models.parsers.work_request_models import (
+    WorkRequestModel,
+    LUMSUM_TYPE_ENUMS,
+    DISCIPLINE_ENUMS,
+    PROJECT_TYPE_ENUMS,
+)
 from app.graphs.nodes.prompts.work_request_prompt import SYSTEM_MESSAGE
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import logging
+
 log = logging.getLogger("work_request_node")
 
 
- 
 async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
-    pinecone_index_name ="horizon-work-order-scopes" 
-  
-    log.info("******* Entered work_request_node ********") 
+    pinecone_index_name = "horizon-work-order-scopes"
+
+    log.info("******* Entered work_request_node ********")
     log.info(f"work_request_node: incoming state keys -> {list(state.keys())}")
 
-   
     user_query = state.get("user_input")
 
-    embeddings = HuggingFaceEmbeddings( model_name=settings.HG_EMBEDDING_MODEL)
+    embeddings = HuggingFaceEmbeddings(model_name=settings.HG_EMBEDDING_MODEL)
     vectorstore = PineconeVectorStore(
         index_name=pinecone_index_name,
         embedding=embeddings,
         text_key="project_title",
-        pinecone_api_key=settings.PINECONE_API_KEY, 
+        pinecone_api_key=settings.PINECONE_API_KEY,
     )
 
     log.info("work_request_node: converting vectorstore to retriever (k=5)")
     retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
-    llm=get_chain_llm() 
- 
+    llm = get_chain_llm()
+
     parser = PydanticOutputParser(pydantic_object=WorkRequestModel)
 
     # -------------------------
@@ -47,9 +50,7 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
     context_chunks = []
     for idx, d in enumerate(docs):
         meta_str = ", ".join(
-            f"{k}: {v}"
-            for k, v in d.metadata.items()
-            if v is not None and v != ""
+            f"{k}: {v}" for k, v in d.metadata.items() if v is not None and v != ""
         )
         chunk = f"PROJECT #{idx + 1}\nSCOPE OF WORK:\n{d.page_content}\nMETADATA:\n{meta_str}"
         context_chunks.append(chunk)
@@ -61,7 +62,9 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
         )
 
     retrieved_context = (
-        "\n\n---\n\n".join(context_chunks) if context_chunks else "No similar projects found."
+        "\n\n---\n\n".join(context_chunks)
+        if context_chunks
+        else "No similar projects found."
     )
     log.info(
         "work_request_node: final retrieved_context length -> %s",
@@ -71,22 +74,21 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
     # -------------------------
     #  Prepare enums as prompt text
     # -------------------------
-    log.info("work_request_node: building project_type_table_str from PROJECT_TYPE_ENUMS")
+    log.info(
+        "work_request_node: building project_type_table_str from PROJECT_TYPE_ENUMS"
+    )
     project_type_table_str = "\n".join(
-        f"- ID {item['id']}: {item['name']}"
-        for item in PROJECT_TYPE_ENUMS
+        f"- ID {item['id']}: {item['name']}" for item in PROJECT_TYPE_ENUMS
     )
 
     log.info("work_request_node: building discipline_table_str from DISCIPLINE_ENUMS")
     discipline_table_str = "\n".join(
-        f"- ID {item['id']}: {item['name']}"
-        for item in DISCIPLINE_ENUMS
+        f"- ID {item['id']}: {item['name']}" for item in DISCIPLINE_ENUMS
     )
 
     log.info("work_request_node: building lumsum_table_str from LUMSUM_TYPE_ENUMS")
     lumsum_table_str = "\n".join(
-        f"- ID {item['id']}: {item['name']}"
-        for item in LUMSUM_TYPE_ENUMS
+        f"- ID {item['id']}: {item['name']}" for item in LUMSUM_TYPE_ENUMS
     )
 
     # -------------------------
@@ -103,7 +105,8 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", SYSTEM_MESSAGE),
-            ("human",
+            (
+                "human",
                 (
                     "User description of the required work request:\n"
                     "{user_query}\n\n"
@@ -121,13 +124,8 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
     # -------------------------
     log.info("work_request_node: building LCEL chain with prompt -> llm -> parser")
 
-    chain = (
-        prompt
-        | llm
-        | parser
-    )
+    chain = prompt | llm | parser
 
- 
     chain_input = {
         "user_query": user_query,
         "retrieved_context": retrieved_context,
@@ -161,17 +159,11 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
         list(data.keys()),
     )
 
-    
-
-   
-    
-
-     
     qt_name = data.get("request_type_name")
-    if qt_name: 
+    if qt_name:
         for item in PROJECT_TYPE_ENUMS:
             if item["name"] == qt_name:
-                data["request_type_id"] = item["id"] 
+                data["request_type_id"] = item["id"]
                 break
         else:
             log.warning(
@@ -179,9 +171,8 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
                 qt_name,
             )
 
- 
     ls_name = data.get("lumsum_type_name")
-    if ls_name: 
+    if ls_name:
         for item in LUMSUM_TYPE_ENUMS:
             if item["name"] == ls_name:
                 data["lumsum_type_id"] = item["id"]
@@ -196,9 +187,8 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
                 ls_name,
             )
 
-   
     d_name = data.get("discipline_name")
-    if d_name: 
+    if d_name:
         for item in DISCIPLINE_ENUMS:
             if item["name"] == d_name:
                 data["discipline_id"] = item["id"]
@@ -212,9 +202,6 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
                 "work_request_node: discipline_name %r not found in DISCIPLINE_ENUMS",
                 d_name,
             )
-
-   
-
 
     # -------------------------
     #  Attach to state & return

@@ -20,6 +20,8 @@ from app.graphs.nodes.work_request_node import work_request_node
 from app.graphs.nodes.project_summary_node import project_summary_node
 from app.graphs.nodes.project_metadata_node import project_metadata_node
 from app.graphs.nodes.rag_workflow_node import rag_qa_node
+from app.graphs.nodes.app_info_node import app_info_node
+
 
 # Utility / fallback / post-actions
 from app.graphs.nodes.help_node import help_node
@@ -72,8 +74,8 @@ def _route_intent(state: HorizonState) -> str:
     """
     intent = (state.get("intent") or "unknown").lower()
 
-    # Conversational / irrelevant / app info treated as help
-    if intent in {"help", "irrelevant", "app_info", "unknown"}:
+    # Conversational / irrelevant treated as help
+    if intent in {"help", "irrelevant", "unknown"}:
         return "irrelevant"
 
     if intent in {
@@ -82,6 +84,7 @@ def _route_intent(state: HorizonState) -> str:
         "project_summary",
         "project_metadata",
         "work_request_generation",
+        "app_info",
     }:
         state["main_task"] = intent
         return intent
@@ -152,6 +155,7 @@ def build_horizon_brain_graph():
     g.add_node("project_summary", project_summary_node)
     g.add_node("project_metadata", project_metadata_node)
     g.add_node("rag_qa", rag_qa_node)
+    g.add_node("app_info", app_info_node)
 
     # Multi-step execution (for post-actions)
     g.add_node("planner", planner_node)
@@ -173,9 +177,11 @@ def build_horizon_brain_graph():
         {
             "work_request_generation": "work_request_generation",
             "text_to_sql": "sqlgen",  # SQL main task
-            "rag_qa": "rag_qa",  # RAG main task
+            "rag_query": "rag_qa",  # RAG main task // from rq_qa to rag_query
+            "app_info": "app_info",  # App info main task
             "project_summary": "project_summary",
             "project_metadata": "project_metadata",
+            "app_info": "app_info",
             "irrelevant": "irrelevant",
             "unknown": "unknown",
         },
@@ -196,6 +202,15 @@ def build_horizon_brain_graph():
     # -------------------------
     g.add_conditional_edges(
         "rag_qa",
+        _after_main_task,
+        {
+            "planner": "planner",
+            "done": "humanize",
+        },
+    )
+
+    g.add_conditional_edges(
+        "app_info",
         _after_main_task,
         {
             "planner": "planner",

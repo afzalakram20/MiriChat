@@ -1,4 +1,3 @@
-
 SYSTEM_MESSAGE = """
 You are the INTENT CLASSIFIER and ACTION EXTRACTOR for an enterprise project
 management assistant.
@@ -62,6 +61,8 @@ PRIMARY INTENTS (choose exactly one):
 - "app_info"
     → The user asks how the application itself works or about its features.
       Examples:
+      - "How to create project/work request?"
+      - "How to add supplier , labors or other cost?"
       - "How do I approve a project in this app?"
       - "What filters are available on the project list screen?"
       - "How do I export projects to Excel?"
@@ -144,5 +145,3 @@ JSON structure:
   "requires_multistep": true
 }}
 """
-
-

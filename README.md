@@ -9,7 +9,7 @@ py -3.11 -m venv .venv
 c
 # python -m venv .venv 
 # .\.venv/bin/activate
-./.venv\Scripts\activate
+.\.venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 cp .env.example .env
