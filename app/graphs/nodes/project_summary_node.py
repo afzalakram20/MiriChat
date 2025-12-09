@@ -158,7 +158,7 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
         raise ValueError("Missing user_input for summarization.")
 
     log.info(f"User Query for Search Param Extraction: {user_query}")
-    llm = get_chain_llm()
+    extractor_llm = get_chain_llm()
     # extractor_llm = ChatOpenAI(
     #     model="gpt-4o-mini", temperature=0.3, openai_api_key=settings.OPENAI_API_KEY
     # )
