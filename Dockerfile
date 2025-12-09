@@ -1,5 +1,5 @@
 FROM nvidia/cuda:12.1.0-base-ubuntu22.04
-
+ENV DEBIAN_FRONTEND=noninteractive
 # ------------------------------------------
 # Install Python 3.11 + system dependencies
 # ------------------------------------------
