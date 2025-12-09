@@ -19,7 +19,7 @@ copy link from runpod
 
 test in powershell
 ssh -i ~/.ssh/id_ed25519 root@xq9bwr8a7iilja.ssh.runpod.net -p 22
-
+ssh lvl2zigr42shu3-64411a77@ssh.runpod.io -i ~/.ssh/id_ed25519
 
 VS CODE
 Install extension: Remote – SSH

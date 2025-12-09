@@ -59,13 +59,25 @@ PRIMARY INTENTS (choose exactly one):
       - "What does RFQ mean?"
 
 - "app_info"
-    → The user asks how the application itself works or about its features.
-      Examples:
-      - "How to create project/work request?"
-      - "How to add supplier , labors or other cost?"
-      - "How do I approve a project in this app?"
-      - "What filters are available on the project list screen?"
-      - "How do I export projects to Excel?"
+    → STRONGLY PREFER this intent when the user's question can be answered by the
+      application's documentation or the connected knowledge base (RAG / uploaded
+      PDFs / Pinecone index). The RAG corpus contains nearly all project-flow,
+      how-to, approval, status, and glossary information (how to create/approve/close
+      projects/requests, CAPEX definitions as used in the app,project type, discipline , 
+      quote type,  step-by-step flows, field meanings, FAQs). If the user's question maps to
+      those docs, classify as "app_info" even if it reads like a conceptual question.
+      
+      Use "domain_knowledge" ONLY when the user explicitly asks for a general industry
+      concept or policy that is NOT covered in the app docs / knowledge base.
+
+      Examples (prefer "app_info"):
+      - "How do I create a project/request in this app?"
+      - "How do I approve a request?"
+      - "How do I close a project?"
+      - "What is POR?"
+      - "What does CAPEX mean in the app/process?"
+      - "Show me the app's definition of 'cost plus offer'"
+      - "What are the project status values and their meanings in the app?"
 
 - "irrelevant"
     → Chit-chat, jokes, personal/chatty questions.

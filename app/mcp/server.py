@@ -3,5 +3,5 @@
 
 
 def start_mcp_server_if_needed():
-# No-op in dev; log hook could be added here.
+    # No-op in dev; log hook could be added here.
     return True

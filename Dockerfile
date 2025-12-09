@@ -1,8 +1,9 @@
 FROM nvidia/cuda:12.1.0-base-ubuntu22.04
 ENV DEBIAN_FRONTEND=noninteractive
-# ------------------------------------------
-# Install Python 3.11 + system dependencies
-# ------------------------------------------
+
+# -----------------------------
+# Install Python 3.11
+# -----------------------------
 RUN apt-get update -y && \
     apt-get install -y software-properties-common && \
     add-apt-repository ppa:deadsnakes/ppa -y && \
@@ -12,29 +13,30 @@ RUN apt-get update -y && \
 
 RUN ldconfig /usr/local/cuda-12.1/compat/ || true
 
-# ------------------------------------------
-# Create working directory
-# ------------------------------------------
+# -----------------------------
+# Workdir
+# -----------------------------
 WORKDIR /app
 
-# ------------------------------------------
-# Create virtual environment
-# ------------------------------------------
+# -----------------------------
+# Virtualenv
+# -----------------------------
 RUN python3.11 -m venv /app/.venv
 RUN /app/.venv/bin/python -m pip install --upgrade pip
 
-# ------------------------------------------
-# Copy and install dependencies
-# ------------------------------------------
+# -----------------------------
+# Install Python deps
+# -----------------------------
 COPY requirements.txt .
 RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 
-# ------------------------------------------
-# Copy application folder
-# ------------------------------------------
+# -----------------------------
+# Copy application code
+# -----------------------------
 COPY app ./app
+COPY runpod_entry.py ./runpod_entry.py
 
-# ------------------------------------------
-# Run the FastAPI app using uvicorn
-# ------------------------------------------
-CMD ["/app/.venv/bin/uvicorn", "app.main:app"] 
+# -----------------------------
+# Start FastAPI via RunPod entry
+# -----------------------------
+CMD ["/app/.venv/bin/python", "runpod_entry.py"]

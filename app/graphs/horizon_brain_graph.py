@@ -177,7 +177,7 @@ def build_horizon_brain_graph():
         {
             "work_request_generation": "work_request_generation",
             "text_to_sql": "sqlgen",  # SQL main task
-            "rag_query": "rag_qa",  # RAG main task // from rq_qa to rag_query
+            "rag_query": "app_info",  # RAG main task // from rq_qa to rag_query
             "app_info": "app_info",  # App info main task
             "project_summary": "project_summary",
             "project_metadata": "project_metadata",
