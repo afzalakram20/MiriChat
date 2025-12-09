@@ -18,7 +18,7 @@ TOKENIZER_DIR = "/hf/tokenizers/summarization-tokenizer"
 
 
 class HuggingFaceController:
-    async def loadModels(self, req: ScopeRequest):
+    async def loadModels(self):
         try:
             log.info("Loading Hugging Face models...")
             os.makedirs("/hf/models", exist_ok=True)
