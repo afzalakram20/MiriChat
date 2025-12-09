@@ -21,22 +21,20 @@ WORKDIR /app
 # Create virtual environment
 # ------------------------------------------
 RUN python3.11 -m venv /app/.venv
-
-# Activate venv & upgrade pip
 RUN /app/.venv/bin/python -m pip install --upgrade pip
 
 # ------------------------------------------
-# Install dependencies inside venv
+# Copy and install dependencies
 # ------------------------------------------
 COPY requirements.txt .
 RUN /app/.venv/bin/pip install --no-cache-dir -r requirements.txt
 
 # ------------------------------------------
-# Copy FastAPI app
+# Copy application folder
 # ------------------------------------------
-COPY main.py .
+COPY app ./app
 
 # ------------------------------------------
-# Run FastAPI app with venv Python
+# Run the FastAPI app using uvicorn
 # ------------------------------------------
-CMD ["/app/.venv/bin/python", "main.py"]
+CMD ["/app/.venv/bin/uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
