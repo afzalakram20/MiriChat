@@ -1,3 +1,4 @@
+from app.core.config import settings
 import logging
 import os
 
@@ -19,9 +20,10 @@ TOKENIZER_DIR = "/hf/tokenizers/summarization-tokenizer"
 class HuggingFaceController:
     async def loadModels(self, req: ScopeRequest):
         try:
+            log.info("Loading Hugging Face models...")
             os.makedirs("/hf/models", exist_ok=True)
             os.makedirs("/hf/tokenizers", exist_ok=True)
-            HF_TOKEN = os.environ.get("HUGGINGFACE_HUB_TOKEN")
+            HF_TOKEN = settings.HUGGINGFACE_HUB_TOKEN
 
             snapshot_download(
                 repo_id=BASE_MODEL_ID,
@@ -43,16 +45,18 @@ class HuggingFaceController:
                 token=HF_TOKEN,
                 local_dir_use_symlinks=False,
             )
+            log.info("Models loaded successfully")
 
             return {
                 "ok": True,
-                "data": selected_estimates,
+                "data": "Models loaded successfully",
                 "error": None,
             }
 
         except HTTPException as e:
             raise e
         except Exception as e:
+            log.error("Failed to load models: %s", str(e))
             return {
                 "ok": False,
                 "data": None,

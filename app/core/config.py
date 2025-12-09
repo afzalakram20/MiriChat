@@ -43,6 +43,7 @@ class Settings(BaseSettings):
     SMTP_USERNAME: str = "alexis44@ethereal.email"
     SMTP_PASSWORD: str = "UC1wAFHdxmmzBqQUJ2"
     SMTP_USE_TLS: bool = True
+    HUGGINGFACE_HUB_TOKEN: str = ""
 
 
 @property

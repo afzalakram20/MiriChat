@@ -1,5 +1,6 @@
 # project_summarization_node.py
 
+from app.llms.runnable.llm_provider import get_chain_llm
 from app.core.config import settings
 import re
 import json
@@ -83,6 +84,14 @@ class ProjectSummaryModel(BaseModel):
     )
 
 
+SYSTEM_MESSAGE = """ 
+
+
+
+
+"""
+
+
 # -----------------------------
 # Pydantic Models
 # -----------------------------
@@ -149,10 +158,10 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
         raise ValueError("Missing user_input for summarization.")
 
     log.info(f"User Query for Search Param Extraction: {user_query}")
-
-    extractor_llm = ChatOpenAI(
-        model="gpt-4o-mini", temperature=0.3, openai_api_key=settings.OPENAI_API_KEY
-    )
+    llm = get_chain_llm()
+    # extractor_llm = ChatOpenAI(
+    #     model="gpt-4o-mini", temperature=0.3, openai_api_key=settings.OPENAI_API_KEY
+    # )
 
     extractor_parser = PydanticOutputParser(pydantic_object=SearchParamModel)
     extractor_format = extractor_parser.get_format_instructions()
