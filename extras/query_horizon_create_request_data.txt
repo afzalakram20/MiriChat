@@ -1,0 +1,104 @@
+
+
+
+Following is the query to extract the already filled projects wrt to SideID where scope of work chars are >50
+Data is used for fine-tuning and RAG purpose
+Query-1
+SELECT 
+    JSON_ARRAYAGG(
+        JSON_OBJECT(
+            'id', t.id,
+            'cbre_interal_work_order', t.cbre_interal_work_order,
+            'project_title', t.project_title,
+            'is_cbre_funded', t.is_cbre_funded,
+            'appro_number', t.appro_number,
+            'project_notes', t.project_notes,
+            'division_id', t.division_id,
+            'request_type_name', t.request_type_name,
+            'managing_office_name', t.managing_office_name,
+            'discipline_name', t.discipline_name,
+            'lumsum_type_name', t.lumsum_type_name,
+            'contract_name', t.contract_name,
+            'quotation_type_name', t.quotation_type_name,
+            'problem_statement', t.problem_statement,
+            'scope_of_works', t.scope_of_works,
+            'justifications', t.justifications,
+            'effect_of_non_approval', t.effect_of_non_approval,
+            'project_checklists', t.project_checklists
+        )
+    ) AS projects_json
+FROM (
+    SELECT
+        p.id,
+        p.cbre_interal_work_order,
+        p.project_title,
+        p.is_cbre_funded,
+        p.appro_number,
+        p.project_notes,
+        p.division_id,
+
+        rt.name AS request_type_name,
+        mo.name AS managing_office_name,
+        d.name AS discipline_name,
+        lqt.name AS lumsum_type_name,
+        cm.name AS contract_name,
+        qt.name AS quotation_type_name,
+
+        psow.problem_statement,
+        psow.scope_of_works,
+        psow.justifications,
+        psow.effect_of_non_approval,
+
+        COALESCE(
+            JSON_ARRAYAGG(
+                CASE 
+                    WHEN c.id IS NOT NULL THEN
+                        JSON_OBJECT(
+                            'id', c.id,
+                            'label', c.name,
+                            'value', pc.value,
+                            'checklist_id', c.id
+                        )
+                    ELSE NULL
+                END
+            ),
+            JSON_ARRAY()
+        ) AS project_checklists
+
+    FROM projects AS p
+    LEFT JOIN project_scope_of_works AS psow 
+        ON p.id = psow.project_id
+    LEFT JOIN project_checklists AS pc 
+        ON p.id = pc.project_id
+    LEFT JOIN authentication_tool.checklists AS c 
+        ON pc.checklist_id = c.id
+    LEFT JOIN authentication_tool.request_types AS rt 
+        ON p.request_type_id = rt.id
+    LEFT JOIN authentication_tool.managing_offices AS mo 
+        ON p.managing_office_id = mo.id
+    LEFT JOIN authentication_tool.disciplines AS d 
+        ON p.discipline_id = d.id
+    LEFT JOIN horizon_extra_work_tool.quotation_types AS lqt 
+        ON p.lumsum_type_id = lqt.id
+    LEFT JOIN authentication_tool.contract_msows AS cm 
+        ON p.contract_id = cm.id
+    LEFT JOIN authentication_tool.quotation_types AS qt 
+        ON p.quotation_type_id = qt.id
+
+    WHERE 
+        p.site_id = 14
+        -- ✅ only keep projects with scope_of_works length > 20 chars (ignoring leading/trailing spaces)
+        AND psow.scope_of_works IS NOT NULL
+        AND CHAR_LENGTH(TRIM(psow.scope_of_works)) > 20
+
+    GROUP BY 
+        p.id, p.cbre_interal_work_order, p.project_title, 
+        p.is_cbre_funded, p.appro_number, p.project_notes, 
+        p.division_id, rt.name, mo.name, d.name, lqt.name, 
+        cm.name, qt.name, psow.problem_statement, 
+        psow.scope_of_works, psow.justifications, 
+        psow.effect_of_non_approval, p.created_at
+
+    ORDER BY p.created_at DESC
+    
+) AS t;

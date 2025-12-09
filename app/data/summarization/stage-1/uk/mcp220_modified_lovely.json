@@ -1,0 +1,574 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-Bulk Fuel Delivery for 100% Capacity at WWCK & UK 2023 Call Off",
+      "interal_work_order_num": "UK-EW-03012023-4558.1",
+      "reference_number": "128018",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 256711.76205011,
+      "margin_value_usd": 17230.304591123,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):rejected by Marge Hills (3):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Warwick:\nThe location currently has enough fuel to provide 48 hours however the bulk tank still has the capacity for an additional 20,000 litres. As we are approaching a difficult period it has been requested to look at filling the Bulk Tank on site to provide 72 hours of run time.\n\n\nUK Sites for 2023 (Warwick & North Harbour,):\nBoth sites will require bulk fuel deliveries throughout 2023 to ensure there is sufficient runtime afforded for all generator and DRUPS employed at each location to support critical IT equipment as required.",
+        "scope": "Warwick:\nSpecialist Supplier to provide 20,000 litres of Fuel to Kyndryl Warwick. Fuel to be transported to the location and pumped into the BST 2 Tank within the critical plant area.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will be raised to allow sites to order bulk fuel deliveries when required.",
+        "justification": "Warwick:\nIf there is a prolonged outage on site this fuel delivery will assist with supporting the locations critical infrastructure for a longer period, reducing risk of outages.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will provide a more streamlined approach, will prevent hold ups when requiring additional fuel deliveries for the UK sites and will prevent additional administrative work.",
+        "non_approval_effect": "Warwick:\nThere would be a reduced time on what the site is capable of supplying if we were to run on Generators for prolonged periods.\n\nUK Sites for 2023 (Warwick & North Harbour):\nIf there is no fuel available systems will not continue to support critical IT equipment as required. If an LSQ is raised every time fuel is required, it will cause delays adding risk to the potential of power failure to critical equipment."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (Yes), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 187513.55, Sell Value: 200639.4985, Margin Value: 13125.9485",
+        "labour": "Cost: 790.72, Sell Value: 1212.96, Margin Value: 422.24",
+        "grand_total": "Cost: 188304.27, Sell Value: 201852.4585, Margin Value: 13548.1885, Total: 201852.4585"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 790.72, Total Supply Chain Cost: 187513.55, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 201852.4585",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-Bulk Fuel Delivery for 100% Capacity at WWCK & UK 2023 Call Off' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Marge Hills under internal work order UK-EW-03012023-4558.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Warwick:\nThe location currently has enough fuel to provide 48 hours however the bulk tank still has the capacity for an additional 20,000 litres. As we are approaching a difficult period it has been requested to look at filling the Bulk Tank on site to provide 72 hours of run time.\n\n\nUK Sites for 2023 (Warwick & North Harbour,):\nBoth sites will require bulk fuel deliveries throughout 2023 to ensure there is sufficient runtime afforded for all generator and DRUPS employed at each location to support critical IT equipment as required.. The defined scope of work includes: Warwick:\nSpecialist Supplier to provide 20,000 litres of Fuel to Kyndryl Warwick. Fuel to be transported to the location and pumped into the BST 2 Tank within the critical plant area.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will be raised to allow sites to order bulk fuel deliveries when required.. The justification provided is: Warwick:\nIf there is a prolonged outage on site this fuel delivery will assist with supporting the locations critical infrastructure for a longer period, reducing risk of outages.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will provide a more streamlined approach, will prevent hold ups when requiring additional fuel deliveries for the UK sites and will prevent additional administrative work.. If not approved, the effect would be: Warwick:\nThere would be a reduced time on what the site is capable of supplying if we were to run on Generators for prolonged periods.\n\nUK Sites for 2023 (Warwick & North Harbour):\nIf there is no fuel available systems will not continue to support critical IT equipment as required. If an LSQ is raised every time fuel is required, it will cause delays adding risk to the potential of power failure to critical equipment..",
+      "status_history": "First, billing completed by Marge Hills. Then, rejected by Marge Hills. After that, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 187513.55, Sell Value: 200639.4985, Margin Value: 13125.9485. Labour: Cost: 790.72, Sell Value: 1212.96, Margin Value: 422.24. Grand total: Cost: 188304.27, Sell Value: 201852.4585, Margin Value: 13548.1885, Total: 201852.4585.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Bulk Fuel Delivery for 100% Capacity at WWCK & UK 2023 Call Off",
+      "interal_work_order_num": "UK-EW-03012023-4558.2",
+      "reference_number": "128018",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 256443.26402137,
+      "margin_value_usd": 17096.055576752,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):rejected by Marge Hills (3):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Warwick:\nThe location currently has enough fuel to provide 48 hours however the bulk tank still has the capacity for an additional 20,000 litres. As we are approaching a difficult period it has been requested to look at filling the Bulk Tank on site to provide 72 hours of run time.\n\n\nUK Sites for 2023 (Warwick & North Harbour,):\nBoth sites will require bulk fuel deliveries throughout 2023 to ensure there is sufficient runtime afforded for all generator and DRUPS employed at each location to support critical IT equipment as required.",
+        "scope": "Warwick:\nSpecialist Supplier to provide 20,000 litres of Fuel to Kyndryl Warwick. Fuel to be transported to the location and pumped into the BST 2 Tank within the critical plant area.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will be raised to allow sites to order bulk fuel deliveries when required.",
+        "justification": "Warwick:\nIf there is a prolonged outage on site this fuel delivery will assist with supporting the locations critical infrastructure for a longer period, reducing risk of outages.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will provide a more streamlined approach, will prevent hold ups when requiring additional fuel deliveries for the UK sites and will prevent additional administrative work.",
+        "non_approval_effect": "Warwick:\nThere would be a reduced time on what the site is capable of supplying if we were to run on Generators for prolonged periods.\n\nUK Sites for 2023 (Warwick & North Harbour):\nIf there is no fuel available systems will not continue to support critical IT equipment as required. If an LSQ is raised every time fuel is required, it will cause delays adding risk to the potential of power failure to critical equipment."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (Yes), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 187513.55, Sell Value: 200639.4985, Margin Value: 13125.9485",
+        "labour": "Cost: 685.16, Sell Value: 1001.84, Margin Value: 316.68",
+        "grand_total": "Cost: 188198.71, Sell Value: 201641.3385, Margin Value: 13442.6285, Total: 201641.3385"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 685.16, Total Supply Chain Cost: 187513.55, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 201641.3385",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-Bulk Fuel Delivery for 100% Capacity at WWCK & UK 2023 Call Off' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Marge Hills under internal work order UK-EW-03012023-4558.2. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Warwick:\nThe location currently has enough fuel to provide 48 hours however the bulk tank still has the capacity for an additional 20,000 litres. As we are approaching a difficult period it has been requested to look at filling the Bulk Tank on site to provide 72 hours of run time.\n\n\nUK Sites for 2023 (Warwick & North Harbour,):\nBoth sites will require bulk fuel deliveries throughout 2023 to ensure there is sufficient runtime afforded for all generator and DRUPS employed at each location to support critical IT equipment as required.. The defined scope of work includes: Warwick:\nSpecialist Supplier to provide 20,000 litres of Fuel to Kyndryl Warwick. Fuel to be transported to the location and pumped into the BST 2 Tank within the critical plant area.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will be raised to allow sites to order bulk fuel deliveries when required.. The justification provided is: Warwick:\nIf there is a prolonged outage on site this fuel delivery will assist with supporting the locations critical infrastructure for a longer period, reducing risk of outages.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will provide a more streamlined approach, will prevent hold ups when requiring additional fuel deliveries for the UK sites and will prevent additional administrative work.. If not approved, the effect would be: Warwick:\nThere would be a reduced time on what the site is capable of supplying if we were to run on Generators for prolonged periods.\n\nUK Sites for 2023 (Warwick & North Harbour):\nIf there is no fuel available systems will not continue to support critical IT equipment as required. If an LSQ is raised every time fuel is required, it will cause delays adding risk to the potential of power failure to critical equipment..",
+      "status_history": "First, billing completed by Marge Hills. Then, rejected by Marge Hills. After that, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 187513.55, Sell Value: 200639.4985, Margin Value: 13125.9485. Labour: Cost: 685.16, Sell Value: 1001.84, Margin Value: 316.68. Grand total: Cost: 188198.71, Sell Value: 201641.3385, Margin Value: 13442.6285, Total: 201641.3385.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Chiller 2B2 compressor replacement",
+      "interal_work_order_num": "UK-EW-04012023-1647",
+      "reference_number": "2798077",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Terence Murray MD",
+      "quote_value_usd": 24375.736996057,
+      "margin_value_usd": 1904.6445377083,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Terence Murray MD (2):offer approved by Terence Murray MD (3):offer submitted by Terence Murray MD",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Chiller 2B2 compressor has failed.",
+        "scope": "1. Carry out safety checks before commencing works.\n2. Refrigerant recovery.\n3. Disconnect compressor electrical and mechanical connections ready for compressor removal.\n4. Sub-contractor to attend site to remove faulty compressor and replace with a \nremanufactured compressor (Service Exchange). Faulty compressor to be removed from site as a part of the service exchange.\n5. JCI to reconnect mechanical and electrical connections.\n6. Pressure test the compressor connections using oxygen free nitrogen to ensure no leaks.\n7. Evacuate the system to a suitable Torr reading and complete a vacuum rise test.\n8. Charge the system with fresh R134a refrigerant.\n9. Remove system isolations and allow oil temperature to reach setpoint.\n10. Carry out operational checks to system 2 on completion of the repairs.\n11. Update site F-Gas records on completion of the repairs.\n12. Digital Service Report to be issued on completion.",
+        "justification": "Chiller 2B2 is required to be operational to maintain the site's chilled water supply resilience level.",
+        "non_approval_effect": "Continued reduction of the the site's chilled water supply resilience level. Increased risk to the site critical IT Load."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 17388.6, Sell Value: 18605.802, Margin Value: 1217.202",
+        "labour": "Cost: 280.42, Sell Value: 560.84, Margin Value: 280.42",
+        "grand_total": "Cost: 17669.02, Sell Value: 19166.642, Margin Value: 1497.622, Total: 19166.642"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 280.42, Total Supply Chain Cost: 17388.6, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 19166.642",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700604234 - UK Small Jobs Blanket PO for Y4 Reimbursable Spend, PO Value: 19166.64, Date: 2023-01-09, From CBRE: Yes, Sell Value: 19166.642, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-Chiller 2B2 compressor replacement' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Terence Murray MD under internal work order UK-EW-04012023-1647. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Chiller 2B2 compressor has failed.. The defined scope of work includes: 1. Carry out safety checks before commencing works.\n2. Refrigerant recovery.\n3. Disconnect compressor electrical and mechanical connections ready for compressor removal.\n4. Sub-contractor to attend site to remove faulty compressor and replace with a \nremanufactured compressor (Service Exchange). Faulty compressor to be removed from site as a part of the service exchange.\n5. JCI to reconnect mechanical and electrical connections.\n6. Pressure test the compressor connections using oxygen free nitrogen to ensure no leaks.\n7. Evacuate the system to a suitable Torr reading and complete a vacuum rise test.\n8. Charge the system with fresh R134a refrigerant.\n9. Remove system isolations and allow oil temperature to reach setpoint.\n10. Carry out operational checks to system 2 on completion of the repairs.\n11. Update site F-Gas records on completion of the repairs.\n12. Digital Service Report to be issued on completion.. The justification provided is: Chiller 2B2 is required to be operational to maintain the site's chilled water supply resilience level.. If not approved, the effect would be: Continued reduction of the the site's chilled water supply resilience level. Increased risk to the site critical IT Load..",
+      "status_history": "First, billing completed by Terence Murray MD. Then, offer approved by Terence Murray MD. After that, offer submitted by Terence Murray MD.",
+      "project_financials": "Vendor costs: Cost: 17388.6, Sell Value: 18605.802, Margin Value: 1217.202. Labour: Cost: 280.42, Sell Value: 560.84, Margin Value: 280.42. Grand total: Cost: 17669.02, Sell Value: 19166.642, Margin Value: 1497.622, Total: 19166.642.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700604234 - UK Small Jobs Blanket PO for Y4 Reimbursable Spend, PO Value: 19166.64, Date: 2023-01-09, From CBRE: Yes, Sell Value: 19166.642, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Bulk Fuel Delivery for 100% Capacity at WWCK & UK 2023 Call Off",
+      "interal_work_order_num": "UK-EW-03012023-4558.3",
+      "reference_number": "128018",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 188134.5777693,
+      "margin_value_usd": 12510.579295434,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):offer approved by Marge Hills (3):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Warwick:\nThe location currently has enough fuel to provide 48 hours however the bulk tank still has the capacity for an additional 20,000 litres. As we are approaching a difficult period it has been requested to look at filling the Bulk Tank on site to provide 72 hours of run time.\n\n\nUK Sites for 2023 (Warwick & North Harbour,):\nBoth sites will require bulk fuel deliveries throughout 2023 to ensure there is sufficient runtime afforded for all generator and DRUPS employed at each location to support critical IT equipment as required.",
+        "scope": "Warwick:\nSpecialist Supplier to provide 20,000 litres of Fuel to Kyndryl Warwick. Fuel to be transported to the location and pumped into the BST 2 Tank within the critical plant area.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will be raised to allow sites to order bulk fuel deliveries when required.",
+        "justification": "Warwick:\nIf there is a prolonged outage on site this fuel delivery will assist with supporting the locations critical infrastructure for a longer period, reducing risk of outages.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will provide a more streamlined approach, will prevent hold ups when requiring additional fuel deliveries for the UK sites and will prevent additional administrative work.",
+        "non_approval_effect": "Warwick:\nThere would be a reduced time on what the site is capable of supplying if we were to run on Generators for prolonged periods.\n\nUK Sites for 2023 (Warwick & North Harbour):\nIf there is no fuel available systems will not continue to support critical IT equipment as required. If an LSQ is raised every time fuel is required, it will cause delays adding risk to the potential of power failure to critical equipment."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (Yes), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 137513.55, Sell Value: 147139.4985, Margin Value: 9625.9485",
+        "labour": "Cost: 579.6, Sell Value: 790.72, Margin Value: 211.12",
+        "grand_total": "Cost: 138093.15, Sell Value: 147930.2185, Margin Value: 9837.0685, Total: 147930.2185"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 579.6, Total Supply Chain Cost: 137513.55, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 147930.2185",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700680300, PO Value: 147930.22, Date: 2023-02-24, From CBRE: Yes, Sell Value: 147930.2185, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-Bulk Fuel Delivery for 100% Capacity at WWCK & UK 2023 Call Off' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Marge Hills under internal work order UK-EW-03012023-4558.3. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Warwick:\nThe location currently has enough fuel to provide 48 hours however the bulk tank still has the capacity for an additional 20,000 litres. As we are approaching a difficult period it has been requested to look at filling the Bulk Tank on site to provide 72 hours of run time.\n\n\nUK Sites for 2023 (Warwick & North Harbour,):\nBoth sites will require bulk fuel deliveries throughout 2023 to ensure there is sufficient runtime afforded for all generator and DRUPS employed at each location to support critical IT equipment as required.. The defined scope of work includes: Warwick:\nSpecialist Supplier to provide 20,000 litres of Fuel to Kyndryl Warwick. Fuel to be transported to the location and pumped into the BST 2 Tank within the critical plant area.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will be raised to allow sites to order bulk fuel deliveries when required.. The justification provided is: Warwick:\nIf there is a prolonged outage on site this fuel delivery will assist with supporting the locations critical infrastructure for a longer period, reducing risk of outages.\n\nUK Sites for 2023 (Warwick & North Harbour):\nThis LSE will provide a more streamlined approach, will prevent hold ups when requiring additional fuel deliveries for the UK sites and will prevent additional administrative work.. If not approved, the effect would be: Warwick:\nThere would be a reduced time on what the site is capable of supplying if we were to run on Generators for prolonged periods.\n\nUK Sites for 2023 (Warwick & North Harbour):\nIf there is no fuel available systems will not continue to support critical IT equipment as required. If an LSQ is raised every time fuel is required, it will cause delays adding risk to the potential of power failure to critical equipment..",
+      "status_history": "First, billing completed by Marge Hills. Then, offer approved by Marge Hills. After that, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 137513.55, Sell Value: 147139.4985, Margin Value: 9625.9485. Labour: Cost: 579.6, Sell Value: 790.72, Margin Value: 211.12. Grand total: Cost: 138093.15, Sell Value: 147930.2185, Margin Value: 9837.0685, Total: 147930.2185.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700680300, PO Value: 147930.22, Date: 2023-02-24, From CBRE: Yes, Sell Value: 147930.2185, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-please ignore if you see it",
+      "interal_work_order_num": "UK-EW-10012023-8968",
+      "reference_number": "22222",
+      "project_status": "Deleted",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):deleted by Sajid Mehmood (2):work in progress by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Problem Statement *",
+        "scope": "Scope of Works *",
+        "justification": "Justifications *",
+        "non_approval_effect": "Effect of non-approval *"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 90000, Sell Value: 96300, Margin Value: 6300",
+        "labour": "Cost: 178.06, Sell Value: 262.16, Margin Value: 84.1",
+        "grand_total": "Cost: 90178.06, Sell Value: 96562.16, Margin Value: 6384.1, Total: 96562.16"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 178.06, Total Supply Chain Cost: 90000, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-please ignore if you see it' is located in United Kingdom at site Al Qadisiyah, handled by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-10012023-8968. Current status is 'Deleted'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Problem Statement *. The defined scope of work includes: Scope of Works *. The justification provided is: Justifications *. If not approved, the effect would be: Effect of non-approval *.",
+      "status_history": "First, deleted by Sajid Mehmood. Then, work in progress by Sajid Mehmood.",
+      "project_financials": "Vendor costs: Cost: 90000, Sell Value: 96300, Margin Value: 6300. Labour: Cost: 178.06, Sell Value: 262.16, Margin Value: 84.1. Grand total: Cost: 90178.06, Sell Value: 96562.16, Margin Value: 6384.1, Total: 96562.16.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ Primary CHW Pump 3 Installation",
+      "interal_work_order_num": "UK-EW-27092022-2791.4",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 9809.4874729747,
+      "margin_value_usd": 794.24138369579,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Primary chilled water pump replacement due to not being done during the RER project due to IBM funding and is now coming to the end of its working life",
+        "scope": "Attend CBRE office for induction\nSign relevant paperwork \nRemove the existing Worthington Simpson belt drive pump\nInstall 1no Grundfos NB end suction pump to be supplied by customer\nRemove existing pipework and NRVs, back to the current Isolation Valves\nInstall all new pipework, bellows, NRVs and gasket, to be supplied by customer\nMake all mechanical and electrical connections\nTest and commission\nArrange for the lagging to be reinstalled or replaced where necessary",
+        "justification": "To complete upgrade works to chilled water pumps started during RER project and stopped due to IBM funding. \nTo maintain N+1 on the primary chilled water system PCW pump 3 is running hot and is at the end of its working life as it was installed in 1989\"",
+        "non_approval_effect": "To maintain N+1 on the primary chilled water system PCW pump 3 is running hot and is at the end of its working life as it was installed in 1989"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6120, Sell Value: 6548.4, Margin Value: 428.4",
+        "labour": "Cost: 968.688, Sell Value: 1164.8, Margin Value: 196.112",
+        "grand_total": "Cost: 7088.688, Sell Value: 7713.2, Margin Value: 624.512, Total: 7713.2"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 968.688, Total Supply Chain Cost: 6120, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 7713.2",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-HZ Primary CHW Pump 3 Installation' is located in United Kingdom at site Al Qadisiyah, handled by Qwerty for client Kyndryl. It was prepared by Prof. Miracle Abshire under internal work order UK-EW-27092022-2791.4. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Primary chilled water pump replacement due to not being done during the RER project due to IBM funding and is now coming to the end of its working life. The defined scope of work includes: Attend CBRE office for induction\nSign relevant paperwork \nRemove the existing Worthington Simpson belt drive pump\nInstall 1no Grundfos NB end suction pump to be supplied by customer\nRemove existing pipework and NRVs, back to the current Isolation Valves\nInstall all new pipework, bellows, NRVs and gasket, to be supplied by customer\nMake all mechanical and electrical connections\nTest and commission\nArrange for the lagging to be reinstalled or replaced where necessary. The justification provided is: To complete upgrade works to chilled water pumps started during RER project and stopped due to IBM funding. \nTo maintain N+1 on the primary chilled water system PCW pump 3 is running hot and is at the end of its working life as it was installed in 1989\". If not approved, the effect would be: To maintain N+1 on the primary chilled water system PCW pump 3 is running hot and is at the end of its working life as it was installed in 1989.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 6120, Sell Value: 6548.4, Margin Value: 428.4. Labour: Cost: 968.688, Sell Value: 1164.8, Margin Value: 196.112. Grand total: Cost: 7088.688, Sell Value: 7713.2, Margin Value: 624.512, Total: 7713.2.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-IRS FET - Building Services",
+      "interal_work_order_num": "UK-EW-13012023-8474",
+      "reference_number": "135095",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "FET (Fixed electrical testing) is used to ensure the safety and compliance of electrical installations in accordance with UK health and safety law. It involves the testing and inspection of all electrical wiring and systems between the incoming electrical supply and final circuits within a building. On IRS Building Services Distribution Boards, across the site we have elapsed or are coming to our 5 year due date, to undertake our FET testing.",
+        "scope": "Specialist Contractor (Drakeset) will have 2 x Operatives, attend site to FET Test 225 circuits within IRS Building Services Distribution Boards. This includes checking main panels, distribution boards, lights, plug sockets and air conditioning, it does not include equipment that is plugged in. Testing involves visual inspections and electrical tests on all systems in the building. All circuits should have a - insulation resistance test, a R1 R2 test, A Earth Loop Test & a PFC Test. Circuits shall be identified and isolated for dead tests to take place, then reinstated for live tests. On dual feed equipment and in critical areas we shall follow a FSP, and isolate dual fed circuits so, point of test is safe to do so.",
+        "justification": "Fixed wire testing checks the condition of the electrics against the UK standard for the safety of electrical installations, BS 7671. Each circuit\u2019s cable and accessories is inspected for visual damage and wear and tear, followed by a series of tests to verify the wiring is safe and the circuit is wired correctly. Failure to have an up-to-date EICR means you cannot prove you have undertaken the legally required assessment. This means you may be liable for any electrical accident and be at risk of prosecution.",
+        "non_approval_effect": "Fixed wire testing checks the condition of the electrics against the UK standard for the safety of electrical installations, BS 7671. Each circuit\u2019s cable and accessories is inspected for visual damage and wear and tear, followed by a series of tests to verify the wiring is safe and the circuit is wired correctly. Failure to have an up-to-date EICR means you cannot prove you have undertaken the legally required assessment. This means you may be liable for any electrical accident and be at risk of prosecution."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4372, Sell Value: 4678.04, Margin Value: 306.04",
+        "labour": "Cost: 572.06, Sell Value: 1005.94, Margin Value: 433.88",
+        "grand_total": "Cost: 4944.06, Sell Value: 5683.98, Margin Value: 739.92, Total: 5683.98"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 572.06, Total Supply Chain Cost: 4372, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-IRS FET - Building Services' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Flo Hodkiewicz under internal work order UK-EW-13012023-8474. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: FET (Fixed electrical testing) is used to ensure the safety and compliance of electrical installations in accordance with UK health and safety law. It involves the testing and inspection of all electrical wiring and systems between the incoming electrical supply and final circuits within a building. On IRS Building Services Distribution Boards, across the site we have elapsed or are coming to our 5 year due date, to undertake our FET testing.. The defined scope of work includes: Specialist Contractor (Drakeset) will have 2 x Operatives, attend site to FET Test 225 circuits within IRS Building Services Distribution Boards. This includes checking main panels, distribution boards, lights, plug sockets and air conditioning, it does not include equipment that is plugged in. Testing involves visual inspections and electrical tests on all systems in the building. All circuits should have a - insulation resistance test, a R1 R2 test, A Earth Loop Test & a PFC Test. Circuits shall be identified and isolated for dead tests to take place, then reinstated for live tests. On dual feed equipment and in critical areas we shall follow a FSP, and isolate dual fed circuits so, point of test is safe to do so.. The justification provided is: Fixed wire testing checks the condition of the electrics against the UK standard for the safety of electrical installations, BS 7671. Each circuit\u2019s cable and accessories is inspected for visual damage and wear and tear, followed by a series of tests to verify the wiring is safe and the circuit is wired correctly. Failure to have an up-to-date EICR means you cannot prove you have undertaken the legally required assessment. This means you may be liable for any electrical accident and be at risk of prosecution.. If not approved, the effect would be: Fixed wire testing checks the condition of the electrics against the UK standard for the safety of electrical installations, BS 7671. Each circuit\u2019s cable and accessories is inspected for visual damage and wear and tear, followed by a series of tests to verify the wiring is safe and the circuit is wired correctly. Failure to have an up-to-date EICR means you cannot prove you have undertaken the legally required assessment. This means you may be liable for any electrical accident and be at risk of prosecution..",
+      "status_history": "First, work in progress by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 4372, Sell Value: 4678.04, Margin Value: 306.04. Labour: Cost: 572.06, Sell Value: 1005.94, Margin Value: 433.88. Grand total: Cost: 4944.06, Sell Value: 5683.98, Margin Value: 739.92, Total: 5683.98.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Chiller 1A1 Condenser Fan1",
+      "interal_work_order_num": "UK-EW-19012023-7745",
+      "reference_number": "2799683",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Terence Murray MD",
+      "quote_value_usd": 4208.272033575,
+      "margin_value_usd": 275.30751621519,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Terence Murray MD (2):rejected by Terence Murray MD (3):offer submitted by Terence Murray MD",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Chiller 1A1 Condenser Fan1 has failed",
+        "scope": "1. shut down chiller 1A \n2. isolate and lock off\n3. remove failed fan 1 system 1\n4. install new fan motor\n5. replace contactors as required\n6. test fan in service mode\n7. restart chiller \n8. check for correct operation\n9. dispose of old motor in site scrap",
+        "justification": "Reduction of performance of Chiller 1A.",
+        "non_approval_effect": "Continued increased stress to the components of Chiller 1A. Continued reduction of performance of Chiller 1A."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3092.49, Sell Value: 3308.9643, Margin Value: 216.4743",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 3092.49, Sell Value: 3308.9643, Margin Value: 216.4743, Total: 3308.9643"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 3092.49, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3308.9643",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-Chiller 1A1 Condenser Fan1' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Terence Murray MD under internal work order UK-EW-19012023-7745. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Chiller 1A1 Condenser Fan1 has failed. The defined scope of work includes: 1. shut down chiller 1A \n2. isolate and lock off\n3. remove failed fan 1 system 1\n4. install new fan motor\n5. replace contactors as required\n6. test fan in service mode\n7. restart chiller \n8. check for correct operation\n9. dispose of old motor in site scrap. The justification provided is: Reduction of performance of Chiller 1A.. If not approved, the effect would be: Continued increased stress to the components of Chiller 1A. Continued reduction of performance of Chiller 1A..",
+      "status_history": "First, billing completed by Terence Murray MD. Then, rejected by Terence Murray MD. After that, offer submitted by Terence Murray MD.",
+      "project_financials": "Vendor costs: Cost: 3092.49, Sell Value: 3308.9643, Margin Value: 216.4743. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 3092.49, Sell Value: 3308.9643, Margin Value: 216.4743, Total: 3308.9643.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Chiller 1A1 Condenser Fan1",
+      "interal_work_order_num": "UK-EW-19012023-7745.1",
+      "reference_number": "2799683",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Terence Murray MD",
+      "quote_value_usd": 4766.2778837594,
+      "margin_value_usd": 554.31044130739,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Terence Murray MD (2):offer submitted by Terence Murray MD",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Chiller 1A1 Condenser Fan1 has failed",
+        "scope": "1. shut down chiller 1A \n2. isolate and lock off\n3. remove failed fan 1 system 1\n4. install new fan motor\n5. replace contactors as required\n6. test fan in service mode\n7. restart chiller \n8. check for correct operation\n9. dispose of old motor in site scrap",
+        "justification": "Reduction of performance of Chiller 1A.",
+        "non_approval_effect": "Continued increased stress to the components of Chiller 1A. Continued reduction of performance of Chiller 1A."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3092.49, Sell Value: 3308.9643, Margin Value: 216.4743",
+        "labour": "Cost: 219.38, Sell Value: 438.76, Margin Value: 219.38",
+        "grand_total": "Cost: 3311.87, Sell Value: 3747.7243, Margin Value: 435.8543, Total: 3747.7243"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 219.38, Total Supply Chain Cost: 3092.49, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3747.7243",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-Chiller 1A1 Condenser Fan1' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Terence Murray MD under internal work order UK-EW-19012023-7745.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Chiller 1A1 Condenser Fan1 has failed. The defined scope of work includes: 1. shut down chiller 1A \n2. isolate and lock off\n3. remove failed fan 1 system 1\n4. install new fan motor\n5. replace contactors as required\n6. test fan in service mode\n7. restart chiller \n8. check for correct operation\n9. dispose of old motor in site scrap. The justification provided is: Reduction of performance of Chiller 1A.. If not approved, the effect would be: Continued increased stress to the components of Chiller 1A. Continued reduction of performance of Chiller 1A..",
+      "status_history": "First, billing completed by Terence Murray MD. Then, offer submitted by Terence Murray MD.",
+      "project_financials": "Vendor costs: Cost: 3092.49, Sell Value: 3308.9643, Margin Value: 216.4743. Labour: Cost: 219.38, Sell Value: 438.76, Margin Value: 219.38. Grand total: Cost: 3311.87, Sell Value: 3747.7243, Margin Value: 435.8543, Total: 3747.7243.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick MP13 WAPS & Security Printer Cabling",
+      "interal_work_order_num": "UK-EW-20012023-2312",
+      "reference_number": "135192",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Miss Maymie Sporer",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Miss Maymie Sporer",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process\n4. Detailed scope highlights the work to be undertaken as part of this LSQ",
+        "problem": "CIO have requested Cat6a SFTP Cabling is to be installed from the Kyndryl LAN Room 1G2 to the MP13 Office area to supply the 2 x WAPS in this area and also to supply the Kyndryl Security Printer from the 1G2 LAN to separate these items from the IBM Network. This is all part of the IBM/Kyndryl Separation",
+        "scope": "Supply and install 1 x 80mtrs Cat6a SFTP Cable from an agreed position within MP13 to\nan existing Data Cabinet (TBC) located within LAN Room 1G2.\nSupply and install 1 x 90mtrs Cat6a SFTP Cable from an agreed position within MP13 to\nan existing Data Cabinet (TBC) located within LAN Room 1G2\nThe 2 x Cat6a SFTP Cable will be installed at High level and secured where possible\nonto the existing cable containment infrastructure along the cable route.\n1 x Standard RJ45/C6A field plug termination at the WAP module position for each cable\n1 x Female C6A termination at the Patch Panel position for each cable\nSupply and install 1 x 30mtrs Cat6a SFTP Cable from an agreed position above the Reception Desk within the ceiling void to the Security Control Room Printer and terminate each end with 1 x Standard RJ45/C6A\nThe Cat6a SFTP new printer Cable will be installed at High level and secured where\npossible onto the existing cable containment infrastructure along the cable route\nbetween Reception and Security Control Room.",
+        "justification": "If this works is not performed then the Networks IBM/Kyndryl at the location will not be able to be split appropriately",
+        "non_approval_effect": "As per Justification - The Networks at the location will not be able to be split leaving Kyndryl WAPS/Printers on the IBM Network"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 1488.89, Sell Value: 1593.1123, Margin Value: 104.2223",
+        "labour": "Cost: 240.17, Sell Value: 480.34, Margin Value: 240.17",
+        "grand_total": "Cost: 1729.06, Sell Value: 2073.4523, Margin Value: 344.3923, Total: 2073.4523"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 240.17, Total Supply Chain Cost: 1488.89, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted metadata, financials, scope details and workflow actions into descriptive summaries while marking unavailable fields as 'N/A'.",
+      "overview": "Project 'UPM-Kyndryl Warwick MP13 WAPS & Security Printer Cabling' is located in United Kingdom at site N/A, handled by Qwerty for client Kyndryl. It was prepared by Miss Maymie Sporer under internal work order UK-EW-20012023-2312. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process\n4. Detailed scope highlights the work to be undertaken as part of this LSQ. The problem statement indicates: CIO have requested Cat6a SFTP Cabling is to be installed from the Kyndryl LAN Room 1G2 to the MP13 Office area to supply the 2 x WAPS in this area and also to supply the Kyndryl Security Printer from the 1G2 LAN to separate these items from the IBM Network. This is all part of the IBM/Kyndryl Separation. The defined scope of work includes: Supply and install 1 x 80mtrs Cat6a SFTP Cable from an agreed position within MP13 to\nan existing Data Cabinet (TBC) located within LAN Room 1G2.\nSupply and install 1 x 90mtrs Cat6a SFTP Cable from an agreed position within MP13 to\nan existing Data Cabinet (TBC) located within LAN Room 1G2\nThe 2 x Cat6a SFTP Cable will be installed at High level and secured where possible\nonto the existing cable containment infrastructure along the cable route.\n1 x Standard RJ45/C6A field plug termination at the WAP module position for each cable\n1 x Female C6A termination at the Patch Panel position for each cable\nSupply and install 1 x 30mtrs Cat6a SFTP Cable from an agreed position above the Reception Desk within the ceiling void to the Security Control Room Printer and terminate each end with 1 x Standard RJ45/C6A\nThe Cat6a SFTP new printer Cable will be installed at High level and secured where\npossible onto the existing cable containment infrastructure along the cable route\nbetween Reception and Security Control Room.. The justification provided is: If this works is not performed then the Networks IBM/Kyndryl at the location will not be able to be split appropriately. If not approved, the effect would be: As per Justification - The Networks at the location will not be able to be split leaving Kyndryl WAPS/Printers on the IBM Network.",
+      "status_history": "First, work in progress by Miss Maymie Sporer.",
+      "project_financials": "Vendor costs: Cost: 1488.89, Sell Value: 1593.1123, Margin Value: 104.2223. Labour: Cost: 240.17, Sell Value: 480.34, Margin Value: 240.17. Grand total: Cost: 1729.06, Sell Value: 2073.4523, Margin Value: 344.3923, Total: 2073.4523.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

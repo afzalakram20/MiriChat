@@ -1,0 +1,564 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-HZ EPH ACU 4 Repairs",
+      "interal_work_order_num": "UK-EW-23012023-694",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 5818.1838992751,
+      "margin_value_usd": 587.18809614651,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer approved by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following an investigation into a fault on ACU 4 it was found that system 1 has a refrigerant leak and needs repairs",
+        "scope": "1. Isolate System 1 and carry out safety checks\n2. Refrigerant recovery not required due to loss of refrigerant\n3. Pressure test system using OFN\n4. Locate and seal any minor leaks\n5. Pressure test system to ensure no further leaks are present\n6. Evacuate system to its suitable Torr reading and complete a vacuum rise test\n7. Charge the system with fresh R410A Refrigerant \n8. Remove isolations and test operation\n9. Update F-Gas Records if made available by site\n10. Service report to be issued upon completion of works",
+        "justification": "ACU 4 provides cooling for the EPH UPS room and is currently running on one refrigerant circuit. As the room temperature will increase to higher than optimum temperature therefore leading to the possibility of the UPS system overheating and failing.",
+        "non_approval_effect": "ACU 4 provides cooling for the EPH UPS room and is currently running on one refrigerant circuit. As the room temperature will increase to higher than optimum temperature therefore leading to the possibility of the UPS system overheating and failing."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3807.4, Sell Value: 4073.918, Margin Value: 266.518",
+        "labour": "Cost: 305.732, Sell Value: 500.92, Margin Value: 195.188",
+        "grand_total": "Cost: 4113.132, Sell Value: 4574.838, Margin Value: 461.706, Total: 4574.838"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 305.732, Total Supply Chain Cost: 3807.4, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 4574.838",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: GB1PO000184042, PO Value: 3807.4, Date: 2023-03-02, From CBRE: Yes, Sell Value: 4574.838, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-HZ EPH ACU 4 Repairs' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-23012023-694. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following an investigation into a fault on ACU 4 it was found that system 1 has a refrigerant leak and needs repairs. The defined scope of work includes: 1. Isolate System 1 and carry out safety checks\n2. Refrigerant recovery not required due to loss of refrigerant\n3. Pressure test system using OFN\n4. Locate and seal any minor leaks\n5. Pressure test system to ensure no further leaks are present\n6. Evacuate system to its suitable Torr reading and complete a vacuum rise test\n7. Charge the system with fresh R410A Refrigerant \n8. Remove isolations and test operation\n9. Update F-Gas Records if made available by site\n10. Service report to be issued upon completion of works. The justification provided is: ACU 4 provides cooling for the EPH UPS room and is currently running on one refrigerant circuit. As the room temperature will increase to higher than optimum temperature therefore leading to the possibility of the UPS system overheating and failing.. If not approved, the effect would be: ACU 4 provides cooling for the EPH UPS room and is currently running on one refrigerant circuit. As the room temperature will increase to higher than optimum temperature therefore leading to the possibility of the UPS system overheating and failing..",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer approved by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 3807.4, Sell Value: 4073.918, Margin Value: 266.518. Labour: Cost: 305.732, Sell Value: 500.92, Margin Value: 195.188. Grand total: Cost: 4113.132, Sell Value: 4574.838, Margin Value: 461.706, Total: 4574.838.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: GB1PO000184042, PO Value: 3807.4, Date: 2023-03-02, From CBRE: Yes, Sell Value: 4574.838, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ 1st Floor Clearance",
+      "interal_work_order_num": "UK-EW-25012023-5795",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 10572.287930815,
+      "margin_value_usd": 898.20424774259,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The carpet tiles and ceiling tiles in the first floor machine hall need to be removed",
+        "scope": "The carpet tiles and ceiling tiles in the first floor machine hall to be collected by Waste to Wonder",
+        "justification": "As requested by Kyndryl as part of site clean and clear",
+        "non_approval_effect": "Cost likely to be passed onto client (Kyndryl) if not removed when site handed back"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 7301, Sell Value: 7812.07, Margin Value: 511.07",
+        "labour": "Cost: 305.732, Sell Value: 500.92, Margin Value: 195.188",
+        "grand_total": "Cost: 7606.732, Sell Value: 8312.99, Margin Value: 706.258, Total: 8312.99"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 305.732, Total Supply Chain Cost: 7301, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8312.99",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-HZ 1st Floor Clearance' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-25012023-5795. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The carpet tiles and ceiling tiles in the first floor machine hall need to be removed. The defined scope of work includes: The carpet tiles and ceiling tiles in the first floor machine hall to be collected by Waste to Wonder. The justification provided is: As requested by Kyndryl as part of site clean and clear. If not approved, the effect would be: Cost likely to be passed onto client (Kyndryl) if not removed when site handed back.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 7301, Sell Value: 7812.07, Margin Value: 511.07. Labour: Cost: 305.732, Sell Value: 500.92, Margin Value: 195.188. Grand total: Cost: 7606.732, Sell Value: 8312.99, Margin Value: 706.258, Total: 8312.99.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-E Bldg Plant Room Wall Repairs",
+      "interal_work_order_num": "UK-EW-31012023-8953",
+      "reference_number": "132393",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 9172.3072618593,
+      "margin_value_usd": 600.0574844207,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):rejected by Marge Hills (3):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Plant room transformer room walls have been damaged with the movement of equipment out of the room following decommissioning activities.",
+        "scope": "Remove the old transformer room in its entirety. Remove lighting, relocate smoke detector.,  remove extractor fans, remove unistrut framing.",
+        "justification": "These areas are customer facing and do not create a good image for visitors",
+        "non_approval_effect": "Area will continue to appear in a poor condition."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6740.36, Sell Value: 7212.1852, Margin Value: 471.8252",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 6740.36, Sell Value: 7212.1852, Margin Value: 471.8252, Total: 7212.1852"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 6740.36, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 7212.1852",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-E Bldg Plant Room Wall Repairs' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-31012023-8953. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Plant room transformer room walls have been damaged with the movement of equipment out of the room following decommissioning activities.. The defined scope of work includes: Remove the old transformer room in its entirety. Remove lighting, relocate smoke detector.,  remove extractor fans, remove unistrut framing.. The justification provided is: These areas are customer facing and do not create a good image for visitors. If not approved, the effect would be: Area will continue to appear in a poor condition..",
+      "status_history": "First, billing completed by Marge Hills. Then, rejected by Marge Hills. After that, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 6740.36, Sell Value: 7212.1852, Margin Value: 471.8252. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 6740.36, Sell Value: 7212.1852, Margin Value: 471.8252, Total: 7212.1852.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-E Bldg Plant Room Wall Repairs",
+      "interal_work_order_num": "UK-EW-31012023-8953.1",
+      "reference_number": "132393",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 8572.2472338802,
+      "margin_value_usd": 560.80122090805,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):work order closed by Marge Hills (3):work planning by Marge Hills (4):offer approved by Marge Hills (5):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Plant room transformer room walls have been damaged with the movement of equipment out of the room following decommissioning activities.",
+        "scope": "Remove the old transformer room in its entirety. Remove lighting, relocate smoke detector.,  remove extractor fans, remove unistrut framing.",
+        "justification": "These areas are customer facing and do not create a good image for visitors",
+        "non_approval_effect": "Area will continue to appear in a poor condition."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6299.4, Sell Value: 6740.358, Margin Value: 440.958",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 6299.4, Sell Value: 6740.358, Margin Value: 440.958, Total: 6740.358"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 6299.4, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 6740.358",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427553, PO Value: 6740.36, Date: 2023-02-24, From CBRE: Yes, Sell Value: 6740.358, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-E Bldg Plant Room Wall Repairs' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-31012023-8953.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Plant room transformer room walls have been damaged with the movement of equipment out of the room following decommissioning activities.. The defined scope of work includes: Remove the old transformer room in its entirety. Remove lighting, relocate smoke detector.,  remove extractor fans, remove unistrut framing.. The justification provided is: These areas are customer facing and do not create a good image for visitors. If not approved, the effect would be: Area will continue to appear in a poor condition..",
+      "status_history": "First, billing completed by Marge Hills. Then, work order closed by Marge Hills. After that, work planning by Marge Hills. Subsequently, offer approved by Marge Hills. Finally, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 6299.4, Sell Value: 6740.358, Margin Value: 440.958. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 6299.4, Sell Value: 6740.358, Margin Value: 440.958, Total: 6740.358.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427553, PO Value: 6740.36, Date: 2023-02-24, From CBRE: Yes, Sell Value: 6740.358, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-E BLDG - Steel door (East) replacement",
+      "interal_work_order_num": "UK-EW-31012023-7058",
+      "reference_number": "132393",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 9880.3445249905,
+      "margin_value_usd": 731.96985883251,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):rejected by Marge Hills (3):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The existing single steel door leading out to DRUPS 1 and 2 from the DC grey space corridor is in a very poor state of repair. The doors are 20+ years old and form part of both the emergency exit route and security perimeter. The door needs replacement.",
+        "scope": "Set up alternative escape route and barrier off the work area, - temporary removal of access control equipment, - removal of the existing door and disposal off-site, - replacement/installation of a new door and reinstatement of the the access control - commissioning of the security controls. Allowances have been made for making good the area around the door opening and also for the attendance of a security guard who will remain in post during the door replacement.",
+        "justification": "This door forms part of the emergency escape route and also controls access into critical plant areas. The door has a very poor appearance and will be viewed negatively by Kyndryl customers visiting the site.",
+        "non_approval_effect": "The doors will continue to corrode and become difficult to open, causing health and safety issues."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6997.07, Sell Value: 7486.8649, Margin Value: 489.7949",
+        "labour": "Cost: 196.297, Sell Value: 282.05, Margin Value: 85.753",
+        "grand_total": "Cost: 7193.367, Sell Value: 7768.9149, Margin Value: 575.5479, Total: 7768.9149"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 196.297, Total Supply Chain Cost: 6997.07, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 7768.9149",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-E BLDG - Steel door (East) replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-31012023-7058. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The existing single steel door leading out to DRUPS 1 and 2 from the DC grey space corridor is in a very poor state of repair. The doors are 20+ years old and form part of both the emergency exit route and security perimeter. The door needs replacement.. The defined scope of work includes: Set up alternative escape route and barrier off the work area, - temporary removal of access control equipment, - removal of the existing door and disposal off-site, - replacement/installation of a new door and reinstatement of the the access control - commissioning of the security controls. Allowances have been made for making good the area around the door opening and also for the attendance of a security guard who will remain in post during the door replacement.. The justification provided is: This door forms part of the emergency escape route and also controls access into critical plant areas. The door has a very poor appearance and will be viewed negatively by Kyndryl customers visiting the site.. If not approved, the effect would be: The doors will continue to corrode and become difficult to open, causing health and safety issues..",
+      "status_history": "First, billing completed by Marge Hills. Then, rejected by Marge Hills. After that, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 6997.07, Sell Value: 7486.8649, Margin Value: 489.7949. Labour: Cost: 196.297, Sell Value: 282.05, Margin Value: 85.753. Grand total: Cost: 7193.367, Sell Value: 7768.9149, Margin Value: 575.5479, Total: 7768.9149.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-E BLDG - Steel door (West) replacement",
+      "interal_work_order_num": "UK-EW-31012023-2177",
+      "reference_number": "132389",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 9621.0297596337,
+      "margin_value_usd": 715.00534147272,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):work order closed by Marge Hills (3):work planning by Marge Hills (4):offer approved by Marge Hills (5):offer submitted by Marge Hills (6):work in progress by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "This door forms part of the emergency escape route and also controls access into critical plant areas. The door has a very poor appearance and will be viewed negatively by Kyndryl customers visiting the site.",
+        "scope": "The existing single steel door leading out to DRUPS 3 and 4 from the DC grey space corridor is in a very poor state of repair. The doors are 20+ years old and form part of both the emergency exit route and security perimeter. The door needs replacement.",
+        "justification": "Set up alternative escape route and barrier off the work area, - temporary removal of access control equipment, - removal of the existing door and disposal off-site, - replacement/installation of a new door and reinstatement of the the access control - commissioning of the security controls. Allowances have been made for making good the area around the door opening and also for the attendance of a security guard who will remain in post during the door replacement",
+        "non_approval_effect": "The doors will continue to corrode and become difficult to open, causing health and safety issues."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6806.51, Sell Value: 7282.9657, Margin Value: 476.4557",
+        "labour": "Cost: 196.297, Sell Value: 282.05, Margin Value: 85.753",
+        "grand_total": "Cost: 7002.807, Sell Value: 7565.0157, Margin Value: 562.2087, Total: 7565.0157"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 196.297, Total Supply Chain Cost: 6806.51, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 7565.0157",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427553, PO Value: 7565.02, Date: 2023-02-23, From CBRE: Yes, Sell Value: 7565.0157, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-E BLDG - Steel door (West) replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-31012023-2177. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: This door forms part of the emergency escape route and also controls access into critical plant areas. The door has a very poor appearance and will be viewed negatively by Kyndryl customers visiting the site.. The defined scope of work includes: The existing single steel door leading out to DRUPS 3 and 4 from the DC grey space corridor is in a very poor state of repair. The doors are 20+ years old and form part of both the emergency exit route and security perimeter. The door needs replacement.. The justification provided is: Set up alternative escape route and barrier off the work area, - temporary removal of access control equipment, - removal of the existing door and disposal off-site, - replacement/installation of a new door and reinstatement of the the access control - commissioning of the security controls. Allowances have been made for making good the area around the door opening and also for the attendance of a security guard who will remain in post during the door replacement. If not approved, the effect would be: The doors will continue to corrode and become difficult to open, causing health and safety issues..",
+      "status_history": "First, billing completed by Marge Hills. Then, work order closed by Marge Hills. After that, work planning by Marge Hills. Subsequently, offer approved by Marge Hills. Finally, offer submitted by Marge Hills. Finally, work in progress by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 6806.51, Sell Value: 7282.9657, Margin Value: 476.4557. Labour: Cost: 196.297, Sell Value: 282.05, Margin Value: 85.753. Grand total: Cost: 7002.807, Sell Value: 7565.0157, Margin Value: 562.2087, Total: 7565.0157.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427553, PO Value: 7565.02, Date: 2023-02-23, From CBRE: Yes, Sell Value: 7565.0157, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Symmetry Node Updates",
+      "interal_work_order_num": "UK-EW-14102022-6934.2",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 903.41510873712,
+      "margin_value_usd": 51.43749205138,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "As part of the IBM to Kyndryl transition Symmetry updates are required",
+        "scope": "Works will include the IP updates of the head end Nodes to the new ranges provided by CIO",
+        "justification": "Third party contractors required to support the security system transition",
+        "non_approval_effect": "Transition will not take place and will lead to delaying the transition from the old to the new system"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 577.79, Sell Value: 618.2353, Margin Value: 40.4453",
+        "labour": "Cost: 92.12, Sell Value: 92.12, Margin Value: 0",
+        "grand_total": "Cost: 669.91, Sell Value: 710.3553, Margin Value: 40.4453, Total: 710.3553"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 92.12, Total Supply Chain Cost: 577.79, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 710.3553",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-Symmetry Node Updates' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-14102022-6934.2. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: As part of the IBM to Kyndryl transition Symmetry updates are required. The defined scope of work includes: Works will include the IP updates of the head end Nodes to the new ranges provided by CIO. The justification provided is: Third party contractors required to support the security system transition. If not approved, the effect would be: Transition will not take place and will lead to delaying the transition from the old to the new system.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 577.79, Sell Value: 618.2353, Margin Value: 40.4453. Labour: Cost: 92.12, Sell Value: 92.12, Margin Value: 0. Grand total: Cost: 669.91, Sell Value: 710.3553, Margin Value: 40.4453, Total: 710.3553.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DC Grey Space Corridor Flooring Repairs",
+      "interal_work_order_num": "UK-EW-01022023-589",
+      "reference_number": "132393",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 7019.2813175633,
+      "margin_value_usd": 523.50998346687,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):work order closed by Marge Hills (3):work planning by Marge Hills (4):offer approved by Marge Hills (5):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The flooring in the grey space DC corridor is in a poor state of repair. Vinyl tiles are damaged or lifting, damage has been created causing potholes.",
+        "scope": "Repair and replace vinyl tiles as required.",
+        "justification": "The damaged flooring is a tripping hazard for all personnel using this corridor and also causes difficulties when moving materials around the space.",
+        "non_approval_effect": "There is serious likelihood that somebody will trip and injure themselves."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4900.87, Sell Value: 5243.9309, Margin Value: 343.0609",
+        "labour": "Cost: 206.755, Sell Value: 275.33, Margin Value: 68.575",
+        "grand_total": "Cost: 5107.625, Sell Value: 5519.2609, Margin Value: 411.6359, Total: 5519.2609"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 206.755, Total Supply Chain Cost: 4900.87, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 5519.2609",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427553, PO Value: 5519.26, Date: 2023-02-24, From CBRE: Yes, Sell Value: 5519.2609, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-DC Grey Space Corridor Flooring Repairs' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-01022023-589. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The flooring in the grey space DC corridor is in a poor state of repair. Vinyl tiles are damaged or lifting, damage has been created causing potholes.. The defined scope of work includes: Repair and replace vinyl tiles as required.. The justification provided is: The damaged flooring is a tripping hazard for all personnel using this corridor and also causes difficulties when moving materials around the space.. If not approved, the effect would be: There is serious likelihood that somebody will trip and injure themselves..",
+      "status_history": "First, billing completed by Marge Hills. Then, work order closed by Marge Hills. After that, work planning by Marge Hills. Subsequently, offer approved by Marge Hills. Finally, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 4900.87, Sell Value: 5243.9309, Margin Value: 343.0609. Labour: Cost: 206.755, Sell Value: 275.33, Margin Value: 68.575. Grand total: Cost: 5107.625, Sell Value: 5519.2609, Margin Value: 411.6359, Total: 5519.2609.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427553, PO Value: 5519.26, Date: 2023-02-24, From CBRE: Yes, Sell Value: 5519.2609, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-E BLDG - Steel door (East) replacement",
+      "interal_work_order_num": "UK-EW-31012023-7058.1",
+      "reference_number": "132393",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 10139.659290347,
+      "margin_value_usd": 748.93437619229,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):work order closed by Marge Hills (3):work planning by Marge Hills (4):offer approved by Marge Hills (5):offer submitted by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The existing single steel door leading out to DRUPS 1 and 2 from the DC grey space corridor is in a very poor state of repair. The doors are 20+ years old and form part of both the emergency exit route and security perimeter. The door needs replacement.",
+        "scope": "Set up alternative escape route and barrier off the work area, - temporary removal of access control equipment, - removal of the existing door and disposal off-site, - replacement/installation of a new door and reinstatement of the the access control - commissioning of the security controls. Allowances have been made for making good the area around the door opening and also for the attendance of a security guard who will remain in post during the door replacement.",
+        "justification": "This door forms part of the emergency escape route and also controls access into critical plant areas. The door has a very poor appearance and will be viewed negatively by Kyndryl customers visiting the site.",
+        "non_approval_effect": "The doors will continue to corrode and become difficult to open, causing health and safety issues."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 7187.63, Sell Value: 7690.7641, Margin Value: 503.1341",
+        "labour": "Cost: 196.297, Sell Value: 282.05, Margin Value: 85.753",
+        "grand_total": "Cost: 7383.927, Sell Value: 7972.8141, Margin Value: 588.8871, Total: 7972.8141"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 196.297, Total Supply Chain Cost: 7187.63, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 7972.8141",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427553, PO Value: 7972.82, Date: 2023-02-24, From CBRE: Yes, Sell Value: 7972.8141, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-E BLDG - Steel door (East) replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-31012023-7058.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The existing single steel door leading out to DRUPS 1 and 2 from the DC grey space corridor is in a very poor state of repair. The doors are 20+ years old and form part of both the emergency exit route and security perimeter. The door needs replacement.. The defined scope of work includes: Set up alternative escape route and barrier off the work area, - temporary removal of access control equipment, - removal of the existing door and disposal off-site, - replacement/installation of a new door and reinstatement of the the access control - commissioning of the security controls. Allowances have been made for making good the area around the door opening and also for the attendance of a security guard who will remain in post during the door replacement.. The justification provided is: This door forms part of the emergency escape route and also controls access into critical plant areas. The door has a very poor appearance and will be viewed negatively by Kyndryl customers visiting the site.. If not approved, the effect would be: The doors will continue to corrode and become difficult to open, causing health and safety issues..",
+      "status_history": "First, billing completed by Marge Hills. Then, work order closed by Marge Hills. After that, work planning by Marge Hills. Subsequently, offer approved by Marge Hills. Finally, offer submitted by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 7187.63, Sell Value: 7690.7641, Margin Value: 503.1341. Labour: Cost: 196.297, Sell Value: 282.05, Margin Value: 85.753. Grand total: Cost: 7383.927, Sell Value: 7972.8141, Margin Value: 588.8871, Total: 7972.8141.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427553, PO Value: 7972.82, Date: 2023-02-24, From CBRE: Yes, Sell Value: 7972.8141, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Ph1 Generator 2 Fault Investigation",
+      "interal_work_order_num": "UK-EW-01022023-5542",
+      "reference_number": "HDR 2801275 Appro 135369",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During the January monthly run Generator 2 was making abnormal running noises and the machine was shutdown and isolated to avoid any further damage",
+        "scope": "Specialist OEM supplier to attend site and complete thorough investigation including bore scope, removal of coolant bar and suspected faulty head",
+        "justification": "Generator 2 provides building services switchboards with alternative power in the event of a Mains power failure to site",
+        "non_approval_effect": "Generator 2 will remain off line thus increased risk to data centre building services which provides Ph1 cooling"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3497, Sell Value: 3741.79, Margin Value: 244.79",
+        "labour": "Cost: 126.476, Sell Value: 197.68, Margin Value: 71.204",
+        "grand_total": "Cost: 3623.476, Sell Value: 3939.47, Margin Value: 315.994, Total: 3939.47"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 126.476, Total Supply Chain Cost: 3497, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured metadata, scope, financials and progress sequence into summaries while marking missing inputs strictly as 'N/A'.",
+      "overview": "Project 'UPM-Ph1 Generator 2 Fault Investigation' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-01022023-5542. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: During the January monthly run Generator 2 was making abnormal running noises and the machine was shutdown and isolated to avoid any further damage. The defined scope of work includes: Specialist OEM supplier to attend site and complete thorough investigation including bore scope, removal of coolant bar and suspected faulty head. The justification provided is: Generator 2 provides building services switchboards with alternative power in the event of a Mains power failure to site. If not approved, the effect would be: Generator 2 will remain off line thus increased risk to data centre building services which provides Ph1 cooling.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 3497, Sell Value: 3741.79, Margin Value: 244.79. Labour: Cost: 126.476, Sell Value: 197.68, Margin Value: 71.204. Grand total: Cost: 3623.476, Sell Value: 3939.47, Margin Value: 315.994, Total: 3939.47.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

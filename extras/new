@@ -1,0 +1,197 @@
+from pathlib import Path
+from datasets import load_dataset, DatasetDict, concatenate_datasets
+
+# --- Paths ---
+DATA_DIR = Path("/content/data")
+OUT_DIR = Path("/content/dset_multitask")
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+# --- Input files ---
+files = [
+    DATA_DIR / "project_summarization_finetune.jsonl",
+    DATA_DIR / "refined_projects_data.jsonl",
+]
+
+# --- Verify files exist ---
+for f in files:
+    if not f.exists():
+        raise FileNotFoundError(f"❌ File not found: {f}")
+    else:
+        print(f"✅ Found: {f}")
+
+# --- Load datasets ---
+datasets = [load_dataset("json", data_files=str(f), split="train") for f in files]
+
+# --- Combine and shuffle ---
+full = concatenate_datasets(datasets).shuffle(seed=42)
+
+# --- Split (80/10/10) ---
+n = len(full)
+train_end = int(0.8 * n)
+val_end = int(0.9 * n)
+
+ds = DatasetDict({
+    "train": full.select(range(0, train_end)),
+    "validation": full.select(range(val_end, n)),
+    "test": full.select(range(train_end, val_end)),
+})
+
+# --- Save to disk ---
+ds.save_to_disk(str(OUT_DIR))
+print(f"✅ Dataset saved to {OUT_DIR}")
+
+print(ds)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import unsloth
+from unsloth import FastLanguageModel
+import os
+from datasets import load_from_disk
+from transformers import TrainingArguments
+from trl import SFTTrainer 
+from peft import LoraConfig
+
+# -------- Config --------
+BASE_MODEL = os.getenv("BASE_MODEL", "meta-llama/Meta-Llama-3-8B-Instruct")  # or 7B instruct if available
+DATASET_PATH = "/workspace/dset_multitask"   # from step 3.1
+OUTPUT_DIR   = "/workspace/outputs/llama7b_multitask"
+MAX_SEQ_LEN  = 2048
+BATCH_SIZE   = 1             # per device
+GR_ACC_STEPS = 8             # makes effective batch 8; tweak per VRAM
+LR           = 2e-4
+EPOCHS       = 1             # start with 1 to stay under budget
+WARMUP_RATIO = 0.03
+LORA_R       = 16
+LORA_ALPHA   = 32
+LORA_DROPOUT = 0.05
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# -------- Load dataset --------
+ds = load_from_disk(DATASET_PATH)
+
+# Unsloth: loads 4-bit (QLoRA) by default when load_in_4bit=True
+model, tokenizer = FastLanguageModel.from_pretrained(
+    model_name = BASE_MODEL,
+    max_seq_length = MAX_SEQ_LEN,
+    load_in_4bit = True,            # QLoRA
+    use_gradient_checkpointing = True,
+)
+
+# Prepare LoRA
+peft_config = LoraConfig(
+    r = LORA_R,
+    lora_alpha = LORA_ALPHA,
+    lora_dropout = LORA_DROPOUT,
+    bias = "none",
+    task_type = "CAUSAL_LM",
+    target_modules = ["q_proj","k_proj","v_proj","o_proj","gate_proj","up_proj","down_proj"]
+)
+
+model = FastLanguageModel.get_peft_model(
+    model,
+    r = LORA_R,
+    target_modules = ["q_proj","k_proj","v_proj","o_proj","gate_proj","up_proj","down_proj"],
+    lora_alpha = LORA_ALPHA,
+    lora_dropout = LORA_DROPOUT,
+    bias = "none",
+    use_gradient_checkpointing = True,
+)
+
+# Format function: turn (instruction,input,output) into a single text
+def format_example(ex):
+    instr = ex.get("instruction","").strip()
+    inp   = ex.get("input","").strip()
+    out   = ex.get("output","").strip()
+    # Simple SFT prompt—keep your [TASK=...] tags inside instruction if you use them
+    if inp:
+        return f"<s>[INST] {instr}\n\n{inp} [/INST]\n{out}</s>"
+    else:
+        return f"<s>[INST] {instr} [/INST]\n{out}</s>"
+
+def formatting_prompts(examples):
+    return {"text": [format_example(e) for e in examples]}
+
+train_dataset = ds["train"].map(
+    lambda ex: {"text": format_example(ex)},
+    batched=False,
+    remove_columns=ds["train"].column_names
+)
+eval_dataset = ds["validation"].map(
+    lambda ex: {"text": format_example(ex)},
+    batched=False,
+    remove_columns=ds["validation"].column_names
+)
+# Trainer
+args = TrainingArguments(
+    output_dir=OUTPUT_DIR,
+    num_train_epochs=EPOCHS,
+    per_device_train_batch_size=BATCH_SIZE,
+    gradient_accumulation_steps=GR_ACC_STEPS,
+    learning_rate=LR,
+    lr_scheduler_type="cosine",
+    warmup_ratio=WARMUP_RATIO,
+    logging_steps=10,
+    save_steps=200,
+    eval_strategy="steps",
+    eval_steps=200,
+    save_total_limit=2,
+    bf16=True,                        # if GPU supports bf16; else set fp16=True and bf16=False
+    tf32=True,
+    gradient_checkpointing=True,
+    optim="paged_adamw_32bit",
+    report_to="none",                 # or "wandb"
+)
+
+trainer = SFTTrainer(
+    model=model,
+    tokenizer=tokenizer,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+    dataset_text_field="text",
+    max_seq_length=MAX_SEQ_LEN,
+    args=args,
+)
+
+
+
+print("🚀 Starting fine-tuning ...")
+train_result = trainer.train()
+
+
+# Save training state + adapter weights + tokenizer
+print("💾 Saving LoRA adapter and tokenizer ...")
+trainer.save_model(OUTPUT_DIR)
+tokenizer.save_pretrained(OUTPUT_DIR)
+
+# (Optional) save training logs & metrics
+metrics = train_result.metrics
+trainer.log_metrics("train", metrics)
+trainer.save_metrics("train", metrics)
+trainer.save_state()
+
+print(f"✅ Training complete! Adapter saved to: {OUTPUT_DIR}")
+
+# === Optional: Merge LoRA adapter into full model (for deployment/inference) ===
+MERGED_DIR = OUTPUT_DIR + "-merged"
+os.makedirs(MERGED_DIR, exist_ok=True)
+
+print("🧩 Merging LoRA adapter into base model ... this may take a few minutes.")
+merged_model = FastLanguageModel.merge_lora(model)  # merges LoRA into base weights
+merged_model.save_pretrained(MERGED_DIR)
+tokenizer.save_pretrained(MERGED_DIR)
+
+print(f"✅ Merged model saved to: {MERGED_DIR}")
+print("🎯 All done — your fine-tuned model is ready for inference or vLLM deployment!")

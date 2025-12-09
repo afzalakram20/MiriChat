@@ -1,0 +1,95 @@
+<View>
+  <Style>
+    .container { display: flex; flex-direction: column; gap: 20px; }
+    .section { background: #f7f7f7; border: 1px solid #ddd; padding: 10px; border-radius: 5px; }
+    .header { font-weight: bold; margin-bottom: 8px; font-size: 16px; }
+  </Style>
+
+  <!-- 🔒 Invisible Source Anchor (Fixes Crash) -->
+  <Text name="source_anchor" value="$scope_of_works" visible="false"/>
+
+  <View className="container">
+
+    <View className="section">
+      <View className="header">Reasoning</View>
+      <TextArea
+        name="reasoning_edit"
+        toName="source_anchor"
+        rows="4"
+        value="$reasoning"
+      />
+    </View>
+
+    <View className="section">
+      <View className="header">Work Request Core Fields</View>
+
+      <Header value="Scope of Works"/>
+      <TextArea name="scope_of_works_edit" toName="source_anchor" rows="4" value="$scope_of_works"/>
+
+      <Header value="Problem Statement"/>
+      <TextArea name="problem_edit" toName="source_anchor" rows="3" value="$problem_statement"/>
+
+      <Header value="Justifications"/>
+      <TextArea name="justifications_edit" toName="source_anchor" rows="3" value="$justifications"/>
+
+      <Header value="Effect of Non Approval"/>
+      <TextArea name="effect_edit" toName="source_anchor" rows="3" value="$effect_of_non_approval"/>
+    </View>
+
+    <View className="section">
+      <View className="header">Enums</View>
+
+      <Header value="Discipline Name"/>
+      <Choices name="discipline_edit" toName="source_anchor" choice="single" showInline="true">
+        <Choice value="M&amp;E&gt;&gt;Generators"/>
+        <Choice value="Mechanical"/>
+        <Choice value="Electrical"/>
+        <Choice value="Civil"/>
+        <Choice value="Other"/>
+      </Choices>
+
+      <Header value="Request Type"/>
+      <Choices name="reqtype_edit" toName="source_anchor" choice="single" showInline="true">
+        <Choice value="Sustainability &amp; Green Initiatives"/>
+        <Choice value="Corrective Maintenance"/>
+        <Choice value="Preventive Maintenance"/>
+        <Choice value="Project Work"/>
+      </Choices>
+
+      <Header value="Lump Sum Type"/>
+      <Choices name="lumsum_edit" toName="source_anchor" choice="single" showInline="true">
+        <Choice value="Fixed Offer"/>
+        <Choice value="Reimbursable"/>
+      </Choices>
+
+      <Header value="Quotation Type"/>
+      <Choices name="quotation_edit" toName="source_anchor" choice="single" showInline="true">
+        <Choice value="SJ"/>
+        <Choice value="LS"/>
+        <Choice value="Lump Sum"/>
+      </Choices>
+
+      <Header value="Managing Office"/>
+      <Choices name="office_edit" toName="source_anchor" choice="single" showInline="true">
+        <Choice value="KSA &amp; UAE"/>
+        <Choice value="US"/>
+        <Choice value="EU"/>
+        <Choice value="APAC"/>
+      </Choices>
+    </View>
+
+    <View className="section">
+      <View className="header">Additional Fields</View>
+
+      <Header value="Project Title"/>
+      <TextArea name="title_edit" toName="source_anchor" rows="2" value="$project_title"/>
+
+      <Header value="Contract Name"/>
+      <TextArea name="contract_edit" toName="source_anchor" rows="2" value="$contract_name"/>
+
+      <Header value="Internal Work Order"/>
+      <TextArea name="workorder_edit" toName="source_anchor" rows="1" value="$cbre_interal_work_order"/>
+    </View>
+
+  </View>
+</View>

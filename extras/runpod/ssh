@@ -1,0 +1,36 @@
+RTX4090-> Runpod Pytorch 2.4.0 ->port-8000
+
+
+
+
+
+
+
+# check if you already have a key
+ls ~/.ssh/id_ed25519.pub
+
+# if file NOT found, generate a new key:
+ssh-keygen -t ed25519 -C "runpod-vscode" 
+
+Print your public key to copy:
+cat ~/.ssh/id_ed25519.pub
+
+copy link from runpod
+
+test in powershell
+ssh -i ~/.ssh/id_ed25519 root@xq9bwr8a7iilja.ssh.runpod.net -p 22
+
+
+VS CODE
+Install extension: Remote – SSH
+Ctrl+Shift+P ->Remote-SSH: Add New SSH Host.
+paste
+ssh root@xq9bwr8a7iilja.ssh.runpod.net -p 22
+~/.ssh/config.
+Host runpod-llama
+  HostName xq9bwr8a7iilja.ssh.runpod.net
+  User root
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519
+  ServerAliveInterval 30
+  ServerAliveCountMax 4

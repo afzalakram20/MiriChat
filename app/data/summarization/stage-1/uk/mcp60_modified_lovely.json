@@ -1,0 +1,570 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-CRAHs Optimisation Project",
+      "interal_work_order_num": "UK-EW-06042022-587.1",
+      "reference_number": "124087",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 10818.389927509,
+      "margin_value_usd": 707.74513544449,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Greenford 1st Floor Network Room - Cooling optimisation (swapping DX operational units for CHW units) \nComplete works in line with COE process by reducing CRAH supply fan speed and supply air control of 24no CRAH units. Greenford First and Ground Floor",
+        "scope": "Attend CBRE office for Site Induction\nSign the relevant paperwork\nComplete works in line with COE process by reducing CRAH supply fan speed and supply air control. Greenford First and Ground Floor.",
+        "justification": "Kyndryl energy saving project.. Return on investment (ROI) is estimated at 4 months",
+        "non_approval_effect": "Energy saving not realised by the business"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 7950, Sell Value: 8506.5, Margin Value: 556.5",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 7950, Sell Value: 8506.5, Margin Value: 556.5, Total: 8506.5"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 7950, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8506.5",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-CRAHs Optimisation Project' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-06042022-587.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Greenford 1st Floor Network Room - Cooling optimisation (swapping DX operational units for CHW units) \nComplete works in line with COE process by reducing CRAH supply fan speed and supply air control of 24no CRAH units. Greenford First and Ground Floor. The defined scope of work includes: Attend CBRE office for Site Induction\nSign the relevant paperwork\nComplete works in line with COE process by reducing CRAH supply fan speed and supply air control. Greenford First and Ground Floor.. The justification provided is: Kyndryl energy saving project.. Return on investment (ROI) is estimated at 4 months. If not approved, the effect would be: Energy saving not realised by the business.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 7950, Sell Value: 8506.5, Margin Value: 556.5. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 7950, Sell Value: 8506.5, Margin Value: 556.5, Total: 8506.5.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-CRAHs Optimisation Project",
+      "interal_work_order_num": "UK-EW-06042022-587.2",
+      "reference_number": "124087",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 20441.103904362,
+      "margin_value_usd": 5401.0649477566,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer approved by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Complete works in line with COE process by reducing CRAH supply fan speed and supply air control of 24no CRAH units. Greenford First and Ground Floor. Greenford 1st Floor Network Room - Cooling optimisation (swapping DX operational units for CHW units)",
+        "scope": "Attend CBRE office for Site Induction\nSign the relevant paperwork\nComplete works in line with COE process by reducing CRAH supply fan speed and supply air control. Greenford First and Ground Floor.",
+        "justification": "Kyndryl energy saving project.. Return on investment (ROI) is estimated $40k-80k at 4 months.",
+        "non_approval_effect": "Energy saving not realised by the business"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 7950, Sell Value: 8506.5, Margin Value: 556.5",
+        "labour": "Cost: 3875.982631579, Sell Value: 7566.34, Margin Value: 3690.3573684211",
+        "grand_total": "Cost: 11825.982631579, Sell Value: 16072.84, Margin Value: 4246.8573684211, Total: 16072.84"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 3875.982631579, Total Supply Chain Cost: 7950, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 16072.8398",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700520505, PO Value: 16072.7, Date: 2022-04-22, From CBRE: Yes, Sell Value: 16072.84, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-CRAHs Optimisation Project' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-06042022-587.2. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Complete works in line with COE process by reducing CRAH supply fan speed and supply air control of 24no CRAH units. Greenford First and Ground Floor. Greenford 1st Floor Network Room - Cooling optimisation (swapping DX operational units for CHW units). The defined scope of work includes: Attend CBRE office for Site Induction\nSign the relevant paperwork\nComplete works in line with COE process by reducing CRAH supply fan speed and supply air control. Greenford First and Ground Floor.. The justification provided is: Kyndryl energy saving project.. Return on investment (ROI) is estimated $40k-80k at 4 months.. If not approved, the effect would be: Energy saving not realised by the business.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer approved by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 7950, Sell Value: 8506.5, Margin Value: 556.5. Labour: Cost: 3875.982631579, Sell Value: 7566.34, Margin Value: 3690.3573684211. Grand total: Cost: 11825.982631579, Sell Value: 16072.84, Margin Value: 4246.8573684211, Total: 16072.84.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700520505, PO Value: 16072.7, Date: 2022-04-22, From CBRE: Yes, Sell Value: 16072.84, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-East Powerhouse ACB Maintenance",
+      "interal_work_order_num": "UK-EW-08042022-4759",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 52652.689940226,
+      "margin_value_usd": 6201.3630505744,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire (4):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "It is the manufacturers recommendation that the East Powerhouse ACB's are maintained as they are 5 years old",
+        "scope": "Attend CBRE office for induction and sign relevant paperwork\nAll switching to be completed by CBRE\nHandover ACB to contractor to carry out maintenace as follows\nAir Circuit Breakers\n- Full 20 Point mechanical service.\n- All Coils / Accessories functionality and impedance checked \u2013 where possible.\n- Moving / Arcing contacts cleaned / inspected. Contact wear and arcing contact gaps measured\nand recorded.\n- Protection Release injected at multiple thresholds. All trip times verified against manufacturer\u2019s\ntripping curves.\n- 30 Mechanical service operations carried out.\n- Fixed Portion cleaned and subject to 10 Point inspection.\n- Mechanical interlock visually inspected for set up and functionality.\n- ACB low Ohm continuity (10A) and insulation resistance (500v) tested.\n- Successful re-instatement.\nRestore ACB to normal service\nSign off relevant paperwork",
+        "justification": "It is the manufacturers recommendation that the East Powerhouse ACB's are maintained as they are 5 years old. Maintenance can reduce the risk of failure of parts resulting in possible outage on the UPS system which will in turn affect the IT load",
+        "non_approval_effect": "Maintenance can reduce the risk of failure of parts resulting in possible outage on the UPS system which will in turn affect the IT load"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 30998, Sell Value: 33167.8601, Margin Value: 2169.8601",
+        "labour": "Cost: 5526.6783333333, Sell Value: 8232.95, Margin Value: 2706.2716666667",
+        "grand_total": "Cost: 36524.678333333, Sell Value: 41400.8101, Margin Value: 4876.1317666667, Total: 41400.8101"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 5526.6783333333, Total Supply Chain Cost: 30998, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 41400.8086",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-East Powerhouse ACB Maintenance' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-08042022-4759. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: It is the manufacturers recommendation that the East Powerhouse ACB's are maintained as they are 5 years old. The defined scope of work includes: Attend CBRE office for induction and sign relevant paperwork\nAll switching to be completed by CBRE\nHandover ACB to contractor to carry out maintenace as follows\nAir Circuit Breakers\n- Full 20 Point mechanical service.\n- All Coils / Accessories functionality and impedance checked \u2013 where possible.\n- Moving / Arcing contacts cleaned / inspected. Contact wear and arcing contact gaps measured\nand recorded.\n- Protection Release injected at multiple thresholds. All trip times verified against manufacturer\u2019s\ntripping curves.\n- 30 Mechanical service operations carried out.\n- Fixed Portion cleaned and subject to 10 Point inspection.\n- Mechanical interlock visually inspected for set up and functionality.\n- ACB low Ohm continuity (10A) and insulation resistance (500v) tested.\n- Successful re-instatement.\nRestore ACB to normal service\nSign off relevant paperwork. The justification provided is: It is the manufacturers recommendation that the East Powerhouse ACB's are maintained as they are 5 years old. Maintenance can reduce the risk of failure of parts resulting in possible outage on the UPS system which will in turn affect the IT load. If not approved, the effect would be: Maintenance can reduce the risk of failure of parts resulting in possible outage on the UPS system which will in turn affect the IT load.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire. Subsequently, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 30998, Sell Value: 33167.8601, Margin Value: 2169.8601. Labour: Cost: 5526.6783333333, Sell Value: 8232.95, Margin Value: 2706.2716666667. Grand total: Cost: 36524.678333333, Sell Value: 41400.8101, Margin Value: 4876.1317666667, Total: 41400.8101.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Greenford G59/99 set up and DNO witness test",
+      "interal_work_order_num": "UK-EW-11042022-166",
+      "reference_number": "TBC",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "",
+        "scope": "Senior controls engineer attend site for 2 x NWH days to carry out preliminary checks of existing MainsPro protection module settings & familiarise oneself with existing system. \nInvestigate original DNO witness issue of Max parallel timer to exceed 60 seconds via adjustments required to existing control system and/or force of system to allow.\nSenior controls engineer 1 x NWH day for DNO witness test. \nSpecialist engineer to attend site for 2 x NWH days to carry out preliminary checks of existing MainsPro protection module settings & familiarise oneself with existing system. Investigate original DNO witness issue of Max parallel timer to exceed 60 seconds via adjustments required to existing control system and/or force of system to allow.\nSpecialist engineer to attend site for 1 x NWH day to test existing ComAp Mains\npro relays for G99 short term paralleling using latest G99 test sheet in conjunction\nwith DNO attendance and witness test.",
+        "justification": "",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 7055, Sell Value: 7548.8501, Margin Value: 493.8501",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 7055, Sell Value: 7548.8501, Margin Value: 493.8501, Total: 7548.8501"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 7055, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-Greenford G59/99 set up and DNO witness test' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-11042022-166. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The defined scope of work includes: Senior controls engineer attend site for 2 x NWH days to carry out preliminary checks of existing MainsPro protection module settings & familiarise oneself with existing system. \nInvestigate original DNO witness issue of Max parallel timer to exceed 60 seconds via adjustments required to existing control system and/or force of system to allow.\nSenior controls engineer 1 x NWH day for DNO witness test. \nSpecialist engineer to attend site for 2 x NWH days to carry out preliminary checks of existing MainsPro protection module settings & familiarise oneself with existing system. Investigate original DNO witness issue of Max parallel timer to exceed 60 seconds via adjustments required to existing control system and/or force of system to allow.\nSpecialist engineer to attend site for 1 x NWH day to test existing ComAp Mains\npro relays for G99 short term paralleling using latest G99 test sheet in conjunction\nwith DNO attendance and witness test..",
+      "status_history": "First, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 7055, Sell Value: 7548.8501, Margin Value: 493.8501. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 7055, Sell Value: 7548.8501, Margin Value: 493.8501, Total: 7548.8501.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick G99 Generator System Requirement",
+      "interal_work_order_num": "UK-EW-12042022-2041",
+      "reference_number": "128268",
+      "project_status": "Deleted",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):deleted by Jayme Feil (2):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "",
+        "scope": "",
+        "justification": "",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": null,
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 0, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-Kyndryl Warwick G99 Generator System Requirement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-12042022-2041. Current status is 'Deleted'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process.",
+      "status_history": "First, deleted by Jayme Feil. Then, work in progress by Jayme Feil.",
+      "project_financials": "N/A",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-UPS wrap around bypass test",
+      "interal_work_order_num": "UK-EW-12042022-3235",
+      "reference_number": "128291",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 3500.0381533766,
+      "margin_value_usd": 758.76467845182,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):work order closed by Prof. Miracle Abshire (3):work planning by Prof. Miracle Abshire (4):offer approved by Prof. Miracle Abshire (5):offer submitted by Prof. Miracle Abshire (6):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The client has requested the UPS wrap around bypass element of the maintenance to be done out of hours",
+        "scope": "Engineer to attend site for the UPS wrap around bypass testing",
+        "justification": "The client has requested this to be done out of hours",
+        "non_approval_effect": "UPS maintenance not fully completed. The possibility exist that if this testing is not done, there is no way of demonstrating the full function of the UPS bypass  system"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 1096, Sell Value: 1172.72, Margin Value: 76.72",
+        "labour": "Cost: 1059.4633333333, Sell Value: 1579.36, Margin Value: 519.89666666666",
+        "grand_total": "Cost: 2155.4633333333, Sell Value: 2752.08, Margin Value: 596.61666666666, Total: 2752.08"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1059.4633333333, Total Supply Chain Cost: 1096, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2752.0801",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427079, PO Value: 2752.08, Date: 2022-04-22, From CBRE: Yes, Sell Value: 2752.08, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-UPS wrap around bypass test' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-12042022-3235. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The client has requested the UPS wrap around bypass element of the maintenance to be done out of hours. The defined scope of work includes: Engineer to attend site for the UPS wrap around bypass testing. The justification provided is: The client has requested this to be done out of hours. If not approved, the effect would be: UPS maintenance not fully completed. The possibility exist that if this testing is not done, there is no way of demonstrating the full function of the UPS bypass  system.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, work order closed by Prof. Miracle Abshire. After that, work planning by Prof. Miracle Abshire. Subsequently, offer approved by Prof. Miracle Abshire. Finally, offer submitted by Prof. Miracle Abshire. Finally, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 1096, Sell Value: 1172.72, Margin Value: 76.72. Labour: Cost: 1059.4633333333, Sell Value: 1579.36, Margin Value: 519.89666666666. Grand total: Cost: 2155.4633333333, Sell Value: 2752.08, Margin Value: 596.61666666666, Total: 2752.08.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427079, PO Value: 2752.08, Date: 2022-04-22, From CBRE: Yes, Sell Value: 2752.08, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Vanguard UPS Caps and Fans Replacement",
+      "interal_work_order_num": "UK-EW-07032022-6402.1",
+      "reference_number": "128301",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 18684.17932087,
+      "margin_value_usd": 1056.988681165,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):work planning by Prof. Miracle Abshire (3):offer approved by Prof. Miracle Abshire (4):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following the recent maintenance visit it is recommended that all the DC Capacitors and Fans are replaced in the Vanguard UPS",
+        "scope": "To supply and replace DC capacitors and fans in the Vanguard UPS",
+        "justification": "These parts are recommended for replacement as they are at the end of serviceable life and could fail at any time",
+        "non_approval_effect": "The UPS serves as a backup for Vanguard IT equipment, failure would result in no power to critical equipment in the event of a mains failure to site"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 11232, Sell Value: 12018.2402, Margin Value: 786.2402",
+        "labour": "Cost: 2628.26, Sell Value: 2673.13, Margin Value: 44.870000000001",
+        "grand_total": "Cost: 13860.26, Sell Value: 14691.3702, Margin Value: 831.1102, Total: 14691.3702"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 2628.26, Total Supply Chain Cost: 11232, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 14691.3701",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700522357, PO Value: 14691.37, Date: 2022-04-22, From CBRE: Yes, Sell Value: 14691.3702, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-Vanguard UPS Caps and Fans Replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-07032022-6402.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following the recent maintenance visit it is recommended that all the DC Capacitors and Fans are replaced in the Vanguard UPS. The defined scope of work includes: To supply and replace DC capacitors and fans in the Vanguard UPS. The justification provided is: These parts are recommended for replacement as they are at the end of serviceable life and could fail at any time. If not approved, the effect would be: The UPS serves as a backup for Vanguard IT equipment, failure would result in no power to critical equipment in the event of a mains failure to site.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, work planning by Prof. Miracle Abshire. After that, offer approved by Prof. Miracle Abshire. Subsequently, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 11232, Sell Value: 12018.2402, Margin Value: 786.2402. Labour: Cost: 2628.26, Sell Value: 2673.13, Margin Value: 44.870000000001. Grand total: Cost: 13860.26, Sell Value: 14691.3702, Margin Value: 831.1102, Total: 14691.3702.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700522357, PO Value: 14691.37, Date: 2022-04-22, From CBRE: Yes, Sell Value: 14691.3702, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-CSD3 - Inergen System Panel Replacement",
+      "interal_work_order_num": "UK-EW-21042022-4416",
+      "reference_number": null,
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During a recent Inergen Gas System Service visit to your Site, our \nEngineer has prescribed the following that requires further \nattention.\nUnable to carry out the Service of the Inergen System due to the \nPanel being water damaged, this needs to be replaced. Also 2 \nWeatherproof and one normal Status Units need to be replaced. \n\nMains needs to be re-wired by Site Engineers",
+        "scope": "Damaged Inergen panel will need proving dead, then outgoing circuits identified and labelled up then disconnected. Once disconnected the damaged panel can be removed. New Inergen panel can then be installed and existing circuits reconnected and then re energised and tested.\n2 weatherproof units and 1 normal unit for status indication also require replacing which can be done as the panel is disconnected.\n\non site team will also pull in new circuit from DB to fire panel spur and then test before panel is energised.",
+        "justification": "If the Damaged panel is not replaced we will have no fire suppression cover throughout CSD3 Switchroom. This could result in a loss of switchgear as in a fire situation we would have no means of dowsing the flames, this could result in major loss of out going circuits and equipment around the site.",
+        "non_approval_effect": "If the Damaged panel is not replaced we will have no fire suppression cover throughout CSD3 Switchroom. This could result in a loss of switchgear as in a fire situation we would have no means of dowsing the flames, this could result in major loss of out going circuits and equipment around the site."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2626, Sell Value: 2809.82, Margin Value: 183.82",
+        "labour": "Cost: 610.6947368421, Sell Value: 1151.78, Margin Value: 541.08526315789",
+        "grand_total": "Cost: 3236.6947368421, Sell Value: 3961.6, Margin Value: 724.90526315789, Total: 3961.6"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 610.69473684211, Total Supply Chain Cost: 2626, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-CSD3 - Inergen System Panel Replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-21042022-4416. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: During a recent Inergen Gas System Service visit to your Site, our \nEngineer has prescribed the following that requires further \nattention.\nUnable to carry out the Service of the Inergen System due to the \nPanel being water damaged, this needs to be replaced. Also 2 \nWeatherproof and one normal Status Units need to be replaced. \n\nMains needs to be re-wired by Site Engineers. The defined scope of work includes: Damaged Inergen panel will need proving dead, then outgoing circuits identified and labelled up then disconnected. Once disconnected the damaged panel can be removed. New Inergen panel can then be installed and existing circuits reconnected and then re energised and tested.\n2 weatherproof units and 1 normal unit for status indication also require replacing which can be done as the panel is disconnected.\n\non site team will also pull in new circuit from DB to fire panel spur and then test before panel is energised.. The justification provided is: If the Damaged panel is not replaced we will have no fire suppression cover throughout CSD3 Switchroom. This could result in a loss of switchgear as in a fire situation we would have no means of dowsing the flames, this could result in major loss of out going circuits and equipment around the site.. If not approved, the effect would be: If the Damaged panel is not replaced we will have no fire suppression cover throughout CSD3 Switchroom. This could result in a loss of switchgear as in a fire situation we would have no means of dowsing the flames, this could result in major loss of out going circuits and equipment around the site..",
+      "status_history": "First, work in progress by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 2626, Sell Value: 2809.82, Margin Value: 183.82. Labour: Cost: 610.6947368421, Sell Value: 1151.78, Margin Value: 541.08526315789. Grand total: Cost: 3236.6947368421, Sell Value: 3961.6, Margin Value: 724.90526315789, Total: 3961.6.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick Main HV Switchboard 5Y MAM",
+      "interal_work_order_num": "UK-EW-21042022-613",
+      "reference_number": "Appro 128384",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 31898.601170037,
+      "margin_value_usd": 2086.8244944678,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Jayme Feil (2):rejected by Jayme Feil (3):offer submitted by Jayme Feil (4):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Kyndryl Warwick Main HV Switchboard 5Y MAM is due 2022. Requirement is to inspect, service & injection test the HV switchgear VCBs and inspect and maintain 7 x HV/LV transformers as per OEM recommendations to ensure maximum reliability of equipment and reduce risk of equipment or component failure",
+        "scope": "Maintain ESA1, 2 & 3 HV switchboards, relays & VCBs, 6 oil and 1 cast resin transformer.",
+        "justification": "Contract requirement interval and OEM recommendation 5Y maintenance",
+        "non_approval_effect": "Increase risk of component failure and business interruption"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 23441, Sell Value: 25081.8701, Margin Value: 1640.8701",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 23441, Sell Value: 25081.8701, Margin Value: 1640.8701, Total: 25081.8701"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 23441, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 25081.8691",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-Kyndryl Warwick Main HV Switchboard 5Y MAM' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-21042022-613. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Kyndryl Warwick Main HV Switchboard 5Y MAM is due 2022. Requirement is to inspect, service & injection test the HV switchgear VCBs and inspect and maintain 7 x HV/LV transformers as per OEM recommendations to ensure maximum reliability of equipment and reduce risk of equipment or component failure. The defined scope of work includes: Maintain ESA1, 2 & 3 HV switchboards, relays & VCBs, 6 oil and 1 cast resin transformer.. The justification provided is: Contract requirement interval and OEM recommendation 5Y maintenance. If not approved, the effect would be: Increase risk of component failure and business interruption.",
+      "status_history": "First, billing completed by Jayme Feil. Then, rejected by Jayme Feil. After that, offer submitted by Jayme Feil. Subsequently, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 23441, Sell Value: 25081.8701, Margin Value: 1640.8701. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 23441, Sell Value: 25081.8701, Margin Value: 1640.8701, Total: 25081.8701.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS Loadbank Provision for July Quarterly Run",
+      "interal_work_order_num": "UK-EW-22042022-5752",
+      "reference_number": "128401",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "DRUPS is due it's next quarterly load run at >35% load in October 2022. Current business load does not provide enough load so the hire of a 600kW load bank is required.",
+        "scope": "Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs Delivery of load bank",
+        "justification": "Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions",
+        "non_approval_effect": "Increased risk of generator failure, reduction of DRUPS reliability"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 1424, Sell Value: 1523.6801, Margin Value: 99.6801",
+        "labour": "Cost: 290.045, Sell Value: 487.97, Margin Value: 197.925",
+        "grand_total": "Cost: 1714.045, Sell Value: 2011.6501, Margin Value: 297.6051, Total: 2011.6501"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 290.045, Total Supply Chain Cost: 1424, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all project fields into structured natural language while returning 'N/A' wherever the input explicitly indicates no data, ensuring no hallucination.",
+      "overview": "Project 'UPM-DRUPS Loadbank Provision for July Quarterly Run' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-22042022-5752. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: DRUPS is due it's next quarterly load run at >35% load in October 2022. Current business load does not provide enough load so the hire of a 600kW load bank is required.. The defined scope of work includes: Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs Delivery of load bank. The justification provided is: Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions. If not approved, the effect would be: Increased risk of generator failure, reduction of DRUPS reliability.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 1424, Sell Value: 1523.6801, Margin Value: 99.6801. Labour: Cost: 290.045, Sell Value: 487.97, Margin Value: 197.925. Grand total: Cost: 1714.045, Sell Value: 2011.6501, Margin Value: 297.6051, Total: 2011.6501.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

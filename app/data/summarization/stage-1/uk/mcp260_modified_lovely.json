@@ -1,0 +1,582 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-E1E Sensible Cooler 352 & 354 IOC Replacement",
+      "interal_work_order_num": "UK-EW-13032023-1058",
+      "reference_number": "136856",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 7522.6241892407,
+      "margin_value_usd": 537.30560854636,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Neil Hauck (2):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. eBVO not required for this project.",
+        "problem": "Sensible Coolers 352 and 354 have lost connection to IOC controllers and are not running",
+        "scope": "To replace 352 and 354 IOC controllers",
+        "justification": "Coolers are currently offline and not running",
+        "non_approval_effect": "Coolers remain offline with no redundant coolers in E1E JLR area"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5281.42, Sell Value: 5651.1194, Margin Value: 369.6994",
+        "labour": "Cost: 211.136, Sell Value: 263.92, Margin Value: 52.784",
+        "grand_total": "Cost: 5492.556, Sell Value: 5915.0394, Margin Value: 422.4834, Total: 5915.0394"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 211.136, Total Supply Chain Cost: 5281.42, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 5915.0375",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-E1E Sensible Cooler 352 & 354 IOC Replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-13032023-1058. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. eBVO not required for this project.. The problem statement indicates: Sensible Coolers 352 and 354 have lost connection to IOC controllers and are not running. The defined scope of work includes: To replace 352 and 354 IOC controllers. The justification provided is: Coolers are currently offline and not running. If not approved, the effect would be: Coolers remain offline with no redundant coolers in E1E JLR area.",
+      "status_history": "First, billing completed by Neil Hauck. Then, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 5281.42, Sell Value: 5651.1194, Margin Value: 369.6994. Labour: Cost: 211.136, Sell Value: 263.92, Margin Value: 52.784. Grand total: Cost: 5492.556, Sell Value: 5915.0394, Margin Value: 422.4834, Total: 5915.0394.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Security CCTV Milestone Licence & Corporate Care",
+      "interal_work_order_num": "UK-EW-23032023-6915",
+      "reference_number": "TBC",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Miss Maymie Sporer",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Miss Maymie Sporer",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. This is purely for License of Camera system for 1 Year across all UK locations, zero labour has been allocated",
+        "problem": "All UK Locations require a corporate care package and licensing for their Milestone CCTV Systems on site. A new contract is required for 1 Year to cover licencing and updates as required",
+        "scope": "Licensing package, updates, malware upgrades to be installed as required throughout the contract. Any issues on the system to be looked into and rectified accordingly",
+        "justification": "The CCTV System requires updates to ensure the system remains secure.",
+        "non_approval_effect": "Loss of CCTV currency and maintenance plan, loss of firmware updates.  All maintenance would be at ad-hoc payment levels and updates to systems would not happen leaving the system vulnerable"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 13527.29, Sell Value: 14474.2003, Margin Value: 946.9103",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 13527.29, Sell Value: 14474.2003, Margin Value: 946.9103, Total: 14474.2003"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 13527.29, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-Kyndryl Security CCTV Milestone Licence & Corporate Care' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Miss Maymie Sporer under internal work order UK-EW-23032023-6915. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. This is purely for License of Camera system for 1 Year across all UK locations, zero labour has been allocated. The problem statement indicates: All UK Locations require a corporate care package and licensing for their Milestone CCTV Systems on site. A new contract is required for 1 Year to cover licencing and updates as required. The defined scope of work includes: Licensing package, updates, malware upgrades to be installed as required throughout the contract. Any issues on the system to be looked into and rectified accordingly. The justification provided is: The CCTV System requires updates to ensure the system remains secure.. If not approved, the effect would be: Loss of CCTV currency and maintenance plan, loss of firmware updates.  All maintenance would be at ad-hoc payment levels and updates to systems would not happen leaving the system vulnerable.",
+      "status_history": "First, work in progress by Miss Maymie Sporer.",
+      "project_financials": "Vendor costs: Cost: 13527.29, Sell Value: 14474.2003, Margin Value: 946.9103. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 13527.29, Sell Value: 14474.2003, Margin Value: 946.9103, Total: 14474.2003.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS 2 and 3 Fuel Replenishment",
+      "interal_work_order_num": "UK-EW-27032023-8252",
+      "reference_number": "137035",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 35860.309932596,
+      "margin_value_usd": 2373.1040315401,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Neil Hauck (2):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. No eBvo required for this project.",
+        "problem": "DRUPS 2 and 3 fuel levels low after overhaul and manned entry tank clean",
+        "scope": "To replenish DRUPS 2 and 3 fuel tanks",
+        "justification": "Fuel levels are currently low and require top up to keep required run times.\neBvo not required for this project.",
+        "non_approval_effect": "DRUPS run times impacted due to low fuel"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 26204.31, Sell Value: 28038.6117, Margin Value: 1834.3017",
+        "labour": "Cost: 126.68, Sell Value: 158.35, Margin Value: 31.67",
+        "grand_total": "Cost: 26330.99, Sell Value: 28196.9617, Margin Value: 1865.9717, Total: 28196.9617"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 126.68, Total Supply Chain Cost: 26204.31, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 28196.9626",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS 2 and 3 Fuel Replenishment' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-27032023-8252. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. No eBvo required for this project.. The problem statement indicates: DRUPS 2 and 3 fuel levels low after overhaul and manned entry tank clean. The defined scope of work includes: To replenish DRUPS 2 and 3 fuel tanks. The justification provided is: Fuel levels are currently low and require top up to keep required run times.\neBvo not required for this project.. If not approved, the effect would be: DRUPS run times impacted due to low fuel.",
+      "status_history": "First, billing completed by Neil Hauck. Then, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 26204.31, Sell Value: 28038.6117, Margin Value: 1834.3017. Labour: Cost: 126.68, Sell Value: 158.35, Margin Value: 31.67. Grand total: Cost: 26330.99, Sell Value: 28196.9617, Margin Value: 1865.9717, Total: 28196.9617.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS HV & LV Switchroom Water Ingress Protection",
+      "interal_work_order_num": "UK-EW-29032023-2020",
+      "reference_number": "Helpdesk ID 2808548 - Appro",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The switchrooms are constructed of GRP, are 16 years old and have become brittle with fractures at high level and deterioration of seals at low level causing water ingress",
+        "scope": "Install measured tarpaulins across each of 3 roofs fixed to existing structures. Prepare and install Hydrosil Heavy Duty Reinforcement Roll (Polyester Fabric) to internal and external low level joints and apply heavy duty Hydrosil Silicone roof coating",
+        "justification": "Prevent water ingress to critical switchrooms",
+        "non_approval_effect": "Water ingress will remain a constant issue, a tripping hazard and possible water infiltration to switchgear"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4320.5, Sell Value: 4622.94, Margin Value: 302.44",
+        "labour": "Cost: 3177.376, Sell Value: 3971.72, Margin Value: 794.344",
+        "grand_total": "Cost: 7497.876, Sell Value: 8594.66, Margin Value: 1096.784, Total: 8594.66"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 3177.376, Total Supply Chain Cost: 4320.5, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS HV & LV Switchroom Water Ingress Protection' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-29032023-2020. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The switchrooms are constructed of GRP, are 16 years old and have become brittle with fractures at high level and deterioration of seals at low level causing water ingress. The defined scope of work includes: Install measured tarpaulins across each of 3 roofs fixed to existing structures. Prepare and install Hydrosil Heavy Duty Reinforcement Roll (Polyester Fabric) to internal and external low level joints and apply heavy duty Hydrosil Silicone roof coating. The justification provided is: Prevent water ingress to critical switchrooms. If not approved, the effect would be: Water ingress will remain a constant issue, a tripping hazard and possible water infiltration to switchgear.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 4320.5, Sell Value: 4622.94, Margin Value: 302.44. Labour: Cost: 3177.376, Sell Value: 3971.72, Margin Value: 794.344. Grand total: Cost: 7497.876, Sell Value: 8594.66, Margin Value: 1096.784, Total: 8594.66.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS Roof Works",
+      "interal_work_order_num": "UK-EW-30032023-875",
+      "reference_number": "Helpdesk ID 2808728",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "DRUPS HV/LV Switchroom is constructed of GRP, is 16 years old and have become brittle with fractures at high level, causing water ingress",
+        "scope": "Install heavy duty tarpaulin across roof and fix down with weights and bungee cord to existing unistrut support system",
+        "justification": "Prevent high level water ingress",
+        "non_approval_effect": "Prevent further deterioration of roof and enclosure and possible water ingress to HV/LV switchgear"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3320.5, Sell Value: 3552.93, Margin Value: 232.43",
+        "labour": "Cost: 1992.2, Sell Value: 2467.22, Margin Value: 475.02",
+        "grand_total": "Cost: 5312.7, Sell Value: 6020.15, Margin Value: 707.45, Total: 6020.15"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1992.2, Total Supply Chain Cost: 3320.5, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS Roof Works' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-30032023-875. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: DRUPS HV/LV Switchroom is constructed of GRP, is 16 years old and have become brittle with fractures at high level, causing water ingress. The defined scope of work includes: Install heavy duty tarpaulin across roof and fix down with weights and bungee cord to existing unistrut support system. The justification provided is: Prevent high level water ingress. If not approved, the effect would be: Prevent further deterioration of roof and enclosure and possible water ingress to HV/LV switchgear.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 3320.5, Sell Value: 3552.93, Margin Value: 232.43. Labour: Cost: 1992.2, Sell Value: 2467.22, Margin Value: 475.02. Grand total: Cost: 5312.7, Sell Value: 6020.15, Margin Value: 707.45, Total: 6020.15.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-EED - Qualification Assessment Project",
+      "interal_work_order_num": "UK-EW-04042023-1908",
+      "reference_number": "137362",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Brando Dooley DDS",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Brando Dooley DDS",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "It has been identified a number of countries in Europe where Kyndryl are required to meet the criteria of the European Energy Directive (EED).ie. head count, turnover details. This proposal has been developed in response to Kyndryl\u2019s request for support in understanding the EU wide EED qualification for Kyndryl against local transpositions of the legislation, in those countries in which Kyndryl has presence.",
+        "scope": "CBRE sustainability expert to carry out review and provide guidance on the individual country requirements in regard to meeting the European Energy Directive (EED). Across 19 European countries.",
+        "justification": "Funding request to engage CBRE sustainability expert to carry out review and provide overview and support for Kyndryl sites to help achieve the  EED directive.",
+        "non_approval_effect": "Kyndryl will fail to achieve EED compliance across their EU portfolio,"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4845, Sell Value: 5184.15, Margin Value: 339.15",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 4845, Sell Value: 5184.15, Margin Value: 339.15, Total: 5184.15"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 4845, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-EED - Qualification Assessment Project' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Brando Dooley DDS under internal work order UK-EW-04042023-1908. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: It has been identified a number of countries in Europe where Kyndryl are required to meet the criteria of the European Energy Directive (EED).ie. head count, turnover details. This proposal has been developed in response to Kyndryl\u2019s request for support in understanding the EU wide EED qualification for Kyndryl against local transpositions of the legislation, in those countries in which Kyndryl has presence.. The defined scope of work includes: CBRE sustainability expert to carry out review and provide guidance on the individual country requirements in regard to meeting the European Energy Directive (EED). Across 19 European countries.. The justification provided is: Funding request to engage CBRE sustainability expert to carry out review and provide overview and support for Kyndryl sites to help achieve the  EED directive.. If not approved, the effect would be: Kyndryl will fail to achieve EED compliance across their EU portfolio,.",
+      "status_history": "First, work in progress by Brando Dooley DDS.",
+      "project_financials": "Vendor costs: Cost: 4845, Sell Value: 5184.15, Margin Value: 339.15. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 4845, Sell Value: 5184.15, Margin Value: 339.15, Total: 5184.15.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick Sprinkler Diesel Pump Repair Works",
+      "interal_work_order_num": "UK-EW-05042023-5958",
+      "reference_number": "Appro 137206",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Brando Dooley DDS",
+      "quote_value_usd": 6228.1571919115,
+      "margin_value_usd": 462.35787867226,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Brando Dooley DDS (2):work planning by Miss Maymie Sporer (3):offer approved by Miss Maymie Sporer (4):offer submitted by Miss Maymie Sporer (5):work in progress by Brando Dooley DDS",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "As part of the planned maintenance service of the Sprinkler Pump, CBRE  representative was informed by the specialist contractor of a fuel leak on the diesel pump set. On inspection this was found to be coming from a pinhole that has occurred on the fuel lift pump. The specialist contractor highly recommended that the fuel lift pump is replaced before the leak deteriorates further and puts the pump out of action. We currently have an Impairment raised with FM Global to only use the pump set in the event of an Emergency, Weekly testing has had to be put on hold until this issue is resolved",
+        "scope": "Specialist contractor to attend site and carry out the following works, -\nReplace fuel lift pump and gasket.\n\u2022 Replace drive belt guard anti vibration mounts.\n\u2022 Install discharge pressure gauge and adapter by way of stud welding.\n\u2022 Install suction gauge and adapter by way of stud welding.\n\u2022 Replace engine coolant hoses and clips.\n\u2022 Replace engine thermostat and gasket.\n\u2022 Remove water pump for inspection.\n\u2022 Replace engine drive belt.\n\u2022 Replace air filter.\n\u2022 Replace heat exchanger pressure cap.\n\u2022 Carry out chemical coolant flush.\n\u2022 Dispose of old coolant and refill with new to 50/50 mix.\n\u2022 Carry out a calibrated digital flow test (Druck test).",
+        "justification": "Without the lift pump operating correctly, this will fail to pump/transmit the fuel from the tank to the main injection pump adequately and will compromise the operation of the fuel injection pump over a period of time.",
+        "non_approval_effect": "Non-approval will overtime lead to a total failure and will result in potential engine failure and working sprinkler system this will create a major life safety issue if we were to lose our Sprinkler system in its entirety"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4277, Sell Value: 4576.39, Margin Value: 299.39",
+        "labour": "Cost: 256.648, Sell Value: 320.81, Margin Value: 64.162",
+        "grand_total": "Cost: 4533.648, Sell Value: 4897.2, Margin Value: 363.552, Total: 4897.2"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 256.648, Total Supply Chain Cost: 4277, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 4897.2",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Checklist: (1)Have PPE checks been completed (on CBRE template) and upload to project file on SharePoint?: No, (2)Have O&Ms and Testing and Commissioning certificates been uploaded to project file on SharePoint?: No, (3)Has FM Handover been completed and uploaded to project file on SharePoint?: No, (4)Final Account meeting held with client and all costs agreed?: No, (5)Retention recorded for billing after the defects liability period?: No, (6)Final Account agreed with all Suppliers?: No, (7)Cost Plan finalised and final figures posted to Finance System?: No, (8)Final Invoice issued to Client?: No, (9)Project Debt Status checked and followed up if in the Red?: No, (10)Practical Completion Cert issued to Client?: No, (11)Test & Commissioning Tracker developed and implemented?: No, (12)Test & Commissioning Tagging System implemented?: No, (13)Final Quality Inspection completed?: No, (14)Snagging Schedule closed out by all parties?: No, (15)Completion Photographs taken: No, (16)Case Study Compiled: No, (17)Client Feedback requested and received?: No, (18)Lessons Learned exercise completed?: No, (19)As Built Drawings completed?: No, (20)O&M and/or Project Safety File Completed?: No, (21)Procurement supplier review questionnaire completed: No, (22)DLP final inspection meeting scheduled in CBRE team and client calendar for DLP payment release: No. Client POs: PO Number: 4700604234, PO Value: 4897.2, Date: 2023-06-19, From CBRE: Yes, Sell Value: 4897.2, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-Kyndryl Warwick Sprinkler Diesel Pump Repair Works' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Brando Dooley DDS under internal work order UK-EW-05042023-5958. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: As part of the planned maintenance service of the Sprinkler Pump, CBRE  representative was informed by the specialist contractor of a fuel leak on the diesel pump set. On inspection this was found to be coming from a pinhole that has occurred on the fuel lift pump. The specialist contractor highly recommended that the fuel lift pump is replaced before the leak deteriorates further and puts the pump out of action. We currently have an Impairment raised with FM Global to only use the pump set in the event of an Emergency, Weekly testing has had to be put on hold until this issue is resolved. The defined scope of work includes: Specialist contractor to attend site and carry out the following works, -\nReplace fuel lift pump and gasket.\n\u2022 Replace drive belt guard anti vibration mounts.\n\u2022 Install discharge pressure gauge and adapter by way of stud welding.\n\u2022 Install suction gauge and adapter by way of stud welding.\n\u2022 Replace engine coolant hoses and clips.\n\u2022 Replace engine thermostat and gasket.\n\u2022 Remove water pump for inspection.\n\u2022 Replace engine drive belt.\n\u2022 Replace air filter.\n\u2022 Replace heat exchanger pressure cap.\n\u2022 Carry out chemical coolant flush.\n\u2022 Dispose of old coolant and refill with new to 50/50 mix.\n\u2022 Carry out a calibrated digital flow test (Druck test).. The justification provided is: Without the lift pump operating correctly, this will fail to pump/transmit the fuel from the tank to the main injection pump adequately and will compromise the operation of the fuel injection pump over a period of time.. If not approved, the effect would be: Non-approval will overtime lead to a total failure and will result in potential engine failure and working sprinkler system this will create a major life safety issue if we were to lose our Sprinkler system in its entirety.",
+      "status_history": "First, billing completed by Brando Dooley DDS. Then, work planning by Miss Maymie Sporer. After that, offer approved by Miss Maymie Sporer. Subsequently, offer submitted by Miss Maymie Sporer. Finally, work in progress by Brando Dooley DDS.",
+      "project_financials": "Vendor costs: Cost: 4277, Sell Value: 4576.39, Margin Value: 299.39. Labour: Cost: 256.648, Sell Value: 320.81, Margin Value: 64.162. Grand total: Cost: 4533.648, Sell Value: 4897.2, Margin Value: 363.552, Total: 4897.2.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Checklist: (1)Have PPE checks been completed (on CBRE template) and upload to project file on SharePoint?: No, (2)Have O&Ms and Testing and Commissioning certificates been uploaded to project file on SharePoint?: No, (3)Has FM Handover been completed and uploaded to project file on SharePoint?: No, (4)Final Account meeting held with client and all costs agreed?: No, (5)Retention recorded for billing after the defects liability period?: No, (6)Final Account agreed with all Suppliers?: No, (7)Cost Plan finalised and final figures posted to Finance System?: No, (8)Final Invoice issued to Client?: No, (9)Project Debt Status checked and followed up if in the Red?: No, (10)Practical Completion Cert issued to Client?: No, (11)Test & Commissioning Tracker developed and implemented?: No, (12)Test & Commissioning Tagging System implemented?: No, (13)Final Quality Inspection completed?: No, (14)Snagging Schedule closed out by all parties?: No, (15)Completion Photographs taken: No, (16)Case Study Compiled: No, (17)Client Feedback requested and received?: No, (18)Lessons Learned exercise completed?: No, (19)As Built Drawings completed?: No, (20)O&M and/or Project Safety File Completed?: No, (21)Procurement supplier review questionnaire completed: No, (22)DLP final inspection meeting scheduled in CBRE team and client calendar for DLP payment release: No. Client POs: PO Number: 4700604234, PO Value: 4897.2, Date: 2023-06-19, From CBRE: Yes, Sell Value: 4897.2, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS Low Voltage Switchroom Roof & Low Level Water Ingress Protection",
+      "interal_work_order_num": "UK-EW-05042023-8372",
+      "reference_number": "HDR 2809030 Appro 137200",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The switchroom is constructed of GRP, are 16 years old and have become brittle with fractures at high level and deterioration of seals at low level causing water ingress",
+        "scope": "Install measured tarpaulins across Switchroom 1 & Shortbreak fixed to existing structures. Prepare and install Hydrosil Heavy Duty Reinforcement Roll (Polyester Fabric) to internal and external low level joints to Switchrooms 1, 2, 3 & Shortbreak and apply heavy duty Hydrosil Silicone roof coating",
+        "justification": "Prevent water ingress to critical switchrooms",
+        "non_approval_effect": "Water ingress will remain a constant issue, a tripping hazard and possible water infiltration to LV switchgear"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 1813.5, Sell Value: 1940.44, Margin Value: 126.94",
+        "labour": "Cost: 2375.264, Sell Value: 2969.08, Margin Value: 593.816",
+        "grand_total": "Cost: 4188.764, Sell Value: 4909.52, Margin Value: 720.756, Total: 4909.52"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 2375.264, Total Supply Chain Cost: 1813.5, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS Low Voltage Switchroom Roof & Low Level Water Ingress Protection' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-05042023-8372. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The switchroom is constructed of GRP, are 16 years old and have become brittle with fractures at high level and deterioration of seals at low level causing water ingress. The defined scope of work includes: Install measured tarpaulins across Switchroom 1 & Shortbreak fixed to existing structures. Prepare and install Hydrosil Heavy Duty Reinforcement Roll (Polyester Fabric) to internal and external low level joints to Switchrooms 1, 2, 3 & Shortbreak and apply heavy duty Hydrosil Silicone roof coating. The justification provided is: Prevent water ingress to critical switchrooms. If not approved, the effect would be: Water ingress will remain a constant issue, a tripping hazard and possible water infiltration to LV switchgear.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 1813.5, Sell Value: 1940.44, Margin Value: 126.94. Labour: Cost: 2375.264, Sell Value: 2969.08, Margin Value: 593.816. Grand total: Cost: 4188.764, Sell Value: 4909.52, Margin Value: 720.756, Total: 4909.52.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS High Voltage Switchroom Roof & Low Level Water Ingress Protection",
+      "interal_work_order_num": "UK-EW-05042023-4482",
+      "reference_number": "HDR 2809029 Appro 137202",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The switchroom is constructed of GRP, are 16 years old and have become brittle with fractures at high level and deterioration of seals at low level causing water ingress",
+        "scope": "Install measured tarpaulins across each of 2 roofs fixed to existing structures TX21-22-23. Prepare and install Hydrosil Heavy Duty Reinforcement Roll (Polyester Fabric) to internal and external low level joints and apply heavy duty Hydrosil Silicone roof coating",
+        "justification": "Prevent water ingress to critical switchrooms",
+        "non_approval_effect": "Water ingress will remain a constant issue, a tripping hazard and possible water infiltration to HV switchgear"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2607, Sell Value: 2789.49, Margin Value: 182.49",
+        "labour": "Cost: 2533.616, Sell Value: 3167.02, Margin Value: 633.404",
+        "grand_total": "Cost: 5140.616, Sell Value: 5956.51, Margin Value: 815.894, Total: 5956.51"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 2533.616, Total Supply Chain Cost: 2607, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS High Voltage Switchroom Roof & Low Level Water Ingress Protection' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-05042023-4482. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The switchroom is constructed of GRP, are 16 years old and have become brittle with fractures at high level and deterioration of seals at low level causing water ingress. The defined scope of work includes: Install measured tarpaulins across each of 2 roofs fixed to existing structures TX21-22-23. Prepare and install Hydrosil Heavy Duty Reinforcement Roll (Polyester Fabric) to internal and external low level joints and apply heavy duty Hydrosil Silicone roof coating. The justification provided is: Prevent water ingress to critical switchrooms. If not approved, the effect would be: Water ingress will remain a constant issue, a tripping hazard and possible water infiltration to HV switchgear.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2607, Sell Value: 2789.49, Margin Value: 182.49. Labour: Cost: 2533.616, Sell Value: 3167.02, Margin Value: 633.404. Grand total: Cost: 5140.616, Sell Value: 5956.51, Margin Value: 815.894, Total: 5956.51.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS 4 Fuel top up",
+      "interal_work_order_num": "UK-EW-12042023-4923",
+      "reference_number": "128018",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 18946.66157955,
+      "margin_value_usd": 1242.2841154776,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):rejected by Marge Hills (3):offer submitted by Marge Hills (4):work in progress by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following DRUPS 4 remedial works load bank testing was completed which used an amount of fuel. Therefore there is insufficient fuel to provide the required runtime hours in the event DRUPS 4 is called in to service.",
+        "scope": "Fuel top up of 10000 ltrs is to be completed",
+        "justification": "This top up is required to provide sufficient runtime on DRUPS 4",
+        "non_approval_effect": "There will be reduced runtime availability on DRUPS 4."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 13780, Sell Value: 14744.6, Margin Value: 964.6",
+        "labour": "Cost: 140.952, Sell Value: 153.16, Margin Value: 12.208",
+        "grand_total": "Cost: 13920.952, Sell Value: 14897.76, Margin Value: 976.808, Total: 14897.76"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 140.952, Total Supply Chain Cost: 13780, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 14897.76",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all project metadata, scope, financials and workflow transitions into human\u2011readable summaries while marking missing data strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS 4 Fuel top up' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-12042023-4923. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following DRUPS 4 remedial works load bank testing was completed which used an amount of fuel. Therefore there is insufficient fuel to provide the required runtime hours in the event DRUPS 4 is called in to service.. The defined scope of work includes: Fuel top up of 10000 ltrs is to be completed. The justification provided is: This top up is required to provide sufficient runtime on DRUPS 4. If not approved, the effect would be: There will be reduced runtime availability on DRUPS 4..",
+      "status_history": "First, billing completed by Marge Hills. Then, rejected by Marge Hills. After that, offer submitted by Marge Hills. Subsequently, work in progress by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 13780, Sell Value: 14744.6, Margin Value: 964.6. Labour: Cost: 140.952, Sell Value: 153.16, Margin Value: 12.208. Grand total: Cost: 13920.952, Sell Value: 14897.76, Margin Value: 976.808, Total: 14897.76.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

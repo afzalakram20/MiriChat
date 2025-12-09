@@ -1,0 +1,584 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-BMS Delta Spare Controllers",
+      "interal_work_order_num": "UK-EW-03082022-5991",
+      "reference_number": "130964",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "BMS Delta Spare Controllers are required due to equipment imminent obsolescence and current lead times. System is currently 11 years old and this Appro covers the purchase of OEM recommended spares",
+        "scope": "Supply of six spare controllers for site stock",
+        "justification": "The current lead times for spare controllers is in excess of 8 weeks. The controllers are being phased out late 2022 early 2023",
+        "non_approval_effect": "The BMS controls and monitors critical DC plant. Availability of spares for equipment becoming obsolete is essential"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 6598.5098, Sell Value: 7060.4102, Margin Value: 461.9004",
+        "labour": "Cost: 69.263157894737, Sell Value: 92.12, Margin Value: 22.856842105263",
+        "grand_total": "Cost: 6667.7729578947, Sell Value: 7152.5302, Margin Value: 484.75724210526, Total: 7152.5302"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 69.263157894737, Total Supply Chain Cost: 6598.5098, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-BMS Delta Spare Controllers' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-03082022-5991. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: BMS Delta Spare Controllers are required due to equipment imminent obsolescence and current lead times. System is currently 11 years old and this Appro covers the purchase of OEM recommended spares. The defined scope of work includes: Supply of six spare controllers for site stock. The justification provided is: The current lead times for spare controllers is in excess of 8 weeks. The controllers are being phased out late 2022 early 2023. If not approved, the effect would be: The BMS controls and monitors critical DC plant. Availability of spares for equipment becoming obsolete is essential.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 6598.5098, Sell Value: 7060.4102, Margin Value: 461.9004. Labour: Cost: 69.263157894737, Sell Value: 92.12, Margin Value: 22.856842105263. Grand total: Cost: 6667.7729578947, Sell Value: 7152.5302, Margin Value: 484.75724210526, Total: 7152.5302.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Install of handrails to conform to H&S regulations",
+      "interal_work_order_num": "UK-EW-08082022-996",
+      "reference_number": "131041",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Brando Dooley DDS",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Brando Dooley DDS",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following annual H&S site inspection, it was found that during refit of Phase 1  Bridge Ops and Lits department ramps were not fitted with handrails or",
+        "scope": "Cut out section of existing carpet top and bottom of ramps and replace with supplied carpet tiles, supply and fit handrails complete with backboards if required, remove debris from site.",
+        "justification": "Action placed on site from Kyndryl H&S exec Paul Young to make area compliant with building regulations.",
+        "non_approval_effect": "Kyndryl Warwick will not be compliant with building regulations, H&S action placed on site will not be closed off."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2290, Sell Value: 2450.3, Margin Value: 160.3",
+        "labour": "Cost: 171.79, Sell Value: 343.58, Margin Value: 171.79",
+        "grand_total": "Cost: 2461.79, Sell Value: 2793.88, Margin Value: 332.09, Total: 2793.88"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 171.79, Total Supply Chain Cost: 2290, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-Install of handrails to conform to H&S regulations' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Brando Dooley DDS under internal work order UK-EW-08082022-996. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following annual H&S site inspection, it was found that during refit of Phase 1  Bridge Ops and Lits department ramps were not fitted with handrails or. The defined scope of work includes: Cut out section of existing carpet top and bottom of ramps and replace with supplied carpet tiles, supply and fit handrails complete with backboards if required, remove debris from site.. The justification provided is: Action placed on site from Kyndryl H&S exec Paul Young to make area compliant with building regulations.. If not approved, the effect would be: Kyndryl Warwick will not be compliant with building regulations, H&S action placed on site will not be closed off..",
+      "status_history": "First, work in progress by Brando Dooley DDS.",
+      "project_financials": "Vendor costs: Cost: 2290, Sell Value: 2450.3, Margin Value: 160.3. Labour: Cost: 171.79, Sell Value: 343.58, Margin Value: 171.79. Grand total: Cost: 2461.79, Sell Value: 2793.88, Margin Value: 332.09, Total: 2793.88.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Fan Replacement Cooling Tower 3A LHS Twin",
+      "interal_work_order_num": "UK-EW-10082022-7071",
+      "reference_number": "131064",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "There 11 cooling towers on site at Kyndryl Warwick - 6 in Phase 1 supporting Phase 1 suites (Towers 1A, 1B, 2A, 2B, 3A & 3B) and 5 in Phase 1A now redundant. A specialist contractor (Baltimore Air Coil ) will be brought on site to remove the damaged left hand side, of the twin fan and shaft on PH1 3A and replace with new fans, shaft and bearings.",
+        "scope": "\u2022\tTower 3A will receive a pre-disinfection dose directly to the tower sump -0.5 litres of both ABT1 & ABT2. Tower pre-disinfection will be for 1 hour, minimum \n\u2022\tABT1 & ABT2 levels are to be monitored and logged on the service report sheet. When an acceptable level has been achieved, these details are also recorded on the dynamic risk assessment service report sheet\n\u2022\tCBRE with Baltimore Air Coil technicians in attendance will then make the necessary electrical isolations as per the approved FSP\n\u2022\tCBRE with Baltimore Air Coil technicians in attendance will manually isolate the flow and return water valves positioned on the tower sump and on the return pipework on the top inspection platform. CBRE with WCS Group technicians in attendance will also isolate the Mains Water inlet valve to stop tower from filling\n\u2022\tThe Tower will then be drained to the dedicated foul drain using the drain off valve and sump pump\n\u2022\tThe faulty fan will then be stripped down and replaced with new fan shafts and bearings.\n\u2022\tOn completion of the fan repair, the other 2 fans on cooling tower 3A will be inspected for damage and where necessary, advise replacement.\n\u2022\tAfter repair to the fan has been completed on the tower, Baltimore Air Coil technicians will, where applied, remove their locks and clasps and CBRE will run the fans and make sure all is ok. Once happy the tower shall be filled back to it\u2019s appropriate levels.\n\u2022\tThe circulating water will be tested for bromine, ABT1 and ABT2 will be added to boost the level above 100ppm, the bromine level will be monitored every 15 minutes\n\u2022\tOnce acceptable the tower will be dosed with commissioning dose of inhibitor\n\u2022\tOn completion of the Tower post-disinfection CBRE will be informed so we can reinstate the electrical supply to the fans and pumps then sign off the permit to work relating to the Tower",
+        "justification": "If the cooling tower is not repaired it cannot be used. The cooling towers are an integral piece of equipment for the resilience of PH1. With the warmer months approaching all cooling towers will run at maximum capacity. If not repaired the resilience off PH1 would be at \nrisk.",
+        "non_approval_effect": "If the cooling tower is not repaired it cannot be used. The cooling towers are an integral piece of equipment for the resilience of PH1. With the warmer months approaching all cooling towers will run at maximum capacity. If not repaired the resilience off PH1 would be at \nrisk."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5303.5, Sell Value: 5674.74, Margin Value: 371.24",
+        "labour": "Cost: 328.355, Sell Value: 518.53, Margin Value: 190.175",
+        "grand_total": "Cost: 5631.855, Sell Value: 6193.27, Margin Value: 561.415, Total: 6193.27"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 328.355, Total Supply Chain Cost: 5303.5, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-Fan Replacement Cooling Tower 3A LHS Twin' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-10082022-7071. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: There 11 cooling towers on site at Kyndryl Warwick - 6 in Phase 1 supporting Phase 1 suites (Towers 1A, 1B, 2A, 2B, 3A & 3B) and 5 in Phase 1A now redundant. A specialist contractor (Baltimore Air Coil ) will be brought on site to remove the damaged left hand side, of the twin fan and shaft on PH1 3A and replace with new fans, shaft and bearings.. The defined scope of work includes: \u2022\tTower 3A will receive a pre-disinfection dose directly to the tower sump -0.5 litres of both ABT1 & ABT2. Tower pre-disinfection will be for 1 hour, minimum \n\u2022\tABT1 & ABT2 levels are to be monitored and logged on the service report sheet. When an acceptable level has been achieved, these details are also recorded on the dynamic risk assessment service report sheet\n\u2022\tCBRE with Baltimore Air Coil technicians in attendance will then make the necessary electrical isolations as per the approved FSP\n\u2022\tCBRE with Baltimore Air Coil technicians in attendance will manually isolate the flow and return water valves positioned on the tower sump and on the return pipework on the top inspection platform. CBRE with WCS Group technicians in attendance will also isolate the Mains Water inlet valve to stop tower from filling\n\u2022\tThe Tower will then be drained to the dedicated foul drain using the drain off valve and sump pump\n\u2022\tThe faulty fan will then be stripped down and replaced with new fan shafts and bearings.\n\u2022\tOn completion of the fan repair, the other 2 fans on cooling tower 3A will be inspected for damage and where necessary, advise replacement.\n\u2022\tAfter repair to the fan has been completed on the tower, Baltimore Air Coil technicians will, where applied, remove their locks and clasps and CBRE will run the fans and make sure all is ok. Once happy the tower shall be filled back to it\u2019s appropriate levels.\n\u2022\tThe circulating water will be tested for bromine, ABT1 and ABT2 will be added to boost the level above 100ppm, the bromine level will be monitored every 15 minutes\n\u2022\tOnce acceptable the tower will be dosed with commissioning dose of inhibitor\n\u2022\tOn completion of the Tower post-disinfection CBRE will be informed so we can reinstate the electrical supply to the fans and pumps then sign off the permit to work relating to the Tower. The justification provided is: If the cooling tower is not repaired it cannot be used. The cooling towers are an integral piece of equipment for the resilience of PH1. With the warmer months approaching all cooling towers will run at maximum capacity. If not repaired the resilience off PH1 would be at \nrisk.. If not approved, the effect would be: If the cooling tower is not repaired it cannot be used. The cooling towers are an integral piece of equipment for the resilience of PH1. With the warmer months approaching all cooling towers will run at maximum capacity. If not repaired the resilience off PH1 would be at \nrisk..",
+      "status_history": "First, work in progress by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 5303.5, Sell Value: 5674.74, Margin Value: 371.24. Labour: Cost: 328.355, Sell Value: 518.53, Margin Value: 190.175. Grand total: Cost: 5631.855, Sell Value: 6193.27, Margin Value: 561.415, Total: 6193.27.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-CSD 2 GRP Enclosure Repair & Re-seal.",
+      "interal_work_order_num": "UK-EW-12082022-6843",
+      "reference_number": "131166",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "CSD2 GRP Enclosure has got cracks appearing on the roof and the seal externally and internal has perished in areas, which has started to allow water enter the enclosures.",
+        "scope": "Reseal areas on roof that has started to show signs of damage.\nSeal with sealant at low level GRP seal externally.\nSeal internally of enclosure with sealant.\nerect a access mobile platform for for working safely at height.\nReplace Seals around doors.\nfix an FR Tarpaulin over the external roof area of the enclosure and strap down.",
+        "justification": "CSD 2 Enclosure house's the Electrical Switchboards  for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD2, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas.",
+        "non_approval_effect": "CSD 2 Enclosure house's the Electrical Switchboards  for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD2, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6000, Sell Value: 6420, Margin Value: 420",
+        "labour": "Cost: 224.07, Sell Value: 356.02, Margin Value: 131.95",
+        "grand_total": "Cost: 6224.07, Sell Value: 6776.02, Margin Value: 551.95, Total: 6776.02"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 224.07, Total Supply Chain Cost: 6000, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-CSD 2 GRP Enclosure Repair & Re-seal.' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-12082022-6843. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: CSD2 GRP Enclosure has got cracks appearing on the roof and the seal externally and internal has perished in areas, which has started to allow water enter the enclosures.. The defined scope of work includes: Reseal areas on roof that has started to show signs of damage.\nSeal with sealant at low level GRP seal externally.\nSeal internally of enclosure with sealant.\nerect a access mobile platform for for working safely at height.\nReplace Seals around doors.\nfix an FR Tarpaulin over the external roof area of the enclosure and strap down.. The justification provided is: CSD 2 Enclosure house's the Electrical Switchboards  for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD2, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas.. If not approved, the effect would be: CSD 2 Enclosure house's the Electrical Switchboards  for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD2, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas..",
+      "status_history": "First, work in progress by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 6000, Sell Value: 6420, Margin Value: 420. Labour: Cost: 224.07, Sell Value: 356.02, Margin Value: 131.95. Grand total: Cost: 6224.07, Sell Value: 6776.02, Margin Value: 551.95, Total: 6776.02.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-CSD3 Enclosure Roof Repair & Reseal",
+      "interal_work_order_num": "UK-EW-15082022-1176",
+      "reference_number": "131167",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "CSD3 GRP Enclosure has got cracks appearing on the roof and the seal externally and internal has perished in areas, which has started to allow water enter the enclosures.",
+        "scope": "Reseal areas on roof that has started to show signs of damage. Seal with sealant at low level GRP seal externally. Seal internally of enclosure with sealant. erect a access mobile platform for for working safely at height. Replace Seals around doors. fix an FR Tarpaulin over the external roof area of the enclosure and strap down.",
+        "justification": "CSD 3 Enclosure house's the Electrical Switchboards for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD3, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas",
+        "non_approval_effect": "CSD 3 Enclosure house's the Electrical Switchboards for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD3, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6000, Sell Value: 6420, Margin Value: 420",
+        "labour": "Cost: 224.07, Sell Value: 356.02, Margin Value: 131.95",
+        "grand_total": "Cost: 6224.07, Sell Value: 6776.02, Margin Value: 551.95, Total: 6776.02"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 224.07, Total Supply Chain Cost: 6000, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-CSD3 Enclosure Roof Repair & Reseal' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-15082022-1176. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: CSD3 GRP Enclosure has got cracks appearing on the roof and the seal externally and internal has perished in areas, which has started to allow water enter the enclosures.. The defined scope of work includes: Reseal areas on roof that has started to show signs of damage. Seal with sealant at low level GRP seal externally. Seal internally of enclosure with sealant. erect a access mobile platform for for working safely at height. Replace Seals around doors. fix an FR Tarpaulin over the external roof area of the enclosure and strap down.. The justification provided is: CSD 3 Enclosure house's the Electrical Switchboards for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD3, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas. If not approved, the effect would be: CSD 3 Enclosure house's the Electrical Switchboards for the DRUPS, this area covers the The STS within CSW, CSN, CSSE, CSA, CSD, are supplied by the Drups area and if any water ingress seeped into the switchgear it could cause a power failure. Also the area is controlled by fire suppression, and if their were a fire in CSD3, the fire suppression may not work as designed, due to the enclosure not being fully sealed, creating the chance of the gases to help dose the fire then may escape out of the damaged areas.",
+      "status_history": "First, work in progress by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 6000, Sell Value: 6420, Margin Value: 420. Labour: Cost: 224.07, Sell Value: 356.02, Margin Value: 131.95. Grand total: Cost: 6224.07, Sell Value: 6776.02, Margin Value: 551.95, Total: 6776.02.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Ph1A AHU DX Control and Fan Failures",
+      "interal_work_order_num": "UK-EW-17082022-8690",
+      "reference_number": "131180",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The Ph1A AHU DX system provides cooling temperature control and humidification of air entering the DC suites. The AHU provides air change requirements and positive air pressure. Unit 3 had a control failure. This appro covers the specialist investigation and rectification works to reinstate the unit.",
+        "scope": "Investigation of fault, provision of fan replacements and relocation of DX sensors to improve the system control due to a history of  operation",
+        "justification": "The Ph1A AHU DX system provides cooling temperature control and humidification of air entering the DC suites. The AHU provides air change requirements and positive air pressure.",
+        "non_approval_effect": "Reduced resilience in terms of temperature and humidity control in the data suites"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 7265.7798, Sell Value: 7774.3799, Margin Value: 508.6001",
+        "labour": "Cost: 371.145, Sell Value: 558.05, Margin Value: 186.905",
+        "grand_total": "Cost: 7636.9248, Sell Value: 8332.4299, Margin Value: 695.5051, Total: 8332.4299"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 371.145, Total Supply Chain Cost: 7265.7798, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-Ph1A AHU DX Control and Fan Failures' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-17082022-8690. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The Ph1A AHU DX system provides cooling temperature control and humidification of air entering the DC suites. The AHU provides air change requirements and positive air pressure. Unit 3 had a control failure. This appro covers the specialist investigation and rectification works to reinstate the unit.. The defined scope of work includes: Investigation of fault, provision of fan replacements and relocation of DX sensors to improve the system control due to a history of  operation. The justification provided is: The Ph1A AHU DX system provides cooling temperature control and humidification of air entering the DC suites. The AHU provides air change requirements and positive air pressure.. If not approved, the effect would be: Reduced resilience in terms of temperature and humidity control in the data suites.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 7265.7798, Sell Value: 7774.3799, Margin Value: 508.6001. Labour: Cost: 371.145, Sell Value: 558.05, Margin Value: 186.905. Grand total: Cost: 7636.9248, Sell Value: 8332.4299, Margin Value: 695.5051, Total: 8332.4299.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ Installation of Chilled water iron filtration",
+      "interal_work_order_num": "UK-EW-23082022-6599",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 15219.704947221,
+      "margin_value_usd": 1213.5160679264,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following high iron level identified in the chilled water system and the temporary scavsol filtration system at end of life and no longer supported by manufacturer and contractor. It is recommended that the unit is replaced with a better and current filtration system.",
+        "scope": "To supply and install a 25 litre Boss X Pot to the LT CHW system in place of the current filtration system\nInstall pipework and valves \n Carry out Water Sampling at installation and quarterly thereafter",
+        "justification": "Reduction of iron level in the chilled water system. \nReduced risk of bacteria growth within the chilled water system",
+        "non_approval_effect": "Continued increased iron level and bacteria growth in the chilled water system leading to damage to the chillers and possible pipework leak within the Data Centre"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 10716.2, Sell Value: 11466.334, Margin Value: 750.134",
+        "labour": "Cost: 296.86631578947, Sell Value: 500.92, Margin Value: 204.05368421053",
+        "grand_total": "Cost: 11013.066315789, Sell Value: 11967.254, Margin Value: 954.18768421053, Total: 11967.254"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 296.86631578947, Total Supply Chain Cost: 10716.2, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11967.254",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-HZ Installation of Chilled water iron filtration' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-23082022-6599. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following high iron level identified in the chilled water system and the temporary scavsol filtration system at end of life and no longer supported by manufacturer and contractor. It is recommended that the unit is replaced with a better and current filtration system.. The defined scope of work includes: To supply and install a 25 litre Boss X Pot to the LT CHW system in place of the current filtration system\nInstall pipework and valves \n Carry out Water Sampling at installation and quarterly thereafter. The justification provided is: Reduction of iron level in the chilled water system. \nReduced risk of bacteria growth within the chilled water system. If not approved, the effect would be: Continued increased iron level and bacteria growth in the chilled water system leading to damage to the chillers and possible pipework leak within the Data Centre.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 10716.2, Sell Value: 11466.334, Margin Value: 750.134. Labour: Cost: 296.86631578947, Sell Value: 500.92, Margin Value: 204.05368421053. Grand total: Cost: 11013.066315789, Sell Value: 11967.254, Margin Value: 954.18768421053, Total: 11967.254.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ EPH Generator Remedials",
+      "interal_work_order_num": "UK-EW-24082022-2893",
+      "reference_number": "TBC",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following generator maintenance carried out it was found that remedials are required to generators 1, 2 and 3",
+        "scope": "Attend site office\nReceive induction\nSign relevant paperwork\n\nChange oil and air filters on generators 1, 2 and 3",
+        "justification": "All the remedial works will ensure ongoing serviceability to support critical site services during power outage",
+        "non_approval_effect": "Possible failure of generators during power outage and loss of IT load"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3919, Sell Value: 4193.33, Margin Value: 274.33",
+        "labour": "Cost: 138.52631578947, Sell Value: 184.24, Margin Value: 45.713684210526",
+        "grand_total": "Cost: 4057.5263157895, Sell Value: 4377.57, Margin Value: 320.04368421053, Total: 4377.57"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 138.52631578947, Total Supply Chain Cost: 3919, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-HZ EPH Generator Remedials' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-24082022-2893. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following generator maintenance carried out it was found that remedials are required to generators 1, 2 and 3. The defined scope of work includes: Attend site office\nReceive induction\nSign relevant paperwork\n\nChange oil and air filters on generators 1, 2 and 3. The justification provided is: All the remedial works will ensure ongoing serviceability to support critical site services during power outage. If not approved, the effect would be: Possible failure of generators during power outage and loss of IT load.",
+      "status_history": "First, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 3919, Sell Value: 4193.33, Margin Value: 274.33. Labour: Cost: 138.52631578947, Sell Value: 184.24, Margin Value: 45.713684210526. Grand total: Cost: 4057.5263157895, Sell Value: 4377.57, Margin Value: 320.04368421053, Total: 4377.57.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ Installation of Chilled water iron filtration",
+      "interal_work_order_num": "UK-EW-23082022-6599.1",
+      "reference_number": "2783670",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 15219.704947221,
+      "margin_value_usd": 1155.3783543177,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following high iron level identified in the chilled water system and the temporary scavsol filtration system at end of life and no longer supported by manufacturer and contractor. It is recommended that the unit is replaced with a better and current filtration system.",
+        "scope": "To supply and install a 25 litre Boss X Pot to the LT CHW system in place of the current filtration system\nInstall pipework and valves \nCarry out Water Sampling at installation and quarterly thereafter",
+        "justification": "Reduction of iron level in the chilled water system. \nReduced risk of bacteria growth within the chilled water system",
+        "non_approval_effect": "Continued increased iron level and bacteria growth in the chilled water system leading to damage to the chillers and possible pipework leak within the Data Centre"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 10716.2, Sell Value: 11466.334, Margin Value: 750.134",
+        "labour": "Cost: 342.58, Sell Value: 500.92, Margin Value: 158.34",
+        "grand_total": "Cost: 11058.78, Sell Value: 11967.254, Margin Value: 908.474, Total: 11967.254"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 342.58, Total Supply Chain Cost: 10716.2, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11967.254",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-HZ Installation of Chilled water iron filtration' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-23082022-6599.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following high iron level identified in the chilled water system and the temporary scavsol filtration system at end of life and no longer supported by manufacturer and contractor. It is recommended that the unit is replaced with a better and current filtration system.. The defined scope of work includes: To supply and install a 25 litre Boss X Pot to the LT CHW system in place of the current filtration system\nInstall pipework and valves \nCarry out Water Sampling at installation and quarterly thereafter. The justification provided is: Reduction of iron level in the chilled water system. \nReduced risk of bacteria growth within the chilled water system. If not approved, the effect would be: Continued increased iron level and bacteria growth in the chilled water system leading to damage to the chillers and possible pipework leak within the Data Centre.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 10716.2, Sell Value: 11466.334, Margin Value: 750.134. Labour: Cost: 342.58, Sell Value: 500.92, Margin Value: 158.34. Grand total: Cost: 11058.78, Sell Value: 11967.254, Margin Value: 908.474, Total: 11967.254.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ Installation of Chilled water iron filtration",
+      "interal_work_order_num": "UK-EW-23082022-6599.2",
+      "reference_number": "2783670",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 15219.704947221,
+      "margin_value_usd": 1155.3783543177,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer approved by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following high iron level identified in the chilled water system and the temporary scavsol filtration system at end of life and no longer supported by manufacturer and contractor. It is recommended that the unit is replaced with a better and current filtration system.",
+        "scope": "To supply and install a 25 litre Boss X Pot to the LT CHW system in place of the current filtration system\nInstall pipework and valves \nCarry out Water Sampling at installation and quarterly thereafter",
+        "justification": "Reduction of iron level in the chilled water system. \nReduced risk of bacteria growth within the chilled water system",
+        "non_approval_effect": "Continued increased iron level and bacteria growth in the chilled water system leading to damage to the chillers and possible pipework leak within the Data Centre"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 10716.2, Sell Value: 11466.334, Margin Value: 750.134",
+        "labour": "Cost: 342.58, Sell Value: 500.92, Margin Value: 158.34",
+        "grand_total": "Cost: 11058.78, Sell Value: 11967.254, Margin Value: 908.474, Total: 11967.254"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 342.58, Total Supply Chain Cost: 10716.2, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11967.254",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: GB1PO000162111, PO Value: 11967.2, Date: 2023-03-02, From CBRE: Yes, Sell Value: 11967.254, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured the metadata, scope, financials and status sequence into clean summaries, returning 'N/A' for fields explicitly indicating missing information.",
+      "overview": "Project 'UPM-HZ Installation of Chilled water iron filtration' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-23082022-6599.2. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following high iron level identified in the chilled water system and the temporary scavsol filtration system at end of life and no longer supported by manufacturer and contractor. It is recommended that the unit is replaced with a better and current filtration system.. The defined scope of work includes: To supply and install a 25 litre Boss X Pot to the LT CHW system in place of the current filtration system\nInstall pipework and valves \nCarry out Water Sampling at installation and quarterly thereafter. The justification provided is: Reduction of iron level in the chilled water system. \nReduced risk of bacteria growth within the chilled water system. If not approved, the effect would be: Continued increased iron level and bacteria growth in the chilled water system leading to damage to the chillers and possible pipework leak within the Data Centre.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer approved by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 10716.2, Sell Value: 11466.334, Margin Value: 750.134. Labour: Cost: 342.58, Sell Value: 500.92, Margin Value: 158.34. Grand total: Cost: 11058.78, Sell Value: 11967.254, Margin Value: 908.474, Total: 11967.254.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: GB1PO000162111, PO Value: 11967.2, Date: 2023-03-02, From CBRE: Yes, Sell Value: 11967.254, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

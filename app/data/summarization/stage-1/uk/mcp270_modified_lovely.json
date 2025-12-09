@@ -1,0 +1,576 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-EPH UPS 2 Capacitor replacement",
+      "interal_work_order_num": "UK-EW-17042023-4745",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eliseo Treutel",
+      "quote_value_usd": 8528.6862520666,
+      "margin_value_usd": 620.71219636271,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Eliseo Treutel (2):rejected by Prof. Miracle Abshire (3):offer submitted by Eliseo Treutel (4):work in progress by Eliseo Treutel",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.",
+        "scope": "Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation",
+        "justification": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.",
+        "non_approval_effect": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816",
+        "labour": "Cost: 549.24, Sell Value: 640.49, Margin Value: 91.25",
+        "grand_total": "Cost: 6218.04, Sell Value: 6706.106, Margin Value: 488.066, Total: 6706.106"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 549.24, Total Supply Chain Cost: 5668.8, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 6706.106",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-EPH UPS 2 Capacitor replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Eliseo Treutel under internal work order UK-EW-17042023-4745. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.. The defined scope of work includes: Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation. The justification provided is: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.. If not approved, the effect would be: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service..",
+      "status_history": "First, billing completed by Eliseo Treutel. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Eliseo Treutel. Subsequently, work in progress by Eliseo Treutel.",
+      "project_financials": "Vendor costs: Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816. Labour: Cost: 549.24, Sell Value: 640.49, Margin Value: 91.25. Grand total: Cost: 6218.04, Sell Value: 6706.106, Margin Value: 488.066, Total: 6706.106.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS 3 failed DICON repair",
+      "interal_work_order_num": "UK-EW-17042023-9469",
+      "reference_number": "137335",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 11481.54648353,
+      "margin_value_usd": 766.48353045911,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Neil Hauck (2):rejected by Neil Hauck (3):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During DRUPS 3 overhaul it was found that the DICON unit had failed and needed to be replaced",
+        "scope": "To replace the DRUPS 3 DICON unit",
+        "justification": "This unit is needed for DRUPS 3 to function,  run and support IT load",
+        "non_approval_effect": "Unit will not be put back into service"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 8353.47, Sell Value: 8938.21, Margin Value: 584.74",
+        "labour": "Cost: 71.784, Sell Value: 89.73, Margin Value: 17.946",
+        "grand_total": "Cost: 8425.254, Sell Value: 9027.94, Margin Value: 602.686, Total: 9027.94"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 71.784, Total Supply Chain Cost: 8353.47, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 9027.9451",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS 3 failed DICON repair' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-17042023-9469. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: During DRUPS 3 overhaul it was found that the DICON unit had failed and needed to be replaced. The defined scope of work includes: To replace the DRUPS 3 DICON unit. The justification provided is: This unit is needed for DRUPS 3 to function,  run and support IT load. If not approved, the effect would be: Unit will not be put back into service.",
+      "status_history": "First, billing completed by Neil Hauck. Then, rejected by Neil Hauck. After that, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 8353.47, Sell Value: 8938.21, Margin Value: 584.74. Labour: Cost: 71.784, Sell Value: 89.73, Margin Value: 17.946. Grand total: Cost: 8425.254, Sell Value: 9027.94, Margin Value: 602.686, Total: 9027.94.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS 3 failed DICON repair",
+      "interal_work_order_num": "UK-EW-17042023-9469.1",
+      "reference_number": "137335",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 11481.54648353,
+      "margin_value_usd": 766.48353045911,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Neil Hauck (2):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process\n4. eVbo not required for this project.",
+        "problem": "During DRUPS 3 overhaul it was found that the DICON unit had failed and needed to be replaced",
+        "scope": "To replace the DRUPS 3 DICON unit",
+        "justification": "This unit is needed for DRUPS 3 to function,  run and support IT load. eVbo not required for this project.",
+        "non_approval_effect": "Unit will not be put back into service"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 8353.47, Sell Value: 8938.21, Margin Value: 584.74",
+        "labour": "Cost: 71.784, Sell Value: 89.73, Margin Value: 17.946",
+        "grand_total": "Cost: 8425.254, Sell Value: 9027.94, Margin Value: 602.686, Total: 9027.94"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 71.784, Total Supply Chain Cost: 8353.47, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 9027.9429",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS 3 failed DICON repair' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-17042023-9469.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process\n4. eVbo not required for this project.. The problem statement indicates: During DRUPS 3 overhaul it was found that the DICON unit had failed and needed to be replaced. The defined scope of work includes: To replace the DRUPS 3 DICON unit. The justification provided is: This unit is needed for DRUPS 3 to function,  run and support IT load. eVbo not required for this project.. If not approved, the effect would be: Unit will not be put back into service.",
+      "status_history": "First, billing completed by Neil Hauck. Then, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 8353.47, Sell Value: 8938.21, Margin Value: 584.74. Labour: Cost: 71.784, Sell Value: 89.73, Margin Value: 17.946. Grand total: Cost: 8425.254, Sell Value: 9027.94, Margin Value: 602.686, Total: 9027.94.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-EPH UPS 2 Capacitor replacement",
+      "interal_work_order_num": "UK-EW-17042023-4745.1",
+      "reference_number": "2,810,013",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eliseo Treutel",
+      "quote_value_usd": 7714.1243800076,
+      "margin_value_usd": 504.66234261732,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.",
+        "scope": "Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation",
+        "justification": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.",
+        "non_approval_effect": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816, Total: 6065.616"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 5668.8, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 6065.616",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-EPH UPS 2 Capacitor replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Eliseo Treutel under internal work order UK-EW-17042023-4745.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.. The defined scope of work includes: Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation. The justification provided is: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.. If not approved, the effect would be: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service..",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816, Total: 6065.616.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-EPH UPS 2 Capacitor replacement",
+      "interal_work_order_num": "UK-EW-17042023-4745.2",
+      "reference_number": "2,810,013",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eliseo Treutel",
+      "quote_value_usd": 8390.011446013,
+      "margin_value_usd": 639.83975581839,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.",
+        "scope": "Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation",
+        "justification": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.",
+        "non_approval_effect": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816",
+        "labour": "Cost: 425.16, Sell Value: 531.45, Margin Value: 106.29",
+        "grand_total": "Cost: 6093.96, Sell Value: 6597.066, Margin Value: 503.106, Total: 6597.066"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 425.16, Total Supply Chain Cost: 5668.8, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 6597.0759",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-EPH UPS 2 Capacitor replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Eliseo Treutel under internal work order UK-EW-17042023-4745.2. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.. The defined scope of work includes: Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation. The justification provided is: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.. If not approved, the effect would be: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service..",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816. Labour: Cost: 425.16, Sell Value: 531.45, Margin Value: 106.29. Grand total: Cost: 6093.96, Sell Value: 6597.066, Margin Value: 503.106, Total: 6597.066.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-EPH UPS 2 Capacitor replacement",
+      "interal_work_order_num": "UK-EW-17042023-4745.3",
+      "reference_number": "2,810,013",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eliseo Treutel",
+      "quote_value_usd": 8390.011446013,
+      "margin_value_usd": 592.97723515198,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.",
+        "scope": "Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation",
+        "justification": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.",
+        "non_approval_effect": "UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816",
+        "labour": "Cost: 462.008, Sell Value: 531.45, Margin Value: 69.442",
+        "grand_total": "Cost: 6130.808, Sell Value: 6597.066, Margin Value: 466.258, Total: 6597.066"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 462.008, Total Supply Chain Cost: 5668.8, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 6597.066",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-EPH UPS 2 Capacitor replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Eliseo Treutel under internal work order UK-EW-17042023-4745.3. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: EPH UPS 2 Capacitor replacement x 10 as per contractor quotation.. The defined scope of work includes: Confirm UPS module 2 isolated and dead to allow for AC capacitor replacement to be carried out. Test and ensure correct operation and restore UPS 2 to service and back to normal operation. The justification provided is: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service.. If not approved, the effect would be: UPS 2 offline reducing the system resiliency to N down from N+1. UPS 3 service maintenance cannot be completed until UPS has been returned to service..",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 5668.8, Sell Value: 6065.616, Margin Value: 396.816. Labour: Cost: 462.008, Sell Value: 531.45, Margin Value: 69.442. Grand total: Cost: 6130.808, Sell Value: 6597.066, Margin Value: 466.258, Total: 6597.066.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Ph1A AHU DX3 Fan Faults and associated BMS control",
+      "interal_work_order_num": "UK-EW-19042023-3243",
+      "reference_number": "Helpdesk Request ID 2810232 - Appro 137407",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During the April specialist contractor DX service it was found that the Ph1A AHU DX3 has 2 faulty fans and an issue with the system BMS control",
+        "scope": "Replace faulty fans on DX3 unit and alter BMS program and relocate temperature sensors to improve the systems control",
+        "justification": "Ph1A AHU DX system provides the cooling circuit within the AHU which controls and maintains temperature and humidity of CSC/CSD/CSE suites within acceptable limits",
+        "non_approval_effect": "Difficulty maintaining temperature and humidity within set limits, particularly in the summer months"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 7496.61, Sell Value: 8021.3727, Margin Value: 524.7627",
+        "labour": "Cost: 397.6, Sell Value: 473.97, Margin Value: 76.37",
+        "grand_total": "Cost: 7894.21, Sell Value: 8495.3427, Margin Value: 601.1327, Total: 8495.3427"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 397.6, Total Supply Chain Cost: 7496.61, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-Ph1A AHU DX3 Fan Faults and associated BMS control' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-19042023-3243. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: During the April specialist contractor DX service it was found that the Ph1A AHU DX3 has 2 faulty fans and an issue with the system BMS control. The defined scope of work includes: Replace faulty fans on DX3 unit and alter BMS program and relocate temperature sensors to improve the systems control. The justification provided is: Ph1A AHU DX system provides the cooling circuit within the AHU which controls and maintains temperature and humidity of CSC/CSD/CSE suites within acceptable limits. If not approved, the effect would be: Difficulty maintaining temperature and humidity within set limits, particularly in the summer months.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 7496.61, Sell Value: 8021.3727, Margin Value: 524.7627. Labour: Cost: 397.6, Sell Value: 473.97, Margin Value: 76.37. Grand total: Cost: 7894.21, Sell Value: 8495.3427, Margin Value: 601.1327, Total: 8495.3427.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS 1 Water pump seal replacement",
+      "interal_work_order_num": "UK-EW-09052023-148",
+      "reference_number": "137631",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 9764.9807961338,
+      "margin_value_usd": 733.68994022638,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Neil Hauck (2):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. eVBO not required for this project.",
+        "problem": "DRUPS 1 water pump has a leak from its seals that require replacement",
+        "scope": "To remove water pump and replace seals",
+        "justification": "DRUPS 1 is constantly leaking a small amount of coolant from its water pump seals.\neVbo not required for this project.",
+        "non_approval_effect": "DRUPS 1 water pump will continue to leak"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6657.92, Sell Value: 7123.9744, Margin Value: 466.0544",
+        "labour": "Cost: 443.384, Sell Value: 554.23, Margin Value: 110.846",
+        "grand_total": "Cost: 7101.304, Sell Value: 7678.2044, Margin Value: 576.9004, Total: 7678.2044"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 443.384, Total Supply Chain Cost: 6657.92, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 7678.2025",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS 1 Water pump seal replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-09052023-148. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. eVBO not required for this project.. The problem statement indicates: DRUPS 1 water pump has a leak from its seals that require replacement. The defined scope of work includes: To remove water pump and replace seals. The justification provided is: DRUPS 1 is constantly leaking a small amount of coolant from its water pump seals.\neVbo not required for this project.. If not approved, the effect would be: DRUPS 1 water pump will continue to leak.",
+      "status_history": "First, billing completed by Neil Hauck. Then, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 6657.92, Sell Value: 7123.9744, Margin Value: 466.0544. Labour: Cost: 443.384, Sell Value: 554.23, Margin Value: 110.846. Grand total: Cost: 7101.304, Sell Value: 7678.2044, Margin Value: 576.9004, Total: 7678.2044.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HV Switchgear and Transfomer 5Y MAM 2023 - DRUPS & Ph1",
+      "interal_work_order_num": "UK-EW-10052023-5542",
+      "reference_number": "HDR 2811531 - Appro 137674",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The 5 year HV Switchgear and transformer maintenance for DRUPS sub-stations and Ph1 substations is due in 2023",
+        "scope": "Service of DRUPS substation HV switchgear (3 x RMUs), 2 x Cast Resin Transformers, Phase 1 Roof Substation HV Switchboard and Package Sub RMU, 1 x Cast Resin, 1 x Oil Cooled, 5 x Formel Insulated Transformers. Hire of loadbanks to provide load greater than 30% for sustained daily generator runs during periods of Mains supply loss. Support install of loadbank cables, connection, testing, disconnection.\nReplenish fuel stock level following generator runs",
+        "justification": "To ensure maximum reliability of electrical infrastructure and confirm operation of associated circuit protection devices",
+        "non_approval_effect": "Increased business risk of switchgear or transformer failure serving the Warwick Data Centre"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 32062.25, Sell Value: 34306.6075, Margin Value: 2244.3575",
+        "labour": "Cost: 3356.528, Sell Value: 4149.6, Margin Value: 793.072",
+        "grand_total": "Cost: 35418.778, Sell Value: 38456.2075, Margin Value: 3037.4295, Total: 38456.2075"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 3356.528, Total Supply Chain Cost: 32062.25, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-HV Switchgear and Transfomer 5Y MAM 2023 - DRUPS & Ph1' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-10052023-5542. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The 5 year HV Switchgear and transformer maintenance for DRUPS sub-stations and Ph1 substations is due in 2023. The defined scope of work includes: Service of DRUPS substation HV switchgear (3 x RMUs), 2 x Cast Resin Transformers, Phase 1 Roof Substation HV Switchboard and Package Sub RMU, 1 x Cast Resin, 1 x Oil Cooled, 5 x Formel Insulated Transformers. Hire of loadbanks to provide load greater than 30% for sustained daily generator runs during periods of Mains supply loss. Support install of loadbank cables, connection, testing, disconnection.\nReplenish fuel stock level following generator runs. The justification provided is: To ensure maximum reliability of electrical infrastructure and confirm operation of associated circuit protection devices. If not approved, the effect would be: Increased business risk of switchgear or transformer failure serving the Warwick Data Centre.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 32062.25, Sell Value: 34306.6075, Margin Value: 2244.3575. Labour: Cost: 3356.528, Sell Value: 4149.6, Margin Value: 793.072. Grand total: Cost: 35418.778, Sell Value: 38456.2075, Margin Value: 3037.4295, Total: 38456.2075.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DC Link Corridor Decoration",
+      "interal_work_order_num": "UK-EW-11052023-9523",
+      "reference_number": "tbc",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Marge Hills",
+      "quote_value_usd": 15117.893933613,
+      "margin_value_usd": 1102.5003179448,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Marge Hills (2):rejected by Marge Hills (3):offer submitted by Marge Hills (4):work in progress by Marge Hills",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The access corridor to the data centre is looking dated with paintwork peeling off and generally in a poor condition.  There is also an opportunity to upgrade low level lighting to LED occupancy-controlled fittings to reduce energy consumption, running costs, CO2 emissions and associated maintenance costs.",
+        "scope": "Decoration Works:\n\u2022\tProvide a temporary screen to segregate the half of the corridor being worked on at the time.\n\u2022\tProvide temporary flooring protection for the duration of the works in the form of Correx sheeting.\n\u2022\tClean all existing aluminium glazing bars supporting glass panels.\n\u2022\tPrepare and paint all existing white structural steelwork with 3 full coats of Rustoleum Noxyde Pegacrl in white.\n\u2022\tPaint all shadow baton in black eggshell.\n\u2022\tSupply all required access equipment to complete the works detailed in this document.\n\u2022\tRemove all waste created by these works from site.\n\u2022\tSupply as part of final handover an O&M manual detailing all materials used.\nElectrical Works:\n\u2022\tUpgrade low level light fittings for LED occupancy-controlled equivalents\n\u2022\tRemove all waste created by these works from site.\n\u2022\tSupply as part of final handover an O&M manual detailing all materials used.",
+        "justification": "This is the main entrance to the data centre and provides the first impression for new and existing clients, this area is not up to the standards expected and required of a data centre entrance. If left indefinitely structural problems will begin to occur with corrosion setting in.",
+        "non_approval_effect": "This area will remain in a poor condition leading to poor first impressions of the data centre. Structural problems could eventually occur."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 10234, Sell Value: 10950.38, Margin Value: 716.38",
+        "labour": "Cost: 786.304, Sell Value: 936.82, Margin Value: 150.516",
+        "grand_total": "Cost: 11020.304, Sell Value: 11887.2, Margin Value: 866.896, Total: 11887.2"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 786.304, Total Supply Chain Cost: 10234, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11887.2",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I structured all metadata, scope, financials and workflow transitions into descriptive summaries while marking missing items strictly as 'N/A'.",
+      "overview": "Project 'UPM-DC Link Corridor Decoration' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Marge Hills under internal work order UK-EW-11052023-9523. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The access corridor to the data centre is looking dated with paintwork peeling off and generally in a poor condition.  There is also an opportunity to upgrade low level lighting to LED occupancy-controlled fittings to reduce energy consumption, running costs, CO2 emissions and associated maintenance costs.. The defined scope of work includes: Decoration Works:\n\u2022\tProvide a temporary screen to segregate the half of the corridor being worked on at the time.\n\u2022\tProvide temporary flooring protection for the duration of the works in the form of Correx sheeting.\n\u2022\tClean all existing aluminium glazing bars supporting glass panels.\n\u2022\tPrepare and paint all existing white structural steelwork with 3 full coats of Rustoleum Noxyde Pegacrl in white.\n\u2022\tPaint all shadow baton in black eggshell.\n\u2022\tSupply all required access equipment to complete the works detailed in this document.\n\u2022\tRemove all waste created by these works from site.\n\u2022\tSupply as part of final handover an O&M manual detailing all materials used.\nElectrical Works:\n\u2022\tUpgrade low level light fittings for LED occupancy-controlled equivalents\n\u2022\tRemove all waste created by these works from site.\n\u2022\tSupply as part of final handover an O&M manual detailing all materials used.. The justification provided is: This is the main entrance to the data centre and provides the first impression for new and existing clients, this area is not up to the standards expected and required of a data centre entrance. If left indefinitely structural problems will begin to occur with corrosion setting in.. If not approved, the effect would be: This area will remain in a poor condition leading to poor first impressions of the data centre. Structural problems could eventually occur..",
+      "status_history": "First, billing completed by Marge Hills. Then, rejected by Marge Hills. After that, offer submitted by Marge Hills. Subsequently, work in progress by Marge Hills.",
+      "project_financials": "Vendor costs: Cost: 10234, Sell Value: 10950.38, Margin Value: 716.38. Labour: Cost: 786.304, Sell Value: 936.82, Margin Value: 150.516. Grand total: Cost: 11020.304, Sell Value: 11887.2, Margin Value: 866.896, Total: 11887.2.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

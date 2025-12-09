@@ -1,0 +1,580 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-Hz - Warwick Loading Bay 1A Fork Lift Repair",
+      "interal_work_order_num": "UK-EW-05032024-7798.2",
+      "reference_number": "HDR TBC Appro TBC",
+      "project_status": "Rejected",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 1342.7424647081,
+      "margin_value_usd": 96.765102378227,
+      "status_history": "here is the status change history of project in numbering order(1):rejected by Jayme Feil (2):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The LB1A fork lift main drive wheel outer rubber has perished and split",
+        "scope": "Replace main drive wheel",
+        "justification": "This is the only fork truck that can reach the loading bay racking top level",
+        "non_approval_effect": "No access to the racking top level for storage or removal of existing stored materials"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 888.64, Sell Value: 941.9584, Margin Value: 53.3184",
+        "labour": "Cost: 91.072, Sell Value: 113.84, Margin Value: 22.768",
+        "grand_total": "Cost: 979.712, Sell Value: 1055.7984, Margin Value: 76.0864, Total: 1055.7984"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 91.072, Total Supply Chain Cost: 888.64, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1055.7984",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz - Warwick Loading Bay 1A Fork Lift Repair' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-05032024-7798.2. Current status is 'Rejected'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The LB1A fork lift main drive wheel outer rubber has perished and split. The defined scope of work includes: Replace main drive wheel. The justification provided is: This is the only fork truck that can reach the loading bay racking top level. If not approved, the effect would be: No access to the racking top level for storage or removal of existing stored materials.",
+      "status_history": "First, rejected by Jayme Feil. Then, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 888.64, Sell Value: 941.9584, Margin Value: 53.3184. Labour: Cost: 91.072, Sell Value: 113.84, Margin Value: 22.768. Grand total: Cost: 979.712, Sell Value: 1055.7984, Margin Value: 76.0864, Total: 1055.7984.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hz - Warwick Loading Bay 1A Fork Lift Repair",
+      "interal_work_order_num": "UK-EW-05032024-7798.3",
+      "reference_number": "HDR 2829479 Appro 140518",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 1342.7424647081,
+      "margin_value_usd": 96.765102378227,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled by Bilal (2):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \r\n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \r\n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The LB1A fork lift main drive wheel outer rubber has perished and split",
+        "scope": "Replace main drive wheel",
+        "justification": "This is the only fork truck that can reach the loading bay racking top level",
+        "non_approval_effect": "No access to the racking top level for storage or removal of existing stored materials"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 888.64, Sell Value: 941.9584, Margin Value: 53.3184",
+        "labour": "Cost: 91.072, Sell Value: 113.84, Margin Value: 22.768",
+        "grand_total": "Cost: 979.712, Sell Value: 1055.7984, Margin Value: 76.0864, Total: 1055.7984"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 91.072, Total Supply Chain Cost: 888.64, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 1055.7984",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz - Warwick Loading Bay 1A Fork Lift Repair' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-05032024-7798.3. Current status is 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \r\n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \r\n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The LB1A fork lift main drive wheel outer rubber has perished and split. The defined scope of work includes: Replace main drive wheel. The justification provided is: This is the only fork truck that can reach the loading bay racking top level. If not approved, the effect would be: No access to the racking top level for storage or removal of existing stored materials.",
+      "status_history": "First, cancelled by Bilal. Then, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 888.64, Sell Value: 941.9584, Margin Value: 53.3184. Labour: Cost: 91.072, Sell Value: 113.84, Margin Value: 22.768. Grand total: Cost: 979.712, Sell Value: 1055.7984, Margin Value: 76.0864, Total: 1055.7984.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick Camera No.10 PTZ Camera Replacement",
+      "interal_work_order_num": "UK-EW-12032024-8780",
+      "reference_number": null,
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Brando Dooley DDS",
+      "quote_value_usd": 6734.4824054622,
+      "margin_value_usd": 460.9556197479,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled by Bilal (2):sor submitted / draft by Brando Dooley DDS",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "CCTV Camera No.10 is a legacy analogue PTZ camera which has failed and there is suspected cable damage necessitating replacement of the camera and the associated connectivity cabling.",
+        "scope": "Replacement and re-cabling of the existing analogue PTZ camera (Camera # 10) with an IP professional grade CCTV PTZ camera to conform with the Kyndryl CCTV technical standard and configuration of the camera onto the Milestone CCTV platform",
+        "justification": "As all the CCTV cameras along the rear fence line are fixed cameras, No.10 has the ability to Pan, Tilt and  zoom to be able to follow and zoom in on situations that may arise. Replacing this camera avoids having blind spots along the perimeter fencing. A well maintained  CCTV system is essential to ensure that it is always operational and providing the best possible coverage identifying and addressing issues before they become major problems, and minimize the risk to the Kyndryl business",
+        "non_approval_effect": "Non replacement of camera No.10  will  leave the site  with blind spots along the rear fence and gate area."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4439.03, Sell Value: 4705.3718, Margin Value: 266.3418",
+        "labour": "Cost: 338.888, Sell Value: 423.61, Margin Value: 84.722",
+        "grand_total": "Cost: 4777.918, Sell Value: 5128.9818, Margin Value: 351.0638, Total: 5128.9818"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 338.888, Total Supply Chain Cost: 4439.03, Total Other Cost: 0. Draft Approval - Status: , Grand Total: 5128.9818",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Kyndryl Warwick Camera No.10 PTZ Camera Replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Brando Dooley DDS under internal work order UK-EW-12032024-8780. Current status is 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: CCTV Camera No.10 is a legacy analogue PTZ camera which has failed and there is suspected cable damage necessitating replacement of the camera and the associated connectivity cabling.. The defined scope of work includes: Replacement and re-cabling of the existing analogue PTZ camera (Camera # 10) with an IP professional grade CCTV PTZ camera to conform with the Kyndryl CCTV technical standard and configuration of the camera onto the Milestone CCTV platform. The justification provided is: As all the CCTV cameras along the rear fence line are fixed cameras, No.10 has the ability to Pan, Tilt and  zoom to be able to follow and zoom in on situations that may arise. Replacing this camera avoids having blind spots along the perimeter fencing. A well maintained  CCTV system is essential to ensure that it is always operational and providing the best possible coverage identifying and addressing issues before they become major problems, and minimize the risk to the Kyndryl business. If not approved, the effect would be: Non replacement of camera No.10  will  leave the site  with blind spots along the rear fence and gate area..",
+      "status_history": "First, cancelled by Bilal. Then, sor submitted / draft by Brando Dooley DDS.",
+      "project_financials": "Vendor costs: Cost: 4439.03, Sell Value: 4705.3718, Margin Value: 266.3418. Labour: Cost: 338.888, Sell Value: 423.61, Margin Value: 84.722. Grand total: Cost: 4777.918, Sell Value: 5128.9818, Margin Value: 351.0638, Total: 5128.9818.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ - Ph1A AHU Fan Failure / Refurb",
+      "interal_work_order_num": "UK-EW-25032024-4029",
+      "reference_number": "HDR 2830345 Appro No. 140696",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 5357.2216386555,
+      "margin_value_usd": 412.83088235294,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled by Bilal (2):sor submitted / draft by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "5th March call out to attend fire alarm activation, Suite CSC. On investigation located problem to be Ph1A roof plantroom smell of burning. Found Ph1A AHU intake fan to be catching on cowl. Specialist investigation found bearings collapsing and confirmed requirement for overhaul",
+        "scope": "Dismantle, inspect and report.\nClean and stove winding, carry out necessary electrical tests.\nCheck bearing housings/seats and shafts for size and tolerance.\nCheck fan/impellor for defects.\nReport and quote our findings.\nProceed with repairs inclusive of;\nSupply and fit free issue bearings\nCarry out fan balance\nReassemble fan unit\nRepaint as required.\nReinstall fan unit\nRun test with CBRE",
+        "justification": "Intake fan delivers fresh air to support DC air quality, temperature, humidity & required air changes as BP",
+        "non_approval_effect": "System remains at N. Increased business risk not being able to maintain desired air quality to suites"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3300, Sell Value: 3498, Margin Value: 198",
+        "labour": "Cost: 465.648, Sell Value: 582.06, Margin Value: 116.412",
+        "grand_total": "Cost: 3765.648, Sell Value: 4080.06, Margin Value: 314.412, Total: 4080.06"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 465.648, Total Supply Chain Cost: 3300, Total Other Cost: 0. Draft Approval - Status: , Grand Total: 4080.06",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-HZ - Ph1A AHU Fan Failure / Refurb' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-25032024-4029. Current status is 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: 5th March call out to attend fire alarm activation, Suite CSC. On investigation located problem to be Ph1A roof plantroom smell of burning. Found Ph1A AHU intake fan to be catching on cowl. Specialist investigation found bearings collapsing and confirmed requirement for overhaul. The defined scope of work includes: Dismantle, inspect and report.\nClean and stove winding, carry out necessary electrical tests.\nCheck bearing housings/seats and shafts for size and tolerance.\nCheck fan/impellor for defects.\nReport and quote our findings.\nProceed with repairs inclusive of;\nSupply and fit free issue bearings\nCarry out fan balance\nReassemble fan unit\nRepaint as required.\nReinstall fan unit\nRun test with CBRE. The justification provided is: Intake fan delivers fresh air to support DC air quality, temperature, humidity & required air changes as BP. If not approved, the effect would be: System remains at N. Increased business risk not being able to maintain desired air quality to suites.",
+      "status_history": "First, cancelled by Bilal. Then, sor submitted / draft by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 3300, Sell Value: 3498, Margin Value: 198. Labour: Cost: 465.648, Sell Value: 582.06, Margin Value: 116.412. Grand total: Cost: 3765.648, Sell Value: 4080.06, Margin Value: 314.412, Total: 4080.06.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Generator1 - oil/filter replacement",
+      "interal_work_order_num": "UK-EW-08042024-870",
+      "reference_number": "2830662",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 6769.8847768027,
+      "margin_value_usd": 429.40404425792,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Generator1's engine oil and oil filters have been recommended for replacement.",
+        "scope": "1. Replace Generator1's engine oil.\n3. Generator1's engine oil filters.",
+        "justification": "Old oil will not correctly lubricate and protect the internal engine components.",
+        "non_approval_effect": "Increased risk of Generator1 failure."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 4782.84, Sell Value: 5069.8104, Margin Value: 286.9704",
+        "labour": "Cost: 202.68, Sell Value: 253.35, Margin Value: 50.67",
+        "grand_total": "Cost: 4985.52, Sell Value: 5323.1604, Margin Value: 337.6404, Total: 5323.1604"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 202.68, Total Supply Chain Cost: 4782.84, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 5323.1544",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Generator1 - oil/filter replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-08042024-870. Current status is 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Generator1's engine oil and oil filters have been recommended for replacement.. The defined scope of work includes: 1. Replace Generator1's engine oil.\n3. Generator1's engine oil filters.. The justification provided is: Old oil will not correctly lubricate and protect the internal engine components.. If not approved, the effect would be: Increased risk of Generator1 failure..",
+      "status_history": "First, cancelled. Then, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 4782.84, Sell Value: 5069.8104, Margin Value: 286.9704. Labour: Cost: 202.68, Sell Value: 253.35, Margin Value: 50.67. Grand total: Cost: 4985.52, Sell Value: 5323.1604, Margin Value: 337.6404, Total: 5323.1604.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Generator2 - engine heaters and oil/filter replacement",
+      "interal_work_order_num": "UK-EW-08042024-7826",
+      "reference_number": "2830647",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 12013.316291492,
+      "margin_value_usd": 755.07643393107,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Generator2's engine heaters have failed. Additionally, the last oil sampling condition reports have indicated Generator2's engine oil and oil filters require replacement.",
+        "scope": "1. Replace Generator2's engine heaters.\n2. Replace Generator2's engine oil.\n3. Generator2's engine oil filters.",
+        "justification": "Old oil will not correctly lubricate and protect the internal engine components.\nEngine heaters are an essential component for diesel engines operating in cooler temperatures. They maintain an \nengine's operating temperature during downtime and avoid any unnecessary idling. Warm coolant helps provide warmer cylinder temperatures, assisting the combustion process in extremely cold temperatures. Pre-heating also allows the engine to deliver full power immediately, an important factor for critical power applications.",
+        "non_approval_effect": "Increased risk of Generator2 failure."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 8523.01, Sell Value: 9034.3906, Margin Value: 511.3806",
+        "labour": "Cost: 329.344, Sell Value: 411.68, Margin Value: 82.336",
+        "grand_total": "Cost: 8852.354, Sell Value: 9446.0706, Margin Value: 593.7166, Total: 9446.0706"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 329.344, Total Supply Chain Cost: 8523.01, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 9446.0746",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Generator2 - engine heaters and oil/filter replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-08042024-7826. Current status is 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Generator2's engine heaters have failed. Additionally, the last oil sampling condition reports have indicated Generator2's engine oil and oil filters require replacement.. The defined scope of work includes: 1. Replace Generator2's engine heaters.\n2. Replace Generator2's engine oil.\n3. Generator2's engine oil filters.. The justification provided is: Old oil will not correctly lubricate and protect the internal engine components.\nEngine heaters are an essential component for diesel engines operating in cooler temperatures. They maintain an \nengine's operating temperature during downtime and avoid any unnecessary idling. Warm coolant helps provide warmer cylinder temperatures, assisting the combustion process in extremely cold temperatures. Pre-heating also allows the engine to deliver full power immediately, an important factor for critical power applications.. If not approved, the effect would be: Increased risk of Generator2 failure..",
+      "status_history": "First, cancelled. Then, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 8523.01, Sell Value: 9034.3906, Margin Value: 511.3806. Labour: Cost: 329.344, Sell Value: 411.68, Margin Value: 82.336. Grand total: Cost: 8852.354, Sell Value: 9446.0706, Margin Value: 593.7166, Total: 9446.0706.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak",
+      "interal_work_order_num": "UK-EW-08042024-8909",
+      "reference_number": "HDR TBC Appro TBC",
+      "project_status": "Rejected",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 574.23375302048,
+      "margin_value_usd": 114.8467506041,
+      "status_history": "here is the status change history of project in numbering order(1):rejected by Jayme Feil (2):offer submitted by Jayme Feil (3):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit",
+        "scope": "Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system",
+        "justification": "The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap",
+        "non_approval_effect": "Reduced resilience and in breach of FGas regulations"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 0, Sell Value: 0, Margin Value: 0, Total: 0"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 361.216, Total Supply Chain Cost: 0, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-08042024-8909. Current status is 'Rejected'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit. The defined scope of work includes: Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system. The justification provided is: The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap. If not approved, the effect would be: Reduced resilience and in breach of FGas regulations.",
+      "status_history": "First, rejected by Jayme Feil. Then, offer submitted by Jayme Feil. After that, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 0, Sell Value: 0, Margin Value: 0. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 0, Sell Value: 0, Margin Value: 0, Total: 0.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak",
+      "interal_work_order_num": "UK-EW-08042024-8909.1",
+      "reference_number": "HDR TBC Appro TBC",
+      "project_status": "Rejected",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 4201.3931069566,
+      "margin_value_usd": 320.15948111408,
+      "status_history": "here is the status change history of project in numbering order(1):rejected by Jayme Feil (2):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit",
+        "scope": "Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system",
+        "justification": "The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap",
+        "non_approval_effect": "Reduced resilience and in breach of FGas regulations"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354, Total: 2852.0254"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 361.224, Total Supply Chain Cost: 2690.59, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-08042024-8909.1. Current status is 'Rejected'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit. The defined scope of work includes: Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system. The justification provided is: The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap. If not approved, the effect would be: Reduced resilience and in breach of FGas regulations.",
+      "status_history": "First, rejected by Jayme Feil. Then, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354, Total: 2852.0254.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak",
+      "interal_work_order_num": "UK-EW-08042024-8909.2",
+      "reference_number": "HDR TBC Appro TBC",
+      "project_status": "Rejected",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 4105.5518250032,
+      "margin_value_usd": 300.99122472339,
+      "status_history": "here is the status change history of project in numbering order(1):rejected by Jayme Feil (2):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit",
+        "scope": "Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system",
+        "justification": "The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap",
+        "non_approval_effect": "Reduced resilience and in breach of FGas regulations"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354, Total: 2852.0254"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 300.936, Total Supply Chain Cost: 2690.59, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-08042024-8909.2. Current status is 'Rejected'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit. The defined scope of work includes: Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system. The justification provided is: The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap. If not approved, the effect would be: Reduced resilience and in breach of FGas regulations.",
+      "status_history": "First, rejected by Jayme Feil. Then, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 2690.59, Sell Value: 2852.0254, Margin Value: 161.4354, Total: 2852.0254.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak",
+      "interal_work_order_num": "UK-EW-08042024-8909.3",
+      "reference_number": "HDR TBC Appro TBC",
+      "project_status": "Rejected",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 4415.5917588707,
+      "margin_value_usd": 306.98944423248,
+      "status_history": "here is the status change history of project in numbering order(1):rejected by Jayme Feil (2):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit",
+        "scope": "Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system",
+        "justification": "The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap",
+        "non_approval_effect": "Reduced resilience and in breach of FGas regulations"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2980.33, Sell Value: 3159.1498, Margin Value: 178.8198",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 2980.33, Sell Value: 3159.1498, Margin Value: 178.8198, Total: 3159.1498"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 250.264, Total Supply Chain Cost: 2980.33, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all metadata, workflow details, scope elements and financials into structured summaries, marking missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz - YUPS DX2 Circuit 1 Refrigerant Leak' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-08042024-8909.3. Current status is 'Rejected'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: On routine DX inspections, YUPS Room DX2 Circuit 1 was found to have refrigerant oil leakage within the unit. The defined scope of work includes: Isolate unit\nRecover the refrigerant charge (record volume)\nRepair known leaks\nPressure test unit with nitrogen\nEvacuate to 4mbar\nRe-establish the power supply\nRecharge the unit to correct charge\nTest run the system. The justification provided is: The YUPS Room DX systems maintain the desired temperature for the critical Piller Rotary YUPS which serves DC suites CSB & CSC. It is also an FGas regulation to locate and repair any DX refrigerant leaks asap. If not approved, the effect would be: Reduced resilience and in breach of FGas regulations.",
+      "status_history": "First, rejected by Jayme Feil. Then, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2980.33, Sell Value: 3159.1498, Margin Value: 178.8198. Labour: Cost: 0, Sell Value: 0, Margin Value: 0. Grand total: Cost: 2980.33, Sell Value: 3159.1498, Margin Value: 178.8198, Total: 3159.1498.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

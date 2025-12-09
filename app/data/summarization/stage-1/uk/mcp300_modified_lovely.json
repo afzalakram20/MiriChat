@@ -1,0 +1,588 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-Sprinkler Tank Gauge Installation and Fire Pump Return Line Repair",
+      "interal_work_order_num": "UK-EW-02082023-7906",
+      "reference_number": "Helpdesk request ID: 2816508 - Appro 138676",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following the biannual sprinkler tank and system inspection it has been identified that the return line from the fire pump requires repair and a level gauge for the sprinkler tank to be installed to enable safe tank level checks for FM Global and site engineers",
+        "scope": "Install level gauge and repair return line",
+        "justification": "The return line repair is required to complete FM Global flow test and the gauge negates the health and safety risk of confirming tank water level due to hazardous access above the tank inspection hatches",
+        "non_approval_effect": "Unable to complete FM Global flow test and H&S hazard will remain"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5593, Sell Value: 5984.51, Margin Value: 391.51",
+        "labour": "Cost: 115.92, Sell Value: 144.9, Margin Value: 28.98",
+        "grand_total": "Cost: 5708.92, Sell Value: 6129.41, Margin Value: 420.49, Total: 6129.41"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 115.92, Total Supply Chain Cost: 5593, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-Sprinkler Tank Gauge Installation and Fire Pump Return Line Repair' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-02082023-7906. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following the biannual sprinkler tank and system inspection it has been identified that the return line from the fire pump requires repair and a level gauge for the sprinkler tank to be installed to enable safe tank level checks for FM Global and site engineers. The defined scope of work includes: Install level gauge and repair return line. The justification provided is: The return line repair is required to complete FM Global flow test and the gauge negates the health and safety risk of confirming tank water level due to hazardous access above the tank inspection hatches. If not approved, the effect would be: Unable to complete FM Global flow test and H&S hazard will remain.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 5593, Sell Value: 5984.51, Margin Value: 391.51. Labour: Cost: 115.92, Sell Value: 144.9, Margin Value: 28.98. Grand total: Cost: 5708.92, Sell Value: 6129.41, Margin Value: 420.49, Total: 6129.41.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Cooling Tower 3B fan replacement",
+      "interal_work_order_num": "UK-EW-02082023-5822",
+      "reference_number": null,
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the blade has cracked. If this fan fails the tower will have to be shut down until repaired, and could create additional works on cooling tower, If we do not carry out the works. It could also result in the resilience of phase 1 site cooling to be at risk",
+        "scope": "\u2022 Tower will receive a pre-disinfection dose directly to the tower sump -0.5 litres of both ABT1 & ABT2. Tower pre-disinfection will be for 1 hour, minimum \u2022 ABT1 & ABT2 levels are to be monitored and logged on the service report sheet. When an acceptable level has been achieved, these details are also recorded on the dynamic risk assessment service report sheet \u2022 CBRE with Baltimore Air Coil technicians in attendance will then make the necessary electrical isolations as per the approved FSP \u2022 CBRE with Baltimore Air Coil technicians in attendance will manually isolate the flow and return water valves positioned on the tower sump and on the return pipework on the top inspection platform. CBRE with WCS Group technicians in attendance will also isolate the Mains Water inlet valve to stop tower from filling \u2022 The Tower will then be drained to the dedicated foul drain using the drain off valve and sump pump \u2022 The faulty fan will then be stripped down and replaced with new fan shafts and bearings. \u2022 On completion of the fan repair, the other 2 fans on cooling tower 3B will be inspected for damage and where necessary, advise replacement. \u2022 After repair to the fan has been completed on the tower, Baltimore Air Coil technicians will, where applied, remove their locks and clasps and CBRE will run the fans and make sure all is ok. Once happy the tower shall be filled back to it\u2019s appropriate levels. \u2022 The circulating water will be tested for bromine, ABT1 and ABT2 will be added to boost the level above 100ppm, the bromine level will be monitored every 15 minutes \u2022 Once acceptable the tower will be dosed with commissioning dose of inhibitor \u2022 On completion of the Tower post-disinfection CBRE will be informed so we can reinstate the electrical supply to the fans and pumps then sign off the permit to work relating to the Tower",
+        "justification": "The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the rear fan blade has cracked and another section has broken off. If this fan fails the tower will have to be shut down until repaired. If we do not carry out the works it could result in the resilience of the site cooling to be at risk",
+        "non_approval_effect": "The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the rear fan blade has cracked and another section has broken off. If this fan fails the tower will have to be shut down until repaired. If we do not carry out the works it could result in the resilience of the site cooling to be at risk"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6015, Sell Value: 6436.05, Margin Value: 421.05",
+        "labour": "Cost: 256.648, Sell Value: 320.81, Margin Value: 64.162",
+        "grand_total": "Cost: 6271.648, Sell Value: 6756.86, Margin Value: 485.212, Total: 6756.86"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 256.648, Total Supply Chain Cost: 6015, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-Cooling Tower 3B fan replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-02082023-5822. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the blade has cracked. If this fan fails the tower will have to be shut down until repaired, and could create additional works on cooling tower, If we do not carry out the works. It could also result in the resilience of phase 1 site cooling to be at risk. The defined scope of work includes: \u2022 Tower will receive a pre-disinfection dose directly to the tower sump -0.5 litres of both ABT1 & ABT2. Tower pre-disinfection will be for 1 hour, minimum \u2022 ABT1 & ABT2 levels are to be monitored and logged on the service report sheet. When an acceptable level has been achieved, these details are also recorded on the dynamic risk assessment service report sheet \u2022 CBRE with Baltimore Air Coil technicians in attendance will then make the necessary electrical isolations as per the approved FSP \u2022 CBRE with Baltimore Air Coil technicians in attendance will manually isolate the flow and return water valves positioned on the tower sump and on the return pipework on the top inspection platform. CBRE with WCS Group technicians in attendance will also isolate the Mains Water inlet valve to stop tower from filling \u2022 The Tower will then be drained to the dedicated foul drain using the drain off valve and sump pump \u2022 The faulty fan will then be stripped down and replaced with new fan shafts and bearings. \u2022 On completion of the fan repair, the other 2 fans on cooling tower 3B will be inspected for damage and where necessary, advise replacement. \u2022 After repair to the fan has been completed on the tower, Baltimore Air Coil technicians will, where applied, remove their locks and clasps and CBRE will run the fans and make sure all is ok. Once happy the tower shall be filled back to it\u2019s appropriate levels. \u2022 The circulating water will be tested for bromine, ABT1 and ABT2 will be added to boost the level above 100ppm, the bromine level will be monitored every 15 minutes \u2022 Once acceptable the tower will be dosed with commissioning dose of inhibitor \u2022 On completion of the Tower post-disinfection CBRE will be informed so we can reinstate the electrical supply to the fans and pumps then sign off the permit to work relating to the Tower. The justification provided is: The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the rear fan blade has cracked and another section has broken off. If this fan fails the tower will have to be shut down until repaired. If we do not carry out the works it could result in the resilience of the site cooling to be at risk. If not approved, the effect would be: The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the rear fan blade has cracked and another section has broken off. If this fan fails the tower will have to be shut down until repaired. If we do not carry out the works it could result in the resilience of the site cooling to be at risk.",
+      "status_history": "First, work in progress by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 6015, Sell Value: 6436.05, Margin Value: 421.05. Labour: Cost: 256.648, Sell Value: 320.81, Margin Value: 64.162. Grand total: Cost: 6271.648, Sell Value: 6756.86, Margin Value: 485.212, Total: 6756.86.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2023/24 DRUPs oil sample",
+      "interal_work_order_num": "UK-EW-02082023-7438",
+      "reference_number": "2816514",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Terence Murray MD",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Terence Murray MD",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Oil sampling kits required to sample DRUPs oil for 2023/24",
+        "scope": "Specialist contractor to provide sample kits and the analysis of Monthly oil sample of individual unit to be taken after DRUPs load runs",
+        "justification": "required to sample DRUPs oil for 2023/24",
+        "non_approval_effect": "Oil samples can not be taken and analysed"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2552, Sell Value: 2730.64, Margin Value: 178.64",
+        "labour": "Cost: 506.72, Sell Value: 633.4, Margin Value: 126.68",
+        "grand_total": "Cost: 3058.72, Sell Value: 3364.04, Margin Value: 305.32, Total: 3364.04"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 506.72, Total Supply Chain Cost: 2552, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-2023/24 DRUPs oil sample' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Terence Murray MD under internal work order UK-EW-02082023-7438. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Oil sampling kits required to sample DRUPs oil for 2023/24. The defined scope of work includes: Specialist contractor to provide sample kits and the analysis of Monthly oil sample of individual unit to be taken after DRUPs load runs. The justification provided is: required to sample DRUPs oil for 2023/24. If not approved, the effect would be: Oil samples can not be taken and analysed.",
+      "status_history": "First, work in progress by Terence Murray MD.",
+      "project_financials": "Vendor costs: Cost: 2552, Sell Value: 2730.64, Margin Value: 178.64. Labour: Cost: 506.72, Sell Value: 633.4, Margin Value: 126.68. Grand total: Cost: 3058.72, Sell Value: 3364.04, Margin Value: 305.32, Total: 3364.04.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Camera 12 CCTV replacement",
+      "interal_work_order_num": "UK-EW-02082023-8402",
+      "reference_number": "2816524",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Terence Murray MD",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Terence Murray MD",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "E building compound camera 12 has failed and requires replacement",
+        "scope": "To replace old analogue camera 12 with new IP camera and replace associated cabling",
+        "justification": "Camera 12 has failed and requires replacement to maintain visibility of fence line",
+        "non_approval_effect": "Camera 12 remains off line and reduced coverage is available through other CCTV cameras"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3369.06, Sell Value: 3604.89, Margin Value: 235.83",
+        "labour": "Cost: 168.904, Sell Value: 211.13, Margin Value: 42.226",
+        "grand_total": "Cost: 3537.964, Sell Value: 3816.02, Margin Value: 278.056, Total: 3816.02"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 168.904, Total Supply Chain Cost: 3369.06, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-Camera 12 CCTV replacement' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Terence Murray MD under internal work order UK-EW-02082023-8402. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: E building compound camera 12 has failed and requires replacement. The defined scope of work includes: To replace old analogue camera 12 with new IP camera and replace associated cabling. The justification provided is: Camera 12 has failed and requires replacement to maintain visibility of fence line. If not approved, the effect would be: Camera 12 remains off line and reduced coverage is available through other CCTV cameras.",
+      "status_history": "First, work in progress by Terence Murray MD.",
+      "project_financials": "Vendor costs: Cost: 3369.06, Sell Value: 3604.89, Margin Value: 235.83. Labour: Cost: 168.904, Sell Value: 211.13, Margin Value: 42.226. Grand total: Cost: 3537.964, Sell Value: 3816.02, Margin Value: 278.056, Total: 3816.02.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Cooling Tower 3B - Single Fan Replacement.",
+      "interal_work_order_num": "UK-EW-15082023-4032",
+      "reference_number": null,
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Bearings have started to whine on the single fan on Cooling Tower 3B. Requires a complete fan replacement.",
+        "scope": "\u2022 Tower will receive a pre-disinfection dose directly to the tower sump -0.5 litres of both ABT1 & ABT2. Tower pre-disinfection will be for 1 hour, minimum \u2022 ABT1 & ABT2 levels are to be monitored and logged on the service report sheet. When an acceptable level has been \nachieved, these details are also recorded on the dynamic risk assessment service report sheet \u2022 CBRE with Baltimore Air Coil technicians in attendance will then make the necessary electrical isolations as per the approved FSP \u2022 CBRE with Baltimore Air Coil technicians in \nattendance will manually isolate the flow and return water valves positioned on the tower sump and on the return pipework on the top inspection platform. CBRE with WCS Group technicians in attendance will also isolate the Mains Water inlet valve to stop tower from filling \n\u2022 The Tower will then be drained to the dedicated foul drain using the drain off valve and sump pump \u2022 The faulty fan will then be stripped down and replaced with new fan shafts and bearings. \u2022 On completion of the fan repair, the other 2 fans on cooling tower 3B will be \ninspected for damage and where necessary, advise replacement. \u2022 After repair to the fan has been completed on the tower, Baltimore Air Coil technicians will, where applied, remove their locks and clasps and CBRE will run the fans and make sure all is ok. Once happy the \ntower shall be filled back to it\u2019s appropriate levels. \u2022 The circulating water will be tested for bromine, ABT1 and ABT2 will be added to boost the level above 100ppm, the bromine level will be monitored every 15 minutes \u2022 Once acceptable the tower will be dosed with \ncommissioning dose of inhibitor \u2022 On completion of the Tower post-disinfection CBRE will be informed so we can reinstate the electrical supply to the fans and pumps then sign off the permit to work relating to the Tower",
+        "justification": "The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the bearings on the single fan has broken down. If we do not carry out the works it could result in the resilience of the site cooling to be at risk",
+        "non_approval_effect": "The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the bearings on the single fan has broken down. If we do not carry out the works it could result in the resilience of the site cooling to be at risk"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6015, Sell Value: 6436.05, Margin Value: 421.05",
+        "labour": "Cost: 126.672, Sell Value: 158.34, Margin Value: 31.668",
+        "grand_total": "Cost: 6141.672, Sell Value: 6594.39, Margin Value: 452.718, Total: 6594.39"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 126.672, Total Supply Chain Cost: 6015, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-Cooling Tower 3B - Single Fan Replacement.' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-15082023-4032. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Bearings have started to whine on the single fan on Cooling Tower 3B. Requires a complete fan replacement.. The defined scope of work includes: \u2022 Tower will receive a pre-disinfection dose directly to the tower sump -0.5 litres of both ABT1 & ABT2. Tower pre-disinfection will be for 1 hour, minimum \u2022 ABT1 & ABT2 levels are to be monitored and logged on the service report sheet. When an acceptable level has been \nachieved, these details are also recorded on the dynamic risk assessment service report sheet \u2022 CBRE with Baltimore Air Coil technicians in attendance will then make the necessary electrical isolations as per the approved FSP \u2022 CBRE with Baltimore Air Coil technicians in \nattendance will manually isolate the flow and return water valves positioned on the tower sump and on the return pipework on the top inspection platform. CBRE with WCS Group technicians in attendance will also isolate the Mains Water inlet valve to stop tower from filling \n\u2022 The Tower will then be drained to the dedicated foul drain using the drain off valve and sump pump \u2022 The faulty fan will then be stripped down and replaced with new fan shafts and bearings. \u2022 On completion of the fan repair, the other 2 fans on cooling tower 3B will be \ninspected for damage and where necessary, advise replacement. \u2022 After repair to the fan has been completed on the tower, Baltimore Air Coil technicians will, where applied, remove their locks and clasps and CBRE will run the fans and make sure all is ok. Once happy the \ntower shall be filled back to it\u2019s appropriate levels. \u2022 The circulating water will be tested for bromine, ABT1 and ABT2 will be added to boost the level above 100ppm, the bromine level will be monitored every 15 minutes \u2022 Once acceptable the tower will be dosed with \ncommissioning dose of inhibitor \u2022 On completion of the Tower post-disinfection CBRE will be informed so we can reinstate the electrical supply to the fans and pumps then sign off the permit to work relating to the Tower. The justification provided is: The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the bearings on the single fan has broken down. If we do not carry out the works it could result in the resilience of the site cooling to be at risk. If not approved, the effect would be: The cooling towers have 3 fan sections in total with 2 fans on each section. On Cooling tower 3B the bearings on the single fan has broken down. If we do not carry out the works it could result in the resilience of the site cooling to be at risk.",
+      "status_history": "First, work in progress by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 6015, Sell Value: 6436.05, Margin Value: 421.05. Labour: Cost: 126.672, Sell Value: 158.34, Margin Value: 31.668. Grand total: Cost: 6141.672, Sell Value: 6594.39, Margin Value: 452.718, Total: 6594.39.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick, CCTV Rack Relocation",
+      "interal_work_order_num": "UK-EW-16082023-4631",
+      "reference_number": null,
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Brando Dooley DDS",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Brando Dooley DDS",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process (No eBVO Required)\n4. Rack to be installed by Kyndryl as a free of charge issue to Ajartec (Cost to install rack and issue of a rack have not been included in this quotation)\n5. Use of existing Power Socket under raised floor to be used (Cost to install new socket under floor has not been included, only cost to test existing socket has been included)",
+        "problem": "Relocation of CCTV  rack from CSN to CSSE,  this will enable energy savings and allow CSN to be mothballed as the Security CCTV rack for the location is the only rack that remains in within CSN",
+        "scope": "3rd Party contractor to attend site to relocate the clients CCTV Rack from Suite CSN to suite CSSE, part of these works involve installing a cable termination cabinet beneath the floor in the CSN suite and this room should remain accessible if there were any support issues that required investigation in this CSN area. A requirement from the contractor is that a new rack should be in place and the required power in CSSE is also available and tested prior to the relocation of the CCTV servers.\nNew link cables from the new cabinet in the CSSE suite to be run to an appropriate location under the floor near the existing cabinet location in the CSN suite. The new cables would be terminated into the cable termination box installed beneath the floor. The existing cables would also be terminated in this location to provide for an extension from the existing location to the new location, the contractor to test and inspect on completion. During these works there will be a requirement to break through each rooms firestopping barrier this will need repairing / reinstated on completion of the works.",
+        "justification": "Cost saving relocating the CCTV rack from CSN to CSSE this enables the cooling to be turned off and CSN to mothballed.",
+        "non_approval_effect": "Non approval will lead to higher energy costs as cooling will be required within suite CSN , Access to CSN will still be required for issues / servicing for the CCTV rack, CSN  suite can then not be mothballed."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 13379.64, Sell Value: 14316.22, Margin Value: 936.58",
+        "labour": "Cost: 527.416, Sell Value: 659.27, Margin Value: 131.854",
+        "grand_total": "Cost: 13907.056, Sell Value: 14975.49, Margin Value: 1068.434, Total: 14975.49"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 527.416, Total Supply Chain Cost: 13379.64, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-Kyndryl Warwick, CCTV Rack Relocation' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Brando Dooley DDS under internal work order UK-EW-16082023-4631. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process (No eBVO Required)\n4. Rack to be installed by Kyndryl as a free of charge issue to Ajartec (Cost to install rack and issue of a rack have not been included in this quotation)\n5. Use of existing Power Socket under raised floor to be used (Cost to install new socket under floor has not been included, only cost to test existing socket has been included). The problem statement indicates: Relocation of CCTV  rack from CSN to CSSE,  this will enable energy savings and allow CSN to be mothballed as the Security CCTV rack for the location is the only rack that remains in within CSN. The defined scope of work includes: 3rd Party contractor to attend site to relocate the clients CCTV Rack from Suite CSN to suite CSSE, part of these works involve installing a cable termination cabinet beneath the floor in the CSN suite and this room should remain accessible if there were any support issues that required investigation in this CSN area. A requirement from the contractor is that a new rack should be in place and the required power in CSSE is also available and tested prior to the relocation of the CCTV servers.\nNew link cables from the new cabinet in the CSSE suite to be run to an appropriate location under the floor near the existing cabinet location in the CSN suite. The new cables would be terminated into the cable termination box installed beneath the floor. The existing cables would also be terminated in this location to provide for an extension from the existing location to the new location, the contractor to test and inspect on completion. During these works there will be a requirement to break through each rooms firestopping barrier this will need repairing / reinstated on completion of the works.. The justification provided is: Cost saving relocating the CCTV rack from CSN to CSSE this enables the cooling to be turned off and CSN to mothballed.. If not approved, the effect would be: Non approval will lead to higher energy costs as cooling will be required within suite CSN , Access to CSN will still be required for issues / servicing for the CCTV rack, CSN  suite can then not be mothballed..",
+      "status_history": "First, work in progress by Brando Dooley DDS.",
+      "project_financials": "Vendor costs: Cost: 13379.64, Sell Value: 14316.22, Margin Value: 936.58. Labour: Cost: 527.416, Sell Value: 659.27, Margin Value: 131.854. Grand total: Cost: 13907.056, Sell Value: 14975.49, Margin Value: 1068.434, Total: 14975.49.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Replacement Road Blocker",
+      "interal_work_order_num": "UK-EW-16082023-8443",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 101006.01551571,
+      "margin_value_usd": 6806.6208826148,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Neil Hauck (2):offer submitted by Neil Hauck",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. eBVO not required for this project",
+        "problem": "Existing road blocker was condemned and a new road blocker is required for E building compound security",
+        "scope": "Specialist to attend site remove old road blocker and replace with new and controls.",
+        "justification": "Road blocker condemned and in need of replacement",
+        "non_approval_effect": "Non-approval will mean diminished security to E building compound and stagnant remains of road blocker on site."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 73140, Sell Value: 78259.8, Margin Value: 5119.8",
+        "labour": "Cost: 928.984, Sell Value: 1161.23, Margin Value: 232.246",
+        "grand_total": "Cost: 74068.984, Sell Value: 79421.03, Margin Value: 5352.046, Total: 79421.03"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 928.984, Total Supply Chain Cost: 73140, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 79421.0398",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-Replacement Road Blocker' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Neil Hauck under internal work order UK-EW-16082023-8443. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. eBVO not required for this project. The problem statement indicates: Existing road blocker was condemned and a new road blocker is required for E building compound security. The defined scope of work includes: Specialist to attend site remove old road blocker and replace with new and controls.. The justification provided is: Road blocker condemned and in need of replacement. If not approved, the effect would be: Non-approval will mean diminished security to E building compound and stagnant remains of road blocker on site..",
+      "status_history": "First, billing completed by Neil Hauck. Then, offer submitted by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 73140, Sell Value: 78259.8, Margin Value: 5119.8. Labour: Cost: 928.984, Sell Value: 1161.23, Margin Value: 232.246. Grand total: Cost: 74068.984, Sell Value: 79421.03, Margin Value: 5352.046, Total: 79421.03.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ Cooling Tower 4&5 Remedial Works",
+      "interal_work_order_num": "UK-EW-17082023-1200",
+      "reference_number": "TBC",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following a recent site visit it was found that cooling towers 4&5 require remedial works\nThe Cooling Tower Ponds of Units 4 & 5 has rust patches and corroded bolts, we recommend the 2 part coating of the Ponds using WRAS Approved Polymer Coating",
+        "scope": "Drain, Prepare and Apply a 2 Coat Polymer Coating to the Cooling Tower Ponds 4 & 5.\nClean and chlorination of ponds upon completion.\nDue to curing times of Polymer coating, works are anticipated to take 3 Days followed by chlorination works",
+        "justification": "Legionella regulation requirement.\nLeak and long term damage to cooling towers leading to loss of water and increased bills.",
+        "non_approval_effect": "Possibility of Legionella outbreak"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4660, Sell Value: 4986.2, Margin Value: 326.2",
+        "labour": "Cost: 300.56, Sell Value: 375.7, Margin Value: 75.14",
+        "grand_total": "Cost: 4960.56, Sell Value: 5361.9, Margin Value: 401.34, Total: 5361.9"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 300.56, Total Supply Chain Cost: 4660, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-HZ Cooling Tower 4&5 Remedial Works' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-17082023-1200. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following a recent site visit it was found that cooling towers 4&5 require remedial works\nThe Cooling Tower Ponds of Units 4 & 5 has rust patches and corroded bolts, we recommend the 2 part coating of the Ponds using WRAS Approved Polymer Coating. The defined scope of work includes: Drain, Prepare and Apply a 2 Coat Polymer Coating to the Cooling Tower Ponds 4 & 5.\nClean and chlorination of ponds upon completion.\nDue to curing times of Polymer coating, works are anticipated to take 3 Days followed by chlorination works. The justification provided is: Legionella regulation requirement.\nLeak and long term damage to cooling towers leading to loss of water and increased bills.. If not approved, the effect would be: Possibility of Legionella outbreak.",
+      "status_history": "First, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 4660, Sell Value: 4986.2, Margin Value: 326.2. Labour: Cost: 300.56, Sell Value: 375.7, Margin Value: 75.14. Grand total: Cost: 4960.56, Sell Value: 5361.9, Margin Value: 401.34, Total: 5361.9.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-External Trace Heating Replacement and Insulation",
+      "interal_work_order_num": "UK-EW-17082023-3707",
+      "reference_number": "HDR 2818214 Appro 138809",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following planned trace heating maintenance the drench shower and Ph1A soft water circuit has failed",
+        "scope": "Remove existing pipe circuit insulation, install new trace heating system and reinsulate",
+        "justification": "Operational trace heating is required to prevent external pipework from freezing",
+        "non_approval_effect": "Possible burst pipework and interruption of critical water services"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3995.71, Sell Value: 4275.409, Margin Value: 279.699",
+        "labour": "Cost: 481.456, Sell Value: 601.82, Margin Value: 120.364",
+        "grand_total": "Cost: 4477.166, Sell Value: 4877.229, Margin Value: 400.063, Total: 4877.229"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 481.456, Total Supply Chain Cost: 3995.71, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-External Trace Heating Replacement and Insulation' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-17082023-3707. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following planned trace heating maintenance the drench shower and Ph1A soft water circuit has failed. The defined scope of work includes: Remove existing pipe circuit insulation, install new trace heating system and reinsulate. The justification provided is: Operational trace heating is required to prevent external pipework from freezing. If not approved, the effect would be: Possible burst pipework and interruption of critical water services.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 3995.71, Sell Value: 4275.409, Margin Value: 279.699. Labour: Cost: 481.456, Sell Value: 601.82, Margin Value: 120.364. Grand total: Cost: 4477.166, Sell Value: 4877.229, Margin Value: 400.063, Total: 4877.229.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ Generators 1,2 & 3 remedial works",
+      "interal_work_order_num": "UK-EW-17082023-1540",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 8142.2895841282,
+      "margin_value_usd": 599.80198397558,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire (4):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following a visit to site the engineer found the coolant DCA level is low on Generator 2. It is recommended the system is drained, rinsed with water and refilled with a manufacturer recommended coolant, and water filters replaced.\nThey also recommend an investigation take place to fault find for noise from top end of engine, as there are only two cylinders on left bank.",
+        "scope": "Take possession of generator 2\nIsolate generator to prevent starting\nReplace old water filters with new provided filters\nDrain coolant and store as hazardous waste\nRinse with cold water\nRefill coolant system with manufacturers recommended coolant\nCheck for leaks\nTest run generator\nTop up radiator if required\nReturn generator to site use\n\nCarry out an investigation as to find the source of the top end noise,\nRectify any problems, if possible,\nReport findings and make recommendations as required,\nEnsure area is left clean and tidy",
+        "justification": "Old, dirty or weak coolant will fail to protect the engine components correctly.\nChanging the coolant will not remove any debris or scale from the coolant system.\nWithout the investigation into the abnormal engine noise there is a possibility of engine failure resulting in increased cost.",
+        "non_approval_effect": "Old, dirty or weak coolant will fail to protect the engine components correctly.\nWithout the investigation into the abnormal engine noise there is a possibility of engine failure resulting in increased cost."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5616.89, Sell Value: 6010.0723, Margin Value: 393.1823",
+        "labour": "Cost: 313.768, Sell Value: 392.21, Margin Value: 78.442",
+        "grand_total": "Cost: 5930.658, Sell Value: 6402.2823, Margin Value: 471.6243, Total: 6402.2823"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 313.768, Total Supply Chain Cost: 5616.89, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 15854.4269",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I converted all fields into structured summaries and marked missing items as 'N/A'.",
+      "overview": "Project 'UPM-HZ Generators 1,2 & 3 remedial works' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-17082023-1540. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following a visit to site the engineer found the coolant DCA level is low on Generator 2. It is recommended the system is drained, rinsed with water and refilled with a manufacturer recommended coolant, and water filters replaced.\nThey also recommend an investigation take place to fault find for noise from top end of engine, as there are only two cylinders on left bank.. The defined scope of work includes: Take possession of generator 2\nIsolate generator to prevent starting\nReplace old water filters with new provided filters\nDrain coolant and store as hazardous waste\nRinse with cold water\nRefill coolant system with manufacturers recommended coolant\nCheck for leaks\nTest run generator\nTop up radiator if required\nReturn generator to site use\n\nCarry out an investigation as to find the source of the top end noise,\nRectify any problems, if possible,\nReport findings and make recommendations as required,\nEnsure area is left clean and tidy. The justification provided is: Old, dirty or weak coolant will fail to protect the engine components correctly.\nChanging the coolant will not remove any debris or scale from the coolant system.\nWithout the investigation into the abnormal engine noise there is a possibility of engine failure resulting in increased cost.. If not approved, the effect would be: Old, dirty or weak coolant will fail to protect the engine components correctly.\nWithout the investigation into the abnormal engine noise there is a possibility of engine failure resulting in increased cost..",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire. Subsequently, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 5616.89, Sell Value: 6010.0723, Margin Value: 393.1823. Labour: Cost: 313.768, Sell Value: 392.21, Margin Value: 78.442. Grand total: Cost: 5930.658, Sell Value: 6402.2823, Margin Value: 471.6243, Total: 6402.2823.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

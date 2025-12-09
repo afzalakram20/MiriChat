@@ -1,0 +1,568 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Legal Team Secure Space Requirements",
+      "interal_work_order_num": "UK-EW-16022022-6520.1",
+      "reference_number": "126302",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 20221.912247234,
+      "margin_value_usd": 1417.2598780431,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Kyndryl Legal team have requested some secure space at Greenford",
+        "scope": "CCTV camera, locate inside the room facing the door to take the entry image.\nSuitable Abloy key lock/deadbolt. Key to be stored in Traka Cabinet.\nWindow frosting \u2013 full length in line with other meeting rooms on the floor. Is to be of similar style and design.\nAACS (Access Control System) card reader fitted to door frame. (If unable to be wired in, the CCTV camera takes priority and will prove entry and times).\nDue to restrictions on the manufacture and country of origin of some equipment, please forward details to me of both during the quote phase.",
+        "justification": "Secure space required",
+        "non_approval_effect": "Kyndryl UK Legal will not have secure space to store confidential materials"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 14650.86, Sell Value: 15676.4196, Margin Value: 1025.5596",
+        "labour": "Cost: 135.23815789474, Sell Value: 224.07, Margin Value: 88.831842105264",
+        "grand_total": "Cost: 14786.098157895, Sell Value: 15900.4896, Margin Value: 1114.3914421053, Total: 15900.4896"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 135.23815789474, Total Supply Chain Cost: 14650.86, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8062.2798",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Kyndryl Legal Team Secure Space Requirements' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-16022022-6520.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Kyndryl Legal team have requested some secure space at Greenford. The defined scope of work includes: CCTV camera, locate inside the room facing the door to take the entry image.\nSuitable Abloy key lock/deadbolt. Key to be stored in Traka Cabinet.\nWindow frosting \u2013 full length in line with other meeting rooms on the floor. Is to be of similar style and design.\nAACS (Access Control System) card reader fitted to door frame. (If unable to be wired in, the CCTV camera takes priority and will prove entry and times).\nDue to restrictions on the manufacture and country of origin of some equipment, please forward details to me of both during the quote phase.. The justification provided is: Secure space required. If not approved, the effect would be: Kyndryl UK Legal will not have secure space to store confidential materials.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 14650.86, Sell Value: 15676.4196, Margin Value: 1025.5596. Labour: Cost: 135.23815789474, Sell Value: 224.07, Margin Value: 88.831842105264. Grand total: Cost: 14786.098157895, Sell Value: 15900.4896, Margin Value: 1114.3914421053, Total: 15900.4896. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Cooling Tower 2B Twin fan Repair",
+      "interal_work_order_num": "UK-EW-03032022-7398",
+      "reference_number": "126537",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 31109.27050744,
+      "margin_value_usd": 2311.3903625909,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Flo Hodkiewicz (2):rejected by Flo Hodkiewicz (3):offer submitted by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Phase 1 Cooling tower 2B, has Fan propellers cracked and Failing Bearings on the Twin Fan.",
+        "scope": "Both Fans on Cooling Tower 2B twin fan require stripping out and one then requires a complete new set up (fans, shaft, \n bearings, bushes) installing whilst the second section of the twin fan requires stripping down and then rebuilt with new bearings and bushes.",
+        "justification": "The cooling towers are a vital part to the running of the data centre, if the cooling tower is offline this could impact with the resilience of the site.",
+        "non_approval_effect": "The data centre is at a high possibility of losing resilience on site, especially as when warmer months begin as ALL cooling towers daily run at maximum output."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 22344, Sell Value: 23908.0794, Margin Value: 1564.0794",
+        "labour": "Cost: 299.77315789474, Sell Value: 553.14, Margin Value: 253.36684210526",
+        "grand_total": "Cost: 22643.773157895, Sell Value: 24461.2194, Margin Value: 1817.4462421053, Total: 24461.2194"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 299.77315789474, Total Supply Chain Cost: 22344, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8522.5",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Cooling Tower 2B Twin fan Repair' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-03032022-7398. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Phase 1 Cooling tower 2B, has Fan propellers cracked and Failing Bearings on the Twin Fan.. The defined scope of work includes: Both Fans on Cooling Tower 2B twin fan require stripping out and one then requires a complete new set up (fans, shaft, \n bearings, bushes) installing whilst the second section of the twin fan requires stripping down and then rebuilt with new bearings and bushes.. The justification provided is: The cooling towers are a vital part to the running of the data centre, if the cooling tower is offline this could impact with the resilience of the site.. If not approved, the effect would be: The data centre is at a high possibility of losing resilience on site, especially as when warmer months begin as ALL cooling towers daily run at maximum output..",
+      "status_history": "First, billing completed by Flo Hodkiewicz. Then, rejected by Flo Hodkiewicz. After that, offer submitted by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 22344, Sell Value: 23908.0794, Margin Value: 1564.0794. Labour: Cost: 299.77315789474, Sell Value: 553.14, Margin Value: 253.36684210526. Grand total: Cost: 22643.773157895, Sell Value: 24461.2194, Margin Value: 1817.4462421053, Total: 24461.2194. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Cooling Tower 2B Twin Fan repair",
+      "interal_work_order_num": "UK-EW-04032022-4690",
+      "reference_number": "126537",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Flo Hodkiewicz",
+      "quote_value_usd": 31151.430370088,
+      "margin_value_usd": 2332.4704846818,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Flo Hodkiewicz (2):rejected by Flo Hodkiewicz (3):offer submitted by Flo Hodkiewicz",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Twin fan on Cooling Tower 2B, has broken fan blades on the on side of the twin fan section, and on the other side of the twin fan the bearings have broken down and are now very noisy whilst running.",
+        "scope": "Twin fan requires a full strip down on both sections, New shaft, 2 fan propeller bearings bushes and pulleys require replacing on the fan propeller side and then the other section requires a full strip down so the shaft bearings and bushes can be replaced, old fan propellers on this section will be re used.\nall works will then be tested.",
+        "justification": "The cooling towers help keep Phase 1 of the Data Centre running at the correct levels.  If the cooling tower is not operational that will then impact the resilience of phase 1 on site. In warmer months all cooling towers run at full capacity to keep the Data Centre operating within the correct guidelines.",
+        "non_approval_effect": "Phase 1 of the data centre will lose resilience and could fail when called upon."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 22344, Sell Value: 23908.0797, Margin Value: 1564.0797",
+        "labour": "Cost: 316.34815789474, Sell Value: 586.29, Margin Value: 269.94184210526",
+        "grand_total": "Cost: 22660.348157895, Sell Value: 24494.3697, Margin Value: 1834.0215421053, Total: 24494.3697"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 316.34815789474, Total Supply Chain Cost: 22344, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8555.6504",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Cooling Tower 2B Twin Fan repair' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Flo Hodkiewicz under internal work order UK-EW-04032022-4690. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Twin fan on Cooling Tower 2B, has broken fan blades on the on side of the twin fan section, and on the other side of the twin fan the bearings have broken down and are now very noisy whilst running.. The defined scope of work includes: Twin fan requires a full strip down on both sections, New shaft, 2 fan propeller bearings bushes and pulleys require replacing on the fan propeller side and then the other section requires a full strip down so the shaft bearings and bushes can be replaced, old fan propellers on this section will be re used.\nall works will then be tested.. The justification provided is: The cooling towers help keep Phase 1 of the Data Centre running at the correct levels.  If the cooling tower is not operational that will then impact the resilience of phase 1 on site. In warmer months all cooling towers run at full capacity to keep the Data Centre operating within the correct guidelines.. If not approved, the effect would be: Phase 1 of the data centre will lose resilience and could fail when called upon..",
+      "status_history": "First, billing completed by Flo Hodkiewicz. Then, rejected by Flo Hodkiewicz. After that, offer submitted by Flo Hodkiewicz.",
+      "project_financials": "Vendor costs: Cost: 22344, Sell Value: 23908.0797, Margin Value: 1564.0797. Labour: Cost: 316.34815789474, Sell Value: 586.29, Margin Value: 269.94184210526. Grand total: Cost: 22660.348157895, Sell Value: 24494.3697, Margin Value: 1834.0215421053, Total: 24494.3697. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Vanguard UPS Caps and Fans Replacement",
+      "interal_work_order_num": "UK-EW-07032022-6402",
+      "reference_number": "111111",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 49253.275594557,
+      "margin_value_usd": 3123.2234516088,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following the recent maintenance visit it is recommended that all the DC Capacitors and Fans are replaced in the Vanguard UPS",
+        "scope": "To supply and replace DC capacitors and fans in the Vanguard UPS",
+        "justification": "These parts are recommended for replacement as they are at the end of serviceable life and could fail at any time",
+        "non_approval_effect": "The UPS serves as a backup for Vanguard IT equipment, failure would result in no power to critical equipment in the event of a mains failure to site"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 33696, Sell Value: 36054.7206, Margin Value: 2358.7206",
+        "labour": "Cost: 2576.06, Sell Value: 2673.13, Margin Value: 97.070000000001",
+        "grand_total": "Cost: 36272.06, Sell Value: 38727.8506, Margin Value: 2455.7906, Total: 38727.8506"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 2576.06, Total Supply Chain Cost: 33696, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 14691.3701",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Vanguard UPS Caps and Fans Replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-07032022-6402. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following the recent maintenance visit it is recommended that all the DC Capacitors and Fans are replaced in the Vanguard UPS. The defined scope of work includes: To supply and replace DC capacitors and fans in the Vanguard UPS. The justification provided is: These parts are recommended for replacement as they are at the end of serviceable life and could fail at any time. If not approved, the effect would be: The UPS serves as a backup for Vanguard IT equipment, failure would result in no power to critical equipment in the event of a mains failure to site.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 33696, Sell Value: 36054.7206, Margin Value: 2358.7206. Labour: Cost: 2576.06, Sell Value: 2673.13, Margin Value: 97.070000000001. Grand total: Cost: 36272.06, Sell Value: 38727.8506, Margin Value: 2455.7906, Total: 38727.8506. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick Installation of Cabling between Q2C & LAN 1G1 for wifi Network",
+      "interal_work_order_num": "UK-EW-07032022-4063",
+      "reference_number": "126587",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Miss Maymie Sporer",
+      "quote_value_usd": 2674.1276866336,
+      "margin_value_usd": 206.17016405952,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Miss Maymie Sporer (2):offer approved by Miss Maymie Sporer (3):offer submitted by Miss Maymie Sporer (4):work in progress by Miss Maymie Sporer",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "CIO have request a Cat6a SFTP Cable to be installed from Q2C (Quote to Cash) to LAN Room 1G1 to in the Castle Area (IBM Space) at the Warwick location. This is to allow for the separation of the wifi network at Warwick between Kyndryl and IBM",
+        "scope": "Supply and install 1 x 100mtrs Cat6a SFTP Cable from the Q2C office (adjacent to CBRE office) to an existing Data Cabinet (TBC) located within LAN Room 1G1.\n\nThe Cat6a SFTP Cable will be installed at High level and secured where possible onto the existing cable containment infrastructure along the cable route.\nProposed cable route, from Q2C into main corridor, along corridor left into newly formed link corridor, straight down the main corridor towards the entrance passing Tape Library, HW4 and the Pantry, Turn left across Male toilet, HW1 corridor into MP14 office area and then into LAN Room 1G1.\nWe have allowed 1 x FM45/C6A Male field plug termination at the WAP module position.\nWe have allowed 1 x Female C6A termination at the Patch Panel position.\nInstallation of WAP Point to ceiling in Q2C (WAP to be provided by CIO)\nWAP to be fixed to ceiling in Q2C and cable to be dressed up to vUA switch located within the rack in LAN Room 1G1",
+        "justification": "If this work is not performed then the wifi network to Q2C will be lost when the networks are split between IBM & Kyndryl",
+        "non_approval_effect": "As Justification - if not approved then wifi network at the location will not be able to be split between IBM & Kyndryl"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Job Punch List (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 1750.38, Sell Value: 1872.9066, Margin Value: 122.5266",
+        "labour": "Cost: 190.175, Sell Value: 229.76, Margin Value: 39.585",
+        "grand_total": "Cost: 1940.555, Sell Value: 2102.6666, Margin Value: 162.1116, Total: 2102.6666"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 190.175, Total Supply Chain Cost: 1750.38, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 854.06",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700497618, PO Value: 854.06, Date: 2022-03-29, From CBRE: Yes, Sell Value: 2102.6666, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Kyndryl Warwick Installation of Cabling between Q2C & LAN 1G1 for wifi Network' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Miss Maymie Sporer under internal work order UK-EW-07032022-4063. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: CIO have request a Cat6a SFTP Cable to be installed from Q2C (Quote to Cash) to LAN Room 1G1 to in the Castle Area (IBM Space) at the Warwick location. This is to allow for the separation of the wifi network at Warwick between Kyndryl and IBM. The defined scope of work includes: Supply and install 1 x 100mtrs Cat6a SFTP Cable from the Q2C office (adjacent to CBRE office) to an existing Data Cabinet (TBC) located within LAN Room 1G1.\n\nThe Cat6a SFTP Cable will be installed at High level and secured where possible onto the existing cable containment infrastructure along the cable route.\nProposed cable route, from Q2C into main corridor, along corridor left into newly formed link corridor, straight down the main corridor towards the entrance passing Tape Library, HW4 and the Pantry, Turn left across Male toilet, HW1 corridor into MP14 office area and then into LAN Room 1G1.\nWe have allowed 1 x FM45/C6A Male field plug termination at the WAP module position.\nWe have allowed 1 x Female C6A termination at the Patch Panel position.\nInstallation of WAP Point to ceiling in Q2C (WAP to be provided by CIO)\nWAP to be fixed to ceiling in Q2C and cable to be dressed up to vUA switch located within the rack in LAN Room 1G1. The justification provided is: If this work is not performed then the wifi network to Q2C will be lost when the networks are split between IBM & Kyndryl. If not approved, the effect would be: As Justification - if not approved then wifi network at the location will not be able to be split between IBM & Kyndryl.",
+      "status_history": "First, billing completed by Miss Maymie Sporer. Then, offer approved by Miss Maymie Sporer. After that, offer submitted by Miss Maymie Sporer. Subsequently, work in progress by Miss Maymie Sporer.",
+      "project_financials": "Vendor costs: Cost: 1750.38, Sell Value: 1872.9066, Margin Value: 122.5266. Labour: Cost: 190.175, Sell Value: 229.76, Margin Value: 39.585. Grand total: Cost: 1940.555, Sell Value: 2102.6666, Margin Value: 162.1116, Total: 2102.6666. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700497618, PO Value: 854.06, Date: 2022-03-29, From CBRE: Yes, Sell Value: 2102.6666, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Clean and disinfection of cold water tank. Removal of Redundant Dead Leg Pipework",
+      "interal_work_order_num": "UK-EW-08032022-5581",
+      "reference_number": "126600",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Brando Dooley DDS",
+      "quote_value_usd": 249.65026071474,
+      "margin_value_usd": 83.21675357158,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Brando Dooley DDS (2):rejected by Brando Dooley DDS (3):offer submitted by Brando Dooley DDS",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During First Environment site audit dead leg pipework has been identified and a requirement for the cold water tank to be cleaned and disinfected.",
+        "scope": "T&S Pipework to attend site To undertake a detailed survey of the dead legs to be removed (Normal Hours Working)\n\u2022 Isolation of cold-water tank\n\u2022 Drain down the pipework only as required\n\u2022 Remove cold water dead legs as identified in the First Environmental Legionella Risk\nAssessment photographic montage\n\u2022 Cut out the existing dead leg connections at the mains and installing pipework and fittings\nto make good, fittings to be either crimped or push fit\n\u2022 To install where required Armaflex type insulation.\n\nWcs to attend site clean and disinfect cold water tank.",
+        "justification": "Dead legs increase the risk of biofilm forming and creating the right conditions for Legionella, Pseudomonas and other waterborne pathogens to proliferate; thereby increasing the health risk to anyone using the water system.",
+        "non_approval_effect": "Dead legs experience periods of no flow which leads to stagnation. Redundant pipework is a persistent and often critical source of risk within water systems."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "labour": "Cost: 130.86666666667, Sell Value: 196.3, Margin Value: 65.433333333333",
+        "grand_total": "Cost: 130.86666666667, Sell Value: 196.3, Margin Value: 65.433333333333, Total: 196.3"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 130.86666666667, Total Supply Chain Cost: 0, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 196.3",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Clean and disinfection of cold water tank. Removal of Redundant Dead Leg Pipework' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Brando Dooley DDS under internal work order UK-EW-08032022-5581. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: During First Environment site audit dead leg pipework has been identified and a requirement for the cold water tank to be cleaned and disinfected.. The defined scope of work includes: T&S Pipework to attend site To undertake a detailed survey of the dead legs to be removed (Normal Hours Working)\n\u2022 Isolation of cold-water tank\n\u2022 Drain down the pipework only as required\n\u2022 Remove cold water dead legs as identified in the First Environmental Legionella Risk\nAssessment photographic montage\n\u2022 Cut out the existing dead leg connections at the mains and installing pipework and fittings\nto make good, fittings to be either crimped or push fit\n\u2022 To install where required Armaflex type insulation.\n\nWcs to attend site clean and disinfect cold water tank.. The justification provided is: Dead legs increase the risk of biofilm forming and creating the right conditions for Legionella, Pseudomonas and other waterborne pathogens to proliferate; thereby increasing the health risk to anyone using the water system.. If not approved, the effect would be: Dead legs experience periods of no flow which leads to stagnation. Redundant pipework is a persistent and often critical source of risk within water systems..",
+      "status_history": "First, billing completed by Brando Dooley DDS. Then, rejected by Brando Dooley DDS. After that, offer submitted by Brando Dooley DDS.",
+      "project_financials": "Vendor costs: Cost: 0, Sell Value: 0, Margin Value: 0. Labour: Cost: 130.86666666667, Sell Value: 196.3, Margin Value: 65.433333333333. Grand total: Cost: 130.86666666667, Sell Value: 196.3, Margin Value: 65.433333333333, Total: 196.3. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick Cold water tank clean and disinfect, removal of dead leg pipework",
+      "interal_work_order_num": "UK-EW-08032022-1759",
+      "reference_number": "126600",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Brando Dooley DDS",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Brando Dooley DDS",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During Specialist contractor site audit dead leg pipework has been identified and a requirement for the cold water tank to be cleaned and disinfected.",
+        "scope": "Specialist contractor to attend site To undertake a detailed survey of the dead legs to be removed (Normal Hours Working)\n Isolation of cold-water tank\nDrain down the pipework only as required\nRemove cold water dead legs as identified in the First Environmental Legionella Risk\nAssessment photographic montage\nCut out the existing dead leg connections at the mains and installing pipework and fittings\nto make good, fittings to be either crimped or push fit\nTo install where required Armaflex type insulation.\n\nSpecialist contractor to attend site to clean and disinfect cold water tank.",
+        "justification": "Dead legs increase the risk of biofilm forming and creating the right conditions for Legionella, Pseudomonas and other waterborne pathogens to proliferate; thereby increasing the health risk to anyone using the water system.",
+        "non_approval_effect": "Dead legs experience periods of no flow which leads to stagnation. Redundant pipework is a persistent and often critical source of risk within water systems."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Job Punch List (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 14499.51, Sell Value: 15514.47, Margin Value: 1014.96",
+        "labour": "Cost: 1063.64, Sell Value: 1063.64, Margin Value: 0",
+        "grand_total": "Cost: 15563.15, Sell Value: 16578.11, Margin Value: 1014.96, Total: 16578.11"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1063.64, Total Supply Chain Cost: 14499.51, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Kyndryl Warwick Cold water tank clean and disinfect, removal of dead leg pipework' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Brando Dooley DDS under internal work order UK-EW-08032022-1759. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: During Specialist contractor site audit dead leg pipework has been identified and a requirement for the cold water tank to be cleaned and disinfected.. The defined scope of work includes: Specialist contractor to attend site To undertake a detailed survey of the dead legs to be removed (Normal Hours Working)\n Isolation of cold-water tank\nDrain down the pipework only as required\nRemove cold water dead legs as identified in the First Environmental Legionella Risk\nAssessment photographic montage\nCut out the existing dead leg connections at the mains and installing pipework and fittings\nto make good, fittings to be either crimped or push fit\nTo install where required Armaflex type insulation.\n\nSpecialist contractor to attend site to clean and disinfect cold water tank.. The justification provided is: Dead legs increase the risk of biofilm forming and creating the right conditions for Legionella, Pseudomonas and other waterborne pathogens to proliferate; thereby increasing the health risk to anyone using the water system.. If not approved, the effect would be: Dead legs experience periods of no flow which leads to stagnation. Redundant pipework is a persistent and often critical source of risk within water systems..",
+      "status_history": "First, work in progress by Brando Dooley DDS.",
+      "project_financials": "Vendor costs: Cost: 14499.51, Sell Value: 15514.47, Margin Value: 1014.96. Labour: Cost: 1063.64, Sell Value: 1063.64, Margin Value: 0. Grand total: Cost: 15563.15, Sell Value: 16578.11, Margin Value: 1014.96, Total: 16578.11. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick CIO Cabling RAF LITS to 1G1 & Reception to S2",
+      "interal_work_order_num": "UK-EW-08032022-3815",
+      "reference_number": "126617",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Miss Maymie Sporer",
+      "quote_value_usd": 4436.7017677731,
+      "margin_value_usd": 373.23362584255,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Miss Maymie Sporer (2):offer approved by Miss Maymie Sporer (3):offer submitted by Miss Maymie Sporer (4):work in progress by Miss Maymie Sporer",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "CIO have requested a Cat6a SFTP Cable to be installed from RAF LITS (CMF Area) to LAN Room 1G1 to in the Castle Area (IBM Space) at the Warwick location & existing WAP in Main Reception to be moved to IRS Area (Suite 2). This is to\nallow for the separation of the wifi network at Warwick between Kyndryl and IBM.",
+        "scope": "Supply and install 1 x 100mtrs Cat6a SFTP Cable from an agreed position within RAF Lits (CMF) to an existing Data Cabinet (TBC) located within LAN Room 1G1.\nThe Cat6a SFTP Cable will be installed at High level and secured where possible onto\nthe existing cable containment infrastructure along the cable route.\nProposed cable route:\nFrom RAF Lits out into main corridor, along corridor left into newly formed link corridor,\nstraight down the main corridor towards the entrance passing Tape Library, HW4 and\nthe Pantry, Turn left across Male toilet, HW1 corridor into MP14 office area and then into\nLAN Room 1G1.\nWe have allowed 1 x FM45/C6A Male field plug termination at the WAP module position & 1 x Female C6A termination at the Patch Panel position.\nReception Suite 2 Data Cable installation, Supply and install 1 x 20mtr pre-term Cat6a SFTP Cable from an existing Data Network\noutlet installed within the Reception ceiling void position to an agreed position within Suite 2 foyer area.\nThe Cat6a SFTP Cable will be installed at High level and secured where possible onto\nthe existing cable containment infrastructure along the cable route.\nProposed cable route:\nFrom the Data Network outlet across the ceiling void, then into Suite2 lobby area (above\nthe false ceiling) along to an agreed position outside the data suite access doors, WAP\nunit to be mounted surface onto the ceiling tile and cable terminate directly into the WAP\nModule..\nWe have allowed 1 x 20mtr - C6A / SFTP-LSZH RJ45/s~ RJ45/s pre-term patch lead to terminate at the Data Network outlet faceplate and at the WAP module position.\nThis LSQ also includes fixing of WAPs to ceiling",
+        "justification": "If this work is not performed then the wifi network to CMF will be lost when the networks are split between IBM & Kyndryl & the Reception WAP will be in a shared space",
+        "non_approval_effect": "As per justification - Wifi network will not be split if works not approved"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2872.98, Sell Value: 3074.0886, Margin Value: 201.1086",
+        "labour": "Cost: 322.125, Sell Value: 414.49, Margin Value: 92.365",
+        "grand_total": "Cost: 3195.105, Sell Value: 3488.5786, Margin Value: 293.4736, Total: 3488.5786"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 322.125, Total Supply Chain Cost: 2872.98, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1439.1899",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 1,439.19, PO Value: 4700497619, Date: 2022-03-29, From CBRE: Yes, Sell Value: 3488.5786, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Kyndryl Warwick CIO Cabling RAF LITS to 1G1 & Reception to S2' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Miss Maymie Sporer under internal work order UK-EW-08032022-3815. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: CIO have requested a Cat6a SFTP Cable to be installed from RAF LITS (CMF Area) to LAN Room 1G1 to in the Castle Area (IBM Space) at the Warwick location & existing WAP in Main Reception to be moved to IRS Area (Suite 2). This is to\nallow for the separation of the wifi network at Warwick between Kyndryl and IBM.. The defined scope of work includes: Supply and install 1 x 100mtrs Cat6a SFTP Cable from an agreed position within RAF Lits (CMF) to an existing Data Cabinet (TBC) located within LAN Room 1G1.\nThe Cat6a SFTP Cable will be installed at High level and secured where possible onto\nthe existing cable containment infrastructure along the cable route.\nProposed cable route:\nFrom RAF Lits out into main corridor, along corridor left into newly formed link corridor,\nstraight down the main corridor towards the entrance passing Tape Library, HW4 and\nthe Pantry, Turn left across Male toilet, HW1 corridor into MP14 office area and then into\nLAN Room 1G1.\nWe have allowed 1 x FM45/C6A Male field plug termination at the WAP module position & 1 x Female C6A termination at the Patch Panel position.\nReception Suite 2 Data Cable installation, Supply and install 1 x 20mtr pre-term Cat6a SFTP Cable from an existing Data Network\noutlet installed within the Reception ceiling void position to an agreed position within Suite 2 foyer area.\nThe Cat6a SFTP Cable will be installed at High level and secured where possible onto\nthe existing cable containment infrastructure along the cable route.\nProposed cable route:\nFrom the Data Network outlet across the ceiling void, then into Suite2 lobby area (above\nthe false ceiling) along to an agreed position outside the data suite access doors, WAP\nunit to be mounted surface onto the ceiling tile and cable terminate directly into the WAP\nModule..\nWe have allowed 1 x 20mtr - C6A / SFTP-LSZH RJ45/s~ RJ45/s pre-term patch lead to terminate at the Data Network outlet faceplate and at the WAP module position.\nThis LSQ also includes fixing of WAPs to ceiling. The justification provided is: If this work is not performed then the wifi network to CMF will be lost when the networks are split between IBM & Kyndryl & the Reception WAP will be in a shared space. If not approved, the effect would be: As per justification - Wifi network will not be split if works not approved.",
+      "status_history": "First, billing completed by Miss Maymie Sporer. Then, offer approved by Miss Maymie Sporer. After that, offer submitted by Miss Maymie Sporer. Subsequently, work in progress by Miss Maymie Sporer.",
+      "project_financials": "Vendor costs: Cost: 2872.98, Sell Value: 3074.0886, Margin Value: 201.1086. Labour: Cost: 322.125, Sell Value: 414.49, Margin Value: 92.365. Grand total: Cost: 3195.105, Sell Value: 3488.5786, Margin Value: 293.4736, Total: 3488.5786. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 1,439.19, PO Value: 4700497619, Date: 2022-03-29, From CBRE: Yes, Sell Value: 3488.5786, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ BTS UPS Batteries Removal",
+      "interal_work_order_num": "UK-EW-09032022-6829",
+      "reference_number": "126635",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 8393.2468523464,
+      "margin_value_usd": 242.76993513926,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer approved by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire (4):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "In the BTS switchroom the UPS's are not being used hence the batteries are old and need to be removed from site",
+        "scope": "The batteries need to be disconnected and removed from building\nBatteries are to be stored and shrink wrapped on pallets ready for collection",
+        "justification": "In the BTS switchroom the UPS's are not being used hence the batteries are old and need to be removed from site",
+        "non_approval_effect": "The batteries are old, can leak and also a fire hazard"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2727, Sell Value: 2917.89, Margin Value: 190.89",
+        "labour": "Cost: 3681.72, Sell Value: 3681.72, Margin Value: 0",
+        "grand_total": "Cost: 6408.72, Sell Value: 6599.61, Margin Value: 190.89, Total: 6599.61"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 3681.72, Total Supply Chain Cost: 2727, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 4654.3501",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427079, PO Value: 4654.3, Date: 2022-03-11, From CBRE: Yes, Sell Value: 6599.61, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-HZ BTS UPS Batteries Removal' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-09032022-6829. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: In the BTS switchroom the UPS's are not being used hence the batteries are old and need to be removed from site. The defined scope of work includes: The batteries need to be disconnected and removed from building\nBatteries are to be stored and shrink wrapped on pallets ready for collection. The justification provided is: In the BTS switchroom the UPS's are not being used hence the batteries are old and need to be removed from site. If not approved, the effect would be: The batteries are old, can leak and also a fire hazard.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer approved by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire. Subsequently, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 2727, Sell Value: 2917.89, Margin Value: 190.89. Labour: Cost: 3681.72, Sell Value: 3681.72, Margin Value: 0. Grand total: Cost: 6408.72, Sell Value: 6599.61, Margin Value: 190.89, Total: 6599.61. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427079, PO Value: 4654.3, Date: 2022-03-11, From CBRE: Yes, Sell Value: 6599.61, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Test",
+      "interal_work_order_num": "UK-EW-10032022-8221",
+      "reference_number": "123654",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 12014.867099072,
+      "margin_value_usd": 2515.8506083344,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sajid Mehmood (2):rejected by Sajid Mehmood (3):offer submitted by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Test",
+        "scope": "Test",
+        "justification": "Test",
+        "non_approval_effect": "Test"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4851.66, Sell Value: 5191.29, Margin Value: 339.63",
+        "labour": "Cost: 2617.4166666667, Sell Value: 4256, Margin Value: 1638.5833333333",
+        "grand_total": "Cost: 7469.0766666667, Sell Value: 9447.29, Margin Value: 1978.2133333333, Total: 9447.29"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 2617.4166666667, Total Supply Chain Cost: 4851.66, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 5986.4302",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote project metadata, scope fields, status history and financials into clear natural language. Any field explicitly marked as having no data is returned as 'N/A' so the model learns not to fabricate missing information.",
+      "overview": "Project 'UPM-Test' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Sajid Mehmood under internal work order UK-EW-10032022-8221. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key commercial or procedural considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Test. The defined scope of work includes: Test. The justification provided is: Test. If not approved, the effect would be: Test.",
+      "status_history": "First, billing completed by Sajid Mehmood. Then, rejected by Sajid Mehmood. After that, offer submitted by Sajid Mehmood.",
+      "project_financials": "Vendor costs: Cost: 4851.66, Sell Value: 5191.29, Margin Value: 339.63. Labour: Cost: 2617.4166666667, Sell Value: 4256, Margin Value: 1638.5833333333. Grand total: Cost: 7469.0766666667, Sell Value: 9447.29, Margin Value: 1978.2133333333, Total: 9447.29. This summarises the overall material and labour cost distribution.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documents.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

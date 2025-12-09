@@ -1,0 +1,568 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-HZ External Glass Film Replacement",
+      "interal_work_order_num": "UK-EW-11022022-1022.1",
+      "reference_number": "2757210",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 46314.216202467,
+      "margin_value_usd": 3133.9756353876,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Price variation due to material price fluctuation \n2. Availability of materials\n3. Weather dependant on suitable and safe working conditions",
+        "problem": "The external safety bomb blast film has degraded and is flaking off on the front of the building making the facade unsightly also the present condition does not provide any safety protection",
+        "scope": "Attend CBRE office for induction and sign relevant paperwork\nRemove old film and fit new safety film to 19no windows\nSign off relevant paperwork",
+        "justification": "The external safety bomb blast film has degraded and is flaking off.\nPresent condition does not provide any safety protection as the existing glass is single glazed plate glass",
+        "non_approval_effect": "Loss of protection for the glass facade so no longer bombproof"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 33369, Sell Value: 35704.8282, Margin Value: 2335.8282",
+        "labour": "Cost: 583.62315789474, Sell Value: 712.04, Margin Value: 128.41684210526",
+        "grand_total": "Cost: 33952.623157895, Sell Value: 36416.8682, Margin Value: 2464.2450421053, Total: 36416.8682"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 583.62315789474, Total Supply Chain Cost: 33369, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 18564.4609",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-HZ External Glass Film Replacement' is based in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Prof. Miracle Abshire and uses internal work order UK-EW-11022022-1022.1. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Price variation due to material price fluctuation \n2. Availability of materials\n3. Weather dependant on suitable and safe working conditions. The problem statement indicates: The external safety bomb blast film has degraded and is flaking off on the front of the building making the facade unsightly also the present condition does not provide any safety protection. The defined scope of work includes: Attend CBRE office for induction and sign relevant paperwork\nRemove old film and fit new safety film to 19no windows\nSign off relevant paperwork. The justification provided is: The external safety bomb blast film has degraded and is flaking off.\nPresent condition does not provide any safety protection as the existing glass is single glazed plate glass. If not approved, the effect would be: Loss of protection for the glass facade so no longer bombproof.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 33369, Sell Value: 35704.8282, Margin Value: 2335.8282. Labour: Cost: 583.62315789474, Sell Value: 712.04, Margin Value: 128.41684210526. Grand total: Cost: 33952.623157895, Sell Value: 36416.8682, Margin Value: 2464.2450421053, Total: 36416.8682. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Legal Team Secure Space Requirements",
+      "interal_work_order_num": "UK-EW-16022022-6520",
+      "reference_number": "126302",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 20221.912247234,
+      "margin_value_usd": 1417.2598780431,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire (4):work in progress by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Kyndryl Legal team have requested some secure space at Greenford",
+        "scope": "CCTV camera, locate inside the room facing the door to take the entry image.\nSuitable Abloy key lock/deadbolt. Key to be stored in Traka Cabinet.\nWindow frosting \u2013 full length in line with other meeting rooms on the floor. Is to be of similar style and design.\nAACS (Access Control System) card reader fitted to door frame. (If unable to be wired in, the CCTV camera takes priority and will prove entry and times).\nDue to restrictions on the manufacture and country of origin of some equipment, please forward details to me of both during the quote phase.",
+        "justification": "Secure space required",
+        "non_approval_effect": "Kyndryl UK Legal will not have secure space to store confidential materials"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 14650.86, Sell Value: 15676.4196, Margin Value: 1025.5596",
+        "labour": "Cost: 135.23815789474, Sell Value: 224.07, Margin Value: 88.831842105264",
+        "grand_total": "Cost: 14786.098157895, Sell Value: 15900.4896, Margin Value: 1114.3914421053, Total: 15900.4896"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 135.23815789474, Total Supply Chain Cost: 14650.86, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8062.2798",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-Kyndryl Legal Team Secure Space Requirements' is based in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Prof. Miracle Abshire and uses internal work order UK-EW-16022022-6520. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Kyndryl Legal team have requested some secure space at Greenford. The defined scope of work includes: CCTV camera, locate inside the room facing the door to take the entry image.\nSuitable Abloy key lock/deadbolt. Key to be stored in Traka Cabinet.\nWindow frosting \u2013 full length in line with other meeting rooms on the floor. Is to be of similar style and design.\nAACS (Access Control System) card reader fitted to door frame. (If unable to be wired in, the CCTV camera takes priority and will prove entry and times).\nDue to restrictions on the manufacture and country of origin of some equipment, please forward details to me of both during the quote phase.. The justification provided is: Secure space required. If not approved, the effect would be: Kyndryl UK Legal will not have secure space to store confidential materials.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire. Subsequently, work in progress by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 14650.86, Sell Value: 15676.4196, Margin Value: 1025.5596. Labour: Cost: 135.23815789474, Sell Value: 224.07, Margin Value: 88.831842105264. Grand total: Cost: 14786.098157895, Sell Value: 15900.4896, Margin Value: 1114.3914421053, Total: 15900.4896. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Loadbank Provision - DRUPS Major Service and Quarterly Load Run",
+      "interal_work_order_num": "UK-EW-16022022-8974",
+      "reference_number": "126300",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 4496.1594811141,
+      "margin_value_usd": 332.95439667463,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Jayme Feil (2):rejected by Jayme Feil (3):offer submitted by Jayme Feil (4):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "DRUPS is due it's quarterly load run at >35% load. Current business load does provide enough load so the hire of a 600kW load bank is required. This will be completed during the DRUPS major service which involves fuel filter replacement which in turn has a requirement for a load run >35% 1 hour minimum",
+        "scope": "\"Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs\nDelivery of load bank\"",
+        "justification": "Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions",
+        "non_approval_effect": "Increased risk of generator failure, reduction of DRUPS reliability"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2848, Sell Value: 3047.3602, Margin Value: 199.3602",
+        "labour": "Cost: 425.52815789474, Sell Value: 487.97, Margin Value: 62.441842105263",
+        "grand_total": "Cost: 3273.5281578947, Sell Value: 3535.3302, Margin Value: 261.80204210526, Total: 3535.3302"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 425.52815789474, Total Supply Chain Cost: 2848, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2011.65",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-Loadbank Provision - DRUPS Major Service and Quarterly Load Run' is based in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. It was prepared by Jayme Feil and uses internal work order UK-EW-16022022-8974. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: DRUPS is due it's quarterly load run at >35% load. Current business load does provide enough load so the hire of a 600kW load bank is required. This will be completed during the DRUPS major service which involves fuel filter replacement which in turn has a requirement for a load run >35% 1 hour minimum. The defined scope of work includes: \"Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs\nDelivery of load bank\". The justification provided is: Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions. If not approved, the effect would be: Increased risk of generator failure, reduction of DRUPS reliability.",
+      "status_history": "First, billing completed by Jayme Feil. Then, rejected by Jayme Feil. After that, offer submitted by Jayme Feil. Subsequently, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2848, Sell Value: 3047.3602, Margin Value: 199.3602. Labour: Cost: 425.52815789474, Sell Value: 487.97, Margin Value: 62.441842105263. Grand total: Cost: 3273.5281578947, Sell Value: 3535.3302, Margin Value: 261.80204210526, Total: 3535.3302. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Loadbank Provision - DRUPS Major Service and Quarterly Load Run",
+      "interal_work_order_num": "UK-EW-16022022-8974.1",
+      "reference_number": "126300",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 4496.1594811141,
+      "margin_value_usd": 332.95439667463,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Jayme Feil (2):rejected by Jayme Feil (3):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "DRUPS is due it's quarterly load run at >35% load. Current business load does provide enough load so the hire of a 600kW load bank is required. This will be completed during the DRUPS major service which involves fuel filter replacement which in turn has a requirement for a load run >35% 1 hour minimum",
+        "scope": "\"Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs\nDelivery of load bank\"",
+        "justification": "Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions",
+        "non_approval_effect": "Increased risk of generator failure, reduction of DRUPS reliability"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2848, Sell Value: 3047.3602, Margin Value: 199.3602",
+        "labour": "Cost: 425.52815789474, Sell Value: 487.97, Margin Value: 62.441842105263",
+        "grand_total": "Cost: 3273.5281578947, Sell Value: 3535.3302, Margin Value: 261.80204210526, Total: 3535.3302"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 425.52815789474, Total Supply Chain Cost: 2848, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2011.65",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-Loadbank Provision - DRUPS Major Service and Quarterly Load Run' is based in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. It was prepared by Jayme Feil and uses internal work order UK-EW-16022022-8974.1. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: DRUPS is due it's quarterly load run at >35% load. Current business load does provide enough load so the hire of a 600kW load bank is required. This will be completed during the DRUPS major service which involves fuel filter replacement which in turn has a requirement for a load run >35% 1 hour minimum. The defined scope of work includes: \"Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs\nDelivery of load bank\". The justification provided is: Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions. If not approved, the effect would be: Increased risk of generator failure, reduction of DRUPS reliability.",
+      "status_history": "First, billing completed by Jayme Feil. Then, rejected by Jayme Feil. After that, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2848, Sell Value: 3047.3602, Margin Value: 199.3602. Labour: Cost: 425.52815789474, Sell Value: 487.97, Margin Value: 62.441842105263. Grand total: Cost: 3273.5281578947, Sell Value: 3535.3302, Margin Value: 261.80204210526, Total: 3535.3302. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Loadbank Provision - DRUPS Major Service and Quarterly Load Run",
+      "interal_work_order_num": "UK-EW-16022022-8974.3",
+      "reference_number": "126307",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 4496.1594811141,
+      "margin_value_usd": 332.95439667463,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Jayme Feil (2):work planning by Jayme Feil (3):offer approved by Jayme Feil (4):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "DRUPS is due it's quarterly load run at >35% load. Current business load does provide enough load so the hire of a 600kW load bank is required. This will be completed during the DRUPS major service which involves fuel filter replacement which in turn has a requirement for a load run >35% 1 hour minimum",
+        "scope": "\"Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs\nDelivery of load bank\"",
+        "justification": "Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions",
+        "non_approval_effect": "Increased risk of generator failure, reduction of DRUPS reliability"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2848, Sell Value: 3047.3602, Margin Value: 199.3602",
+        "labour": "Cost: 425.52815789474, Sell Value: 487.97, Margin Value: 62.441842105263",
+        "grand_total": "Cost: 3273.5281578947, Sell Value: 3535.3302, Margin Value: 261.80204210526, Total: 3535.3302"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 425.52815789474, Total Supply Chain Cost: 2848, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2011.65",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427553, PO Value: 2011.65, Date: 2022-04-27, From CBRE: Yes, Sell Value: 3535.3302, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-Loadbank Provision - DRUPS Major Service and Quarterly Load Run' is based in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. It was prepared by Jayme Feil and uses internal work order UK-EW-16022022-8974.3. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: DRUPS is due it's quarterly load run at >35% load. Current business load does provide enough load so the hire of a 600kW load bank is required. This will be completed during the DRUPS major service which involves fuel filter replacement which in turn has a requirement for a load run >35% 1 hour minimum. The defined scope of work includes: \"Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs\nDelivery of load bank\". The justification provided is: Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions. If not approved, the effect would be: Increased risk of generator failure, reduction of DRUPS reliability.",
+      "status_history": "First, billing completed by Jayme Feil. Then, work planning by Jayme Feil. After that, offer approved by Jayme Feil. Subsequently, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2848, Sell Value: 3047.3602, Margin Value: 199.3602. Labour: Cost: 425.52815789474, Sell Value: 487.97, Margin Value: 62.441842105263. Grand total: Cost: 3273.5281578947, Sell Value: 3535.3302, Margin Value: 261.80204210526, Total: 3535.3302. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427553, PO Value: 2011.65, Date: 2022-04-27, From CBRE: Yes, Sell Value: 3535.3302, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ External Glass Film Replacement",
+      "interal_work_order_num": "UK-EW-11022022-1022.2",
+      "reference_number": "2757210",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 46314.216202467,
+      "margin_value_usd": 3133.9756353876,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Price variation due to material price fluctuation \n2. Availability of materials\n3. Weather dependant on suitable and safe working conditions",
+        "problem": "The external safety bomb blast film has degraded and is flaking off on the front of the building making the facade unsightly also the present condition does not provide any safety protection",
+        "scope": "Attend CBRE office for induction and sign relevant paperwork\nRemove old film and fit new safety film to 19no windows\nSign off relevant paperwork",
+        "justification": "The external safety bomb blast film has degraded and is flaking off.\nPresent condition does not provide any safety protection as the existing glass is single glazed plate glass.\nThis is a health and safety issue as the glass would not remain in its entirety if the sheet glass window was to break  resulting in dangerous shards.",
+        "non_approval_effect": "Loss of protection for the glass facade so no longer bombproof.\nThis is a health and safety issue as the glass would not remain in its entirety if the sheet glass window was to break resulting in dangerous shards."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 33369, Sell Value: 35704.8282, Margin Value: 2335.8282",
+        "labour": "Cost: 583.62315789474, Sell Value: 712.04, Margin Value: 128.41684210526",
+        "grand_total": "Cost: 33952.623157895, Sell Value: 36416.8682, Margin Value: 2464.2450421053, Total: 36416.8682"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 583.62315789474, Total Supply Chain Cost: 33369, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 18564.4609",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-HZ External Glass Film Replacement' is based in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Prof. Miracle Abshire and uses internal work order UK-EW-11022022-1022.2. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Price variation due to material price fluctuation \n2. Availability of materials\n3. Weather dependant on suitable and safe working conditions. The problem statement indicates: The external safety bomb blast film has degraded and is flaking off on the front of the building making the facade unsightly also the present condition does not provide any safety protection. The defined scope of work includes: Attend CBRE office for induction and sign relevant paperwork\nRemove old film and fit new safety film to 19no windows\nSign off relevant paperwork. The justification provided is: The external safety bomb blast film has degraded and is flaking off.\nPresent condition does not provide any safety protection as the existing glass is single glazed plate glass.\nThis is a health and safety issue as the glass would not remain in its entirety if the sheet glass window was to break  resulting in dangerous shards.. If not approved, the effect would be: Loss of protection for the glass facade so no longer bombproof.\nThis is a health and safety issue as the glass would not remain in its entirety if the sheet glass window was to break resulting in dangerous shards..",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 33369, Sell Value: 35704.8282, Margin Value: 2335.8282. Labour: Cost: 583.62315789474, Sell Value: 712.04, Margin Value: 128.41684210526. Grand total: Cost: 33952.623157895, Sell Value: 36416.8682, Margin Value: 2464.2450421053, Total: 36416.8682. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-B5000 CLS Entrance Door Signage",
+      "interal_work_order_num": "UK-EW-23022022-771",
+      "reference_number": "126420",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eryn Reichert",
+      "quote_value_usd": 591.96235533511,
+      "margin_value_usd": 31.540124634363,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Eryn Reichert (2):offer submitted by Eryn Reichert",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "B5000 CLS Entrance Door requires Kyndryl signage to be installed.",
+        "scope": "Install Kyndryl Signage to B5000 CLS Entrance Door",
+        "justification": "Client request.",
+        "non_approval_effect": "Inability to resolve client request."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 354.38, Sell Value: 379.18, Margin Value: 24.8",
+        "labour": "Cost: 86.28, Sell Value: 86.28, Margin Value: 0",
+        "grand_total": "Cost: 440.66, Sell Value: 465.46, Margin Value: 24.8, Total: 465.46"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 86.28, Total Supply Chain Cost: 354.38, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 275.87",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-B5000 CLS Entrance Door Signage' is based in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. It was prepared by Eryn Reichert and uses internal work order UK-EW-23022022-771. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: B5000 CLS Entrance Door requires Kyndryl signage to be installed.. The defined scope of work includes: Install Kyndryl Signage to B5000 CLS Entrance Door. The justification provided is: Client request.. If not approved, the effect would be: Inability to resolve client request..",
+      "status_history": "First, billing completed by Eryn Reichert. Then, offer submitted by Eryn Reichert.",
+      "project_financials": "Vendor costs: Cost: 354.38, Sell Value: 379.18, Margin Value: 24.8. Labour: Cost: 86.28, Sell Value: 86.28, Margin Value: 0. Grand total: Cost: 440.66, Sell Value: 465.46, Margin Value: 24.8, Total: 465.46. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ CCU8 Lagging Repairs",
+      "interal_work_order_num": "UK-EW-24022022-8928",
+      "reference_number": "1111111",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 8567.0866081648,
+      "margin_value_usd": 699.91591531289,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The lagging on CCU8 has been damaged by birds and has left areas of exposed ducting",
+        "scope": "Remove existing damaged insulation from the ductwork tops and replace with new insulation. \nApply 0.6mm plain aluminium sheet to the insulation tops to prevent further bird attack. \nTo apply silver Proclad 150 laminated self-adhesive sheet to the new ductwork and attach onto \nexisting sides.\nApply a drip bead around lower areas.",
+        "justification": "Birds have been picking at the insulation resulting in areas of exposed ductwork open to the elements. It could be the possible cause of water ingress into the building",
+        "non_approval_effect": "There will be further damage to the insulation"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5960, Sell Value: 6377.2002, Margin Value: 417.2002",
+        "labour": "Cost: 225.95631578947, Sell Value: 359.1, Margin Value: 133.14368421053",
+        "grand_total": "Cost: 6185.9563157895, Sell Value: 6736.3002, Margin Value: 550.34388421053, Total: 6736.3002"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 225.95631578947, Total Supply Chain Cost: 5960, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3547.7",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-HZ CCU8 Lagging Repairs' is based in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Prof. Miracle Abshire and uses internal work order UK-EW-24022022-8928. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The lagging on CCU8 has been damaged by birds and has left areas of exposed ducting. The defined scope of work includes: Remove existing damaged insulation from the ductwork tops and replace with new insulation. \nApply 0.6mm plain aluminium sheet to the insulation tops to prevent further bird attack. \nTo apply silver Proclad 150 laminated self-adhesive sheet to the new ductwork and attach onto \nexisting sides.\nApply a drip bead around lower areas.. The justification provided is: Birds have been picking at the insulation resulting in areas of exposed ductwork open to the elements. It could be the possible cause of water ingress into the building. If not approved, the effect would be: There will be further damage to the insulation.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 5960, Sell Value: 6377.2002, Margin Value: 417.2002. Labour: Cost: 225.95631578947, Sell Value: 359.1, Margin Value: 133.14368421053. Grand total: Cost: 6185.9563157895, Sell Value: 6736.3002, Margin Value: 550.34388421053, Total: 6736.3002. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ CCU8 Lagging Repairs",
+      "interal_work_order_num": "UK-EW-24022022-8928.1",
+      "reference_number": "2759660",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 8567.0866081648,
+      "margin_value_usd": 670.84705850854,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):rejected by Prof. Miracle Abshire (3):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The lagging on CCU8 has been damaged by birds and has left areas of exposed ducting",
+        "scope": "Remove existing damaged insulation from the ductwork tops and replace with new insulation. \nApply 0.6mm plain aluminium sheet to the insulation tops to prevent further bird attack. \nTo apply silver Proclad 150 laminated self-adhesive sheet to the new ductwork and attach onto \nexisting sides.\nApply a drip bead around lower areas.",
+        "justification": "Birds have been picking at the insulation resulting in areas of exposed ductwork open to the elements. It could be the possible cause of water ingress into the building",
+        "non_approval_effect": "There will be further damage to the insulation"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5960, Sell Value: 6377.2002, Margin Value: 417.2002",
+        "labour": "Cost: 248.81315789474, Sell Value: 359.1, Margin Value: 110.28684210526",
+        "grand_total": "Cost: 6208.8131578947, Sell Value: 6736.3002, Margin Value: 527.48704210526, Total: 6736.3002"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 248.81315789474, Total Supply Chain Cost: 5960, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3547.7",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-HZ CCU8 Lagging Repairs' is based in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Prof. Miracle Abshire and uses internal work order UK-EW-24022022-8928.1. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The lagging on CCU8 has been damaged by birds and has left areas of exposed ducting. The defined scope of work includes: Remove existing damaged insulation from the ductwork tops and replace with new insulation. \nApply 0.6mm plain aluminium sheet to the insulation tops to prevent further bird attack. \nTo apply silver Proclad 150 laminated self-adhesive sheet to the new ductwork and attach onto \nexisting sides.\nApply a drip bead around lower areas.. The justification provided is: Birds have been picking at the insulation resulting in areas of exposed ductwork open to the elements. It could be the possible cause of water ingress into the building. If not approved, the effect would be: There will be further damage to the insulation.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, rejected by Prof. Miracle Abshire. After that, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 5960, Sell Value: 6377.2002, Margin Value: 417.2002. Labour: Cost: 248.81315789474, Sell Value: 359.1, Margin Value: 110.28684210526. Grand total: Cost: 6208.8131578947, Sell Value: 6736.3002, Margin Value: 527.48704210526, Total: 6736.3002. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Close-out and billing documentation is not yet available.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Compile and record close-out and billing documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HZ CCU8 Lagging Repairs",
+      "interal_work_order_num": "UK-EW-24022022-8928.2",
+      "reference_number": "126451",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 8567.0866081648,
+      "margin_value_usd": 670.84705850854,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):work order closed by Prof. Miracle Abshire (3):work planning by Prof. Miracle Abshire (4):offer approved by Prof. Miracle Abshire (5):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The lagging on CCU8 has been damaged by birds and has left areas of exposed ducting",
+        "scope": "Remove existing damaged insulation from the ductwork tops and replace with new insulation. \nApply 0.6mm plain aluminium sheet to the insulation tops to prevent further bird attack. \nTo apply silver Proclad 150 laminated self-adhesive sheet to the new ductwork and attach onto \nexisting sides.\nApply a drip bead around lower areas.",
+        "justification": "Birds have been picking at the insulation resulting in areas of exposed ductwork open to the elements. It could be the possible cause of water ingress into the building",
+        "non_approval_effect": "There will be further damage to the insulation"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5960, Sell Value: 6377.2002, Margin Value: 417.2002",
+        "labour": "Cost: 248.81315789474, Sell Value: 359.1, Margin Value: 110.28684210526",
+        "grand_total": "Cost: 6208.8131578947, Sell Value: 6736.3002, Margin Value: 527.48704210526, Total: 6736.3002"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 248.81315789474, Total Supply Chain Cost: 5960, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3547.7",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700427079, PO Value: 3547.7, Date: 2022-03-02, From CBRE: Yes, Sell Value: 6736.3002, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I transformed the project's raw fields into fluent summaries by combining metadata, scope elements, status flow and financial data. Whenever the input explicitly states no EPIC, no POR, or no close-out data, I return exactly 'N/A' to teach the model not to invent missing information.",
+      "overview": "Project 'UPM-HZ CCU8 Lagging Repairs' is based in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Prof. Miracle Abshire and uses internal work order UK-EW-24022022-8928.2. The current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key operational or contractual considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The lagging on CCU8 has been damaged by birds and has left areas of exposed ducting. The defined scope of work includes: Remove existing damaged insulation from the ductwork tops and replace with new insulation. \nApply 0.6mm plain aluminium sheet to the insulation tops to prevent further bird attack. \nTo apply silver Proclad 150 laminated self-adhesive sheet to the new ductwork and attach onto \nexisting sides.\nApply a drip bead around lower areas.. The justification provided is: Birds have been picking at the insulation resulting in areas of exposed ductwork open to the elements. It could be the possible cause of water ingress into the building. If not approved, the effect would be: There will be further damage to the insulation.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, work order closed by Prof. Miracle Abshire. After that, work planning by Prof. Miracle Abshire. Subsequently, offer approved by Prof. Miracle Abshire. Finally, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 5960, Sell Value: 6377.2002, Margin Value: 417.2002. Labour: Cost: 248.81315789474, Sell Value: 359.1, Margin Value: 110.28684210526. Grand total: Cost: 6208.8131578947, Sell Value: 6736.3002, Margin Value: 527.48704210526, Total: 6736.3002. This describes the distribution of costs and margin.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700427079, PO Value: 3547.7, Date: 2022-03-02, From CBRE: Yes, Sell Value: 6736.3002, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests have been raised for this work.",
+        "EPIC or required HSE documentation is not completed.",
+        "Client close-out confirmation has not been recorded."
+      ],
+      "next_steps": [
+        "Create and submit PORs required for procurement and cost commitment.",
+        "Prepare and complete required EPIC / HSE documents.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

@@ -1,0 +1,568 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-test",
+      "interal_work_order_num": "UK-EW-14052024-11967",
+      "reference_number": "test",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eryn Reichert",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):sor submitted / draft by Eryn Reichert",
+      "scope_of_work": {
+        "notes": "test",
+        "problem": "test",
+        "scope": "test",
+        "justification": "test",
+        "non_approval_effect": "test"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": null,
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 0, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-test' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Eryn Reichert for client Kyndryl. It is tracked under internal work order UK-EW-14052024-11967 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: test. The problem statement indicates: test. The defined scope of work includes: test. The justification provided is: test. If not approved, the effect would be: test.",
+      "status_history": "First, cancelled. Then, sor submitted / draft by Eryn Reichert.",
+      "project_financials": "N/A",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-MAM 2024 for Kyndryl Warwick critical equipment and life safety systems battery replacement",
+      "interal_work_order_num": "UK-EW-16052024-11996",
+      "reference_number": "HDR 2837395 Appro 143750",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 20568.404934503,
+      "margin_value_usd": 1560.5951926745,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled by Bilal (2):offer submitted by Miss Maymie Sporer (3):sor submitted / draft by Jayme Feil",
+      "scope_of_work": {
+        "notes": "90 day quote validity",
+        "problem": "DC Best practice maintenance interval guide and OEM recommendations are to replace batteries for critical systems at specific intervals to ensure maximum reliability",
+        "scope": "Supply & install replacement batteries to the following systems:Ph1 Roof HV, Sprinkler Fire Pump Starter Panel, Inergen & Fogtec Fire Suppression Systems, BMS OSNs, CSA Vesda units, Sprinkler Main Panel, IRS Generator System Control Panel, Stulz Sensible Cooler/DX and the Main Site HV Substations ESA1, ESA2, ESA3 tripping batteries.Disposal of batteries as per Kyndryl requirements.",
+        "justification": "Last replaced 2019/20.",
+        "non_approval_effect": "Increased risk of battery failure."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 13207.18, Sell Value: 13999.6108, Margin Value: 792.4308",
+        "labour": "Cost: 1738.6608, Sell Value: 2173.326, Margin Value: 434.6652",
+        "grand_total": "Cost: 14945.8408, Sell Value: 16172.9368, Margin Value: 1227.096, Total: 16172.9368"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1738.6608, Total Supply Chain Cost: 13207.18, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 16172.9368",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-MAM 2024 for Kyndryl Warwick critical equipment and life safety systems battery replacement' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Jayme Feil for client Kyndryl. It is tracked under internal work order UK-EW-16052024-11996 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 90 day quote validity. The problem statement indicates: DC Best practice maintenance interval guide and OEM recommendations are to replace batteries for critical systems at specific intervals to ensure maximum reliability. The defined scope of work includes: Supply & install replacement batteries to the following systems:Ph1 Roof HV, Sprinkler Fire Pump Starter Panel, Inergen & Fogtec Fire Suppression Systems, BMS OSNs, CSA Vesda units, Sprinkler Main Panel, IRS Generator System Control Panel, Stulz Sensible Cooler/DX and the Main Site HV Substations ESA1, ESA2, ESA3 tripping batteries.Disposal of batteries as per Kyndryl requirements.. The justification provided is: Last replaced 2019/20.. If not approved, the effect would be: Increased risk of battery failure..",
+      "status_history": "First, cancelled by Bilal. Then, offer submitted by Miss Maymie Sporer. After that, sor submitted / draft by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 13207.18, Sell Value: 13999.6108, Margin Value: 792.4308. Labour: Cost: 1738.6608, Sell Value: 2173.326, Margin Value: 434.6652. Grand total: Cost: 14945.8408, Sell Value: 16172.9368, Margin Value: 1227.096, Total: 16172.9368.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Generator Compound CCTV Replacement",
+      "interal_work_order_num": "UK-EW-17052024-12010",
+      "reference_number": "142183",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 4933.959303065,
+      "margin_value_usd": 325.48264021366,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):offer submitted by Neil Hauck (3):sor submitted / draft by Neil Hauck",
+      "scope_of_work": {
+        "notes": "Assumption is this will provide the required security cover needed for the generator compound.",
+        "problem": "Following the replacement of 2x CCTV cameras monitoring the Generator Compound in March, the final 2x cameras have now also failed and no longer provide physical security visibility to the North Harbour Central Security Office.",
+        "scope": "Provision of all materials and labour to remove the 2x faulty cameras and to install and commission 2x Kyndryl Standard Professional Grade CCTV Cameras.",
+        "justification": "The Generator Compound contains the critical standby power systems to support North Harbour DC in the event of power interruptions. Monitoring key infrastructure for physical security is a contractual SLA.",
+        "non_approval_effect": "Inability to maintain the contractual SLA - physical security monitoring of critical infrastructure."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3420.97, Sell Value: 3626.2282, Margin Value: 205.2582",
+        "labour": "Cost: 202.6752, Sell Value: 253.344, Margin Value: 50.6688",
+        "grand_total": "Cost: 3623.6452, Sell Value: 3879.5722, Margin Value: 255.927, Total: 3879.5722"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 202.6752, Total Supply Chain Cost: 3420.97, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 3879.5722",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Generator Compound CCTV Replacement' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Neil Hauck for client Kyndryl. It is tracked under internal work order UK-EW-17052024-12010 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: Assumption is this will provide the required security cover needed for the generator compound.. The problem statement indicates: Following the replacement of 2x CCTV cameras monitoring the Generator Compound in March, the final 2x cameras have now also failed and no longer provide physical security visibility to the North Harbour Central Security Office.. The defined scope of work includes: Provision of all materials and labour to remove the 2x faulty cameras and to install and commission 2x Kyndryl Standard Professional Grade CCTV Cameras.. The justification provided is: The Generator Compound contains the critical standby power systems to support North Harbour DC in the event of power interruptions. Monitoring key infrastructure for physical security is a contractual SLA.. If not approved, the effect would be: Inability to maintain the contractual SLA - physical security monitoring of critical infrastructure..",
+      "status_history": "First, cancelled. Then, offer submitted by Neil Hauck. After that, sor submitted / draft by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 3420.97, Sell Value: 3626.2282, Margin Value: 205.2582. Labour: Cost: 202.6752, Sell Value: 253.344, Margin Value: 50.6688. Grand total: Cost: 3623.6452, Sell Value: 3879.5722, Margin Value: 255.927, Total: 3879.5722.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS Loadbank for July 24 Quarterly load run",
+      "interal_work_order_num": "UK-EW-28052024-12069",
+      "reference_number": "HDR 2834483 Appro 142373",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 3857.1791936919,
+      "margin_value_usd": 318.70278519648,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled by Bilal (2):offer submitted by Jayme Feil (3):sor submitted / draft by Jayme Feil",
+      "scope_of_work": {
+        "notes": "Validity 90 days",
+        "problem": "DRUPS is due it's next quarterly load run at >35% load in July 2024 as per best practice. Current business load does not provide enough load so the hire of a 600kW load bank is required.",
+        "scope": "Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs Delivery of load bank.",
+        "justification": "Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions",
+        "non_approval_effect": "Increased risk of generator failure, reduction of DRUPS reliability"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2342, Sell Value: 2482.52, Margin Value: 140.52",
+        "labour": "Cost: 440.304, Sell Value: 550.38, Margin Value: 110.076",
+        "grand_total": "Cost: 2782.304, Sell Value: 3032.9, Margin Value: 250.596, Total: 3032.9"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 440.304, Total Supply Chain Cost: 2342, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 3032.9",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS Loadbank for July 24 Quarterly load run' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Jayme Feil for client Kyndryl. It is tracked under internal work order UK-EW-28052024-12069 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: Validity 90 days. The problem statement indicates: DRUPS is due it's next quarterly load run at >35% load in July 2024 as per best practice. Current business load does not provide enough load so the hire of a 600kW load bank is required.. The defined scope of work includes: Hire and connection, disconnection of 600kW load bank with inline 1250A MCCB issue of PTWs/ICs Delivery of load bank.. The justification provided is: Maintain the DRUPS generator reliability and prevent wet stacking of generators due to low load conditions. If not approved, the effect would be: Increased risk of generator failure, reduction of DRUPS reliability.",
+      "status_history": "First, cancelled by Bilal. Then, offer submitted by Jayme Feil. After that, sor submitted / draft by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 2342, Sell Value: 2482.52, Margin Value: 140.52. Labour: Cost: 440.304, Sell Value: 550.38, Margin Value: 110.076. Grand total: Cost: 2782.304, Sell Value: 3032.9, Margin Value: 250.596, Total: 3032.9.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hz Boiler 4 Replacement Pump",
+      "interal_work_order_num": "UK-EW-29052024-12085",
+      "reference_number": "HDR 2834527 Appro 142372",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 5536.9776785714,
+      "margin_value_usd": 351.45299369748,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled by Bilal (2):sor submitted / draft by Jayme Feil",
+      "scope_of_work": {
+        "notes": "90 day validity",
+        "problem": "Boiler 4 has been found to have a seized pump",
+        "scope": "Specialist to supply and install new pump",
+        "justification": "The boilers provide hot water to the air handing units on site for DC and office area temperature and humidity control",
+        "non_approval_effect": "Inability to provide hot water to AHUs should there be further failures"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3787.67, Sell Value: 4014.9302, Margin Value: 227.2602",
+        "labour": "Cost: 161.6256, Sell Value: 202.032, Margin Value: 40.4064",
+        "grand_total": "Cost: 3949.2956, Sell Value: 4216.9622, Margin Value: 267.6666, Total: 4216.9622"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 161.6256, Total Supply Chain Cost: 3787.67, Total Other Cost: 0. Draft Approval - Status: , Grand Total: 0",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz Boiler 4 Replacement Pump' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Jayme Feil for client Kyndryl. It is tracked under internal work order UK-EW-29052024-12085 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 90 day validity. The problem statement indicates: Boiler 4 has been found to have a seized pump. The defined scope of work includes: Specialist to supply and install new pump. The justification provided is: The boilers provide hot water to the air handing units on site for DC and office area temperature and humidity control. If not approved, the effect would be: Inability to provide hot water to AHUs should there be further failures.",
+      "status_history": "First, cancelled by Bilal. Then, sor submitted / draft by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 3787.67, Sell Value: 4014.9302, Margin Value: 227.2602. Labour: Cost: 161.6256, Sell Value: 202.032, Margin Value: 40.4064. Grand total: Cost: 3949.2956, Sell Value: 4216.9622, Margin Value: 267.6666, Total: 4216.9622.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-UK \u20132024 SECR Compliance Reporting",
+      "interal_work_order_num": "UK-EW-30052024-12099",
+      "reference_number": "TBC",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Miss Maymie Sporer",
+      "quote_value_usd": 15169.599389546,
+      "margin_value_usd": 3033.9198779092,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled by Bilal (2):offer approved by Miss Maymie Sporer (3):offer submitted by Miss Maymie Sporer (4):sor submitted / draft by Miss Maymie Sporer",
+      "scope_of_work": {
+        "notes": "TBC",
+        "problem": "The Companies (Directors\u2019 Report) and Limited Liability Partnerships (Energy and Carbon Report) Regulations 2018 came into force on 1 April 2019 and apply to financial years starting on or after 1 April 2019. Kyndryl is required to produce an SECR-compliant publication in 2024, based on their previous financial year.",
+        "scope": "Defining of reporting parameters & processes:Assess the extent of organisational qualificationConfirm reporting approach & methodologyDefine appropriate scope & boundariesIdentify omissions or exclusions (if any)\u00a0Process mapping, to identifying relevant:Data/ emissions sourcesStakeholdersContacts and ownership\u00a0Portfolio-wide activity data and information gathering across:Relevant activity data across relevant UK businesses/sourcesEnergy efficiency actions and identified savings\u00a0GHG emissions calculation(s), to include:Identification of relevant emissions factorsUnit conversion & calculationIntensity ratio developmentInternal audit & QA Drafting of SECR narrative for annual report, to include relevant:Presentation of GHG emission figures (in required formats)Methodology & calculationsEnergy efficiency actionsBuilding Code LocationAWL-GNGB02N1 Aberdeen - Brightsolid (AWL-GNGB02N1)AWL-GNGBP061 Redditch - Evoque (AWL-GNGBP061)GB151934 FAREHAM (GB151934) SCCGB152067 Newport (GB152067) NGD Celtic WayGB152072 ARK Data Centres (GB152072)GB152198 Wokingham (GB152198) CenturyLinkGB152199 Slough (GB152199) CenturyLinkGB152237 Manchester (GB152237) Daisy Brindley RoadGBBIRMDC Birmingham DC (GBBIRMDC)GBGRNFRD Greenford Green (GBGRNFRD)GBINVERC Greenock Riverside (GBINVERC)GBNORTHH North Harbour (GBNORTHH)GBWARWCK Warwick (GBWARWCK)GBPROC02 Slough Network PoP (Coca Cola)KGB51634 Harlow KAO Data Centre",
+        "justification": "To ensure that Kyndryl are adequately prepared for and able to comply with SECR reporting requirements.",
+        "non_approval_effect": "Non-compliance with SECR regulations"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "labour": "Cost: 9542.2848, Sell Value: 11927.856, Margin Value: 2385.5712",
+        "grand_total": "Cost: 9542.2848, Sell Value: 11927.856, Margin Value: 2385.5712, Total: 11927.856"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 9542.2848, Total Supply Chain Cost: 0, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11927.856",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Checklist: (1)Have PPE checks been completed (on CBRE template) and upload to project file on SharePoint?: No, (2)Have O&Ms and Testing and Commissioning certificates been uploaded to project file on SharePoint?: No, (3)Has FM Handover been completed and uploaded to project file on SharePoint?: No, (4)Final Account meeting held with client and all costs agreed?: No, (5)Retention recorded for billing after the defects liability period?: No, (6)Final Account agreed with all Suppliers?: No, (7)Cost Plan finalised and final figures posted to Finance System?: No, (8)Final Invoice issued to Client?: No, (9)Project Debt Status checked and followed up if in the Red?: No, (10)Practical Completion Cert issued to Client?: No, (11)Test & Commissioning Tracker developed and implemented?: No, (12)Test & Commissioning Tagging System implemented?: No, (13)Final Quality Inspection completed?: No, (14)Snagging Schedule closed out by all parties?: No, (15)Completion Photographs taken: No, (16)Case Study Compiled: No, (17)Client Feedback requested and received?: No, (18)Lessons Learned exercise completed?: No, (19)As Built Drawings completed?: No, (20)O&M and/or Project Safety File Completed?: No, (21)Procurement supplier review questionnaire completed: No, (22)DLP final inspection meeting scheduled in CBRE team and client calendar for DLP payment release: No. Client POs: PO Number: 5000209379, PO Value: 11969.3, Date: 2024-05-31, From CBRE: Yes, Sell Value: 11927.856, Billing Completed: No",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-UK \u20132024 SECR Compliance Reporting' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Miss Maymie Sporer for client Kyndryl. It is tracked under internal work order UK-EW-30052024-12099 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: TBC. The problem statement indicates: The Companies (Directors\u2019 Report) and Limited Liability Partnerships (Energy and Carbon Report) Regulations 2018 came into force on 1 April 2019 and apply to financial years starting on or after 1 April 2019. Kyndryl is required to produce an SECR-compliant publication in 2024, based on their previous financial year.. The defined scope of work includes: Defining of reporting parameters & processes:Assess the extent of organisational qualificationConfirm reporting approach & methodologyDefine appropriate scope & boundariesIdentify omissions or exclusions (if any)\u00a0Process mapping, to identifying relevant:Data/ emissions sourcesStakeholdersContacts and ownership\u00a0Portfolio-wide activity data and information gathering across:Relevant activity data across relevant UK businesses/sourcesEnergy efficiency actions and identified savings\u00a0GHG emissions calculation(s), to include:Identification of relevant emissions factorsUnit conversion & calculationIntensity ratio developmentInternal audit & QA Drafting of SECR narrative for annual report, to include relevant:Presentation of GHG emission figures (in required formats)Methodology & calculationsEnergy efficiency actionsBuilding Code LocationAWL-GNGB02N1 Aberdeen - Brightsolid (AWL-GNGB02N1)AWL-GNGBP061 Redditch - Evoque (AWL-GNGBP061)GB151934 FAREHAM (GB151934) SCCGB152067 Newport (GB152067) NGD Celtic WayGB152072 ARK Data Centres (GB152072)GB152198 Wokingham (GB152198) CenturyLinkGB152199 Slough (GB152199) CenturyLinkGB152237 Manchester (GB152237) Daisy Brindley RoadGBBIRMDC Birmingham DC (GBBIRMDC)GBGRNFRD Greenford Green (GBGRNFRD)GBINVERC Greenock Riverside (GBINVERC)GBNORTHH North Harbour (GBNORTHH)GBWARWCK Warwick (GBWARWCK)GBPROC02 Slough Network PoP (Coca Cola)KGB51634 Harlow KAO Data Centre. The justification provided is: To ensure that Kyndryl are adequately prepared for and able to comply with SECR reporting requirements.. If not approved, the effect would be: Non-compliance with SECR regulations.",
+      "status_history": "First, cancelled by Bilal. Then, offer approved by Miss Maymie Sporer. After that, offer submitted by Miss Maymie Sporer. Subsequently, sor submitted / draft by Miss Maymie Sporer.",
+      "project_financials": "Vendor costs: Cost: 0, Sell Value: 0, Margin Value: 0. Labour: Cost: 9542.2848, Sell Value: 11927.856, Margin Value: 2385.5712. Grand total: Cost: 9542.2848, Sell Value: 11927.856, Margin Value: 2385.5712, Total: 11927.856.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Checklist: (1)Have PPE checks been completed (on CBRE template) and upload to project file on SharePoint?: No, (2)Have O&Ms and Testing and Commissioning certificates been uploaded to project file on SharePoint?: No, (3)Has FM Handover been completed and uploaded to project file on SharePoint?: No, (4)Final Account meeting held with client and all costs agreed?: No, (5)Retention recorded for billing after the defects liability period?: No, (6)Final Account agreed with all Suppliers?: No, (7)Cost Plan finalised and final figures posted to Finance System?: No, (8)Final Invoice issued to Client?: No, (9)Project Debt Status checked and followed up if in the Red?: No, (10)Practical Completion Cert issued to Client?: No, (11)Test & Commissioning Tracker developed and implemented?: No, (12)Test & Commissioning Tagging System implemented?: No, (13)Final Quality Inspection completed?: No, (14)Snagging Schedule closed out by all parties?: No, (15)Completion Photographs taken: No, (16)Case Study Compiled: No, (17)Client Feedback requested and received?: No, (18)Lessons Learned exercise completed?: No, (19)As Built Drawings completed?: No, (20)O&M and/or Project Safety File Completed?: No, (21)Procurement supplier review questionnaire completed: No, (22)DLP final inspection meeting scheduled in CBRE team and client calendar for DLP payment release: No. Client POs: PO Number: 5000209379, PO Value: 11969.3, Date: 2024-05-31, From CBRE: Yes, Sell Value: 11927.856, Billing Completed: No",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-DRUPS Fire Extinguishing System Remedial Works",
+      "interal_work_order_num": "UK-EW-05062024-12128",
+      "reference_number": "2834638",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 12284.603840769,
+      "margin_value_usd": 712.68065623812,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):offer submitted by Neil Hauck (3):sor submitted / draft by Neil Hauck",
+      "scope_of_work": {
+        "notes": "As a result of recent DRUPS fire suppression maintenance a number of remedial actions have been noted by the specialist contractor",
+        "problem": "As a result of recent DRUPS fire suppression maintenance a number of remedial actions have been noted by the specialist contractor",
+        "scope": "DRUPS 3 VESDA system power supply has failed and requires replacement.DRUPS 3 Inergen system - Replace discharge and actuation hoses - Replace obsolete Kentec K201 suppression panelDRUPS 4 Inergen system - Replace discharge and actuation hoses - Replace obsolete Kentec K201 suppression panel",
+        "justification": "Fire and Life safety systems require remedial actions as per recommendation from specialist contractor.",
+        "non_approval_effect": "Non compliant Fire and Life Safety systems. Systems will remain operational\u00a0but with active faults and/or obsolete parts."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 9023, Sell Value: 9564.38, Margin Value: 541.38",
+        "labour": "Cost: 76.0032, Sell Value: 95.004, Margin Value: 19.0008",
+        "grand_total": "Cost: 9099.0032, Sell Value: 9659.384, Margin Value: 560.3808, Total: 9659.384"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 76.0032, Total Supply Chain Cost: 9023, Total Other Cost: 0. Approval - Status: Rejected, Grand Total: 10197.74, Approval - Status: Submitted, Grand Total: 9659.384",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-DRUPS Fire Extinguishing System Remedial Works' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Neil Hauck for client Kyndryl. It is tracked under internal work order UK-EW-05062024-12128 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: As a result of recent DRUPS fire suppression maintenance a number of remedial actions have been noted by the specialist contractor. The problem statement indicates: As a result of recent DRUPS fire suppression maintenance a number of remedial actions have been noted by the specialist contractor. The defined scope of work includes: DRUPS 3 VESDA system power supply has failed and requires replacement.DRUPS 3 Inergen system - Replace discharge and actuation hoses - Replace obsolete Kentec K201 suppression panelDRUPS 4 Inergen system - Replace discharge and actuation hoses - Replace obsolete Kentec K201 suppression panel. The justification provided is: Fire and Life safety systems require remedial actions as per recommendation from specialist contractor.. If not approved, the effect would be: Non compliant Fire and Life Safety systems. Systems will remain operational\u00a0but with active faults and/or obsolete parts..",
+      "status_history": "First, cancelled. Then, offer submitted by Neil Hauck. After that, sor submitted / draft by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 9023, Sell Value: 9564.38, Margin Value: 541.38. Labour: Cost: 76.0032, Sell Value: 95.004, Margin Value: 19.0008. Grand total: Cost: 9099.0032, Sell Value: 9659.384, Margin Value: 560.3808, Total: 9659.384.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hz - Kyndryl Warwick Ph1 Office AHU Intake Fan Repair & Refurbishment",
+      "interal_work_order_num": "UK-EW-13062024-12167",
+      "reference_number": "HDR TBC APPRO TBC",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 7582.3120946204,
+      "margin_value_usd": 452.2884395269,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):offer submitted by Jayme Feil (3):sor submitted / draft by Jayme Feil",
+      "scope_of_work": {
+        "notes": "90 day validity",
+        "problem": "On routine plant checks, Phase 1 Office AHU supply fan was found to be very noisy and on investigation it was found that the motor base mounts on one side had collapsed, the motor bearings are noisy and the fan pulleys are significantly worn.",
+        "scope": "Specialist to overhaul complete unit, dismantle motor assembly, replace antivibration mountings, replace all bearings, reposition fan motor, replace motor and fan pulleys, install belts and adjust and test for normal operation.",
+        "justification": "Phase 1 office provides comport cooling/heating and recommended air changes to the Phase 1 office areas",
+        "non_approval_effect": "The Phase 1 Office AHU will remain off-line thus not heating and comfort cooling will not be available"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5505, Sell Value: 5835.3, Margin Value: 330.3",
+        "labour": "Cost: 101.3376, Sell Value: 126.672, Margin Value: 25.3344",
+        "grand_total": "Cost: 5606.3376, Sell Value: 5961.972, Margin Value: 355.6344, Total: 5961.972"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 101.3376, Total Supply Chain Cost: 5505, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 5961.972",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hz - Kyndryl Warwick Ph1 Office AHU Intake Fan Repair & Refurbishment' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Jayme Feil for client Kyndryl. It is tracked under internal work order UK-EW-13062024-12167 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: 90 day validity. The problem statement indicates: On routine plant checks, Phase 1 Office AHU supply fan was found to be very noisy and on investigation it was found that the motor base mounts on one side had collapsed, the motor bearings are noisy and the fan pulleys are significantly worn.. The defined scope of work includes: Specialist to overhaul complete unit, dismantle motor assembly, replace antivibration mountings, replace all bearings, reposition fan motor, replace motor and fan pulleys, install belts and adjust and test for normal operation.. The justification provided is: Phase 1 office provides comport cooling/heating and recommended air changes to the Phase 1 office areas. If not approved, the effect would be: The Phase 1 Office AHU will remain off-line thus not heating and comfort cooling will not be available.",
+      "status_history": "First, cancelled. Then, offer submitted by Jayme Feil. After that, sor submitted / draft by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 5505, Sell Value: 5835.3, Margin Value: 330.3. Labour: Cost: 101.3376, Sell Value: 126.672, Margin Value: 25.3344. Grand total: Cost: 5606.3376, Sell Value: 5961.972, Margin Value: 355.6344, Total: 5961.972.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Greenford \u2013 Camera 61, 57 & 58 CCTV Replacement",
+      "interal_work_order_num": "UK-EW-13062024-12174",
+      "reference_number": "2834955",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eliseo Treutel",
+      "quote_value_usd": 5651.2822078087,
+      "margin_value_usd": 373.50019076688,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):offer submitted by Eliseo Treutel (3):sor submitted / draft by Eliseo Treutel",
+      "scope_of_work": {
+        "notes": "CCTV cameras need replacing as a matter of urgency. Fence require repairs.",
+        "problem": "Intruders used power tools to cut a hole in the fencing to site next to the East Powerhouse, entered compound and damaged 3 x CCTV cameras. (57, 58 and 61) leaving the EPH building blind to the main building with no CCTV coverage.",
+        "scope": "1. Remove existing damaged cameras and install replacement Axis externalvandal resistant CCTV cameras.2. Configure and Commission the replacement cameras onto the existing Milestone CCTV software platform.Section of fence needs repairing also.",
+        "justification": "East Powerhouse (UPS) LV switch room is cut off from the main building with no means of detecting intruders accessing site with the intent to do harm, damage equipment or remove property. No recording of damage to site until it is too late to address the issue.",
+        "non_approval_effect": "Extensive damage to site equipment and or theft of equipment of material from site."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 3914.72, Sell Value: 4149.6032, Margin Value: 234.8832",
+        "labour": "Cost: 235.2, Sell Value: 294, Margin Value: 58.8",
+        "grand_total": "Cost: 4149.92, Sell Value: 4443.6032, Margin Value: 293.6832, Total: 4443.6032"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 235.2, Total Supply Chain Cost: 3914.72, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 4443.6032",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Greenford \u2013 Camera 61, 57 & 58 CCTV Replacement' is based in United Kingdom at site Al Qadisiyah, managed by Qwerty and prepared by Eliseo Treutel for client Kyndryl. It is tracked under internal work order UK-EW-13062024-12174 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: CCTV cameras need replacing as a matter of urgency. Fence require repairs.. The problem statement indicates: Intruders used power tools to cut a hole in the fencing to site next to the East Powerhouse, entered compound and damaged 3 x CCTV cameras. (57, 58 and 61) leaving the EPH building blind to the main building with no CCTV coverage.. The defined scope of work includes: 1. Remove existing damaged cameras and install replacement Axis externalvandal resistant CCTV cameras.2. Configure and Commission the replacement cameras onto the existing Milestone CCTV software platform.Section of fence needs repairing also.. The justification provided is: East Powerhouse (UPS) LV switch room is cut off from the main building with no means of detecting intruders accessing site with the intent to do harm, damage equipment or remove property. No recording of damage to site until it is too late to address the issue.. If not approved, the effect would be: Extensive damage to site equipment and or theft of equipment of material from site..",
+      "status_history": "First, cancelled. Then, offer submitted by Eliseo Treutel. After that, sor submitted / draft by Eliseo Treutel.",
+      "project_financials": "Vendor costs: Cost: 3914.72, Sell Value: 4149.6032, Margin Value: 234.8832. Labour: Cost: 235.2, Sell Value: 294, Margin Value: 58.8. Grand total: Cost: 4149.92, Sell Value: 4443.6032, Margin Value: 293.6832, Total: 4443.6032.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hazardous Waste Disposal Jun 2024",
+      "interal_work_order_num": "UK-EW-17062024-12190",
+      "reference_number": "2835045",
+      "project_status": "Cancelled",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Neil Hauck",
+      "quote_value_usd": 3133.4605112553,
+      "margin_value_usd": 206.24189240748,
+      "status_history": "here is the status change history of project in numbering order(1):cancelled (2):offer submitted by Neil Hauck (3):sor submitted / draft by Neil Hauck",
+      "scope_of_work": {
+        "notes": "Waste needs removing from site to fall in line with EA recommendations and agreements",
+        "problem": "NHB has accumulated hazardous oil waste from DRUPS and Generator diesel engines that requires removal and specialist processing.",
+        "scope": "Site collection, removal and processing of hazardous oil waste.",
+        "justification": "The accumulated hazardous oil waste is currently stored in the DRUPS bulk fuel tank bunds, reducing the bund capacity.There is also a risk of a hazardous substance leak (within the bund).",
+        "non_approval_effect": "Continued storage of the accumulated hazardous oil waste in the DRUPS bulk fuel tank bunds, reducing the bund capacity.Continued risk of a hazardous substance leak."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2175, Sell Value: 2305.5, Margin Value: 130.5",
+        "labour": "Cost: 126.672, Sell Value: 158.34, Margin Value: 31.668",
+        "grand_total": "Cost: 2301.672, Sell Value: 2463.84, Margin Value: 162.168, Total: 2463.84"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 126.672, Total Supply Chain Cost: 2175, Total Other Cost: 0. Approval - Status: Submitted, Grand Total: 2463.84",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I carefully analyzed metadata, workflow stages, scope, approvals, financials and status transitions, rewriting them into structured human\u2011friendly summaries while marking any missing fields strictly as 'N/A'.",
+      "overview": "Project 'UPM-Hazardous Waste Disposal Jun 2024' is based in United Kingdom at site N/A, managed by Qwerty and prepared by Neil Hauck for client Kyndryl. It is tracked under internal work order UK-EW-17062024-12190 with current status 'Cancelled'.",
+      "project_scope": "The scope notes highlight key considerations: Waste needs removing from site to fall in line with EA recommendations and agreements. The problem statement indicates: NHB has accumulated hazardous oil waste from DRUPS and Generator diesel engines that requires removal and specialist processing.. The defined scope of work includes: Site collection, removal and processing of hazardous oil waste.. The justification provided is: The accumulated hazardous oil waste is currently stored in the DRUPS bulk fuel tank bunds, reducing the bund capacity.There is also a risk of a hazardous substance leak (within the bund).. If not approved, the effect would be: Continued storage of the accumulated hazardous oil waste in the DRUPS bulk fuel tank bunds, reducing the bund capacity.Continued risk of a hazardous substance leak..",
+      "status_history": "First, cancelled. Then, offer submitted by Neil Hauck. After that, sor submitted / draft by Neil Hauck.",
+      "project_financials": "Vendor costs: Cost: 2175, Sell Value: 2305.5, Margin Value: 130.5. Labour: Cost: 126.672, Sell Value: 158.34, Margin Value: 31.668. Grand total: Cost: 2301.672, Sell Value: 2463.84, Margin Value: 162.168, Total: 2463.84.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC / HSE documentation has not been completed.",
+        "Close-out and billing documentation is incomplete or missing.",
+        "Client close\u2011out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required Purchase Order Requests.",
+        "Prepare EPIC / HSE compliance documentation.",
+        "Compile, finalize, and upload close-out documentation.",
+        "Obtain final client sign\u2011off and close\u2011out acceptance."
+      ]
+    }
+  }
+]

@@ -1,0 +1,101 @@
+############# envireonment
+cd /workspace
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+
+
+############# hugging face
+export HUGGINGFACE_HUB_TOKEN="hf_your_token_here"
+huggingface-cli login --token "$HUGGINGFACE_HUB_TOKEN"
+
+# B) inline (note: ends up in shell history)
+huggingface-cli login --token "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"
+
+
+############# requirements.txt
+
+torch
+transformers>=4.40.0
+accelerate
+peft
+bitsandbytes
+sentencepiece
+uvicorn
+fastapi
+safetensors
+
+
+############# download-Models
+
+from huggingface_hub import snapshot_download
+import os
+
+# ----------------- Configuration -----------------
+BASE_MODEL = "meta-llama/Meta-Llama-3-8B-Instruct"         # base LLaMA model
+ADAPTER_MODEL = "afzalakram20/llama7b_horizon_projectsummarization_adapter"  # replace with your adapter repo ID
+
+MODEL_DIR = "/workspace/models/base_model"
+ADAPTER_DIR = "/workspace/models/adapter"
+
+# ----------------- Folder Setup -----------------
+os.makedirs(MODEL_DIR, exist_ok=True)
+os.makedirs(ADAPTER_DIR, exist_ok=True)
+
+# ----------------- Downloads -----------------
+print("🚀 Downloading base model...")
+# snapshot_download(repo_id=BASE_MODEL, local_dir=MODEL_DIR)
+
+print("🚀 Downloading adapter model...")
+snapshot_download(repo_id=ADAPTER_MODEL, local_dir=ADAPTER_DIR)
+
+print("✅ Models downloaded and saved to /workspace/models/")
+
+
+ ############# Inferece Service
+from fastapi import FastAPI, Query
+from pydantic import BaseModel
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import PeftModel
+import torch
+
+app = FastAPI(title="LLaMA Adapter Inference API")
+
+# Paths
+BASE_MODEL_PATH = "/workspace/models/base_model"
+ADAPTER_PATH = "/workspace/models/adapter"
+
+# Load model and tokenizer once at startup
+print("🚀 Loading base model and adapter...")
+tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_PATH)
+model = AutoModelForCausalLM.from_pretrained(
+    BASE_MODEL_PATH,
+    torch_dtype=torch.float16,
+    device_map="auto"
+)
+model = PeftModel.from_pretrained(model, ADAPTER_PATH)
+model.eval()
+
+print("✅ Model and adapter ready.")
+
+class PromptRequest(BaseModel):
+    prompt: str
+    max_new_tokens: int = 200
+    temperature: float = 0.7
+
+@app.post("/generate")
+def generate(request: PromptRequest):
+    inputs = tokenizer(request.prompt, return_tensors="pt").to(model.device)
+    outputs = model.generate(
+        **inputs,
+        max_new_tokens=request.max_new_tokens,
+        temperature=request.temperature
+    )
+    text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    return {"response": text}
+
+
+
+
+
+ 

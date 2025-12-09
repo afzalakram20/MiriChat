@@ -1,0 +1,581 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-HVAC replacement",
+      "interal_work_order_num": "UK-EW-17012022-2212",
+      "reference_number": "12345",
+      "project_status": "Offer Approved",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):offer approved by Sajid Mehmood (2):work in progress by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. CBRE quotation valid for a period of 90  days from revision date stated above \n2. Does not include any Kyndryl contingency \n3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed \n 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process",
+        "problem": "Some",
+        "scope": "Some",
+        "justification": "Some",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (No), O&M Manuals (Yes), Close-Out Checklist (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (Yes), Job Punch List (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 750, Sell Value: 802.5, Margin Value: 52.5",
+        "labour": "Cost: 21112, Sell Value: 21112, Margin Value: 0",
+        "grand_total": "Cost: 21862, Sell Value: 21914.5, Margin Value: 52.5, Total: 21914.5"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 21112, Total Supply Chain Cost: 750, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-HVAC replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-17012022-2212. The current lifecycle status is 'Offer Approved'. The quoted value is approximately 0 USD with a recorded margin of 0 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. CBRE quotation valid for a period of 90 days from revision date stated above 2. Does not include any Kyndryl contingency 3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process The core problem statement is: Some. The defined scope of work describes what will actually be done on site: Some. The justification summarises why the work is required from the client's perspective: Some. No explicit negative impact is described if the work is not approved, suggesting standard operational risk rather than a critical failure scenario.",
+      "status_history": "First, offer approved by Sajid Mehmood. Then, work in progress by Sajid Mehmood.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 750, Sell Value: 802.5, Margin Value: 52.5 while labour is recorded as: Cost: 21112, Sell Value: 21112, Margin Value: 0. The grand total for the project is reported as: Cost: 21862, Sell Value: 21914.5, Margin Value: 52.5, Total: 21914.5. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "N/A \u2013 the source confirms that no project close-out and billing information has been recorded yet, indicating that financial closure has not formally taken place.",
+      "blockers": [
+        "Formal approvals beyond basic cost totals are missing, which can block progression from offer stage to full execution and closure.",
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Project close-out and billing records are missing, meaning the job cannot be financially or administratively closed.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work.",
+        "The project status is 'Offer Approved', which indicates it has not yet reached full closure in the workflow."
+      ],
+      "next_steps": [
+        "Trigger the appropriate approval workflow with the client and internal stakeholders so that the project has documented approval status.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Compile the required close-out documentation, including final costs, client sign-off and billing records, and update the system accordingly.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section.",
+        "Progress the project through execution, monitoring and close-out steps defined in the workflow until it can be marked as fully closed."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-asd",
+      "interal_work_order_num": "UK-EW-17012022-8209",
+      "reference_number": "asdsa",
+      "project_status": "Deleted",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):deleted by Sajid Mehmood (2):work in progress",
+      "scope_of_work": {
+        "notes": "1. CBRE quotation valid for a period of 90  days from revision date stated above \n2. Does not include any Kyndryl contingency \n3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed \n 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process",
+        "problem": "Problem Statement",
+        "scope": "Problem Statement",
+        "justification": "Problem Statement",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Close-Out Checklist (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Job Punch List (Yes)",
+      "financial_summary": null,
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 0, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-asd' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. It was prepared by  under internal work order UK-EW-17012022-8209. The current lifecycle status is 'Deleted'. The quoted value is approximately 0 USD with a recorded margin of 0 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. CBRE quotation valid for a period of 90 days from revision date stated above 2. Does not include any Kyndryl contingency 3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process The core problem statement is: Problem Statement. The defined scope of work describes what will actually be done on site: Problem Statement. The justification summarises why the work is required from the client's perspective: Problem Statement. No explicit negative impact is described if the work is not approved, suggesting standard operational risk rather than a critical failure scenario.",
+      "status_history": "First, deleted by Sajid Mehmood. Then, work in progress.",
+      "project_financials": "N/A \u2013 no financial summary object is provided in the input, so the model should not infer or invent costs, sell values or margins for this project.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "N/A \u2013 the source confirms that no project close-out and billing information has been recorded yet, indicating that financial closure has not formally taken place.",
+      "blockers": [
+        "Formal approvals beyond basic cost totals are missing, which can block progression from offer stage to full execution and closure.",
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Project close-out and billing records are missing, meaning the job cannot be financially or administratively closed.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work.",
+        "The project status is 'Deleted', which indicates it has not yet reached full closure in the workflow."
+      ],
+      "next_steps": [
+        "Trigger the appropriate approval workflow with the client and internal stakeholders so that the project has documented approval status.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Compile the required close-out documentation, including final costs, client sign-off and billing records, and update the system accordingly.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section.",
+        "Progress the project through execution, monitoring and close-out steps defined in the workflow until it can be marked as fully closed."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Ahsan Test",
+      "interal_work_order_num": "UK-EW-18012022-7013",
+      "reference_number": "asd",
+      "project_status": "Deleted",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):deleted by Sajid Mehmood (2):work in progress by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. CBRE quotation valid for a period of 90  days from revision date stated above \n2. Does not include any Kyndryl contingency \n3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed \n 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process",
+        "problem": "asd",
+        "scope": "asd",
+        "justification": "asd",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Close-Out Checklist (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Job Punch List (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "labour": "Cost: 45425, Sell Value: 45425, Margin Value: 0",
+        "grand_total": "Cost: 45425, Sell Value: 45425, Margin Value: 0, Total: 45425"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 45425, Total Supply Chain Cost: 0, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-Ahsan Test' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-18012022-7013. The current lifecycle status is 'Deleted'. The quoted value is approximately 0 USD with a recorded margin of 0 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. CBRE quotation valid for a period of 90 days from revision date stated above 2. Does not include any Kyndryl contingency 3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process The core problem statement is: asd. The defined scope of work describes what will actually be done on site: asd. The justification summarises why the work is required from the client's perspective: asd. No explicit negative impact is described if the work is not approved, suggesting standard operational risk rather than a critical failure scenario.",
+      "status_history": "First, deleted by Sajid Mehmood. Then, work in progress by Sajid Mehmood.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 0, Sell Value: 0, Margin Value: 0 while labour is recorded as: Cost: 45425, Sell Value: 45425, Margin Value: 0. The grand total for the project is reported as: Cost: 45425, Sell Value: 45425, Margin Value: 0, Total: 45425. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "N/A \u2013 the source confirms that no project close-out and billing information has been recorded yet, indicating that financial closure has not formally taken place.",
+      "blockers": [
+        "Formal approvals beyond basic cost totals are missing, which can block progression from offer stage to full execution and closure.",
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Project close-out and billing records are missing, meaning the job cannot be financially or administratively closed.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work.",
+        "The project status is 'Deleted', which indicates it has not yet reached full closure in the workflow."
+      ],
+      "next_steps": [
+        "Trigger the appropriate approval workflow with the client and internal stakeholders so that the project has documented approval status.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Compile the required close-out documentation, including final costs, client sign-off and billing records, and update the system accordingly.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section.",
+        "Progress the project through execution, monitoring and close-out steps defined in the workflow until it can be marked as fully closed."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Air handling Unit Commissioning",
+      "interal_work_order_num": "UK-EW-18012022-9620",
+      "reference_number": "12345",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 4804.4639450591,
+      "margin_value_usd": 146.89049980923,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sajid Mehmood (2):offer approved by Sajid Mehmood (3):offer submitted by Sajid Mehmood (4):work in progress by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. CBRE quotation valid for a period of 90  days from revision date stated above \n2. Does not include any Kyndryl contingency \n3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed \n 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process",
+        "problem": "Air Handling Unit has completed working hours",
+        "scope": "Needs replacement",
+        "justification": "Client Request",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 1650, Sell Value: 1765.5, Margin Value: 115.5",
+        "labour": "Cost: 2012.25, Sell Value: 2012.25, Margin Value: 0",
+        "grand_total": "Cost: 3662.25, Sell Value: 3777.75, Margin Value: 115.5, Total: 3777.75"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 2012.25, Total Supply Chain Cost: 1650, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3777.75",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: Date: 2022-01-18, From CBRE: Yes, Sell Value: 3777.75, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-Air handling Unit Commissioning' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-18012022-9620. The current lifecycle status is 'Work Order Closed'. The quoted value is approximately 4804.4639450591 USD with a recorded margin of 146.89049980923 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. CBRE quotation valid for a period of 90 days from revision date stated above 2. Does not include any Kyndryl contingency 3. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 4. CBRE plan to bill Kyndryl based on a percentage of completion basis in line with works completed 5. Maintenance contract budget variations as a result of project activity will be funded by Kyndryl through the eBVO process The core problem statement is: Air Handling Unit has completed working hours. The defined scope of work describes what will actually be done on site: Needs replacement. The justification summarises why the work is required from the client's perspective: Client Request. No explicit negative impact is described if the work is not approved, suggesting standard operational risk rather than a critical failure scenario.",
+      "status_history": "First, billing completed by Sajid Mehmood. Then, offer approved by Sajid Mehmood. After that, offer submitted by Sajid Mehmood. Subsequently, work in progress by Sajid Mehmood.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 1650, Sell Value: 1765.5, Margin Value: 115.5 while labour is recorded as: Cost: 2012.25, Sell Value: 2012.25, Margin Value: 0. The grand total for the project is reported as: Cost: 3662.25, Sell Value: 3777.75, Margin Value: 115.5, Total: 3777.75. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "The close-out and billing section records the following information: Client POs: Date: 2022-01-18, From CBRE: Yes, Sell Value: 3777.75, Billing Completed: Yes. This indicates how client POs and billing completion have been handled at the end of the project.",
+      "blockers": [
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work."
+      ],
+      "next_steps": [
+        "Ensure the approved financials and scope are reflected in all downstream documents and systems before or during execution.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Adnan Test Belgium",
+      "interal_work_order_num": "UK-EW-19012022-2932",
+      "reference_number": "23123123",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Adnan",
+      "quote_value_usd": 3402.0094111662,
+      "margin_value_usd": 222.56136334732,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed (2):rejected by Sajid Mehmood (3):offer submitted (4):rejected (5):offer submitted",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Problem Statement",
+        "scope": "Problem Statement",
+        "justification": "Problem Statement",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2500, Sell Value: 2675, Margin Value: 175",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 2500, Sell Value: 2675, Margin Value: 175, Total: 2675"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 2500, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2752.8601",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-Adnan Test Belgium' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Adnan under internal work order UK-EW-19012022-2932. The current lifecycle status is 'Work Order Closed'. The quoted value is approximately 3402.0094111662 USD with a recorded margin of 222.56136334732 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. Does not include any client contingency 2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process The core problem statement is: Problem Statement. The defined scope of work describes what will actually be done on site: Problem Statement. The justification summarises why the work is required from the client's perspective: Problem Statement. No explicit negative impact is described if the work is not approved, suggesting standard operational risk rather than a critical failure scenario.",
+      "status_history": "First, billing completed. Then, rejected by Sajid Mehmood. After that, offer submitted. Subsequently, rejected. Finally, offer submitted.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 2500, Sell Value: 2675, Margin Value: 175 while labour is recorded as: Cost: 0, Sell Value: 0, Margin Value: 0. The grand total for the project is reported as: Cost: 2500, Sell Value: 2675, Margin Value: 175, Total: 2675. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "N/A \u2013 the source confirms that no project close-out and billing information has been recorded yet, indicating that financial closure has not formally taken place.",
+      "blockers": [
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Project close-out and billing records are missing, meaning the job cannot be financially or administratively closed.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work."
+      ],
+      "next_steps": [
+        "Ensure the approved financials and scope are reflected in all downstream documents and systems before or during execution.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Compile the required close-out documentation, including final costs, client sign-off and billing records, and update the system accordingly.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HVAC Replacement",
+      "interal_work_order_num": "UK-EW-20012022-8939",
+      "reference_number": "45",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 46691.46636144,
+      "margin_value_usd": 97.926999872822,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sajid Mehmood (2):offer approved by Sajid Mehmood (3):offer submitted by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "There is some",
+        "scope": "There is some",
+        "justification": "There is some",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 1100, Sell Value: 1177, Margin Value: 77",
+        "labour": "Cost: 35536.5, Sell Value: 35536.5, Margin Value: 0",
+        "grand_total": "Cost: 36636.5, Sell Value: 36713.5, Margin Value: 77, Total: 36713.5"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 35536.5, Total Supply Chain Cost: 1100, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 36713.5",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: Zcxxzc, PO Value: 45000, Date: 2022-01-20, From CBRE: Yes, Sell Value: 36713.5, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-HVAC Replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-20012022-8939. The current lifecycle status is 'Work Order Closed'. The quoted value is approximately 46691.46636144 USD with a recorded margin of 97.926999872822 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. Does not include any client contingency 2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process The core problem statement is: There is some. The defined scope of work describes what will actually be done on site: There is some. The justification summarises why the work is required from the client's perspective: There is some. No explicit negative impact is described if the work is not approved, suggesting standard operational risk rather than a critical failure scenario.",
+      "status_history": "First, billing completed by Sajid Mehmood. Then, offer approved by Sajid Mehmood. After that, offer submitted by Sajid Mehmood.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 1100, Sell Value: 1177, Margin Value: 77 while labour is recorded as: Cost: 35536.5, Sell Value: 35536.5, Margin Value: 0. The grand total for the project is reported as: Cost: 36636.5, Sell Value: 36713.5, Margin Value: 77, Total: 36713.5. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "The close-out and billing section records the following information: Client POs: PO Number: Zcxxzc, PO Value: 45000, Date: 2022-01-20, From CBRE: Yes, Sell Value: 36713.5, Billing Completed: Yes. This indicates how client POs and billing completion have been handled at the end of the project.",
+      "blockers": [
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work."
+      ],
+      "next_steps": [
+        "Ensure the approved financials and scope are reflected in all downstream documents and systems before or during execution.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Door Replacement",
+      "interal_work_order_num": "UK-EW-20012022-4095",
+      "reference_number": "12345",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 10848.785450846,
+      "margin_value_usd": 400.61045402518,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sajid Mehmood (2):offer approved by Sajid Mehmood (3):offer submitted by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "There is some work",
+        "scope": "There is some work",
+        "justification": "There is some work",
+        "non_approval_effect": ""
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 4500, Sell Value: 4815, Margin Value: 315",
+        "labour": "Cost: 3715.4, Sell Value: 3715.4, Margin Value: 0",
+        "grand_total": "Cost: 8215.4, Sell Value: 8530.4, Margin Value: 315, Total: 8530.4"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 3715.4, Total Supply Chain Cost: 4500, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8530.4004",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4758, PO Value: 450000, Date: 2022-01-20, From CBRE: Yes, Sell Value: 8530.4, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-Door Replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-20012022-4095. The current lifecycle status is 'Work Order Closed'. The quoted value is approximately 10848.785450846 USD with a recorded margin of 400.61045402518 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. Does not include any client contingency 2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process The core problem statement is: There is some work. The defined scope of work describes what will actually be done on site: There is some work. The justification summarises why the work is required from the client's perspective: There is some work. No explicit negative impact is described if the work is not approved, suggesting standard operational risk rather than a critical failure scenario.",
+      "status_history": "First, billing completed by Sajid Mehmood. Then, offer approved by Sajid Mehmood. After that, offer submitted by Sajid Mehmood.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 4500, Sell Value: 4815, Margin Value: 315 while labour is recorded as: Cost: 3715.4, Sell Value: 3715.4, Margin Value: 0. The grand total for the project is reported as: Cost: 8215.4, Sell Value: 8530.4, Margin Value: 315, Total: 8530.4. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "The close-out and billing section records the following information: Client POs: PO Number: 4758, PO Value: 450000, Date: 2022-01-20, From CBRE: Yes, Sell Value: 8530.4, Billing Completed: Yes. This indicates how client POs and billing completion have been handled at the end of the project.",
+      "blockers": [
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work."
+      ],
+      "next_steps": [
+        "Ensure the approved financials and scope are reflected in all downstream documents and systems before or during execution.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Replacement of stairwell fire doors",
+      "interal_work_order_num": "UK-EW-21012022-5005",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 4886.9261096274,
+      "margin_value_usd": 235.91504514816,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sajid Mehmood (2):offer submitted by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Door is broken.",
+        "scope": "Replace the existing asbestos containing stairwell fire doors with new hollow metal fire rated doors. The existing doors and door mounted hardware are to be removed in their entirety by removing the door hinges from the door frames and leaving all hardware on the door during disposal as not to disturb the asbestos core inside the doors. Properly dispose of all items.",
+        "justification": "Client requested",
+        "non_approval_effect": "Can be a potential safety hazard."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2650, Sell Value: 2835.5, Margin Value: 185.5",
+        "labour": "Cost: 1007.09, Sell Value: 1007.09, Margin Value: 0",
+        "grand_total": "Cost: 3657.09, Sell Value: 3842.59, Margin Value: 185.5, Total: 3842.59"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1007.09, Total Supply Chain Cost: 2650, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3842.5901",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-Replacement of stairwell fire doors' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-21012022-5005. The current lifecycle status is 'Work Order Closed'. The quoted value is approximately 4886.9261096274 USD with a recorded margin of 235.91504514816 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. Does not include any client contingency 2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process The core problem statement is: Door is broken.. The defined scope of work describes what will actually be done on site: Replace the existing asbestos containing stairwell fire doors with new hollow metal fire rated doors. The existing doors and door mounted hardware are to be removed in their entirety by removing the door hinges from the door frames and leaving all hardware on the door during disposal as not to disturb the asbestos core inside the doors. Properly dispose of all items.. The justification summarises why the work is required from the client's perspective: Client requested. If the work is not approved, the stated potential impact is: Can be a potential safety hazard..",
+      "status_history": "First, billing completed by Sajid Mehmood. Then, offer submitted by Sajid Mehmood.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 2650, Sell Value: 2835.5, Margin Value: 185.5 while labour is recorded as: Cost: 1007.09, Sell Value: 1007.09, Margin Value: 0. The grand total for the project is reported as: Cost: 3657.09, Sell Value: 3842.59, Margin Value: 185.5, Total: 3842.59. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "N/A \u2013 the source confirms that no project close-out and billing information has been recorded yet, indicating that financial closure has not formally taken place.",
+      "blockers": [
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Project close-out and billing records are missing, meaning the job cannot be financially or administratively closed.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work."
+      ],
+      "next_steps": [
+        "Ensure the approved financials and scope are reflected in all downstream documents and systems before or during execution.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Compile the required close-out documentation, including final costs, client sign-off and billing records, and update the system accordingly.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Example of Quotation for the Kyndryl Team",
+      "interal_work_order_num": "UK-EW-24012022-1177",
+      "reference_number": "12345678",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Lola Wuckert",
+      "quote_value_usd": 13851.71054305,
+      "margin_value_usd": 801.22090805036,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Lola Wuckert (2):offer submitted by Lola Wuckert",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. This is a demo\n5. This is a demo\n6. This is a demo\n7. This is a demo\n8. This is a demo\n9. This is a demo\n10. This is a demo",
+        "problem": "This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,",
+        "scope": "This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,",
+        "justification": "This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,",
+        "non_approval_effect": "This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 9000, Sell Value: 9630, Margin Value: 630",
+        "labour": "Cost: 1261.6, Sell Value: 1261.6, Margin Value: 0",
+        "grand_total": "Cost: 10261.6, Sell Value: 10891.6, Margin Value: 630, Total: 10891.6"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1261.6, Total Supply Chain Cost: 9000, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 10891.5996",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-Example of Quotation for the Kyndryl Team' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. It was prepared by Lola Wuckert under internal work order UK-EW-24012022-1177. The current lifecycle status is 'Work Order Closed'. The quoted value is approximately 13851.71054305 USD with a recorded margin of 801.22090805036 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. Does not include any client contingency 2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process 4. This is a demo 5. This is a demo 6. This is a demo 7. This is a demo 8. This is a demo 9. This is a demo 10. This is a demo The core problem statement is: This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,. The defined scope of work describes what will actually be done on site: This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,. The justification summarises why the work is required from the client's perspective: This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,. If the work is not approved, the stated potential impact is: This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo, This is a demo,.",
+      "status_history": "First, billing completed by Lola Wuckert. Then, offer submitted by Lola Wuckert.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 9000, Sell Value: 9630, Margin Value: 630 while labour is recorded as: Cost: 1261.6, Sell Value: 1261.6, Margin Value: 0. The grand total for the project is reported as: Cost: 10261.6, Sell Value: 10891.6, Margin Value: 630, Total: 10891.6. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "N/A \u2013 the source confirms that no project close-out and billing information has been recorded yet, indicating that financial closure has not formally taken place.",
+      "blockers": [
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Project close-out and billing records are missing, meaning the job cannot be financially or administratively closed.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work."
+      ],
+      "next_steps": [
+        "Ensure the approved financials and scope are reflected in all downstream documents and systems before or during execution.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Compile the required close-out documentation, including final costs, client sign-off and billing records, and update the system accordingly.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Repair Door",
+      "interal_work_order_num": "UK-EW-25012022-4532",
+      "reference_number": "345453543",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Sajid Mehmood",
+      "quote_value_usd": 14982.385730637,
+      "margin_value_usd": 491.33905633982,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sajid Mehmood (2):offer submitted by Sajid Mehmood",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \r\n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \r\n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "retryt",
+        "scope": "rtette",
+        "justification": "tete",
+        "non_approval_effect": "terterte"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5519.2, Sell Value: 5905.5399, Margin Value: 386.3399",
+        "labour": "Cost: 5875.11, Sell Value: 5875.11, Margin Value: 0",
+        "grand_total": "Cost: 11394.31, Sell Value: 11780.6499, Margin Value: 386.3399, Total: 11780.6499"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 5875.11, Total Supply Chain Cost: 5519.2, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11780.6504",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I reviewed the project metadata, scope fields (notes, problem, scope, justification, non-approval effect), status history and financial summary, and rewrote them into fluent human language instead of copying the raw text. Where the source clearly states there is no EPIC form, POR, or close-out data, I explicitly mark those as N/A so the model learns not to invent information when the input says 'No data' or equivalent.",
+      "overview": "Project 'UPM-Repair Door' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. It was prepared by Sajid Mehmood under internal work order UK-EW-25012022-4532. The current lifecycle status is 'Work Order Closed'. The quoted value is approximately 14982.385730637 USD with a recorded margin of 491.33905633982 USD at this stage.",
+      "project_scope": "The scope notes outline commercial and contractual conditions, such as quotation validity, contingency assumptions and billing approach: 1. Does not include any client contingency 2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value 3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process The core problem statement is: retryt. The defined scope of work describes what will actually be done on site: rtette. The justification summarises why the work is required from the client's perspective: tete. If the work is not approved, the stated potential impact is: terterte.",
+      "status_history": "First, billing completed by Sajid Mehmood. Then, offer submitted by Sajid Mehmood.",
+      "project_financials": "The financial profile combines vendor supply and labour effort. Vendor costs are summarised as: Cost: 5519.2, Sell Value: 5905.5399, Margin Value: 386.3399 while labour is recorded as: Cost: 5875.11, Sell Value: 5875.11, Margin Value: 0. The grand total for the project is reported as: Cost: 11394.31, Sell Value: 11780.6499, Margin Value: 386.3399, Total: 11780.6499. Overall, this shows how cost, sell value and margin are distributed between materials and labour for this work.",
+      "epic_form": "N/A \u2013 the input explicitly states that there is no EPIC form data for this project, so no additional health and safety or risk documentation can be summarised.",
+      "pors": "N/A \u2013 the input states there are no Purchase Order Requests (PORs) raised for this work.",
+      "close_out": "N/A \u2013 the source confirms that no project close-out and billing information has been recorded yet, indicating that financial closure has not formally taken place.",
+      "blockers": [
+        "No Purchase Order Requests (PORs) have been raised, which may be required for procurement and formal cost commitment.",
+        "EPIC or equivalent health and safety documentation is not completed, which can delay execution in environments where HSE sign-off is mandatory.",
+        "Project close-out and billing records are missing, meaning the job cannot be financially or administratively closed.",
+        "Client close-out confirmation has not yet been captured, so there is no evidence that the client has formally accepted the completed work."
+      ],
+      "next_steps": [
+        "Ensure the approved financials and scope are reflected in all downstream documents and systems before or during execution.",
+        "Raise the necessary POR(s) in line with the agreed scope and financial summary so procurement and billing can proceed.",
+        "Prepare and complete the EPIC or health and safety form, capturing key risks and mitigations associated with the planned works.",
+        "Compile the required close-out documentation, including final costs, client sign-off and billing records, and update the system accordingly.",
+        "Engage with the client to obtain formal close-out acceptance and record the outcome in the client close-out section."
+      ]
+    }
+  }
+]

@@ -1,0 +1,582 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-York Chiller PRV Replacement",
+      "interal_work_order_num": "UK-EW-05052022-9143",
+      "reference_number": "TBC",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "Al Qadisiyah",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Prof. Miracle Abshire",
+      "quote_value_usd": 3264.3010301412,
+      "margin_value_usd": 283.27831884174,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Prof. Miracle Abshire (2):offer submitted by Prof. Miracle Abshire",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The York Chiller PRVs to be replaced as advised by Zurich Insurance Inspector",
+        "scope": "Isolate chiller to be worked on and carry out safety checks\nRemove and replace the expired high side PRV in closed position on the dual port \nmanifold with new, using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer\nReverse dual port valve position and check for leaks on new valve threaded \nconnection\nRemove and replace the expired high side PRV in closed position on the dual port \nmanifold with new using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer (4 No High side PRVs)\nRemove and replace the expired low side PRV in closed position on the dual port \nmanifold with new, using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer\nReverse dual port valve position and check for leaks on new valve threaded \nconnection\nRemove and replace the expired low side PRV in closed position on the dual port \nmanifold with new, using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer (4 No Low side PRVs per chiller)\nHand over relevant certification / paperwork to site\nDigital Service Report to be issued on completion of the work order",
+        "justification": "It is a safety requirement that the PRVs are replaced every 5 years",
+        "non_approval_effect": "In the event of high pressure on the chiller it needs to be ensured that the safety valves activate to protect the equipment"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 2231, Sell Value: 2387.1699, Margin Value: 156.1699",
+        "labour": "Cost: 112.97815789474, Sell Value: 179.55, Margin Value: 66.571842105263",
+        "grand_total": "Cost: 2343.9781578947, Sell Value: 2566.7199, Margin Value: 222.74174210526, Total: 2566.7199"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 112.97815789474, Total Supply Chain Cost: 2231, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2566.72",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-York Chiller PRV Replacement' is located in United Kingdom at site Al Qadisiyah, managed by Qwerty for client Kyndryl. Prepared by Prof. Miracle Abshire under internal work order UK-EW-05052022-9143. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The York Chiller PRVs to be replaced as advised by Zurich Insurance Inspector. The defined scope of work includes: Isolate chiller to be worked on and carry out safety checks\nRemove and replace the expired high side PRV in closed position on the dual port \nmanifold with new, using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer\nReverse dual port valve position and check for leaks on new valve threaded \nconnection\nRemove and replace the expired high side PRV in closed position on the dual port \nmanifold with new using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer (4 No High side PRVs)\nRemove and replace the expired low side PRV in closed position on the dual port \nmanifold with new, using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer\nReverse dual port valve position and check for leaks on new valve threaded \nconnection\nRemove and replace the expired low side PRV in closed position on the dual port \nmanifold with new, using industry standard thread sealant and allowing curing time as \nrecommended by the manufacturer (4 No Low side PRVs per chiller)\nHand over relevant certification / paperwork to site\nDigital Service Report to be issued on completion of the work order. The justification provided is: It is a safety requirement that the PRVs are replaced every 5 years. If not approved, the effect would be: In the event of high pressure on the chiller it needs to be ensured that the safety valves activate to protect the equipment.",
+      "status_history": "First, billing completed by Prof. Miracle Abshire. Then, offer submitted by Prof. Miracle Abshire.",
+      "project_financials": "Vendor costs: Cost: 2231, Sell Value: 2387.1699, Margin Value: 156.1699. Labour: Cost: 112.97815789474, Sell Value: 179.55, Margin Value: 66.571842105263. Grand total: Cost: 2343.9781578947, Sell Value: 2566.7199, Margin Value: 222.74174210526, Total: 2566.7199.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Kyndryl Warwick Car Park Signage",
+      "interal_work_order_num": "UK-EW-06052022-5092",
+      "reference_number": "128610",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Miss Maymie Sporer",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Miss Maymie Sporer",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The Warwick location has recently transferred Kyndryl however the external car park signage does not detail that it is a Kyndryl location it still has the IBM branding. The requirement is to adjust the external car park signage to the front of the building to allow for Kyndryl branding alongside IBM to coincide with the Kyndryl branding playbook.",
+        "scope": "Kyndryl branding to be added to the external car park signs as per the Kyndryl Playbook. Design has been issued to client and approved",
+        "justification": "If this project is to not go ahead then there will be no car park signage present to the front of the Kyndryl Warwick location",
+        "non_approval_effect": "As per justification - Kyndryl branding would not be detailed upon the external signage as per Kyndryl playbook."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 625.5, Sell Value: 669.28, Margin Value: 43.78",
+        "labour": "Cost: 106.07, Sell Value: 212.14, Margin Value: 106.07",
+        "grand_total": "Cost: 731.57, Sell Value: 881.42, Margin Value: 149.85, Total: 881.42"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 106.07, Total Supply Chain Cost: 625.5, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-Kyndryl Warwick Car Park Signage' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Miss Maymie Sporer under internal work order UK-EW-06052022-5092. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The Warwick location has recently transferred Kyndryl however the external car park signage does not detail that it is a Kyndryl location it still has the IBM branding. The requirement is to adjust the external car park signage to the front of the building to allow for Kyndryl branding alongside IBM to coincide with the Kyndryl branding playbook.. The defined scope of work includes: Kyndryl branding to be added to the external car park signs as per the Kyndryl Playbook. Design has been issued to client and approved. The justification provided is: If this project is to not go ahead then there will be no car park signage present to the front of the Kyndryl Warwick location. If not approved, the effect would be: As per justification - Kyndryl branding would not be detailed upon the external signage as per Kyndryl playbook..",
+      "status_history": "First, work in progress by Miss Maymie Sporer.",
+      "project_financials": "Vendor costs: Cost: 625.5, Sell Value: 669.28, Margin Value: 43.78. Labour: Cost: 106.07, Sell Value: 212.14, Margin Value: 106.07. Grand total: Cost: 731.57, Sell Value: 881.42, Margin Value: 149.85, Total: 881.42.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Socomec DC Capacitors replacements 2022",
+      "interal_work_order_num": "UK-EW-06052022-7397",
+      "reference_number": "NHB 2022 MAM 1",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eryn Reichert",
+      "quote_value_usd": 42281.771079741,
+      "margin_value_usd": 3448.8865372129,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Eryn Reichert (2):offer submitted by Eryn Reichert",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. Works planned to take place during the 2022 maintenance window of 18-19 October 2022.",
+        "problem": "The Socomec Static UPS modules are due for DC Capacitor replacement.",
+        "scope": "Replace the DC Capacitors at \nKyndryl North Harbour - Systems A1&2, B1&2.",
+        "justification": "OEM and BP requirement.",
+        "non_approval_effect": "Increased risk of failure of the Socomec Static UPS."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 29816.8008, Sell Value: 31903.9766, Margin Value: 2087.1758",
+        "labour": "Cost: 717.49631578947, Sell Value: 1342.18, Margin Value: 624.68368421053",
+        "grand_total": "Cost: 30534.297115789, Sell Value: 33246.1566, Margin Value: 2711.8594842105, Total: 33246.1566"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 717.49631578947, Total Supply Chain Cost: 29816.8008, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 33246.1602",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-Socomec DC Capacitors replacements 2022' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Eryn Reichert under internal work order UK-EW-06052022-7397. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. Works planned to take place during the 2022 maintenance window of 18-19 October 2022.. The problem statement indicates: The Socomec Static UPS modules are due for DC Capacitor replacement.. The defined scope of work includes: Replace the DC Capacitors at \nKyndryl North Harbour - Systems A1&2, B1&2.. The justification provided is: OEM and BP requirement.. If not approved, the effect would be: Increased risk of failure of the Socomec Static UPS..",
+      "status_history": "First, billing completed by Eryn Reichert. Then, offer submitted by Eryn Reichert.",
+      "project_financials": "Vendor costs: Cost: 29816.8008, Sell Value: 31903.9766, Margin Value: 2087.1758. Labour: Cost: 717.49631578947, Sell Value: 1342.18, Margin Value: 624.68368421053. Grand total: Cost: 30534.297115789, Sell Value: 33246.1566, Margin Value: 2711.8594842105, Total: 33246.1566.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-HV and Transformer Maintenance 2022",
+      "interal_work_order_num": "UK-EW-09052022-4090",
+      "reference_number": "NHB HV Maint 2022",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eryn Reichert",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Eryn Reichert",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. Minimum 14 week programme of works.",
+        "problem": "The NHB HV System and 11kV Transformers are due for 5-yearly maintenance.",
+        "scope": "5-yearly multi-annual maintenance on the NHB HV System and 11kV Transformers.",
+        "justification": "Statutory, OEM and BP requirement.",
+        "non_approval_effect": "Non-compliance with Statutory, OEM and BP requirements."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 56164, Sell Value: 60095.4805, Margin Value: 3931.4805",
+        "labour": "Cost: 11001.303157895, Sell Value: 21074.48, Margin Value: 10073.176842105",
+        "grand_total": "Cost: 67165.303157895, Sell Value: 81169.9605, Margin Value: 14004.657342105, Total: 81169.9605"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 11001.303157895, Total Supply Chain Cost: 56164, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-HV and Transformer Maintenance 2022' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Eryn Reichert under internal work order UK-EW-09052022-4090. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. Minimum 14 week programme of works.. The problem statement indicates: The NHB HV System and 11kV Transformers are due for 5-yearly maintenance.. The defined scope of work includes: 5-yearly multi-annual maintenance on the NHB HV System and 11kV Transformers.. The justification provided is: Statutory, OEM and BP requirement.. If not approved, the effect would be: Non-compliance with Statutory, OEM and BP requirements..",
+      "status_history": "First, work in progress by Eryn Reichert.",
+      "project_financials": "Vendor costs: Cost: 56164, Sell Value: 60095.4805, Margin Value: 3931.4805. Labour: Cost: 11001.303157895, Sell Value: 21074.48, Margin Value: 10073.176842105. Grand total: Cost: 67165.303157895, Sell Value: 81169.9605, Margin Value: 14004.657342105, Total: 81169.9605.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Replace HW4 DX3 Circuit 1 compressor",
+      "interal_work_order_num": "UK-EW-16052022-2758",
+      "reference_number": "128741",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 387.6128704057,
+      "margin_value_usd": 149.54249415986,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Jayme Feil (2):rejected by Jayme Feil (3):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following the May 2022 critical DX service visit it was found that HW4 DX3 Circuit 1 compressor has failed.",
+        "scope": "Replace HW4 DX3 Circuit 1 compressor",
+        "justification": "Return DC room to N+2. Long lead time for compressor",
+        "non_approval_effect": "Room at reduced resilience N+1"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "labour": "Cost: 187.19473684211, Sell Value: 304.78, Margin Value: 117.58526315789",
+        "grand_total": "Cost: 187.19473684211, Sell Value: 304.78, Margin Value: 117.58526315789, Total: 304.78"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 187.1947368421, Total Supply Chain Cost: 0, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 304.78",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-Replace HW4 DX3 Circuit 1 compressor' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-16052022-2758. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following the May 2022 critical DX service visit it was found that HW4 DX3 Circuit 1 compressor has failed.. The defined scope of work includes: Replace HW4 DX3 Circuit 1 compressor. The justification provided is: Return DC room to N+2. Long lead time for compressor. If not approved, the effect would be: Room at reduced resilience N+1.",
+      "status_history": "First, billing completed by Jayme Feil. Then, rejected by Jayme Feil. After that, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 0, Sell Value: 0, Margin Value: 0. Labour: Cost: 187.19473684211, Sell Value: 304.78, Margin Value: 117.58526315789. Grand total: Cost: 187.19473684211, Sell Value: 304.78, Margin Value: 117.58526315789, Total: 304.78.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Hardware 4 Replace DX Unit 3 Circuit 1 Compressor",
+      "interal_work_order_num": "UK-EW-16052022-2487",
+      "reference_number": "128741",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following the May 2022 critical DX service visit it was found that HW4 DX3 Circuit 1 compressor has failed.",
+        "scope": "Replace HW4 DX3 Circuit 1 compressor",
+        "justification": "Return DC room to N+2. Long lead time for compressor",
+        "non_approval_effect": "Room at reduced resilience N+1"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5668.3501, Sell Value: 6065.1343, Margin Value: 396.7842",
+        "labour": "Cost: 200.38973684211, Sell Value: 331.17, Margin Value: 130.7802631579",
+        "grand_total": "Cost: 5868.7398368421, Sell Value: 6396.3043, Margin Value: 527.5644631579, Total: 6396.3043"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 200.3897368421, Total Supply Chain Cost: 5668.3501, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-Hardware 4 Replace DX Unit 3 Circuit 1 Compressor' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-16052022-2487. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following the May 2022 critical DX service visit it was found that HW4 DX3 Circuit 1 compressor has failed.. The defined scope of work includes: Replace HW4 DX3 Circuit 1 compressor. The justification provided is: Return DC room to N+2. Long lead time for compressor. If not approved, the effect would be: Room at reduced resilience N+1.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 5668.3501, Sell Value: 6065.1343, Margin Value: 396.7842. Labour: Cost: 200.38973684211, Sell Value: 331.17, Margin Value: 130.7802631579. Grand total: Cost: 5868.7398368421, Sell Value: 6396.3043, Margin Value: 527.5644631579, Total: 6396.3043.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Replace HW4 DX4 Circuit 2 compressor and MCB",
+      "interal_work_order_num": "UK-EW-16052022-2175",
+      "reference_number": "128742",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following the May 2022 critical DX service visit it was found that HW4 DX4 Circuit 2 compressor has failed.",
+        "scope": "Replace HW4 DX4 Circuit 2 compressor and MCB.",
+        "justification": "Return DC room to N+2. Long lead time for compressor",
+        "non_approval_effect": "Room at reduced resilience N+1"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5992.96, Sell Value: 6412.4673, Margin Value: 419.5073",
+        "labour": "Cost: 200.38973684211, Sell Value: 331.17, Margin Value: 130.7802631579",
+        "grand_total": "Cost: 6193.3497368421, Sell Value: 6743.6373, Margin Value: 550.28756315789, Total: 6743.6373"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 200.3897368421, Total Supply Chain Cost: 5992.96, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-Replace HW4 DX4 Circuit 2 compressor and MCB' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-16052022-2175. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following the May 2022 critical DX service visit it was found that HW4 DX4 Circuit 2 compressor has failed.. The defined scope of work includes: Replace HW4 DX4 Circuit 2 compressor and MCB.. The justification provided is: Return DC room to N+2. Long lead time for compressor. If not approved, the effect would be: Room at reduced resilience N+1.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 5992.96, Sell Value: 6412.4673, Margin Value: 419.5073. Labour: Cost: 200.38973684211, Sell Value: 331.17, Margin Value: 130.7802631579. Grand total: Cost: 6193.3497368421, Sell Value: 6743.6373, Margin Value: 550.28756315789, Total: 6743.6373.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Ph1A Loading Bay DX unit Replacment",
+      "interal_work_order_num": "UK-EW-16052022-4043",
+      "reference_number": "128743",
+      "project_status": "Work in Progress",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 0,
+      "margin_value_usd": 0,
+      "status_history": "here is the status change history of project in numbering order(1):work in progress by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The Ph1A Loading Bay DX unit has failed and is beyond economical repair",
+        "scope": "Recover remaining charge, disconnect existing indoor and outdoor units and install new units, charge with refrigerant, test and commission",
+        "justification": "2 units in the loading bay are required to provide adequate comfort cooling in the summer and heating in the winter",
+        "non_approval_effect": "Unable to provide satisfactory working temperatures in the loading bay"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 6799.9302, Sell Value: 7275.9253, Margin Value: 475.9951",
+        "labour": "Cost: 165.75815789474, Sell Value: 285.11, Margin Value: 119.35184210526",
+        "grand_total": "Cost: 6965.6883578947, Sell Value: 7561.0353, Margin Value: 595.34694210526, Total: 7561.0353"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 165.75815789474, Total Supply Chain Cost: 6799.9302, Total Other Cost: 0. No approvals",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-Ph1A Loading Bay DX unit Replacment' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-16052022-4043. Current status is 'Work in Progress'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: The Ph1A Loading Bay DX unit has failed and is beyond economical repair. The defined scope of work includes: Recover remaining charge, disconnect existing indoor and outdoor units and install new units, charge with refrigerant, test and commission. The justification provided is: 2 units in the loading bay are required to provide adequate comfort cooling in the summer and heating in the winter. If not approved, the effect would be: Unable to provide satisfactory working temperatures in the loading bay.",
+      "status_history": "First, work in progress by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 6799.9302, Sell Value: 7275.9253, Margin Value: 475.9951. Labour: Cost: 165.75815789474, Sell Value: 285.11, Margin Value: 119.35184210526. Grand total: Cost: 6965.6883578947, Sell Value: 7561.0353, Margin Value: 595.34694210526, Total: 7561.0353.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "Approvals are missing and required for workflow progression.",
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Initiate formal approval workflow.",
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-LV ACB Maintenance  (5-yearly MAM)",
+      "interal_work_order_num": "UK-EW-17052022-3647",
+      "reference_number": "LV ACB Maintenance  (5-yearly MAM)",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Eryn Reichert",
+      "quote_value_usd": 45325.500317945,
+      "margin_value_usd": 6383.7919837748,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Eryn Reichert (2):offer submitted by Eryn Reichert (3):work in progress by Eryn Reichert",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. To be completed in conjunction with the HV MAM 2022.",
+        "problem": "LV ACB maintenance is due (5-yearly MAM cycle).",
+        "scope": "To provide routine 5-yearly maintenance on 40no. Merlin Gerin/Schneider ACBs. Works are to be carried out over 10/16 separate visits with dates TBC by client.",
+        "justification": "Statutory and BP requirement.",
+        "non_approval_effect": "Inability to adhere to Statutory and BP requirement."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 27128, Sell Value: 29026.9609, Margin Value: 1898.9609",
+        "labour": "Cost: 3491.8652631579, Sell Value: 6612.48, Margin Value: 3120.6147368421",
+        "grand_total": "Cost: 30619.865263158, Sell Value: 35639.4409, Margin Value: 5019.5756368421, Total: 35639.4409"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 3491.8652631579, Total Supply Chain Cost: 27128, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 35639.4414",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-LV ACB Maintenance  (5-yearly MAM)' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Eryn Reichert under internal work order UK-EW-17052022-3647. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process \n4. To be completed in conjunction with the HV MAM 2022.. The problem statement indicates: LV ACB maintenance is due (5-yearly MAM cycle).. The defined scope of work includes: To provide routine 5-yearly maintenance on 40no. Merlin Gerin/Schneider ACBs. Works are to be carried out over 10/16 separate visits with dates TBC by client.. The justification provided is: Statutory and BP requirement.. If not approved, the effect would be: Inability to adhere to Statutory and BP requirement..",
+      "status_history": "First, billing completed by Eryn Reichert. Then, offer submitted by Eryn Reichert. After that, work in progress by Eryn Reichert.",
+      "project_financials": "Vendor costs: Cost: 27128, Sell Value: 29026.9609, Margin Value: 1898.9609. Labour: Cost: 3491.8652631579, Sell Value: 6612.48, Margin Value: 3120.6147368421. Grand total: Cost: 30619.865263158, Sell Value: 35639.4409, Margin Value: 5019.5756368421, Total: 35639.4409.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-Replace HW4 DX3 Circuit 1 compressor",
+      "interal_work_order_num": "UK-EW-16052022-2758.1",
+      "reference_number": "128741",
+      "project_status": "Work Order Closed",
+      "country": "United Kingdom",
+      "site": "",
+      "managing_office": "Qwerty",
+      "client": "Kyndryl",
+      "business_unit": "UK",
+      "prepared_by": "Jayme Feil",
+      "quote_value_usd": 7191.6316927381,
+      "margin_value_usd": 594.6652208545,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Jayme Feil (2):rejected by Jayme Feil (3):offer submitted by Jayme Feil",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Following the May 2022 critical DX service visit it was found that HW4 DX3 Circuit 1 compressor has failed.",
+        "scope": "Replace HW4 DX3 Circuit 1 compressor",
+        "justification": "Return DC room to N+2. Long lead time for compressor",
+        "non_approval_effect": "Room at reduced resilience N+1"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 5000, Sell Value: 5350, Margin Value: 350",
+        "labour": "Cost: 187.19473684211, Sell Value: 304.78, Margin Value: 117.58526315789",
+        "grand_total": "Cost: 5187.1947368421, Sell Value: 5654.78, Margin Value: 467.58526315789, Total: 5654.78"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 187.1947368421, Total Supply Chain Cost: 5000, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 5654.7798",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I rewrote all fields into structured natural summaries and returned 'N/A' wherever the input explicitly indicates missing data.",
+      "overview": "Project 'UPM-Replace HW4 DX3 Circuit 1 compressor' is located in United Kingdom at site N/A, managed by Qwerty for client Kyndryl. Prepared by Jayme Feil under internal work order UK-EW-16052022-2758.1. Current status is 'Work Order Closed'.",
+      "project_scope": "The scope notes highlight key considerations: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. The problem statement indicates: Following the May 2022 critical DX service visit it was found that HW4 DX3 Circuit 1 compressor has failed.. The defined scope of work includes: Replace HW4 DX3 Circuit 1 compressor. The justification provided is: Return DC room to N+2. Long lead time for compressor. If not approved, the effect would be: Room at reduced resilience N+1.",
+      "status_history": "First, billing completed by Jayme Feil. Then, rejected by Jayme Feil. After that, offer submitted by Jayme Feil.",
+      "project_financials": "Vendor costs: Cost: 5000, Sell Value: 5350, Margin Value: 350. Labour: Cost: 187.19473684211, Sell Value: 304.78, Margin Value: 117.58526315789. Grand total: Cost: 5187.1947368421, Sell Value: 5654.78, Margin Value: 467.58526315789, Total: 5654.78.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests have been raised.",
+        "EPIC or HSE documentation is not completed.",
+        "Close-out and billing documentation is missing.",
+        "Client close-out confirmation is missing."
+      ],
+      "next_steps": [
+        "Raise and submit required PORs.",
+        "Prepare EPIC / HSE documentation.",
+        "Compile and record close-out documentation.",
+        "Obtain and document client close-out acceptance."
+      ]
+    }
+  }
+]

@@ -1,0 +1,1668 @@
+[
+  {
+    "input": {
+      "project_name": "UPM-2781700 - 100 Gough Road, Markham - BNS CoLo- RFSB21-390 - Power circuits installation - Phase 2 - Downlift",
+      "interal_work_order_num": "CA-EW-10112022-2270",
+      "reference_number": "134374/2781700",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Leannon-Romaguera",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 6875.730439402,
+      "margin_value_usd": 296.08408590726,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work order closed by Sebastian Vandervort (3):work planning by Sebastian Vandervort (4):offer approved by Sebastian Vandervort (5):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "New cabinets need power circuits",
+        "scope": "Reason for the Downlift: To remove after hours cost as all work was done during regular hours",
+        "justification": "New IT equipment need power to be able to energize for BNS CoLo growth",
+        "non_approval_effect": "New IT equipment can not be energized and customer will not be able to migrate their workload into Gough Rd location."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 8670, Sell Value: 9060.15, Margin Value: 390.15",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 8670, Sell Value: 9060.15, Margin Value: 390.15, Total: 9060.15"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 8670, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 9060.15",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 5005364569, PO Value: 2400000, Date: 2022-11-17, From CBRE: Yes, Sell Value: 9060.15, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2781700 - 100 Gough Road, Markham - BNS CoLo- RFSB21-390 - Power circuits installation - Phase 2 - Downlift' located in Canada at site Leannon-Romaguera managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-10112022-2270, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: New cabinets need power circuits. Scope includes: Reason for the Downlift: To remove after hours cost as all work was done during regular hours. Justification: New IT equipment need power to be able to energize for BNS CoLo growth. Effect if not approved: New IT equipment can not be energized and customer will not be able to migrate their workload into Gough Rd location..",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work order closed by Sebastian Vandervort. After that, work planning by Sebastian Vandervort. Subsequently, offer approved by Sebastian Vandervort. Finally, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 8670, Sell Value: 9060.15, Margin Value: 390.15. Labour Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Grand Total: Cost: 8670, Sell Value: 9060.15, Margin Value: 390.15, Total: 9060.15.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 5005364569, PO Value: 2400000, Date: 2022-11-17, From CBRE: Yes, Sell Value: 9060.15, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2781701 - 100 Gough Road, Markham - BNS CoLo - RFSB21-307 PCR- Downlift",
+      "interal_work_order_num": "CA-EW-10112022-2658",
+      "reference_number": "134376/2781701",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Leannon-Romaguera",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 303.34104879715,
+      "margin_value_usd": 13.062533201791,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work order closed by Sebastian Vandervort (3):work planning by Sebastian Vandervort (4):offer approved by Sebastian Vandervort (5):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Power circuits installation",
+        "scope": "Reason for the Downlift - To remove the After hours cost as all work was done during regular hours",
+        "justification": "New IT equipment need power",
+        "non_approval_effect": "BNS CoLo growth will be impacted and project delay"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (Yes), EANS/CMMS Update (Yes), O&M Manuals (Yes), Job Punch List (Yes), Health & Safety Form (EPIC Form) (Yes), Single Source Approval (Yes), Close-Out Checklist (Yes)",
+      "financial_summary": {
+        "vendor": "Cost: 382.5, Sell Value: 399.7125, Margin Value: 17.2125",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 382.5, Sell Value: 399.7125, Margin Value: 17.2125, Total: 399.7125"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 382.5, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 399.7125",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 5005364569, PO Value: 2400000, Date: 2022-11-17, From CBRE: Yes, Sell Value: 399.7125, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2781701 - 100 Gough Road, Markham - BNS CoLo - RFSB21-307 PCR- Downlift' located in Canada at site Leannon-Romaguera managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-10112022-2658, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Power circuits installation. Scope includes: Reason for the Downlift - To remove the After hours cost as all work was done during regular hours. Justification: New IT equipment need power. Effect if not approved: BNS CoLo growth will be impacted and project delay.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work order closed by Sebastian Vandervort. After that, work planning by Sebastian Vandervort. Subsequently, offer approved by Sebastian Vandervort. Finally, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 382.5, Sell Value: 399.7125, Margin Value: 17.2125. Labour Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Grand Total: Cost: 382.5, Sell Value: 399.7125, Margin Value: 17.2125, Total: 399.7125.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 5005364569, PO Value: 2400000, Date: 2022-11-17, From CBRE: Yes, Sell Value: 399.7125, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2747787 - 3600 Steeles Ave East Markham - 3600 Steeles - G4 Canada Life - Qty 20 Disconnect/Reconnect and Qty 4 New for Total of 24 circuits in 5 -Uplift",
+      "interal_work_order_num": "CA-EW-10112022-3729",
+      "reference_number": "134380/ 2747787",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "ITSM Canada",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 1449.2961220308,
+      "margin_value_usd": 62.409880853001,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work order closed by Sebastian Vandervort (3):work planning by Sebastian Vandervort (4):offer approved by Sebastian Vandervort (5):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "3600 Steeles - G4 Canada Life - Disconnect/Reconnect 20 circuits and add new 4 circuits",
+        "scope": "Reason for the Uplift - Electrical contractor will perform the work after hours.",
+        "justification": "As per client request",
+        "non_approval_effect": "project delays and potential penalties"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 1827.5, Sell Value: 1909.7375, Margin Value: 82.2375",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 1827.5, Sell Value: 1909.7375, Margin Value: 82.2375, Total: 1909.7375"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 1827.5, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1909.7375",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 5005364569, PO Value: 2400000, Date: 2022-11-14, From CBRE: Yes, Sell Value: 1909.7375, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2747787 - 3600 Steeles Ave East Markham - 3600 Steeles - G4 Canada Life - Qty 20 Disconnect/Reconnect and Qty 4 New for Total of 24 circuits in 5 -Uplift' located in Canada at site ITSM Canada managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-10112022-3729, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: 3600 Steeles - G4 Canada Life - Disconnect/Reconnect 20 circuits and add new 4 circuits. Scope includes: Reason for the Uplift - Electrical contractor will perform the work after hours.. Justification: As per client request. Effect if not approved: project delays and potential penalties.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work order closed by Sebastian Vandervort. After that, work planning by Sebastian Vandervort. Subsequently, offer approved by Sebastian Vandervort. Finally, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 1827.5, Sell Value: 1909.7375, Margin Value: 82.2375. Labour Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Grand Total: Cost: 1827.5, Sell Value: 1909.7375, Margin Value: 82.2375, Total: 1909.7375.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 5005364569, PO Value: 2400000, Date: 2022-11-14, From CBRE: Yes, Sell Value: 1909.7375, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2790961 - 505 Bayview Dr - Barrie (CLDC) - Failed Vesda Panel Replacement",
+      "interal_work_order_num": "CA-EW-02112022-8309.1",
+      "reference_number": "134271/2790961",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kuvalis, Harvey and Herzog",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 8396.2055096001,
+      "margin_value_usd": 896.87713440085,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):rejected by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During the annual maintenance of the fire alarm system it was noted that one of the vesda panels had a system fault. The vendor technician attempted to correct it without any resolve and as such a new panel is required.",
+        "scope": "Vendor will be on site to replace the failed unit.",
+        "justification": "Unit is required to adequately monitor the air for smoke and act accordingly sending the information to the fire alarm panel which will then activate an alarm via the alarm panel.",
+        "non_approval_effect": "Inability of the system to monitor air for smoke and alert the building occupants via fire alarm panel"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 9110, Sell Value: 9519.95, Margin Value: 409.95",
+        "labour": "Cost: 771.865, Sell Value: 1543.73, Margin Value: 771.865",
+        "grand_total": "Cost: 9881.865, Sell Value: 11063.68, Margin Value: 1181.815, Total: 11063.68"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 771.865, Total Supply Chain Cost: 9110, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11063.68",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2790961 - 505 Bayview Dr - Barrie (CLDC) - Failed Vesda Panel Replacement' located in Canada at site Kuvalis, Harvey and Herzog managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-02112022-8309.1, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: During the annual maintenance of the fire alarm system it was noted that one of the vesda panels had a system fault. The vendor technician attempted to correct it without any resolve and as such a new panel is required.. Scope includes: Vendor will be on site to replace the failed unit.. Justification: Unit is required to adequately monitor the air for smoke and act accordingly sending the information to the fire alarm panel which will then activate an alarm via the alarm panel.. Effect if not approved: Inability of the system to monitor air for smoke and alert the building occupants via fire alarm panel.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, rejected by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 9110, Sell Value: 9519.95, Margin Value: 409.95. Labour Summary: Cost: 771.865, Sell Value: 1543.73, Margin Value: 771.865. Grand Total: Cost: 9881.865, Sell Value: 11063.68, Margin Value: 1181.815, Total: 11063.68.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2790961 - 505 Bayview Dr - Barrie (CLDC) - Failed Vesda Panel Replacement",
+      "interal_work_order_num": "CA-EW-02112022-8309.2",
+      "reference_number": "134271/2790961",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kuvalis, Harvey and Herzog",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 8396.2055096001,
+      "margin_value_usd": 896.87713440085,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):offer approved by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "During the annual maintenance of the fire alarm system it was noted that one of the vesda panels had a system fault. The vendor technician attempted to correct it without any resolve and as such a new panel is required.",
+        "scope": "Vendor will be on site to replace the failed unit.",
+        "justification": "Unit is required to adequately monitor the air for smoke and act accordingly sending the information to the fire alarm panel which will then activate an alarm via the alarm panel.",
+        "non_approval_effect": "Inability of the system to monitor air for smoke and alert the building occupants via fire alarm panel"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 9110, Sell Value: 9519.95, Margin Value: 409.95",
+        "labour": "Cost: 771.865, Sell Value: 1543.73, Margin Value: 771.865",
+        "grand_total": "Cost: 9881.865, Sell Value: 11063.68, Margin Value: 1181.815, Total: 11063.68"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 771.865, Total Supply Chain Cost: 9110, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11063.68",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589585, PO Value: 1400000, Date: 2022-11-17, From CBRE: Yes, Sell Value: 11063.68, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2790961 - 505 Bayview Dr - Barrie (CLDC) - Failed Vesda Panel Replacement' located in Canada at site Kuvalis, Harvey and Herzog managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-02112022-8309.2, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: During the annual maintenance of the fire alarm system it was noted that one of the vesda panels had a system fault. The vendor technician attempted to correct it without any resolve and as such a new panel is required.. Scope includes: Vendor will be on site to replace the failed unit.. Justification: Unit is required to adequately monitor the air for smoke and act accordingly sending the information to the fire alarm panel which will then activate an alarm via the alarm panel.. Effect if not approved: Inability of the system to monitor air for smoke and alert the building occupants via fire alarm panel.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, offer approved by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 9110, Sell Value: 9519.95, Margin Value: 409.95. Labour Summary: Cost: 771.865, Sell Value: 1543.73, Margin Value: 771.865. Grand Total: Cost: 9881.865, Sell Value: 11063.68, Margin Value: 1181.815, Total: 11063.68.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589585, PO Value: 1400000, Date: 2022-11-17, From CBRE: Yes, Sell Value: 11063.68, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2791868 - 275 Viger, Montreal - Replace panic system GSM",
+      "interal_work_order_num": "CA-EW-14112022-5896",
+      "reference_number": "134405/2791868",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 540.70729301055,
+      "margin_value_usd": 37.709645594597,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):work order closed by Maureen Gerlach (3):work planning by Maureen Gerlach (4):offer approved by Maureen Gerlach (5):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Panic system GSM needs replacement",
+        "scope": "replace GSM with LTE",
+        "justification": "Needed for panic system to function",
+        "non_approval_effect": "Life safety issue"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 642, Sell Value: 670.89, Margin Value: 28.89",
+        "labour": "Cost: 20.8, Sell Value: 41.6, Margin Value: 20.8",
+        "grand_total": "Cost: 662.8, Sell Value: 712.49, Margin Value: 49.69, Total: 712.49"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 20.8, Total Supply Chain Cost: 642, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 712.482",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 48613, PO Value: 642, Date: 2022-11-21, From CBRE: Yes, Sell Value: 712.49, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2791868 - 275 Viger, Montreal - Replace panic system GSM' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-14112022-5896, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Panic system GSM needs replacement. Scope includes: replace GSM with LTE. Justification: Needed for panic system to function. Effect if not approved: Life safety issue.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, work order closed by Maureen Gerlach. After that, work planning by Maureen Gerlach. Subsequently, offer approved by Maureen Gerlach. Finally, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 642, Sell Value: 670.89, Margin Value: 28.89. Labour Summary: Cost: 20.8, Sell Value: 41.6, Margin Value: 20.8. Grand Total: Cost: 662.8, Sell Value: 712.49, Margin Value: 49.69, Total: 712.49.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 48613, PO Value: 642, Date: 2022-11-21, From CBRE: Yes, Sell Value: 712.49, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2781821 - 100 Gough Road, Markham - BNS RFSZ20-031 - SAN DS8886 (S/N 75CMB70) Decommission",
+      "interal_work_order_num": "CA-EW-14112022-2212",
+      "reference_number": "134406/2781821",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Leannon-Romaguera",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 1790.6200197314,
+      "margin_value_usd": 589.39515823025,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):offer approved by Maureen Gerlach (3):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Power disconnect and removal",
+        "scope": "CBRE to disconnect 10 x 60A power circuits from decommissioned DS8886 storage equipment located on the 2nd raised floor during after hours. Circuits from old infrastructure can be pulled and terminated in a junction box by the RPP location\n\nXY Serial #\nX022Y032 75-CMB70\nX023Y032 75-CWZ30\nX024Y032 75-VA540\nX025Y032 75-ZG120\nX026Y032 75-CTZ70\n\nFloor layout attached, cabinets circled BLUE",
+        "justification": "Decommissioned equipment needs to be removed and disposed",
+        "non_approval_effect": "Unable to dispose the hardware, maintenance fee, raised floor utilization and cooling efficiency"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "labour": "Cost: 1582.854, Sell Value: 2359.5, Margin Value: 776.646",
+        "grand_total": "Cost: 1582.854, Sell Value: 2359.5, Margin Value: 776.646, Total: 2359.5"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1582.854, Total Supply Chain Cost: 0, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2359.5001",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: NA, PO Value: 2359.5, Date: 2022-11-22, From CBRE: Yes, Sell Value: 2359.5, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2781821 - 100 Gough Road, Markham - BNS RFSZ20-031 - SAN DS8886 (S/N 75CMB70) Decommission' located in Canada at site Leannon-Romaguera managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-14112022-2212, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Power disconnect and removal. Scope includes: CBRE to disconnect 10 x 60A power circuits from decommissioned DS8886 storage equipment located on the 2nd raised floor during after hours. Circuits from old infrastructure can be pulled and terminated in a junction box by the RPP location\n\nXY Serial #\nX022Y032 75-CMB70\nX023Y032 75-CWZ30\nX024Y032 75-VA540\nX025Y032 75-ZG120\nX026Y032 75-CTZ70\n\nFloor layout attached, cabinets circled BLUE. Justification: Decommissioned equipment needs to be removed and disposed. Effect if not approved: Unable to dispose the hardware, maintenance fee, raised floor utilization and cooling efficiency.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, offer approved by Maureen Gerlach. After that, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Labour Summary: Cost: 1582.854, Sell Value: 2359.5, Margin Value: 776.646. Grand Total: Cost: 1582.854, Sell Value: 2359.5, Margin Value: 776.646, Total: 2359.5.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: NA, PO Value: 2359.5, Date: 2022-11-22, From CBRE: Yes, Sell Value: 2359.5, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2790976 - 100 Gough Road, Markham - BNS CoLo - Telco circuits cabinets",
+      "interal_work_order_num": "CA-EW-15112022-7583",
+      "reference_number": "134423/2790976",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Leannon-Romaguera",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 7468.5013280716,
+      "margin_value_usd": 553.00007588981,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):rejected by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "4 new network cabinets needs power circuits",
+        "scope": "CBRE to install 2x30A power circuit in each following cabinets during after hours.\n\nX031Y064\nX033Y064\nX034Y064\nX035Y064\n\nSupply one box (10) kold lock",
+        "justification": "Telco devices need power to be able to provide connection between Gough and other BNS sites",
+        "non_approval_effect": "Telco devices can not be energized and BNS can not do the migration under DCRC program."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 8567.87, Sell Value: 8953.4242, Margin Value: 385.5542",
+        "labour": "Cost: 544.686, Sell Value: 887.82, Margin Value: 343.134",
+        "grand_total": "Cost: 9112.556, Sell Value: 9841.2442, Margin Value: 728.6882, Total: 9841.2442"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 544.686, Total Supply Chain Cost: 8567.87, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 9841.2442",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2790976 - 100 Gough Road, Markham - BNS CoLo - Telco circuits cabinets' located in Canada at site Leannon-Romaguera managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-15112022-7583, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: 4 new network cabinets needs power circuits. Scope includes: CBRE to install 2x30A power circuit in each following cabinets during after hours.\n\nX031Y064\nX033Y064\nX034Y064\nX035Y064\n\nSupply one box (10) kold lock. Justification: Telco devices need power to be able to provide connection between Gough and other BNS sites. Effect if not approved: Telco devices can not be energized and BNS can not do the migration under DCRC program..",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, rejected by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 8567.87, Sell Value: 8953.4242, Margin Value: 385.5542. Labour Summary: Cost: 544.686, Sell Value: 887.82, Margin Value: 343.134. Grand Total: Cost: 9112.556, Sell Value: 9841.2442, Margin Value: 728.6882, Total: 9841.2442.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2790976 - 100 Gough Road, Markham - BNS CoLo - Telco circuits cabinets",
+      "interal_work_order_num": "CA-EW-15112022-7583.1",
+      "reference_number": "134423/2790976",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Leannon-Romaguera",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 7808.4117780982,
+      "margin_value_usd": 646.47658799423,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work planning by Sebastian Vandervort (3):offer approved by Sebastian Vandervort (4):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "4 new network cabinets needs power circuits",
+        "scope": "CBRE to install 2x30A power circuit in each following cabinets during after hours.\n\nX031Y064\nX033Y064\nX034Y064\nX035Y064\n\nSupply one box (10) kold lock",
+        "justification": "Telco devices need power to be able to provide connection between Gough and other BNS sites",
+        "non_approval_effect": "Telco devices can not be energized and BNS can not do the migration under DCRC program."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 8567.87, Sell Value: 8953.4242, Margin Value: 385.5542",
+        "labour": "Cost: 869.412, Sell Value: 1335.72, Margin Value: 466.308",
+        "grand_total": "Cost: 9437.282, Sell Value: 10289.1442, Margin Value: 851.8622, Total: 10289.1442"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 869.412, Total Supply Chain Cost: 8567.87, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 10289.1442",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-11-16, From CBRE: Yes, Sell Value: 10289.1442, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2790976 - 100 Gough Road, Markham - BNS CoLo - Telco circuits cabinets' located in Canada at site Leannon-Romaguera managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-15112022-7583.1, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: 4 new network cabinets needs power circuits. Scope includes: CBRE to install 2x30A power circuit in each following cabinets during after hours.\n\nX031Y064\nX033Y064\nX034Y064\nX035Y064\n\nSupply one box (10) kold lock. Justification: Telco devices need power to be able to provide connection between Gough and other BNS sites. Effect if not approved: Telco devices can not be energized and BNS can not do the migration under DCRC program..",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work planning by Sebastian Vandervort. After that, offer approved by Sebastian Vandervort. Subsequently, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 8567.87, Sell Value: 8953.4242, Margin Value: 385.5542. Labour Summary: Cost: 869.412, Sell Value: 1335.72, Margin Value: 466.308. Grand Total: Cost: 9437.282, Sell Value: 10289.1442, Margin Value: 851.8622, Total: 10289.1442.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-11-16, From CBRE: Yes, Sell Value: 10289.1442, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2790977 - 100 Gough Road, Markham - 2 GP Racks power",
+      "interal_work_order_num": "CA-EW-15112022-7333",
+      "reference_number": "134424/2790977",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Leannon-Romaguera",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 4489.0832511194,
+      "margin_value_usd": 385.86855885255,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work planning by Sebastian Vandervort (3):offer approved by Sebastian Vandervort (4):offer submitted by Sebastian Vandervort (5):work in progress by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Additional power circuits",
+        "scope": "CBRE to install 2x30A in X019Y051 and 2x30A in X020Y048\nSupply and install one box (10) kold lock",
+        "justification": "2 General purpose network cabinets need power circuit to be able to install devices for this RFS",
+        "non_approval_effect": "Project can not be completed, network connections will be impacted"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 4918.11, Sell Value: 5139.425, Margin Value: 221.315",
+        "labour": "Cost: 488.696, Sell Value: 775.84, Margin Value: 287.144",
+        "grand_total": "Cost: 5406.806, Sell Value: 5915.265, Margin Value: 508.459, Total: 5915.265"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 488.696, Total Supply Chain Cost: 4918.11, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 5915.265",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-11-16, From CBRE: Yes, Sell Value: 5915.265, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2790977 - 100 Gough Road, Markham - 2 GP Racks power' located in Canada at site Leannon-Romaguera managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-15112022-7333, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Additional power circuits. Scope includes: CBRE to install 2x30A in X019Y051 and 2x30A in X020Y048\nSupply and install one box (10) kold lock. Justification: 2 General purpose network cabinets need power circuit to be able to install devices for this RFS. Effect if not approved: Project can not be completed, network connections will be impacted.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work planning by Sebastian Vandervort. After that, offer approved by Sebastian Vandervort. Subsequently, offer submitted by Sebastian Vandervort. Finally, work in progress by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 4918.11, Sell Value: 5139.425, Margin Value: 221.315. Labour Summary: Cost: 488.696, Sell Value: 775.84, Margin Value: 287.144. Grand Total: Cost: 5406.806, Sell Value: 5915.265, Margin Value: 508.459, Total: 5915.265.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-11-16, From CBRE: Yes, Sell Value: 5915.265, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2792185 - 275 Viger, Montreal - Mise aux normes du syst\u00e8me de parafoudre",
+      "interal_work_order_num": "CA-EW-16112022-4024",
+      "reference_number": "134446/2792185",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 818.8889732109,
+      "margin_value_usd": 94.903999392882,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):work order closed by Maureen Gerlach (3):work planning by Maureen Gerlach (4):offer approved by Maureen Gerlach (5):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Mises aux Normes du syst\u00e8me actuel de parafoudre selon la Norme B72 M87",
+        "scope": "Mises aux Normes du syst\u00e8me parafoudre en place afin de respecter les nouvelles normes en vigueur.",
+        "justification": "Mises aux Normes du syst\u00e8me parafoudre en place afin de respecter les nouvelles normes en vigueur.",
+        "non_approval_effect": "Mises aux Normes du syst\u00e8me parafoudre en place afin de respecter les nouvelles normes en vigueur."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 868, Sell Value: 907.06, Margin Value: 39.06",
+        "labour": "Cost: 85.995, Sell Value: 171.99, Margin Value: 85.995",
+        "grand_total": "Cost: 953.995, Sell Value: 1079.05, Margin Value: 125.055, Total: 1079.05"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 85.995, Total Supply Chain Cost: 868, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1079.03",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 48701, PO Value: 868, Date: 2022-11-21, From CBRE: Yes, Sell Value: 1079.05, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2792185 - 275 Viger, Montreal - Mise aux normes du syst\u00e8me de parafoudre' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-16112022-4024, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Mises aux Normes du syst\u00e8me actuel de parafoudre selon la Norme B72 M87. Scope includes: Mises aux Normes du syst\u00e8me parafoudre en place afin de respecter les nouvelles normes en vigueur.. Justification: Mises aux Normes du syst\u00e8me parafoudre en place afin de respecter les nouvelles normes en vigueur.. Effect if not approved: Mises aux Normes du syst\u00e8me parafoudre en place afin de respecter les nouvelles normes en vigueur..",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, work order closed by Maureen Gerlach. After that, work planning by Maureen Gerlach. Subsequently, offer approved by Maureen Gerlach. Finally, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 868, Sell Value: 907.06, Margin Value: 39.06. Labour Summary: Cost: 85.995, Sell Value: 171.99, Margin Value: 85.995. Grand Total: Cost: 953.995, Sell Value: 1079.05, Margin Value: 125.055, Total: 1079.05.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 48701, PO Value: 868, Date: 2022-11-21, From CBRE: Yes, Sell Value: 1079.05, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2766389 - 505 Bayview Dr - Barrie (CLDC) - IP Migration CLDC - Uplift",
+      "interal_work_order_num": "CA-EW-17112022-9492",
+      "reference_number": "134455/2766389",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kuvalis, Harvey and Herzog",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 1282.7752902785,
+      "margin_value_usd": 327.06458222661,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):rejected by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "As part of the IP address change we are required to support the re-connection of all vigilent equipment.",
+        "scope": "Support all project planning and escorts for vigilent team and supply BAS vendor to confirm all communications and alarming capabilities.",
+        "justification": "Required to re-instate viglent energy saving monitoring and controls.",
+        "non_approval_effect": "Unable to re-connect Vigilent equipment."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 867.4, Sell Value: 906.433, Margin Value: 39.033",
+        "labour": "Cost: 391.94, Sell Value: 783.88, Margin Value: 391.94",
+        "grand_total": "Cost: 1259.34, Sell Value: 1690.313, Margin Value: 430.973, Total: 1690.313"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 391.94, Total Supply Chain Cost: 867.4, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1690.313",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2766389 - 505 Bayview Dr - Barrie (CLDC) - IP Migration CLDC - Uplift' located in Canada at site Kuvalis, Harvey and Herzog managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-17112022-9492, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: As part of the IP address change we are required to support the re-connection of all vigilent equipment.. Scope includes: Support all project planning and escorts for vigilent team and supply BAS vendor to confirm all communications and alarming capabilities.. Justification: Required to re-instate viglent energy saving monitoring and controls.. Effect if not approved: Unable to re-connect Vigilent equipment..",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, rejected by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 867.4, Sell Value: 906.433, Margin Value: 39.033. Labour Summary: Cost: 391.94, Sell Value: 783.88, Margin Value: 391.94. Grand Total: Cost: 1259.34, Sell Value: 1690.313, Margin Value: 430.973, Total: 1690.313.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2766389 - 505 Bayview Dr - Barrie (CLDC) - IP Migration CLDC - Uplift",
+      "interal_work_order_num": "CA-EW-17112022-9492.1",
+      "reference_number": "134455/2766389",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kuvalis, Harvey and Herzog",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 1282.7752902785,
+      "margin_value_usd": 327.06458222661,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work order closed by Sebastian Vandervort (3):work planning by Sebastian Vandervort (4):offer approved by Sebastian Vandervort (5):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "As part of the IP address change we are required to support the re-connection of all vigilent equipment.",
+        "scope": "Reason for the Uplift: To support all project planning and escorts for vigilent team and supply BAS vendor to confirm all communications and alarming capabilities.",
+        "justification": "Required to re-instate viglent energy saving monitoring and controls.",
+        "non_approval_effect": "Unable to re-connect Vigilent equipment."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 867.4, Sell Value: 906.433, Margin Value: 39.033",
+        "labour": "Cost: 391.94, Sell Value: 783.88, Margin Value: 391.94",
+        "grand_total": "Cost: 1259.34, Sell Value: 1690.313, Margin Value: 430.973, Total: 1690.313"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 391.94, Total Supply Chain Cost: 867.4, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1690.313",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700526321, PO Value: 118658.4, Date: 2022-12-01, From CBRE: Yes, Sell Value: 1690.313, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2766389 - 505 Bayview Dr - Barrie (CLDC) - IP Migration CLDC - Uplift' located in Canada at site Kuvalis, Harvey and Herzog managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-17112022-9492.1, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: As part of the IP address change we are required to support the re-connection of all vigilent equipment.. Scope includes: Reason for the Uplift: To support all project planning and escorts for vigilent team and supply BAS vendor to confirm all communications and alarming capabilities.. Justification: Required to re-instate viglent energy saving monitoring and controls.. Effect if not approved: Unable to re-connect Vigilent equipment..",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work order closed by Sebastian Vandervort. After that, work planning by Sebastian Vandervort. Subsequently, offer approved by Sebastian Vandervort. Finally, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 867.4, Sell Value: 906.433, Margin Value: 39.033. Labour Summary: Cost: 391.94, Sell Value: 783.88, Margin Value: 391.94. Grand Total: Cost: 1259.34, Sell Value: 1690.313, Margin Value: 430.973, Total: 1690.313.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700526321, PO Value: 118658.4, Date: 2022-12-01, From CBRE: Yes, Sell Value: 1690.313, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2792837 - 3600 Steeles Ave East Markham - Re-cable readers to kyndryl node.",
+      "interal_work_order_num": "CA-EW-18112022-1436",
+      "reference_number": "134478/2792837",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "ITSM Canada",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 14588.768308416,
+      "margin_value_usd": 642.65007209532,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Need to re-cable readers from IBM node to Kyndryl node",
+        "scope": "Re-cable readers to kyndryl node.",
+        "justification": "Need for security to work",
+        "non_approval_effect": "No security for RF"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 18356, Sell Value: 19182.02, Margin Value: 826.02",
+        "labour": "Cost: 20.8, Sell Value: 41.6, Margin Value: 20.8",
+        "grand_total": "Cost: 18376.8, Sell Value: 19223.62, Margin Value: 846.82, Total: 19223.62"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 20.8, Total Supply Chain Cost: 18356, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 19223.612",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2792837 - 3600 Steeles Ave East Markham - Re-cable readers to kyndryl node.' located in Canada at site ITSM Canada managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-18112022-1436, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Need to re-cable readers from IBM node to Kyndryl node. Scope includes: Re-cable readers to kyndryl node.. Justification: Need for security to work. Effect if not approved: No security for RF.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 18356, Sell Value: 19182.02, Margin Value: 826.02. Labour Summary: Cost: 20.8, Sell Value: 41.6, Margin Value: 20.8. Grand Total: Cost: 18376.8, Sell Value: 19223.62, Margin Value: 846.82, Total: 19223.62.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2792855 - 3600 Steeles Ave East Markham - Mechanical UPS 610 series Lower fans replacement \"END OF LIFE\"",
+      "interal_work_order_num": "CA-EW-21112022-2273",
+      "reference_number": "134492/2792855",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "ITSM Canada",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 6873.8898079988,
+      "margin_value_usd": 468.73081885103,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):offer approved by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Lower fan failure active on Mechanical UPS 610 series. Vendor advised to replace all fans due to \"END OF LIFE\" after 7 years of operation. This replacement will also prevent future UPS isolation for service if additional fans continue to fail",
+        "scope": "CBRE staff to isolate the Mechanical UPS to allow Vendor to replace UPS Lower fans",
+        "justification": "UPS 610 series currently has a failed lower fan. Vendor has indicted all lower fans are \"END OF LIFE\".and should be replaced in one service to prevent future UPS isolations and repairs",
+        "non_approval_effect": "Mechanical UPS will maintain an active fault due to fan failure"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 7557.88, Sell Value: 7897.9846, Margin Value: 340.1046",
+        "labour": "Cost: 882.198, Sell Value: 1159.74, Margin Value: 277.542",
+        "grand_total": "Cost: 8440.078, Sell Value: 9057.7246, Margin Value: 617.6466, Total: 9057.7246"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 882.198, Total Supply Chain Cost: 7557.88, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 9057.7196",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589585, PO Value: 2400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 9057.7246, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2792855 - 3600 Steeles Ave East Markham - Mechanical UPS 610 series Lower fans replacement \"END OF LIFE\"' located in Canada at site ITSM Canada managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-21112022-2273, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Lower fan failure active on Mechanical UPS 610 series. Vendor advised to replace all fans due to \"END OF LIFE\" after 7 years of operation. This replacement will also prevent future UPS isolation for service if additional fans continue to fail. Scope includes: CBRE staff to isolate the Mechanical UPS to allow Vendor to replace UPS Lower fans. Justification: UPS 610 series currently has a failed lower fan. Vendor has indicted all lower fans are \"END OF LIFE\".and should be replaced in one service to prevent future UPS isolations and repairs. Effect if not approved: Mechanical UPS will maintain an active fault due to fan failure.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, offer approved by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 7557.88, Sell Value: 7897.9846, Margin Value: 340.1046. Labour Summary: Cost: 882.198, Sell Value: 1159.74, Margin Value: 277.542. Grand Total: Cost: 8440.078, Sell Value: 9057.7246, Margin Value: 617.6466, Total: 9057.7246.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589585, PO Value: 2400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 9057.7246, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2787470 - 3500 Steeles Ave - SIS two new power installation - Change in SOW",
+      "interal_work_order_num": "CA-EW-21112022-5414",
+      "reference_number": "134495/2787470",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Crist, Buckridge and Lehner",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 4043.9871746224,
+      "margin_value_usd": 402.9725278895,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):offer approved by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "There was a change in procedure regarding this job. Instead of installing new whips and breakers to the new cabinets, we only need to relocate existing whips to the new cabinets.",
+        "scope": "There was a change in procedure regarding this job. Instead of installing new whips and breakers to the new cabinets, we only need to relocate existing whips to the new cabinets.",
+        "justification": "There was a change in procedure regarding this job. Instead of installing new whips and breakers to the new cabinets, we only need to relocate existing whips to the new cabinets.",
+        "non_approval_effect": "Not Provided"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 4467.82, Sell Value: 4668.8719, Margin Value: 201.0519",
+        "labour": "Cost: 329.945, Sell Value: 659.89, Margin Value: 329.945",
+        "grand_total": "Cost: 4797.765, Sell Value: 5328.7619, Margin Value: 530.9969, Total: 5328.7619"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 329.945, Total Supply Chain Cost: 4467.82, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 5328.7619",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 5328.7619, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2787470 - 3500 Steeles Ave - SIS two new power installation - Change in SOW' located in Canada at site Crist, Buckridge and Lehner managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-21112022-5414, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: There was a change in procedure regarding this job. Instead of installing new whips and breakers to the new cabinets, we only need to relocate existing whips to the new cabinets.. Scope includes: There was a change in procedure regarding this job. Instead of installing new whips and breakers to the new cabinets, we only need to relocate existing whips to the new cabinets.. Justification: There was a change in procedure regarding this job. Instead of installing new whips and breakers to the new cabinets, we only need to relocate existing whips to the new cabinets.. Effect if not approved: Not Provided.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, offer approved by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 4467.82, Sell Value: 4668.8719, Margin Value: 201.0519. Labour Summary: Cost: 329.945, Sell Value: 659.89, Margin Value: 329.945. Grand Total: Cost: 4797.765, Sell Value: 5328.7619, Margin Value: 530.9969, Total: 5328.7619.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 5328.7619, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2791061 - 3500 Steeles Ave East Markham - Tower 4 Level 3 Client - Exiting Office space",
+      "interal_work_order_num": "CA-EW-22112022-8241",
+      "reference_number": "134510/2791061",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Crist, Buckridge and Lehner",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 7123.9413371784,
+      "margin_value_usd": 692.87584427411,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work planning by Sebastian Vandervort (3):offer approved by Sebastian Vandervort (4):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Client exiting space and the landlord requires space to be returned to original state",
+        "scope": "Badge readers x 2 \u2013 at doors to the vacant space:\n            Remove readers / rough in\u2019s\nPull cables from current locations back to the security panel.\n            Repair wall at both locations\n\nTelephone:\n            Remove phone\n            Remove phone jack\n            Pull cable back to it\u2019s origin\n            Repair wall.\n\nFurniture whips:\nNetwork cable to be pulled back to LAN cabinet\nPower feed to be pull back to the electrical panel, remove circuits \u2013 as the panel is a base building panel, this work will need to be done through the landlord\u2019s preferred contractor (site electrician) Plan Group to avoid potential issues:\n\nFile cabinets:\n            To re removed from the floor.\n\nRemove 3 windows interior film that are damage.",
+        "justification": "Returning office space to the Landlord",
+        "non_approval_effect": "Not provided"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 7917.5, Sell Value: 8273.7875, Margin Value: 356.2875",
+        "labour": "Cost: 556.715, Sell Value: 1113.43, Margin Value: 556.715",
+        "grand_total": "Cost: 8474.215, Sell Value: 9387.2175, Margin Value: 913.0025, Total: 9387.2175"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 556.715, Total Supply Chain Cost: 7917.5, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 9387.2175",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 9387.2175, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2791061 - 3500 Steeles Ave East Markham - Tower 4 Level 3 Client - Exiting Office space' located in Canada at site Crist, Buckridge and Lehner managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-22112022-8241, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Client exiting space and the landlord requires space to be returned to original state. Scope includes: Badge readers x 2 \u2013 at doors to the vacant space:\n            Remove readers / rough in\u2019s\nPull cables from current locations back to the security panel.\n            Repair wall at both locations\n\nTelephone:\n            Remove phone\n            Remove phone jack\n            Pull cable back to it\u2019s origin\n            Repair wall.\n\nFurniture whips:\nNetwork cable to be pulled back to LAN cabinet\nPower feed to be pull back to the electrical panel, remove circuits \u2013 as the panel is a base building panel, this work will need to be done through the landlord\u2019s preferred contractor (site electrician) Plan Group to avoid potential issues:\n\nFile cabinets:\n            To re removed from the floor.\n\nRemove 3 windows interior film that are damage.. Justification: Returning office space to the Landlord. Effect if not approved: Not provided.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work planning by Sebastian Vandervort. After that, offer approved by Sebastian Vandervort. Subsequently, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 7917.5, Sell Value: 8273.7875, Margin Value: 356.2875. Labour Summary: Cost: 556.715, Sell Value: 1113.43, Margin Value: 556.715. Grand Total: Cost: 8474.215, Sell Value: 9387.2175, Margin Value: 913.0025, Total: 9387.2175.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 9387.2175, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2786780 - 275 Viger, Montreal - Start-up (start-up) of Tower #8",
+      "interal_work_order_num": "CA-EW-22112022-642",
+      "reference_number": "134513/2786780",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 3154.7469074903,
+      "margin_value_usd": 135.85034529863,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):work order closed by Maureen Gerlach (3):work planning by Maureen Gerlach (4):offer approved by Maureen Gerlach (5):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Mise en marche (start-up) de la tour #8",
+        "scope": "Nettoyage et mise en marche m\u00e9canique de la tour #8 ainsi que le r\u00e9servoir et int\u00e9grer un drain au r\u00e9servoir et effectuer des changements au position de tuyau envoyer au plancher.\n\nReason for down-lift - Work cannot be performed due to the technical reasons",
+        "justification": "Int\u00e9gration de la tour #8 aux syst\u00e8mes d\u2019eau glac\u00e9e afin de fournir du free cooling pour DC3 et DC4 dans le but d\u2019\u00e9conomiser de l\u2019\u00e9nergie.",
+        "non_approval_effect": "Le projet d\u2019\u00e9conomie d\u2019\u00e9nergie en cours ne pourra pas \u00eatre finalis\u00e9 et on ne pourra pas atteindre les objectifs pr\u00e9vus."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 3978, Sell Value: 4157.01, Margin Value: 179.01",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 3978, Sell Value: 4157.01, Margin Value: 179.01, Total: 4157.01"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 3978, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 4157.01",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 47932, PO Value: 8997.7, Date: 2022-11-24, From CBRE: Yes, Sell Value: 4157.01, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2786780 - 275 Viger, Montreal - Start-up (start-up) of Tower #8' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-22112022-642, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Mise en marche (start-up) de la tour #8. Scope includes: Nettoyage et mise en marche m\u00e9canique de la tour #8 ainsi que le r\u00e9servoir et int\u00e9grer un drain au r\u00e9servoir et effectuer des changements au position de tuyau envoyer au plancher.\n\nReason for down-lift - Work cannot be performed due to the technical reasons. Justification: Int\u00e9gration de la tour #8 aux syst\u00e8mes d\u2019eau glac\u00e9e afin de fournir du free cooling pour DC3 et DC4 dans le but d\u2019\u00e9conomiser de l\u2019\u00e9nergie.. Effect if not approved: Le projet d\u2019\u00e9conomie d\u2019\u00e9nergie en cours ne pourra pas \u00eatre finalis\u00e9 et on ne pourra pas atteindre les objectifs pr\u00e9vus..",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, work order closed by Maureen Gerlach. After that, work planning by Maureen Gerlach. Subsequently, offer approved by Maureen Gerlach. Finally, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 3978, Sell Value: 4157.01, Margin Value: 179.01. Labour Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Grand Total: Cost: 3978, Sell Value: 4157.01, Margin Value: 179.01, Total: 4157.01.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 47932, PO Value: 8997.7, Date: 2022-11-24, From CBRE: Yes, Sell Value: 4157.01, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2791075 - 275 Viger, Montreal - Removing directional arrows from the ground",
+      "interal_work_order_num": "CA-EW-22112022-1340",
+      "reference_number": "134515/2791075",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 150.67921378159,
+      "margin_value_usd": 6.4885785838962,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):work order closed by Maureen Gerlach (3):work planning by Maureen Gerlach (4):offer approved by Maureen Gerlach (5):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Removal of all directional arrows installed on the floors at the beginning of COVID-19.",
+        "scope": "Remove all  directional and distancing floor stickers, Everywhere in the building where they are installed\n\nReason for Down-lift - Work completed in lesser amount.",
+        "justification": "RTO Playbook Kyndryl has said they are now Phase 3, so there are no restrictions on masks and social distancing.",
+        "non_approval_effect": "- Non-compliance with Kyndryl's latest RTO guidelines\n- The directional arrows should be removed before carpet cleaning to avoid leaving any traces"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 190, Sell Value: 198.55, Margin Value: 8.55",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 190, Sell Value: 198.55, Margin Value: 8.55, Total: 198.55"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 190, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 198.55",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 48471, PO Value: 190, Date: 2022-12-08, From CBRE: Yes, Sell Value: 198.55, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2791075 - 275 Viger, Montreal - Removing directional arrows from the ground' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-22112022-1340, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Removal of all directional arrows installed on the floors at the beginning of COVID-19.. Scope includes: Remove all  directional and distancing floor stickers, Everywhere in the building where they are installed\n\nReason for Down-lift - Work completed in lesser amount.. Justification: RTO Playbook Kyndryl has said they are now Phase 3, so there are no restrictions on masks and social distancing.. Effect if not approved: - Non-compliance with Kyndryl's latest RTO guidelines\n- The directional arrows should be removed before carpet cleaning to avoid leaving any traces.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, work order closed by Maureen Gerlach. After that, work planning by Maureen Gerlach. Subsequently, offer approved by Maureen Gerlach. Finally, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 190, Sell Value: 198.55, Margin Value: 8.55. Labour Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Grand Total: Cost: 190, Sell Value: 198.55, Margin Value: 8.55, Total: 198.55.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 48471, PO Value: 190, Date: 2022-12-08, From CBRE: Yes, Sell Value: 198.55, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2781800 - 275 Viger, Montreal - CAT6 Cable Installation",
+      "interal_work_order_num": "CA-EW-23112022-2923",
+      "reference_number": "134525/2781800",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 767.20042498292,
+      "margin_value_usd": 166.17591257494,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):work order closed by Maureen Gerlach (3):work planning by Maureen Gerlach (4):offer approved by Maureen Gerlach (5):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "We require 1 more CAT6 run with RJ45 terminations \u2013\nFrom: AT&T 4th Floor LAN Room 4.327\nTo: 4th Raised Floor X028Y028",
+        "scope": "We require 1 more CAT6 run with RJ45 terminations \u2013\nFrom: AT&T 4th Floor LAN Room 4.327\nTo: 4th Raised Floor X028Y028",
+        "justification": "Firewall move",
+        "non_approval_effect": "Firewall cannot move"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 600, Sell Value: 627, Margin Value: 27",
+        "labour": "Cost: 191.97, Sell Value: 383.94, Margin Value: 191.97",
+        "grand_total": "Cost: 791.97, Sell Value: 1010.94, Margin Value: 218.97, Total: 1010.94"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 191.97, Total Supply Chain Cost: 600, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1010.94",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 49089, PO Value: 600, Date: 2023-01-10, From CBRE: Yes, Sell Value: 1010.94, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2781800 - 275 Viger, Montreal - CAT6 Cable Installation' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-23112022-2923, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: We require 1 more CAT6 run with RJ45 terminations \u2013\nFrom: AT&T 4th Floor LAN Room 4.327\nTo: 4th Raised Floor X028Y028. Scope includes: We require 1 more CAT6 run with RJ45 terminations \u2013\nFrom: AT&T 4th Floor LAN Room 4.327\nTo: 4th Raised Floor X028Y028. Justification: Firewall move. Effect if not approved: Firewall cannot move.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, work order closed by Maureen Gerlach. After that, work planning by Maureen Gerlach. Subsequently, offer approved by Maureen Gerlach. Finally, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 600, Sell Value: 627, Margin Value: 27. Labour Summary: Cost: 191.97, Sell Value: 383.94, Margin Value: 191.97. Grand Total: Cost: 791.97, Sell Value: 1010.94, Margin Value: 218.97, Total: 1010.94.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 49089, PO Value: 600, Date: 2023-01-10, From CBRE: Yes, Sell Value: 1010.94, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2791076 - 275 Viger, Montreal - 2022 Asbestos re-assessment",
+      "interal_work_order_num": "CA-EW-24112022-9487",
+      "reference_number": "134541/2791076",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 2583.6609243379,
+      "margin_value_usd": 320.66858920847,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The mandate consists of performing a reassessment of the containing-asbestos materials.",
+        "scope": "During the survey, they will verify the presence, location and condition of the materials likely to contain asbestos",
+        "justification": "In order to ensure the health and physical safety of workers who perform work likely to produce asbestos dust, new safety standards related to asbestos management are required.",
+        "non_approval_effect": "Non Compliance with regulations"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 2680, Sell Value: 2800.6, Margin Value: 120.6",
+        "labour": "Cost: 301.945, Sell Value: 603.89, Margin Value: 301.945",
+        "grand_total": "Cost: 2981.945, Sell Value: 3404.49, Margin Value: 422.545, Total: 3404.49"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 301.945, Total Supply Chain Cost: 2680, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3404.49",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2791076 - 275 Viger, Montreal - 2022 Asbestos re-assessment' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-24112022-9487, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: The mandate consists of performing a reassessment of the containing-asbestos materials.. Scope includes: During the survey, they will verify the presence, location and condition of the materials likely to contain asbestos. Justification: In order to ensure the health and physical safety of workers who perform work likely to produce asbestos dust, new safety standards related to asbestos management are required.. Effect if not approved: Non Compliance with regulations.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 2680, Sell Value: 2800.6, Margin Value: 120.6. Labour Summary: Cost: 301.945, Sell Value: 603.89, Margin Value: 301.945. Grand Total: Cost: 2981.945, Sell Value: 3404.49, Margin Value: 422.545, Total: 3404.49.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2793161 - 3500 Steeles Ave East Markham - Dry Cooler #5 fan replace",
+      "interal_work_order_num": "CA-EW-24112022-421",
+      "reference_number": "134542/2793161",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Crist, Buckridge and Lehner",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 6658.7956287471,
+      "margin_value_usd": 371.34021400926,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):offer approved by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "DC #5 fan #3 for glycol system, need to replaced due to bearing seized.",
+        "scope": "Ainsworth technician will replace fan #3 after isolating the DC #5.\nRemaining dry coolers will maintain glycol temp during this work.",
+        "justification": "Not Provided",
+        "non_approval_effect": "Not Provided"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 8163, Sell Value: 8530.335, Margin Value: 367.335",
+        "labour": "Cost: 121.98, Sell Value: 243.96, Margin Value: 121.98",
+        "grand_total": "Cost: 8284.98, Sell Value: 8774.295, Margin Value: 489.315, Total: 8774.295"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 121.98, Total Supply Chain Cost: 8163, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 8774.295",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589585, PO Value: 1400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 8774.295, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2793161 - 3500 Steeles Ave East Markham - Dry Cooler #5 fan replace' located in Canada at site Crist, Buckridge and Lehner managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-24112022-421, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: DC #5 fan #3 for glycol system, need to replaced due to bearing seized.. Scope includes: Ainsworth technician will replace fan #3 after isolating the DC #5.\nRemaining dry coolers will maintain glycol temp during this work.. Justification: Not Provided. Effect if not approved: Not Provided.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, offer approved by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 8163, Sell Value: 8530.335, Margin Value: 367.335. Labour Summary: Cost: 121.98, Sell Value: 243.96, Margin Value: 121.98. Grand Total: Cost: 8284.98, Sell Value: 8774.295, Margin Value: 489.315, Total: 8774.295.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589585, PO Value: 1400000, Date: 2022-12-01, From CBRE: Yes, Sell Value: 8774.295, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2780441 - 275 Viger, Montreal - Relocation of Pomeroy team",
+      "interal_work_order_num": "CA-EW-25112022-6778",
+      "reference_number": "134554/2780441",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 1859.6987174622,
+      "margin_value_usd": 80.082719890719,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):offer approved by Maureen Gerlach (3):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "After the closure of 200 Bouchard, the Pomeroy team have been working out of the back-up location which is not the ideal set-up for their work and future growth",
+        "scope": "Relocation from current office # 200 to office # 659 on the ground floor. This also implies relocation existing users of room #659 to room# 630.\n------------------------------------------\nReason for Upliftment (for RAS): In the initial submittal, requester had omitted to include the RAS hours by the local Team lead operator for submittal in the FSP tool and review of MOPS and RAMS for the electrical portion of this small job.\n------------------------------------------\nREASON FOR UPLIFTMENT:\n1. Business unit now requires 9 additional network drops for Voice Solution (earlier there were 15 - now after addition the total will be 24) - vendor: The Plan Group\n\n2. Work needs to be broken down in 2 days to ensure continuity of activity for the business unit. Therefore, a second visit is required to complete remaining work, without disrupting the service - vendor: EM Demenagement & Transport",
+        "justification": "To ensure a proper working space for the Pomeroy team and accessibility for reduced mobility users.",
+        "non_approval_effect": "Request for new space will not be completed."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 2345, Sell Value: 2450.525, Margin Value: 105.525",
+        "labour": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "grand_total": "Cost: 2345, Sell Value: 2450.525, Margin Value: 105.525, Total: 2450.525"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 0, Total Supply Chain Cost: 2345, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2450.525",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 48629, 47822, PO Value: 2345, Date: 2022-11-29, From CBRE: Yes, Sell Value: 2450.525, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2780441 - 275 Viger, Montreal - Relocation of Pomeroy team' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-25112022-6778, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: After the closure of 200 Bouchard, the Pomeroy team have been working out of the back-up location which is not the ideal set-up for their work and future growth. Scope includes: Relocation from current office # 200 to office # 659 on the ground floor. This also implies relocation existing users of room #659 to room# 630.\n------------------------------------------\nReason for Upliftment (for RAS): In the initial submittal, requester had omitted to include the RAS hours by the local Team lead operator for submittal in the FSP tool and review of MOPS and RAMS for the electrical portion of this small job.\n------------------------------------------\nREASON FOR UPLIFTMENT:\n1. Business unit now requires 9 additional network drops for Voice Solution (earlier there were 15 - now after addition the total will be 24) - vendor: The Plan Group\n\n2. Work needs to be broken down in 2 days to ensure continuity of activity for the business unit. Therefore, a second visit is required to complete remaining work, without disrupting the service - vendor: EM Demenagement & Transport. Justification: To ensure a proper working space for the Pomeroy team and accessibility for reduced mobility users.. Effect if not approved: Request for new space will not be completed..",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, offer approved by Maureen Gerlach. After that, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 2345, Sell Value: 2450.525, Margin Value: 105.525. Labour Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Grand Total: Cost: 2345, Sell Value: 2450.525, Margin Value: 105.525, Total: 2450.525.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 48629, 47822, PO Value: 2345, Date: 2022-11-29, From CBRE: Yes, Sell Value: 2450.525, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2793433 - 275 Viger, Montreal - Exterior drain cleaning",
+      "interal_work_order_num": "CA-EW-29112022-3282",
+      "reference_number": "134583/2793433",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 829.46801244593,
+      "margin_value_usd": 52.360173028762,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Cleaning of drains at the parking lot entrance and at the northwest corner.",
+        "scope": "External drain: North-West corner and parking entrance cleaning out\n\nNote: Submitting this request as an estimate for now - final pricing depends on the total number of working hours. \nPrice will be adjusted when the job is completed and we have a final amount.",
+        "justification": "External drain: North-West corner and parking entrance cleaning out",
+        "non_approval_effect": "Water infiltration risk in the building"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 1000, Sell Value: 1045, Margin Value: 45",
+        "labour": "Cost: 23.995, Sell Value: 47.99, Margin Value: 23.995",
+        "grand_total": "Cost: 1023.995, Sell Value: 1092.99, Margin Value: 68.995, Total: 1092.99"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 23.995, Total Supply Chain Cost: 1000, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1092.99",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2793433 - 275 Viger, Montreal - Exterior drain cleaning' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-29112022-3282, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Cleaning of drains at the parking lot entrance and at the northwest corner.. Scope includes: External drain: North-West corner and parking entrance cleaning out\n\nNote: Submitting this request as an estimate for now - final pricing depends on the total number of working hours. \nPrice will be adjusted when the job is completed and we have a final amount.. Justification: External drain: North-West corner and parking entrance cleaning out. Effect if not approved: Water infiltration risk in the building.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 1000, Sell Value: 1045, Margin Value: 45. Labour Summary: Cost: 23.995, Sell Value: 47.99, Margin Value: 23.995. Grand Total: Cost: 1023.995, Sell Value: 1092.99, Margin Value: 68.995, Total: 1092.99.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2790722 - 9672 279 ST, Acheson (WLDC) - AHS - Row 3 Cabinet 3 Cabinet replacement",
+      "interal_work_order_num": "CA-EW-29112022-3671",
+      "reference_number": "134593/2790722",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Cole, Will and Effertz",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 1462.3371784169,
+      "margin_value_usd": 234.08795628747,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):offer approved by Maureen Gerlach (3):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "The breakers and receptacles for grid location X104Y11 need to be validated or replaced with ones compatible for a 50 amp circuit. I believe the whips and breakers are compatible, but the receptacles are the wrong pinout for the new cabinet.",
+        "scope": "Please verify the following:\n1. The breakers support grid location X104Y11 are 50 amp\n2. The whips supporting X104Y11 are sufficient for a 50 amp circuit.\n3. Replace the existing the existing whips (if required) and receptacles at X104Y11 with the same receptacle type used for the rest of the cabinets in the AHS space. (Model to be confirmed)",
+        "justification": "AHS is installing a new APC cabinet and PDU's at X104Y11, existing infrastructure needs to be validated or modified to accommodate.",
+        "non_approval_effect": "Kyndryl would fail to provide the correct space and power requirements for the end client. This would certainly result in several escalation calls."
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 978.26, Sell Value: 1022.2817, Margin Value: 44.0217",
+        "labour": "Cost: 640.204, Sell Value: 904.64, Margin Value: 264.436",
+        "grand_total": "Cost: 1618.464, Sell Value: 1926.9217, Margin Value: 308.4577, Total: 1926.9217"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 640.204, Total Supply Chain Cost: 978.26, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 1926.9217",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 49042, PO Value: 978.26, Date: 2023-01-10, From CBRE: Yes, Sell Value: 1926.9217, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2790722 - 9672 279 ST, Acheson (WLDC) - AHS - Row 3 Cabinet 3 Cabinet replacement' located in Canada at site Cole, Will and Effertz managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-29112022-3671, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: The breakers and receptacles for grid location X104Y11 need to be validated or replaced with ones compatible for a 50 amp circuit. I believe the whips and breakers are compatible, but the receptacles are the wrong pinout for the new cabinet.. Scope includes: Please verify the following:\n1. The breakers support grid location X104Y11 are 50 amp\n2. The whips supporting X104Y11 are sufficient for a 50 amp circuit.\n3. Replace the existing the existing whips (if required) and receptacles at X104Y11 with the same receptacle type used for the rest of the cabinets in the AHS space. (Model to be confirmed). Justification: AHS is installing a new APC cabinet and PDU's at X104Y11, existing infrastructure needs to be validated or modified to accommodate.. Effect if not approved: Kyndryl would fail to provide the correct space and power requirements for the end client. This would certainly result in several escalation calls..",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, offer approved by Maureen Gerlach. After that, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 978.26, Sell Value: 1022.2817, Margin Value: 44.0217. Labour Summary: Cost: 640.204, Sell Value: 904.64, Margin Value: 264.436. Grand Total: Cost: 1618.464, Sell Value: 1926.9217, Margin Value: 308.4577, Total: 1926.9217.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 49042, PO Value: 978.26, Date: 2023-01-10, From CBRE: Yes, Sell Value: 1926.9217, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2768332 - 275 Viger, Changement d'adresse IP",
+      "interal_work_order_num": "CA-EW-30112022-922",
+      "reference_number": "134614/2768332",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Kshlerin, Brown and Feil",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 7940.1077635274,
+      "margin_value_usd": 2404.5283448433,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work order closed by Sebastian Vandervort (3):work planning by Sebastian Vandervort (4):offer approved by Sebastian Vandervort (5):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "Lors des travaux de remplacement des adresses IP la partie de Vigilant va \u00eatre affect\u00e9 donc la pr\u00e8sencences d'un op\u00e9rateur et le technicien de la compagnie Johnson contr\u00f4le pour ,mettre a jour les adresses dans Metasys",
+        "scope": "You are being contacted because there will be work being performed at the Viger site on Saturday 5/7. AT&T will be moving much of their network equipment from the raised foor area to the AT&T room on the 3rd foor. We estimate the work will take the entire day and there \nwill be an outage of 2 to 4 hours for certain applications. Core devices are redundant and will be moved one side at a time so there will be a minimal service disruption. The SDWAN equipment is already in the AT&T room so there will be no site outage except for the \napplications noted below. There will be no confguration changes to any equipment and the there will be no changes to the existing circuits. The affected applications with an outage are:\n\u2022 Wireless\n\u2022 Vigilant\n\u2022 Total Connect / BTC \u2013 not an outage but a minimal service interruption.\n\u2022 SNI \u2013 not an outage but a possible minimal service interruption.",
+        "justification": "'op\u00e9rateurs doit valider ;Quand on perd vigelant toutes les machines CRAH d\u00e9marrons d\u2019 o\u00f9 ou une gosse demande de refroidissement au niveau de chiller donc la perturbation de refroidissement , pour \u00e9viter la perturbation une pr\u00e9sence d\u2019un op\u00e9rateur (avec un FSP) est \nobligatoire pour \u00e9viter la perturbation\nLa pr\u00e9sence du technicien de JCI pour mettre a jour les adresses de NAE5 qui relie Vigilant",
+        "non_approval_effect": "Perturbation au niveau de refroidissement rique pour le data centre\nla communication entre vigeilant et metasys ne se fait pas"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 3096, Sell Value: 3235.32, Margin Value: 139.32",
+        "labour": "Cost: 4198.233, Sell Value: 7227.36, Margin Value: 3029.127",
+        "grand_total": "Cost: 7294.233, Sell Value: 10462.68, Margin Value: 3168.447, Total: 10462.68"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 4198.233, Total Supply Chain Cost: 3096, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 10462.6802",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700537882, PO Value: 12489.8, Date: 2022-12-01, From CBRE: Yes, Sell Value: 10462.68, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2768332 - 275 Viger, Changement d'adresse IP' located in Canada at site Kshlerin, Brown and Feil managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-30112022-922, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: Lors des travaux de remplacement des adresses IP la partie de Vigilant va \u00eatre affect\u00e9 donc la pr\u00e8sencences d'un op\u00e9rateur et le technicien de la compagnie Johnson contr\u00f4le pour ,mettre a jour les adresses dans Metasys. Scope includes: You are being contacted because there will be work being performed at the Viger site on Saturday 5/7. AT&T will be moving much of their network equipment from the raised foor area to the AT&T room on the 3rd foor. We estimate the work will take the entire day and there \nwill be an outage of 2 to 4 hours for certain applications. Core devices are redundant and will be moved one side at a time so there will be a minimal service disruption. The SDWAN equipment is already in the AT&T room so there will be no site outage except for the \napplications noted below. There will be no confguration changes to any equipment and the there will be no changes to the existing circuits. The affected applications with an outage are:\n\u2022 Wireless\n\u2022 Vigilant\n\u2022 Total Connect / BTC \u2013 not an outage but a minimal service interruption.\n\u2022 SNI \u2013 not an outage but a possible minimal service interruption.. Justification: 'op\u00e9rateurs doit valider ;Quand on perd vigelant toutes les machines CRAH d\u00e9marrons d\u2019 o\u00f9 ou une gosse demande de refroidissement au niveau de chiller donc la perturbation de refroidissement , pour \u00e9viter la perturbation une pr\u00e9sence d\u2019un op\u00e9rateur (avec un FSP) est \nobligatoire pour \u00e9viter la perturbation\nLa pr\u00e9sence du technicien de JCI pour mettre a jour les adresses de NAE5 qui relie Vigilant. Effect if not approved: Perturbation au niveau de refroidissement rique pour le data centre\nla communication entre vigeilant et metasys ne se fait pas.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work order closed by Sebastian Vandervort. After that, work planning by Sebastian Vandervort. Subsequently, offer approved by Sebastian Vandervort. Finally, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 3096, Sell Value: 3235.32, Margin Value: 139.32. Labour Summary: Cost: 4198.233, Sell Value: 7227.36, Margin Value: 3029.127. Grand Total: Cost: 7294.233, Sell Value: 10462.68, Margin Value: 3168.447, Total: 10462.68.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700537882, PO Value: 12489.8, Date: 2022-12-01, From CBRE: Yes, Sell Value: 10462.68, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2792631 - 3500 Steeles Ave East Markham - 3500-SIS STAMP rack relocation",
+      "interal_work_order_num": "CA-EW-02122022-1124",
+      "reference_number": "134652/2792631",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Crist, Buckridge and Lehner",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 2071.3548607422,
+      "margin_value_usd": 270.87296046141,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):rejected by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "the client requested to move STAMP CAB to BD83 spot",
+        "scope": "Disconnect the power(Fed label CRP13-PNL2-CCT#35/37 & CRP13-PNL4-CCT#37/39) to the existing rack at AS86\nRemove the grounding.\nRelocate the existing power whips to the new place and tie-in to the cabinet.\nRelocate the current Koldlok tile to the new cabinet place at BD83.\nGrounding of the cabinet at new space.\nFed A/B will follow data center standard (black/blue).\nFollow CBRE procedure to perform the work.\nUpdate the panel schedule.\nUpdate any require log-book for this relocation\nThe work can be done during regular hours.",
+        "justification": "Not provided",
+        "non_approval_effect": "Not provided"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 2110.54, Sell Value: 2205.5143, Margin Value: 94.9743",
+        "labour": "Cost: 261.955, Sell Value: 523.91, Margin Value: 261.955",
+        "grand_total": "Cost: 2372.495, Sell Value: 2729.4243, Margin Value: 356.9293, Total: 2729.4243"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 261.955, Total Supply Chain Cost: 2110.54, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2729.4193",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2792631 - 3500 Steeles Ave East Markham - 3500-SIS STAMP rack relocation' located in Canada at site Crist, Buckridge and Lehner managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-02122022-1124, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: the client requested to move STAMP CAB to BD83 spot. Scope includes: Disconnect the power(Fed label CRP13-PNL2-CCT#35/37 & CRP13-PNL4-CCT#37/39) to the existing rack at AS86\nRemove the grounding.\nRelocate the existing power whips to the new place and tie-in to the cabinet.\nRelocate the current Koldlok tile to the new cabinet place at BD83.\nGrounding of the cabinet at new space.\nFed A/B will follow data center standard (black/blue).\nFollow CBRE procedure to perform the work.\nUpdate the panel schedule.\nUpdate any require log-book for this relocation\nThe work can be done during regular hours.. Justification: Not provided. Effect if not approved: Not provided.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, rejected by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 2110.54, Sell Value: 2205.5143, Margin Value: 94.9743. Labour Summary: Cost: 261.955, Sell Value: 523.91, Margin Value: 261.955. Grand Total: Cost: 2372.495, Sell Value: 2729.4243, Margin Value: 356.9293, Total: 2729.4243.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2792631 - 3500 Steeles Ave East Markham - 3500-SIS STAMP rack relocation",
+      "interal_work_order_num": "CA-EW-02122022-1124.1",
+      "reference_number": "134652/2792631",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Crist, Buckridge and Lehner",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 2374.6940122941,
+      "margin_value_usd": 283.933596418,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):offer approved by Sebastian Vandervort (3):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "the client requested to move STAMP CAB to BD83 spot",
+        "scope": "Disconnect the power(Fed label CRP13-PNL2-CCT#35/37 & CRP13-PNL4-CCT#37/39) to the existing rack at AS86\nRemove the grounding.\nRelocate the existing power whips to the new place and tie-in to the cabinet.\nRelocate the current Koldlok tile to the new cabinet place at BD83.\nGrounding of the cabinet at new space.\nFed A/B will follow data center standard (black/blue).\nFollow CBRE procedure to perform the work.\nUpdate the panel schedule.\nUpdate any require log-book for this relocation\nThe work can be done during regular hours.",
+        "justification": "Not provided",
+        "non_approval_effect": "Not provided"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 2493.04, Sell Value: 2605.2243, Margin Value: 112.1843",
+        "labour": "Cost: 261.955, Sell Value: 523.91, Margin Value: 261.955",
+        "grand_total": "Cost: 2754.995, Sell Value: 3129.1343, Margin Value: 374.1393, Total: 3129.1343"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 261.955, Total Supply Chain Cost: 2493.04, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 3129.1368",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-12-02, From CBRE: Yes, Sell Value: 3129.1343, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2792631 - 3500 Steeles Ave East Markham - 3500-SIS STAMP rack relocation' located in Canada at site Crist, Buckridge and Lehner managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-02122022-1124.1, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: the client requested to move STAMP CAB to BD83 spot. Scope includes: Disconnect the power(Fed label CRP13-PNL2-CCT#35/37 & CRP13-PNL4-CCT#37/39) to the existing rack at AS86\nRemove the grounding.\nRelocate the existing power whips to the new place and tie-in to the cabinet.\nRelocate the current Koldlok tile to the new cabinet place at BD83.\nGrounding of the cabinet at new space.\nFed A/B will follow data center standard (black/blue).\nFollow CBRE procedure to perform the work.\nUpdate the panel schedule.\nUpdate any require log-book for this relocation\nThe work can be done during regular hours.. Justification: Not provided. Effect if not approved: Not provided.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, offer approved by Sebastian Vandervort. After that, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 2493.04, Sell Value: 2605.2243, Margin Value: 112.1843. Labour Summary: Cost: 261.955, Sell Value: 523.91, Margin Value: 261.955. Grand Total: Cost: 2754.995, Sell Value: 3129.1343, Margin Value: 374.1393, Total: 3129.1343.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2022-12-02, From CBRE: Yes, Sell Value: 3129.1343, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2792752 - 9672 279 ST, Acheson (WLDC) - Thermostat replacements",
+      "interal_work_order_num": "CA-EW-02122022-6967",
+      "reference_number": "134655/2792752",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Cole, Will and Effertz",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Maureen Gerlach",
+      "quote_value_usd": 8600.2168930713,
+      "margin_value_usd": 539.26599377704,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Maureen Gerlach (2):rejected by Maureen Gerlach (3):offer submitted by Maureen Gerlach",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "We have multiple thermostats that have failed (11 t-stats)\nthese control the VAV unitt for all of the front office areas. Employees cannot change temperatures or see what temp is currently set.",
+        "scope": "Vendor to provide thermostats for replacement and 3 extra for spares. vendor will also install the 11 t-stats and test for proper operation. - this includes the original troubleshooting service call",
+        "justification": "Employees cannot change temperatures or see what temp is currently set. This is also causing issues with the efficiency of SCU unit",
+        "non_approval_effect": "bad heating efficiency and work discomfort, as there is no visual control of heating/cooling in the office spaces"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 10378.35, Sell Value: 10845.3758, Margin Value: 467.0258",
+        "labour": "Cost: 243.565, Sell Value: 487.13, Margin Value: 243.565",
+        "grand_total": "Cost: 10621.915, Sell Value: 11332.5058, Margin Value: 710.5908, Total: 11332.5058"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 243.565, Total Supply Chain Cost: 10378.35, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 11332.5057",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "No project closeout and billing information",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2792752 - 9672 279 ST, Acheson (WLDC) - Thermostat replacements' located in Canada at site Cole, Will and Effertz managed by Clarisync.com and prepared by Maureen Gerlach for client Kyndryl. Internal Work Order: CA-EW-02122022-6967, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: We have multiple thermostats that have failed (11 t-stats)\nthese control the VAV unitt for all of the front office areas. Employees cannot change temperatures or see what temp is currently set.. Scope includes: Vendor to provide thermostats for replacement and 3 extra for spares. vendor will also install the 11 t-stats and test for proper operation. - this includes the original troubleshooting service call. Justification: Employees cannot change temperatures or see what temp is currently set. This is also causing issues with the efficiency of SCU unit. Effect if not approved: bad heating efficiency and work discomfort, as there is no visual control of heating/cooling in the office spaces.",
+      "status_history": "First, billing completed by Maureen Gerlach. Then, rejected by Maureen Gerlach. After that, offer submitted by Maureen Gerlach.",
+      "project_financials": "Vendor Summary: Cost: 10378.35, Sell Value: 10845.3758, Margin Value: 467.0258. Labour Summary: Cost: 243.565, Sell Value: 487.13, Margin Value: 243.565. Grand Total: Cost: 10621.915, Sell Value: 11332.5058, Margin Value: 710.5908, Total: 11332.5058.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "N/A",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Close-out & billing incomplete.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Complete close-out and billing.",
+        "Obtain client close-out approval."
+      ]
+    }
+  },
+  {
+    "input": {
+      "project_name": "UPM-2793049 - 100 Gough Road, Markham - DC - 4 x 30A power for 2 x TELUS telco cabinets",
+      "interal_work_order_num": "CA-EW-05122022-8207",
+      "reference_number": "134679/2793049",
+      "project_status": "Work Order Closed",
+      "country": "Canada",
+      "site": "Leannon-Romaguera",
+      "managing_office": "Clarisync.com",
+      "client": "Kyndryl",
+      "business_unit": "Annalise Cassin I",
+      "prepared_by": "Sebastian Vandervort",
+      "quote_value_usd": 1918.0617743037,
+      "margin_value_usd": 500.15860969872,
+      "status_history": "here is the status change history of project in numbering order(1):billing completed by Sebastian Vandervort (2):work order closed by Sebastian Vandervort (3):work planning by Sebastian Vandervort (4):offer approved by Sebastian Vandervort (5):offer submitted by Sebastian Vandervort",
+      "scope_of_work": {
+        "notes": "1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process",
+        "problem": "4x30 A power circuits required for 2xTelus network cabinets",
+        "scope": "CBRE to relocate abandon 4 x 30A power circuits from X021Y012 and X021Y013 to X026Y032 and X058Y034 locations on the 1st raised floor. Connect the power bars from the cabinets at the new location",
+        "justification": "Telus telco vendor needs install their equipment to provide communication circuits to various customer at the site.",
+        "non_approval_effect": "Telus will not be able to deliver circuits to our customer, there are orders waiting this installation to be completed"
+      },
+      "associated_items": "the assositated items with their boolean values are mentioned: As Builts (No), EANS/CMMS Update (No), O&M Manuals (No), Job Punch List (No), Health & Safety Form (EPIC Form) (No), Single Source Approval (No), Close-Out Checklist (No)",
+      "financial_summary": {
+        "vendor": "Cost: 0, Sell Value: 0, Margin Value: 0",
+        "labour": "Cost: 1868.371, Sell Value: 2527.43, Margin Value: 659.059",
+        "grand_total": "Cost: 1868.371, Sell Value: 2527.43, Margin Value: 659.059, Total: 2527.43"
+      },
+      "epic_form": "No EPIC form data",
+      "approvals": "Total Labour Cost: 1868.371, Total Supply Chain Cost: 0, Total Other Cost: 0. Approval - Status: Approved, Grand Total: 2527.4301",
+      "pors": "No Purchase Order Requests",
+      "closeout_billing": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2023-03-08, From CBRE: Yes, Sell Value: 2527.43, Billing Completed: Yes",
+      "client_closeout": "No client closeout information"
+    },
+    "output": {
+      "reasoning": "I analyzed all project fields and created structured summaries; any unavailable data is marked as 'N/A'.",
+      "overview": "Project 'UPM-2793049 - 100 Gough Road, Markham - DC - 4 x 30A power for 2 x TELUS telco cabinets' located in Canada at site Leannon-Romaguera managed by Clarisync.com and prepared by Sebastian Vandervort for client Kyndryl. Internal Work Order: CA-EW-05122022-8207, Current Status: Work Order Closed.",
+      "project_scope": "Notes highlight: 1. Does not include any client contingency \n2. Assumes that CBRE hold the burden of the actual cost whether it is over or under the quotation value \n3. Maintenance contract budget variations as a result of project activity will be funded by client through the eBVO process. Problem identified: 4x30 A power circuits required for 2xTelus network cabinets. Scope includes: CBRE to relocate abandon 4 x 30A power circuits from X021Y012 and X021Y013 to X026Y032 and X058Y034 locations on the 1st raised floor. Connect the power bars from the cabinets at the new location. Justification: Telus telco vendor needs install their equipment to provide communication circuits to various customer at the site.. Effect if not approved: Telus will not be able to deliver circuits to our customer, there are orders waiting this installation to be completed.",
+      "status_history": "First, billing completed by Sebastian Vandervort. Then, work order closed by Sebastian Vandervort. After that, work planning by Sebastian Vandervort. Subsequently, offer approved by Sebastian Vandervort. Finally, offer submitted by Sebastian Vandervort.",
+      "project_financials": "Vendor Summary: Cost: 0, Sell Value: 0, Margin Value: 0. Labour Summary: Cost: 1868.371, Sell Value: 2527.43, Margin Value: 659.059. Grand Total: Cost: 1868.371, Sell Value: 2527.43, Margin Value: 659.059, Total: 2527.43.",
+      "epic_form": "N/A",
+      "pors": "N/A",
+      "close_out": "Client POs: PO Number: 4700589645, PO Value: 2400000, Date: 2023-03-08, From CBRE: Yes, Sell Value: 2527.43, Billing Completed: Yes",
+      "blockers": [
+        "No Purchase Order Requests raised.",
+        "EPIC/HSE documentation missing.",
+        "Client close-out pending."
+      ],
+      "next_steps": [
+        "Submit PORs.",
+        "Prepare EPIC documentation.",
+        "Obtain client close-out approval."
+      ]
+    }
+  }
+]
