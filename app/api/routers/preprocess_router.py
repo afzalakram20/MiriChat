@@ -248,7 +248,6 @@ from pathlib import Paths
 from bs4 import BeautifulSoup
 from pinecone import Pinecone, ServerlessSpec
 
-# from sentence_transformers import SentenceTransformer
 
 # === Config ===
 # DATA_DIR = Path("app/data/projects")
