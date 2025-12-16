@@ -1,3 +1,4 @@
+from pydantic.config import ConfigDict
 from pydantic.main import BaseModel
 from fastapi import APIRouter
 import logging
@@ -5,6 +6,7 @@ from app.controllers.capital_planning_controller import CapitalPlanningControlle
 import os
 from app.core.config import settings
 from fastapi import HTTPException
+
 log = logging.getLogger("capital_planning")
 _controller = CapitalPlanningController()
 router = APIRouter(prefix="/capital-planning", tags=["Capital"])
@@ -20,6 +22,7 @@ async def cost_estimater(payload: dict):
 
 
 class AutoProjectRequest(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
     user_command: str
     model_key: str
     model_id: str
