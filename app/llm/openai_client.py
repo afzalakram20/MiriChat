@@ -84,13 +84,13 @@ def _install_chat_logging(client: Any, is_async: bool = False) -> None:
 def get_sync_client() -> OpenAI:
     global _sync_client
     if _sync_client is None:
-        _sync_client = OpenAI(api_key=settings.PROJECT_OPENAI_API_KEY)
+        _sync_client = OpenAI(api_key=settings.OPENAI_API_KEY)
         _install_chat_logging(_sync_client, is_async=False)
     return _sync_client
 
 def get_async_client() -> AsyncOpenAI:
     global _async_client
     if _async_client is None:
-        _async_client = AsyncOpenAI(api_key=settings.PROJECT_OPENAI_API_KEY)
+        _async_client = AsyncOpenAI(api_key=settings.OPENAI_API_KEY)
         _install_chat_logging(_async_client, is_async=True)
     return _async_client

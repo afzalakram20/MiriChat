@@ -14,7 +14,7 @@ class Settings(BaseSettings):
 
     # LLM
 
-    PROJECT_OPENAI_API_KEY: str = ""
+   
     OPENAI_MODEL: str = "gpt-4o-mini"
     OPENAI_API_KEY: str = ""
     LLM_PROVIDER: str = ""
@@ -31,13 +31,13 @@ class Settings(BaseSettings):
     DO_MODEL_ACCESS_KEY: str = ""
     DO_MODEL_ID: str = ""
     DO_INFERENCE_BASE_URL: str = ""
-    DO_TEMPERATURE: float 
+    DO_TEMPERATURE: float =1024
     DO_MAX_TOKENS: int  
     DO_TIMEOUT: float  
     
 
     # DB
-    MYSQL_DSN: str = ""
+    # MYSQL_DSN: str = ""
 
     # Limits & logging
     MAX_LIMIT: int = 100

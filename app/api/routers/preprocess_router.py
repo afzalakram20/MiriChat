@@ -1,3 +1,4 @@
+from app.core.config import settings
 import json
 import re
 from typing import Any, Dict, List
@@ -308,7 +309,7 @@ def prepare_and_upload():
 
 
 # === Initialize Embedding Model ===
-embedder = SentenceTransformer(EMBED_MODEL_NAME)
+embedder = SentenceTransformer(settings.HG_EMBEDDING_MODEL)
 
 
 # === Utilities ===
