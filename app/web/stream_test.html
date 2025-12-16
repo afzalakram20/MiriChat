@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>MiriChat Streaming Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; line-height: 1.4; }
+    textarea, input, button { font: inherit; }
+    #out { white-space: pre-wrap; border: 1px solid #ddd; padding: 12px; border-radius: 6px; min-height: 140px; }
+    .row { margin-bottom: 10px; display: flex; gap: 8px; align-items: center; }
+    label { display: inline-block; width: 120px; }
+    .inputs { max-width: 900px; }
+    .btns { display: flex; gap: 8px; }
+    .muted { color: #777; font-size: 12px; }
+  </style>
+  <script>
+    // Set default server URL to current origin
+    document.addEventListener('DOMContentLoaded', () => {
+      const server = document.getElementById('server');
+      if (server && !server.value) {
+        server.value = window.location.origin + '/horizon/horizon-engine/stream';
+      }
+    });
+  </script>
+</head>
+<body>
+  <h2>MiriChat SSE Stream</h2>
+  <div class="inputs">
+    <div class="row">
+      <label>Server URL</label>
+      <input id="server" size="60" value="" placeholder="/horizon/horizon-engine/stream" />
+    </div>
+    <div class="row">
+      <label>chat_id</label>
+      <input id="chatId" size="40" value="User-211-ew" />
+    </div>
+    <div class="row">
+      <label>model_key</label>
+      <input id="modelKey" size="30" value="openai" />
+    </div>
+    <div class="row">
+      <label>model_id</label>
+      <input id="modelId" size="30" value="gpt-4o-mini" />
+    </div>
+    <div class="row">
+      <label>user_input</label>
+      <textarea id="userInput" rows="3" cols="60">show me top 10 projects with revenue</textarea>
+    </div>
+    <div class="row btns">
+      <button id="start">Start Stream</button>
+      <button id="stop" disabled>Stop</button>
+      <span class="muted">Streams as SSE: data: {"delta":"..."} then data: {"done": true}</span>
+    </div>
+  </div>
+
+  <h3>Output</h3>
+  <div id="out"></div>
+
+  <script>
+    const out = document.getElementById('out');
+    const startBtn = document.getElementById('start');
+    const stopBtn = document.getElementById('stop');
+    let controller = null;
+
+    function append(text) {
+      out.textContent += text;
+    }
+
+    function parseAndRenderSSE(chunkText) {
+      const events = chunkText.split(/\n\n/).filter(Boolean);
+      for (const ev of events) {
+        const dataLine = ev.split('\n').find(l => l.startsWith('data: '));
+        if (!dataLine) continue;
+        const jsonStr = dataLine.slice(6);
+        try {
+          const payload = JSON.parse(jsonStr);
+          if (payload.delta) append(payload.delta);
+          if (payload.done) {
+            append('\n[done]\n');
+            stopStream();
+          }
+          if (payload.error) append(`\n[error] ${payload.error}\n`);
+        } catch {}
+      }
+    }
+
+    async function startStream() {
+      out.textContent = '';
+      startBtn.disabled = true;
+      stopBtn.disabled = false;
+
+      const server = document.getElementById('server').value.trim() || (window.location.origin + '/horizon/horizon-engine/stream');
+      const body = {
+        user_input: document.getElementById('userInput').value,
+        chat_id: document.getElementById('chatId').value,
+        model_key: document.getElementById('modelKey').value,
+        model_id: document.getElementById('modelId').value
+      };
+
+      controller = new AbortController();
+      try {
+        const res = await fetch(server, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'text/event-stream',
+            'Cache-Control': 'no-cache',
+            'Connection': 'keep-alive'
+          },
+          body: JSON.stringify(body),
+          signal: controller.signal
+        });
+
+        if (!res.ok || !res.body) {
+          append(`HTTP ${res.status}\n`);
+          startBtn.disabled = false;
+          stopBtn.disabled = true;
+          return;
+        }
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+
+        let pending = '';
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          pending += decoder.decode(value, { stream: true });
+          const lastDoubleNewline = pending.lastIndexOf('\n\n');
+          if (lastDoubleNewline >= 0) {
+            const complete = pending.slice(0, lastDoubleNewline + 2);
+            pending = pending.slice(lastDoubleNewline + 2);
+            parseAndRenderSSE(complete);
+          }
+        }
+        if (pending) parseAndRenderSSE(pending);
+      } catch (e) {
+        if (e.name !== 'AbortError') append(`\n[fetch error] ${e}\n`);
+      } finally {
+        startBtn.disabled = false;
+        stopBtn.disabled = true;
+      }
+    }
+
+    function stopStream() {
+      if (controller) controller.abort();
+      startBtn.disabled = false;
+      stopBtn.disabled = true;
+    }
+
+    startBtn.addEventListener('click', startStream);
+    stopBtn.addEventListener('click', stopStream);
+  </script>
+</body>
+</html>
+
+
