@@ -298,7 +298,7 @@ def prepare_and_upload():
 
 
 # === Initialize Embedding Model ===
-embedder = SentenceTransformer(settings.HG_EMBEDDING_MODEL)
+# embedder = SentenceTransformer(settings.HG_EMBEDDING_MODEL)
 
 
 # === Utilities ===
@@ -355,16 +355,16 @@ def process_projects_for_rag(raw_data: List[Dict[str, Any]]) -> List[Dict[str, A
 def create_project_embeddings(projects: List[Dict[str, Any]]):
     """Embed and push project-level data to Pinecone."""
     for proj in projects:
-        vector = embedder.encode(proj["context"], show_progress_bar=False).tolist()
-        index.upsert(
-            vectors=[
-                {
-                    "id": str(proj["id"]),
-                    "values": vector,
-                    "metadata": proj["metadata"],
-                }
-            ]
-        )
+        # vector = embedder.encode(proj["context"], show_progress_bar=False).tolist()
+        # index.upsert(
+        #     vectors=[
+        #         {
+        #             "id": str(proj["id"]),
+        #             "values": vector,
+        #             "metadata": proj["metadata"],
+        #         }
+        #     ]
+        # )
     print(
         f"✅ {len(projects)} project embeddings uploaded to Pinecone index '{PINECONE_INDEX_NAME}'."
     )
