@@ -8,6 +8,7 @@ from .base import BaseLLM, LLMError
 
 log = logging.getLogger("app.models.llm.bedrock")
 
+
 class BedrockProvider(BaseLLM):
     def __init__(self):
         try:
@@ -34,25 +35,27 @@ class BedrockProvider(BaseLLM):
         Chat-style API.
         """
         if tools:
-            log.info("Tools provided but Bedrock Llama 3 provider implementation may not support them fully yet.")
-        
+            log.info(
+                "Tools provided but Bedrock Llama 3 provider implementation may not support them fully yet."
+            )
+
         content = await self._invoke_model(messages)
-        log.info(f"raw contant-->{content}") 
-        return content 
+        log.info(f"raw contant-->{content}")
+        return content
         # Mock OpenAI-like response structure
         # class MockMessage:
         #     def __init__(self, content):
         #         self.content = content
-                
+
         # class MockChoice:
         #     def __init__(self, content):
         #         self.message = MockMessage(content)
-                
+
         # class MockResponse:
         #     def __init__(self, content):
         #         self.choices = [MockChoice(content)]
 
-        # log.info(f"Mock {MockResponse(content)}")  
+        # log.info(f"Mock {MockResponse(content)}")
         # return MockResponse(content)
 
     async def _invoke_model(self, messages: list[dict]) -> str:
@@ -61,8 +64,10 @@ class BedrockProvider(BaseLLM):
         for msg in messages:
             role = msg.get("role")
             content = msg.get("content")
-            formatted_prompt += f"<|start_header_id|>{role}<|end_header_id|>\n\n{content}<|eot_id|>"
-        
+            formatted_prompt += (
+                f"<|start_header_id|>{role}<|end_header_id|>\n\n{content}<|eot_id|>"
+            )
+
         formatted_prompt += "<|start_header_id|>assistant<|end_header_id|>\n\n"
 
         body = {
@@ -81,8 +86,8 @@ class BedrockProvider(BaseLLM):
                 partial(
                     self.client.invoke_model,
                     modelId=self.model_id,
-                    body=json.dumps(body)
-                )
+                    body=json.dumps(body),
+                ),
             )
             log.info(f"raw data from llm----{response}")
             response_body = json.loads(response.get("body").read())
@@ -90,7 +95,7 @@ class BedrockProvider(BaseLLM):
             generation = response_body.get("generation")
             log.info(f"generation data from llm----{generation}")
             return generation
-            
+
         except Exception as e:
             log.error(f"Bedrock invocation failed: {e}")
             raise LLMError(f"Bedrock invocation failed: {e}")
