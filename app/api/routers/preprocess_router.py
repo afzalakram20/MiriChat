@@ -17,6 +17,7 @@ RAG_OUTPUT_PATH = Path("app/data/project_rag_data.json")
 FINE_TUNE_DATASET_PATH = Path("app/data/work-generation/stage1.json")
 WORK_GNE_RAW_DATA_PATH = Path("app/data/work-generation/raw-data.json")
 
+
 def clean_html(text: str) -> str:
     """Remove HTML tags and decode HTML entities safely."""
     if not text:
@@ -76,8 +77,6 @@ async def preprocess_project(project: dict, generate_short: bool = True) -> list
     justifications_clean = clean_html(project.get("justifications", ""))
     effect_clean = clean_html(project.get("effect_of_non_approval", ""))
 
-
-    
     checklist_items = project.get("project_checklists", [])
     if isinstance(checklist_items, list) and checklist_items:
         checklist_summary = [
@@ -87,35 +86,28 @@ async def preprocess_project(project: dict, generate_short: bool = True) -> list
         ]
         # output["checklist_summary"] = checklist_summary
 
- 
- 
     output = {
-        
-            "reasoning": f" ",
-            "scope_of_works": scope_clean,
-            "problem_statement": problem_clean,
-            "justifications": justifications_clean,
-            "effect_of_non_approval": effect_clean,
-            "discipline_name": project.get("discipline_name"),
-            "request_type_name": project.get("request_type_name"),
-            "lumsum_type_name": project.get("lumsum_type_name"),
-            "contract_name": project.get("contract_name"),
-            "quotation_type_name": project.get("quotation_type_name"),
-            "managing_office_name": project.get("managing_office_name"),
-            "project_title": project.get("project_title"),
-            "cbre_interal_work_order": project.get("cbre_interal_work_order"),
-            "checklist_summary":checklist_summary
-        
+        "reasoning": f" ",
+        "scope_of_works": scope_clean,
+        "problem_statement": problem_clean,
+        "justifications": justifications_clean,
+        "effect_of_non_approval": effect_clean,
+        "discipline_name": project.get("discipline_name"),
+        "request_type_name": project.get("request_type_name"),
+        "lumsum_type_name": project.get("lumsum_type_name"),
+        "contract_name": project.get("contract_name"),
+        "quotation_type_name": project.get("quotation_type_name"),
+        "managing_office_name": project.get("managing_office_name"),
+        "project_title": project.get("project_title"),
+        "cbre_interal_work_order": project.get("cbre_interal_work_order"),
+        "checklist_summary": checklist_summary,
     }
 
-  
     # 🧱 Create both records
     records = []
 
-
-
     records.append(output)
-   
+
     # 1️⃣ Full scope version
     # records.append(
     #     {
@@ -180,7 +172,7 @@ async def generate_refined_jsonl(
     raw = input_path.read_text(encoding="utf-8")
     try:
         data = json.loads(raw)
-     
+
     except json.JSONDecodeError as e:
         return {
             "error": "File is not valid JSON.",
@@ -224,18 +216,15 @@ async def generate_refined_jsonl(
 
     # Write JSONL
     FINE_TUNE_DATASET_PATH.parent.mkdir(parents=True, exist_ok=True)
-    
-    
+
     # with open(FINE_TUNE_DATASET_PATH, "w", encoding="utf-8") as out:
     #     for record in refined_records:
     #         out.write(json.dumps(record, ensure_ascii=False) + "\n")
-            
-             
-     #for orignal JSON       
-     # Write standard JSON array instead of JSONL
-    with open(FINE_TUNE_DATASET_PATH, "w", encoding="utf-8") as out:
-         json.dump(refined_records, out, ensure_ascii=False, indent=2)
 
+    # for orignal JSON
+    # Write standard JSON array instead of JSONL
+    with open(FINE_TUNE_DATASET_PATH, "w", encoding="utf-8") as out:
+        json.dump(refined_records, out, ensure_ascii=False, indent=2)
 
     return {
         "message": "✅ Fine-tune dataset generated successfully.",
@@ -255,10 +244,11 @@ async def generate_refined_jsonl(
 import os
 import json
 from typing import List, Dict, Any
-from pathlib import Path
+from pathlib import Paths
 from bs4 import BeautifulSoup
 from pinecone import Pinecone, ServerlessSpec
-from sentence_transformers import SentenceTransformer
+
+# from sentence_transformers import SentenceTransformer
 
 # === Config ===
 # DATA_DIR = Path("app/data/projects")
