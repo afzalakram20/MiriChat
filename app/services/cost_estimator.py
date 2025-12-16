@@ -30,7 +30,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
 class CostEstimatorService:
     async def llm_extract_materials(
-        self, req: ScopeRequest
+        self, req: ScopeRequest, model_key: Optional[str] = None, model_id: Optional[str] = None
     ) -> MaterialExtractionResult:
         """
         Uses GPT-5.1 to extract purchasable items from a scope of work,
@@ -57,7 +57,7 @@ class CostEstimatorService:
                 ("user", "{user_prompt}"),
             ]
         )
-        llm = get_chain_llm("do_serverless")
+        llm = get_chain_llm(model_key, model_id)
         chain = prompt | llm | parser
 
         result: MaterialExtractionResult = await chain.ainvoke(

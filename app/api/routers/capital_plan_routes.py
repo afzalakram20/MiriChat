@@ -21,6 +21,8 @@ async def cost_estimater(payload: dict):
 
 class AutoProjectRequest(BaseModel):
     user_command: str
+    model_key: str
+    model_id: str
 
 
 @router.post("/auto-generate-request")
@@ -29,7 +31,9 @@ async def auto_generate_project(payload: AutoProjectRequest):
         open(LOG_FILE_PATH, "w").close()
     log.info("capital plan route request---")
     try:
-        result = _controller.analyze_project_command(payload.user_command)
+        result = _controller.analyze_project_command(
+            payload.user_command, payload.model_key.strip(), payload.model_id.strip()
+        )
         return result
     except ValueError as e:
         # for example invalid capacity pair

@@ -40,7 +40,7 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
 
     log.info("work_request_node: converting vectorstore to retriever (k=5)")
     retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
-    llm = get_chain_llm()
+    llm = get_chain_llm(state.get("model_key"), state.get("model_id"))
 
     parser = PydanticOutputParser(pydantic_object=WorkRequestModel)
 
@@ -231,7 +231,7 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
                 ("human", "User input:\n{user_query}"),
             ]
         )
-        llm_site = get_chain_llm()
+        llm_site = get_chain_llm(state.get("model_key"), state.get("model_id"))
         site_chain = site_prompt | llm_site | StrOutputParser()
         extracted_site_name: str = ""
         try:

@@ -36,6 +36,8 @@ class HorizonState(TypedDict, total=False):
     domain: Optional[str]
     chat_history: Optional[List[Any]]
     chat_id: Optional[str]
+    model_id: Optional[str]
+    model_key: Optional[str]
 
     # Planning + execution
     plan: Dict[str, Any]

@@ -267,7 +267,7 @@ def compute_project_dates(
 # ============================================================
 
 
-def create_project_intent_chain():
+def create_project_intent_chain(model_key: Optional[str] = None, model_id: Optional[str] = None):
     parser = PydanticOutputParser[ProjectIntentLLM](pydantic_object=ProjectIntentLLM)
 
     log.info("before LLM CALL")
@@ -278,7 +278,7 @@ def create_project_intent_chain():
         ]
     ).partial(format_instructions=parser.get_format_instructions())
 
-    llm = get_chain_llm()
+    llm = get_chain_llm(model_key, model_id)
 
     chain = prompt | llm | parser
     return chain

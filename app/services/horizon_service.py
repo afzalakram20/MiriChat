@@ -13,7 +13,7 @@ class HorizonService:
         self.memory_manager = MemoryManager()
         self.chat_id = None
 
-    async def process_horizon_engine_request(self, user_input: str, chat_id: str) -> dict:
+    async def process_horizon_engine_request(self, user_input: str, chat_id: str, model_id: str | None = None, model_key: str | None = None) -> dict:
         self.chat_id = chat_id
 
         # Build structured chat history (latest last) via memory manager helper
@@ -33,6 +33,8 @@ class HorizonService:
             "user_input": user_input,
             "chat_history": chat_history,
             "chat_id": self.chat_id,
+            "model_id": model_id,
+            "model_key": model_key,
         }
 
         log.info(f"the init state--->{init_state}")

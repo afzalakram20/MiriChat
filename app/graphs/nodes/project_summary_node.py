@@ -157,7 +157,7 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
         raise ValueError("Missing user_input for summarization.")
 
     log.info(f"User Query for Search Param Extraction: {user_query}")
-    extractor_llm = get_chain_llm()
+    extractor_llm = get_chain_llm(state.get("model_key"), state.get("model_id"))
     # extractor_llm = ChatOpenAI(
     #     model="gpt-4o-mini", temperature=0.3, openai_api_key=settings.OPENAI_API_KEY
     # )
@@ -212,7 +212,7 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
     # ----------------------------------------------------
     # STEP 3 — Summarize using LLM
     # ----------------------------------------------------
-    summarizer_llm = get_chain_llm()
+    summarizer_llm = get_chain_llm(state.get("model_key"), state.get("model_id"))
     # summarizer_parser = PydanticOutputParser(pydantic_object=ProjectSummaryModel)
     # summarizer_format = summarizer_parser.get_format_instructions()
 

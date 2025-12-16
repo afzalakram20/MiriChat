@@ -3,8 +3,8 @@ import os
 import httpx
 from typing import List, Dict, Any
 
-# LARAVEL_BASE_URL = "http://127.0.0.1:8003/horizon-extra-works/mcp/api/v1/"
-LARAVEL_BASE_URL = "https://stagingapi.horizoncenter.co/horizon-extra-works/mcp/api/v1/"
+LARAVEL_BASE_URL = "http://127.0.0.1:8003/horizon-extra-works/mcp/api/v1/"
+# LARAVEL_BASE_URL = "https://stagingapi.horizoncenter.co/horizon-extra-works/mcp/api/v1/"
 LARAVEL_API_KEY = os.getenv("LARAVEL_API_KEY", "changeme")  # store in env/secret
 import logging
 
