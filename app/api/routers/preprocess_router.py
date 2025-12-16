@@ -355,6 +355,7 @@ def process_projects_for_rag(raw_data: List[Dict[str, Any]]) -> List[Dict[str, A
 def create_project_embeddings(projects: List[Dict[str, Any]]):
     """Embed and push project-level data to Pinecone."""
     for proj in projects:
+        continue
         # vector = embedder.encode(proj["context"], show_progress_bar=False).tolist()
         # index.upsert(
         #     vectors=[
