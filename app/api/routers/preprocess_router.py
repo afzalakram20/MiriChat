@@ -10,7 +10,7 @@ from app.models.llm.factory import get_llm
 router = APIRouter(prefix="/preprocess", tags=["Data Preprocessing"])
 
 # ==========================
-#   Utility Functions
+#   Utility Functionsa
 # ==========================
 RAW_DATA_PATH = Path("app/data/work-generation/raw-data.json")
 RAG_OUTPUT_PATH = Path("app/data/project_rag_data.json")
@@ -244,7 +244,7 @@ async def generate_refined_jsonl(
 import os
 import json
 from typing import List, Dict, Any
-from pathlib import Paths
+
 from bs4 import BeautifulSoup
 from pinecone import Pinecone, ServerlessSpec
 
