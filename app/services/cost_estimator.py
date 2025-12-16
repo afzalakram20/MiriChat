@@ -9,7 +9,7 @@ import logging
 import os
 
 from app.core.config import settings
-
+from app.graphs.nodes.prompts.material_extraction_system_prompt import MATERIAL_EXTRACTION_SYSTEM_PROMPT
 log = logging.getLogger("app.services.cost_estimator")
 
 client = OpenAI(api_key=settings.OPENAI_API_KEY)
@@ -25,7 +25,9 @@ from app.models.capital.cost_estimator import (
     PriceSource,
 )
 
-
+from app.llms.runnable.llm_provider import get_chain_llm
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import PydanticOutputParser
 class CostEstimatorService:
     async def llm_extract_materials(
         self, req: ScopeRequest
@@ -47,22 +49,24 @@ class CostEstimatorService:
         )
         log.info(f"user_prompt: {user_prompt}")
 
-        completion = client.chat.completions.create(
-            model="gpt-5.1",
-            messages=[
-                {"role": "system", "content": MATERIAL_EXTRACTION_SYSTEM_PROMPT},
-                {"role": "user", "content": user_prompt},
-            ],
-            temperature=0,  # deterministic as much as possible
-            response_format={"type": "json_object"},  # force JSON
+        # Build LCEL chain with prompt -> llm -> parser
+        parser = PydanticOutputParser(pydantic_object=MaterialExtractionResult)
+        prompt = ChatPromptTemplate.from_messages(
+            [
+                ("system", "{system_text}"),
+                ("user", "{user_prompt}"),
+            ]
         )
+        llm = get_chain_llm("do_serverless")
+        chain = prompt | llm | parser
 
-        raw_content = completion.choices[0].message.content
-        log.info(f"raw_content: {raw_content}")
-        data = json.loads(raw_content)
-        log.info(f"data: {data}")
-
-        return MaterialExtractionResult(**data)
+        result: MaterialExtractionResult = await chain.ainvoke(
+            {
+                "system_text": MATERIAL_EXTRACTION_SYSTEM_PROMPT,
+                "user_prompt": user_prompt
+            }
+        )
+        return result
 
 
 def build_material_extraction_user_prompt(
@@ -84,123 +88,6 @@ SCOPE OF WORK:
 \"\"\"
 
 Return ONLY the extracted items as a JSON object according to the schema described in the system message.
-"""
-
-
-# prompts.py
-
-MATERIAL_EXTRACTION_SYSTEM_PROMPT = """
-You are a cost estimation assistant.
-
-Your ONLY job is to read a scope of work and extract a list of NEW items that must be PURCHASED (materials or equipment).
-You MUST return STRICTLY VALID JSON that matches this schema:
-
-{
-  "items": [
-    {
-      "name": "string, human readable item name",
-      "search_query": "string, the query to search for the item from search engine",
-      "category": "string, generic category such as 'generator', 'cable', 'panel', 'pump', 'valve'",
-      "brand": "string or null, brand name if specified or clearly implied (e.g. 'Caterpillar')",
-      "specification": "string, key technical spec or description, e.g. '100 kVA diesel generator', '4C 240mm2 XLPE/PVC copper cable'",
-      "quantity": "number, the quantity to purchase (use 1 if not specified)",
-      "unit_of_measure": "string, e.g. 'unit', 'piece', 'meter', 'set'"
-    }
-  ]
-}
-
-CRITICAL RULES:
-- Only include NEW items that must be PURCHASED.
-- Do NOT include labor or services like installation, testing, commissioning, programming, logistics, etc.
-- Do NOT list existing equipment that is just being relocated, repaired, or reused.
-- If the brand name is misspelled in the text, fix it to the correct brand spelling (e.g. 'caterpiler' -> 'Caterpillar') where obvious.
-- If quantity is not mentioned, assume quantity = 1.
-- If unit is not clear, use 'unit'.
-- If no purchasable items are found, return {"items": []}.
-- Your response MUST be ONLY the JSON object, with no explanation, no comments, and no extra text.
-- Make the search_query such that it can be used to search for the item from search engine with high accuracy.
-- Always make sure that the search_query is such that it should search latest prices with mentioned city and country.
-
-EXAMPLES:
-
-Example 1
----------
-SCOPE OF WORK:
-"The existing generator is undersized. We will supply and install a new Caterpillar diesel generator 100kVA with acoustic enclosure, and connect it to the existing MDB. Supply all necessary materials."
-
-Expected JSON:
-{
-  "items": [
-    {
-      "name": "Caterpillar diesel generator",
-      "search_query": "today price for Caterpillar diesel generator 100kVA in New York USA",
-      "category": "generator",
-      "brand": "Caterpillar",
-      "specification": "100 kVA standby diesel generator with acoustic enclosure",
-      "quantity": 1,
-      "unit_of_measure": "unit"
-    }
-  ]
-}
-
-Example 2
----------
-SCOPE OF WORK:
-"Provide and install 200m of 4C 240mm2 XLPE/PVC copper power cable from MDB-A to Generator, including all lugs and terminations. Testing and commissioning by contractor."
-
-Expected JSON:
-{
-  "items": [
-    {
-      "name": "4-core 240mm2 XLPE/PVC copper power cable",
-      "search_query": "today price for 4-core 240mm2 XLPE/PVC copper power cable in New York USA",
-      "category": "cable",
-      "brand": null,
-      "specification": "4C 240mm2 XLPE/PVC copper power cable",
-      "quantity": 200,
-      "unit_of_measure": "meter"
-    },
-    {
-      "name": "Cable lugs and terminations for 4C 240mm2 cable",
-      "search_query": "today price for Cable lugs and terminations for 4C 240mm2 cable in New York",
-      "category": "accessories",
-      "brand": null,
-      "specification": "Cable lugs and terminations compatible with 4C 240mm2 power cable",
-      "quantity": 1,
-      "unit_of_measure": "set"
-    }
-  ]
-}
-
-Example 3
----------
-SCOPE OF WORK:
-"Test and commission the existing 100 kVA generator and clean the fuel tank. No new equipment is required."
-
-Expected JSON:
-{
-  "items": []
-}
-
-Example 4
----------
-SCOPE OF WORK:
-"the system may be expire so we will have to install caterpiler generator of 100kva"
-
-Expected JSON:
-{
-  "items": [
-    {
-      "name": "Caterpillar diesel generator",
-      "search_query": "today price for Caterpillar diesel generator 100kVA in New York",
-      "category": "generator",
-      "brand": "Caterpillar",
-      "specification": "100 kVA diesel generator",
-      "quantity": 1,
-      "unit_of_measure": "unit"
-    }
-  ]
-}
 """
 
 

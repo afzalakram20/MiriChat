@@ -10,9 +10,8 @@ from app.controllers.tool_impl import getProjectData
 import httpx
 from pydantic import BaseModel, Field
 
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import PydanticOutputParser
-from langchain_openai import ChatOpenAI
 
 log = logging.getLogger("project_summarization_node")
 
@@ -171,13 +170,17 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
             (
                 "system",
                 "You are a system that extracts search parameters for project summarization.\n"
-                "User can either give a CBRE project reference ID like 'US-EW-06112025-12987'\n"
+                "You will receive recent chat history (assistant and user turns). Use it to resolve follow‑ups, e.g., "
+                "if the user says 'same project' or 'update previous answer', infer the last referenced project (ref_id or title) from history.\n"
+                "User can either give a CBRE project reference ID like 'US-EW-06112025-12987' "
                 "OR a project_title like 'Chiller Pump Upgrade'.\n\n"
                 "Rules:\n"
                 "- If ref_id pattern detected (AA-EW-ddMMyyyy-xxxxx) → fill ref_id.\n"
                 "- Otherwise → treat the input as project_title.\n"
+                "- If neither is explicitly provided but recent history mentions a project id/title, reuse that as the target.\n"
                 "- Return ONLY the JSON.\n",
             ),
+            MessagesPlaceholder("chat_history"),
             ("human", "User query:\n{query}\n\n" "Return JSON:\n{format}"),
         ]
     )
@@ -185,7 +188,7 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
     extractor_chain = extractor_prompt | extractor_llm | extractor_parser
 
     search_param_obj: SearchParamModel = extractor_chain.invoke(
-        {"query": user_query, "format": extractor_format}
+        {"query": user_query, "format": extractor_format, "chat_history": state.get("chat_history") or []}
     )
 
     ref_id = search_param_obj.ref_id
@@ -209,11 +212,7 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
     # ----------------------------------------------------
     # STEP 3 — Summarize using LLM
     # ----------------------------------------------------
-    summarizer_llm = ChatOpenAI(
-        model="gpt-4o-mini",
-        temperature=0.3,
-        openai_api_key=settings.OPENAI_API_KEY,
-    )
+    summarizer_llm = get_chain_llm()
     # summarizer_parser = PydanticOutputParser(pydantic_object=ProjectSummaryModel)
     # summarizer_format = summarizer_parser.get_format_instructions()
 
@@ -231,6 +230,12 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
                     "You receive raw project data from backend APIs and must generate "
                     "a clean, concise, business-professional JSON summary.\n\n"
                     "You MUST follow these rules:\n"
+                    "0. Conversation history: You will receive recent chat history. Use it to maintain continuity. "
+                    "   If the user asks to adjust the previous summary (e.g., 'revise overview', 'add blockers', "
+                    "   'shorter bullets'), update ONLY the requested parts and preserve prior decisions (tone, target project) "
+                    "   unless the user clearly changes them.\n"
+                    "   - If ambiguity remains, prefer the previously referenced project/ref_id from history.\n"
+                    "   - Carry over specific constraints from earlier turns (e.g., short bullets, executive tone) unless overridden.\n"
                     "1. Rewrite scope fields (notes, problem, scope, justification, "
                     "   non_approval_effect) into short, summarized, clean human language.\n"
                     "2. When you have no data for an output field, set its value to 'N/A'.\n"
@@ -256,6 +261,7 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
                     "You MUST respond ONLY with JSON that matches the format instructions."
                 ),
             ),
+            MessagesPlaceholder("chat_history"),
             (
                 "human",
                 (
@@ -280,6 +286,7 @@ async def project_summary_node(state: Dict[str, Any]) -> Dict[str, Any]:
         {
             "project_json": project_json_str,
             "format_instructions": summarizer_format_instructions,
+            "chat_history": state.get("chat_history") or [],
         }
     )
 

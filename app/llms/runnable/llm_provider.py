@@ -1,5 +1,4 @@
-from __future__ import annotations
-
+from app.llms.runnable.do_llama_provider import DOLlamaProvider
 from typing import Optional
 import logging
 
@@ -20,10 +19,9 @@ def _build_provider(provider_key: str) -> BaseLLM:
 
     if key == "openai":
         return OpenAIProvider()
-
-    # Your existing config uses "meta" for Llama via Bedrock;
-    # you can also support aliases like "bedrock" / "llama" here.
-    if key in {"meta", "bedrock", "llama"}:
+    if key in {"do_serverless", "digitalocean", "digitalocean_llama", "gradient"}:
+        return DOLlamaProvider()
+    if key in {"bedrock", "bedrock_provider", "bedrock_llama"}:
         return BedrockProvider()
 
     raise ValueError(f"Unsupported LLM provider: {provider_key}")

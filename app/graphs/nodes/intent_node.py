@@ -1,7 +1,7 @@
 # app/graphs/nodes/intent_node.py
 
 import json
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import PydanticOutputParser
 from app.llms.runnable.llm_provider import get_chain_llm
 import logging
@@ -17,16 +17,23 @@ parser = PydanticOutputParser(pydantic_object=IntentResult)
 async def intent_node(state):
     log.info("*************landed into intent node*************")
 
-    user_input = state["user_input"] 
-    prompt = ChatPromptTemplate.from_messages([
-                                ("system", SYSTEM_MESSAGE),
-                                ("user",  "{user_input}")
-                                ])
- 
-    llm = get_chain_llm() 
+    user_input = state["user_input"]
+
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", SYSTEM_MESSAGE),
+            MessagesPlaceholder("chat_history"),
+            ("user", "{user_input}"),
+        ]
+    )
+
+    log.info("History .....")
+    log.info(state.get("chat_history"))
+    llm = get_chain_llm("do_serverless") 
     chain=prompt | llm | parser 
     response=await chain.ainvoke({
-        "user_input": user_input
+        "user_input": user_input,
+        "chat_history": state.get("chat_history") or [],
     })
 
     log.info(f"generated response in intention---->{response}")

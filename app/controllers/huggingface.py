@@ -1,3 +1,5 @@
+from huggingface_hub._snapshot_download import snapshot_download
+from fastapi.exceptions import HTTPException
 from app.core.config import settings
 import logging
 import os
@@ -24,13 +26,14 @@ class HuggingFaceController:
             os.makedirs("/hf/models", exist_ok=True)
             os.makedirs("/hf/tokenizers", exist_ok=True)
             HF_TOKEN = settings.HUGGINGFACE_HUB_TOKEN
-
+            log.info("Hugging Face token: %s", HF_TOKEN)
             snapshot_download(
                 repo_id=BASE_MODEL_ID,
                 local_dir=BASE_MODEL_DIR,
                 token=HF_TOKEN,
                 local_dir_use_symlinks=False,
             )
+            log.info("Base model loaded successfully")
 
             snapshot_download(
                 repo_id=LORA_REPO_ID,
@@ -54,6 +57,7 @@ class HuggingFaceController:
             }
 
         except HTTPException as e:
+            log.error("ssFailed to load models: %s", str(e))
             raise e
         except Exception as e:
             log.error("Failed to load models: %s", str(e))

@@ -22,7 +22,6 @@ from app.graphs.nodes.project_metadata_node import project_metadata_node
 from app.graphs.nodes.rag_workflow_node import rag_qa_node
 from app.graphs.nodes.app_info_node import app_info_node
 
-
 # Utility / fallback / post-actions
 from app.graphs.nodes.help_node import help_node
 from app.graphs.nodes.action_executor_node import action_executor_node
@@ -35,6 +34,8 @@ class HorizonState(TypedDict, total=False):
     user_input: str
     intent: str
     domain: Optional[str]
+    chat_history: Optional[List[Any]]
+    chat_id: Optional[str]
 
     # Planning + execution
     plan: Dict[str, Any]
@@ -103,10 +104,10 @@ def _after_main_task(state: HorizonState) -> str:
     post_actions = state.get("post_actions") or []
 
     has_post_actions = (
-        bool(post_actions)
-        or bool(state.get("requires_multistep"))
-        or bool(state.get("email"))
-        or bool(state.get("export"))
+            bool(post_actions)
+            or bool(state.get("requires_multistep"))
+            or bool(state.get("email"))
+            or bool(state.get("export"))
     )
 
     if has_post_actions:
@@ -142,7 +143,6 @@ def _next_after_aggregate(state: HorizonState) -> str:
 
 
 def build_horizon_brain_graph():
-
     g = StateGraph(HorizonState)
     g.add_node("route_intent", intent_node)
 
@@ -178,7 +178,6 @@ def build_horizon_brain_graph():
             "work_request_generation": "work_request_generation",
             "text_to_sql": "sqlgen",  # SQL main task
             "rag_query": "app_info",  # RAG main task // from rq_qa to rag_query
-            "app_info": "app_info",  # App info main task
             "project_summary": "project_summary",
             "project_metadata": "project_metadata",
             "app_info": "app_info",

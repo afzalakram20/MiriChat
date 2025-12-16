@@ -3,9 +3,12 @@ import os
 import httpx
 from typing import List, Dict, Any
 
-LARAVEL_BASE_URL = "https://devapi.horizoncenter.co/horizon-extra-works/mcp/api/v1/"
+# LARAVEL_BASE_URL = "http://127.0.0.1:8003/horizon-extra-works/mcp/api/v1/"
+LARAVEL_BASE_URL = "https://stagingapi.horizoncenter.co/horizon-extra-works/mcp/api/v1/"
 LARAVEL_API_KEY = os.getenv("LARAVEL_API_KEY", "changeme")  # store in env/secret
+import logging
 
+log = logging.getLogger("SQL_EXECUTION")
 HEADERS = {
     "Accept": "application/json",
     "Content-Type": "application/json",
@@ -32,6 +35,7 @@ async def tool_execute_sql(query: str) -> Dict[str, Any]:
     """
     Tool: executeSQL →
     """
+    log.info(f"Executing SQL query: {query} in tool_execute_sql")
     return await call_laravel("execute-sql", {"query": query})
 
 

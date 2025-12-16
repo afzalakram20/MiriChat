@@ -13,7 +13,7 @@ from app.mcp.tools.sql_node_tools import tools
 from app.controllers.tool_impl import tool_get_schema
 from app.models.llm.factory import get_llm
 from app.schemas.registry import SCHEMA_REGISTRY
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 log = logging.getLogger("graph>node>sqlgen")
 
@@ -51,7 +51,7 @@ async def sqlgen_node(state: Dict[str, Any]) -> Dict[str, Any]:
     log.info("landed in sql generation node 2 steps ")
     user_input = state["user_input"]
 
-    llm = get_chain_llm()
+    llm = get_chain_llm("do_serverless")
     first_llm = llm
     first_prompt = ChatPromptTemplate.from_messages(
         [
@@ -93,15 +93,26 @@ async def sqlgen_node(state: Dict[str, Any]) -> Dict[str, Any]:
         "User Question:\n" + user_input + "\n\nDatabase Schema (JSON):\n" + schema_json
     )
 
-    second_messages = [
-        {"role": "system", "content": SECOND_SYSTEM_PROMPT},
-        {"role": "user", "content": sql_user_message},
-    ]
+    # Build second prompt with ChatPromptTemplate and history placeholder
+    second_prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", "{system_text}"),
+            MessagesPlaceholder("chat_history"),
+            ("user", "User Question:\n{user_input}\n\nDatabase Schema (JSON):\n{schema_json}"),
+        ]
+    )
 
     try:
-        sql_response = await llm.chat(second_messages)
-        log.info(f"sql_response output: {sql_response}")
-        sql_obj = json.loads(sql_response.content)
+        second_chain = second_prompt | llm
+        sql_response = await second_chain.ainvoke({
+            "system_text": SECOND_SYSTEM_PROMPT,
+            "chat_history": state.get("chat_history") or [],
+            "user_input": user_input,
+            "schema_json": schema_json,
+        })
+        content_str = sql_response.content if hasattr(sql_response, "content") else str(sql_response)
+        log.info(f"sql_response output: {content_str}")
+        sql_obj = json.loads(content_str)
         sql_query = sql_obj["sql"]
 
     except Exception as e:

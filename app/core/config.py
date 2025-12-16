@@ -28,8 +28,16 @@ class Settings(BaseSettings):
     BEDROCK_TEMPERATURE: float = 0.1
     BEDROCK_MAX_TOKENS: int = 1024
 
+    DO_MODEL_ACCESS_KEY: str = ""
+    DO_MODEL_ID: str = ""
+    DO_INFERENCE_BASE_URL: str = ""
+    DO_TEMPERATURE: float 
+    DO_MAX_TOKENS: int  
+    DO_TIMEOUT: float  
+    
+
     # DB
-    MYSQL_DSN: str = "mysql+pymysql://root@127.0.0.1:3306/horizon_extra_work_tool"
+    MYSQL_DSN: str = ""
 
     # Limits & logging
     MAX_LIMIT: int = 100
@@ -45,10 +53,18 @@ class Settings(BaseSettings):
     SMTP_USE_TLS: bool = True
     HUGGINGFACE_HUB_TOKEN: str = ""
 
+    MONGODB_URI: str = "mongodb+srv://ishratali574_db_user:<db_password>@cluster0.sbkqu41.mongodb.net/?appName=Cluster0"
+    MONGODB_DB: str = "ew_ai_chat_db"
+    MONGODB_COLLECTION: str = "ai_chat_history"
 
-@property
-def cors_origins_list(self) -> List[str]:
-    return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
+    REDIS_URL: str = "redis://localhost:6379/0"
+    TOOL_NAME: str = "EW"
+
+
+
+    @property
+    def cors_origins_list(self) -> List[str]:
+        return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
 
 
 settings = Settings()

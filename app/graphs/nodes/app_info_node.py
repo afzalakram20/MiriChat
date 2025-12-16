@@ -1,5 +1,5 @@
 from typing import Dict, Any, List
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.documents import Document
 from app.llms.runnable.llm_provider import get_chain_llm
 from app.core.config import settings
@@ -58,6 +58,7 @@ async def app_info_node(state: Dict[str, Any]) -> Dict[str, Any]:
                 "Do NOT SAY 'I can’t find exact step-by-step clicks for ...'"
                 "Prefer step-by-step instructions and bullet lists.",
             ),
+            MessagesPlaceholder("chat_history"),
             (
                 "human",
                 "User question:\n{question}\n\nContext:\n{context}\n\nAnswer:",
@@ -67,7 +68,11 @@ async def app_info_node(state: Dict[str, Any]) -> Dict[str, Any]:
 
     chain = prompt | llm
     try:
-        answer = chain.invoke({"question": user_query, "context": retrieved_context})
+        answer = chain.invoke({
+            "question": user_query,
+            "context": retrieved_context,
+            "chat_history": state.get("chat_history") or [],
+        })
         # Some models return a message object; ensure string
         if hasattr(answer, "content"):
             answer = answer.content

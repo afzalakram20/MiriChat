@@ -28,4 +28,4 @@ async def horizon_engine(payload: dict):
 async def load_models(payload: dict):
     if os.path.exists(LOG_FILE_PATH):
         open(LOG_FILE_PATH, "w").close()
-    return await _hfController.loadModels(payload)
+    return await _hfController.loadModels()

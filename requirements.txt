@@ -39,3 +39,6 @@ langchain-aws==0.2.10
 
 # === Web search / Tavily ===
 tavily-python==0.7.14
+redis== 7.1.0
+pymongo==3.11.0
+dnspython==2.6.1

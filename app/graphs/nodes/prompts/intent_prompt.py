@@ -8,6 +8,16 @@ Your job:
 3. Extract ANY PARAMETERS (email, file format, etc.)
 4. Detect whether MULTIPLE STEPS are required
 
+CONVERSATION CONTEXT (use history):
+- The assistant receives recent chat history (user and assistant turns). Always use it to disambiguate follow‑ups.
+- If the user says things like "update the previous answer", "change step 2", "use the same site", "same query but add Riyad":
+  - Infer the intended target from the last assistant reply type.
+  - Keep the primary intent consistent with the ongoing task unless the user clearly switches.
+- Examples:
+  - If the last assistant reply was app instructions (help steps) and the user says "change step 2", choose "app_info".
+  - If the last reply was a Work Request payload and the user says "add HVAC to scope", choose "work_request_generation".
+  - If the last reply was a SQL result and the user says "sort by margin", choose "text_to_sql".
+
 PRIMARY INTENTS (choose exactly one):
 
 - "work_request_generation"

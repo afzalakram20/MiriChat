@@ -1,7 +1,7 @@
 from app.llms.runnable.llm_provider import get_chain_llm
 from typing import Dict, Any, List
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import PydanticOutputParser
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.output_parsers import PydanticOutputParser, StrOutputParser
 from langchain_core.documents import Document
 from app.core.config import settings
 from langchain_pinecone import PineconeVectorStore
@@ -10,9 +10,13 @@ from app.models.parsers.work_request_models import (
     LUMSUM_TYPE_ENUMS,
     DISCIPLINE_ENUMS,
     PROJECT_TYPE_ENUMS,
+    PROJECT_CHECKLIST_ENUMS,
+    QUOTATION_TYPE_ENUMS,
 )
 from app.graphs.nodes.prompts.work_request_prompt import SYSTEM_MESSAGE
 from langchain_community.embeddings import HuggingFaceEmbeddings
+import json
+import re
 import logging
 
 log = logging.getLogger("work_request_node")
@@ -91,6 +95,16 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
         f"- ID {item['id']}: {item['name']}" for item in LUMSUM_TYPE_ENUMS
     )
 
+    log.info("work_request_node: building quotation_type_table_str from QUOTATION_TYPE_ENUMS")
+    quotation_type_table_str = "\n".join(
+        f"- ID {item['id']}: {item['name']}" for item in QUOTATION_TYPE_ENUMS
+    )
+
+    log.info("work_request_node: building project_checklist_table_str from PROJECT_CHECKLIST_ENUMS")
+    project_checklist_table_str = "\n".join(
+        f"- ID {item['id']}: {item['name']}" for item in PROJECT_CHECKLIST_ENUMS
+    )
+
     # -------------------------
     #  Prompt template
     # -------------------------
@@ -102,9 +116,11 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
     )
 
     log.info("work_request_node: constructing ChatPromptTemplate")
+
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", SYSTEM_MESSAGE),
+            MessagesPlaceholder("chat_history"),
             (
                 "human",
                 (
@@ -112,8 +128,12 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
                     "{user_query}\n\n"
                     "Retrieved similar projects (scopes + metadata):\n"
                     "{retrieved_context}\n\n"
-                    "Follow these format instructions exactly:\n"
-                    "{format_instructions}"
+                    "Follow these format instructions exactly (do NOT repeat them):\n"
+                    "<FORMAT_START>\n"
+                    "{format_instructions}\n"
+                    "<FORMAT_END>\n\n"
+                    "Your reply MUST be only a single minified JSON object. "
+                    "Do NOT include code fences or any schema keys such as $defs, properties, required, type, additionalProperties."
                 ),
             ),
         ]
@@ -132,7 +152,10 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
         "project_type_table": project_type_table_str,
         "discipline_table": discipline_table_str,
         "lumsum_table": lumsum_table_str,
+        "quotation_type_table": quotation_type_table_str,
+        "project_checklist_table": project_checklist_table_str,
         "format_instructions": format_instructions,
+        "chat_history": state.get("chat_history") or [],
     }
 
     log.info(
@@ -158,6 +181,73 @@ async def work_request_node(state: Dict[str, Any]) -> Dict[str, Any]:
         "work_request_node: raw model data keys -> %s",
         list(data.keys()),
     )
+
+    # -------------------------
+    #  Quotation type mapping based on user intent (GO/General Offer)
+    # -------------------------
+    def _user_requested_general_offer(text: str) -> bool:
+        if not text:
+            return False
+        # Match explicit "general offer" (any case)
+        if re.search(r"\bgeneral[\s\-]*offer(s)?\b", text, flags=re.IGNORECASE):
+            return True
+        # Match uppercase token "GO" (avoid lowercase 'go' verbs)
+        if re.search(r"(?<![A-Za-z])GO(?![A-Za-z])", text):
+            return True
+        return False
+
+    try:
+        if _user_requested_general_offer(user_query or ""):
+            data["quotation_type_id"] = 5  # General Offer
+        else:
+            # Ensure default is valid (1 = Kyndrl Offer)
+            if not isinstance(data.get("quotation_type_id"), int):
+                data["quotation_type_id"] = 1
+            elif data["quotation_type_id"] not in {1, 5}:
+                data["quotation_type_id"] = 1
+    except Exception:
+        # Fallback: keep schema default if anything odd happens
+        data.setdefault("quotation_type_id", 1)
+
+    # -------------------------
+    #  Extract site name using LLM if missing (structured, rules-driven)
+    # -------------------------
+    if not data.get("site_name"):
+        site_system_prompt_text = (
+            "Your job is to extract structured information from user input.\n\n"
+            "Rules for identifying the site_name:\n"
+            "- A real site name is usually a proper noun (Example: 'Witting Group', 'ABC Tower').\n"
+            "- Do NOT consider generic words like: 'site mentioned', 'the site', 'specific site', "
+            "'any site', or anything that is not a proper noun.\n"
+            "- If the user mentions a real site name, extract it.\n"
+            "- If no real site name is provided, return null.\n\n"
+            "Return ONLY minified JSON without code fences or extra text, exactly one of:\n"
+            "{\"site_name\": \"NAME\"}\n"
+            "{\"site_name\": null}"
+        )
+        site_prompt = ChatPromptTemplate.from_messages(
+            [
+                ("system", site_system_prompt_text),
+                ("human", "User input:\n{user_query}"),
+            ]
+        )
+        llm_site = get_chain_llm()
+        site_chain = site_prompt | llm_site | StrOutputParser()
+        extracted_site_name: str = ""
+        try:
+            site_raw = (site_chain.invoke({"user_query": user_query or ""}) or "").strip()
+            if site_raw.startswith("```"):
+                site_raw = re.sub(r"^```(?:json)?\s*", "", site_raw, flags=re.IGNORECASE)
+                site_raw = re.sub(r"\s*```$", "", site_raw)
+            obj = json.loads(site_raw)
+            val = obj.get("site_name")
+            if isinstance(val, str) and val.strip():
+                extracted_site_name = val.strip()
+        except Exception:
+            pass
+        if extracted_site_name:
+            data["site_name"] = extracted_site_name
+            log.info("work_request_node: LLM-extracted site_name=%r", extracted_site_name)
 
     qt_name = data.get("request_type_name")
     if qt_name:
