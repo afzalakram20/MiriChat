@@ -51,7 +51,7 @@ async def sqlgen_node(state: Dict[str, Any]) -> Dict[str, Any]:
     log.info("landed in sql generation node 2 steps ")
     user_input = state["user_input"]
 
-    llm = get_chain_llm("do_serverless")
+    llm = get_chain_llm(state.get("model_key"), state.get("model_id"))
     first_llm = llm
     first_prompt = ChatPromptTemplate.from_messages(
         [

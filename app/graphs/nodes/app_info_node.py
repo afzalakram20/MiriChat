@@ -47,7 +47,7 @@ async def app_info_node(state: Dict[str, Any]) -> Dict[str, Any]:
     )
 
     # LLM
-    llm = get_chain_llm()
+    llm = get_chain_llm(state.get("model_key"), state.get("model_id"))
     prompt = ChatPromptTemplate.from_messages(
         [
             (

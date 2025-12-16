@@ -66,5 +66,14 @@ class Settings(BaseSettings):
     def cors_origins_list(self) -> List[str]:
         return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
 
+    @property
+    def models_list(self) -> List[dict[str, str]]:
+        return [
+            {"id": self.OPENAI_MODEL, "name": "OpenAI (default)", "key": "openai"},
+            {"id": "deepseek-r1-distill-llama-70b", "name": "DeepSeek R1 Distill Llama 70B", "key": "do_serverless"},
+            {"id": "llama3.3-70b-instruct", "name": "Llama 3.3 70B Instruct", "key": "do_serverless"},
+            {"id": "llama3-8b-instruct", "name": "Llama 3 8B Instruct", "key": "do_serverless"},
+        ]
+
 
 settings = Settings()

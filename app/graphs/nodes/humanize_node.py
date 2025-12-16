@@ -5,7 +5,7 @@ import re
 
 from app.services.render import render_json_fallback
 from app.core.config import settings
-from app.models.llm.factory import get_llm
+from app.llms.runnable.llm_provider import get_chain_llm
 
 log = logging.getLogger("graph>node>humanize")
 
@@ -15,7 +15,7 @@ async def humanize_node(state: Dict[str, Any]) -> Dict[str, Any]:
     Final node: Summarizes outputs from all previous nodes and builds
     AI-readable JSON (human_summary_json). Uses same LLM calling style as generate_sql_from_question().
     """
-    llm = get_llm()
+    llm = get_chain_llm(state.get("model_key"), state.get("model_id"))
     rows = state.get("rows") or []
     agg = state.get("aggregate_summary") or {}
     plan = state.get("plan") or {}
@@ -71,7 +71,18 @@ async def humanize_node(state: Dict[str, Any]) -> Dict[str, Any]:
         # === LLM Call (consistent with generate_sql_from_question) ===
         log.info(f"the human messages---{messages}")
         res = await llm.chat(messages)
-        text = res.choices[0].message.content or ""
+        # Normalize output across providers
+        if hasattr(res, "content"):
+            text = res.content or ""
+        elif isinstance(res, str):
+            text = res
+        elif hasattr(res, "choices"):  # legacy OpenAI-like response
+            try:
+                text = res.choices[0].message.content or ""
+            except Exception:
+                text = ""
+        else:
+            text = str(res or "")
         log.info(f"the human summary---{text}")
         # === Clean and normalize ===
         summary_text = re.sub(r"^```|```$", "", text.strip(), flags=re.M).strip()

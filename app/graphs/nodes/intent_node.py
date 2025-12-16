@@ -29,7 +29,7 @@ async def intent_node(state):
 
     log.info("History .....")
     log.info(state.get("chat_history"))
-    llm = get_chain_llm("do_serverless") 
+    llm = get_chain_llm(state.get("model_key"), state.get("model_id")) 
     chain=prompt | llm | parser 
     response=await chain.ainvoke({
         "user_input": user_input,
